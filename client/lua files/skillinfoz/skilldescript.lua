@@ -196,8 +196,6 @@ SKILL_DESCRIPT = {
 
 		"Safety Wall",
 		"MAX Lv : 10",
-		"2^777777Skill Requirements : Napalm Beat 7, Soul Strike 5^000000",
-		"8^777777Skill Requirements : Aspersio 4, Sanctuary 3^000000",
 		"Type:^33cc00 Active ^000000",
 		"Property: ^bb00bbGhost^000000",
 		"Target:^777777 1 cell ^000000",
@@ -213,11 +211,11 @@ SKILL_DESCRIPT = {
 		"Target:^777777 Enemy ^000000",
 		"Effect:^777777Summon ancient spirits to attack an enemy. Especially effective against Undead monsters.^000000",
 	},
+
 		--Hqg ri sUR-Kbeulg Vnloo Ghvf,
 	[SKID.MG_COLDBOLT] = {
 
 		"Cold Bolt",
-		"Required For:^777777 Frost Diver (L5), Water Ball (L1 Wizard), Frost Weapon (L1 Sage) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive, Level Selectable ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -232,7 +230,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_FROSTDIVER] = {
 
 		"Frost Diver",
-		"Required For:^777777 Ice Wall (L1 Wizard), Storm Gust (L1 Wizard) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 26 - SkillLV ^000000",
@@ -258,7 +255,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_STONECURSE] = {
 
 		"Stone Curse",
-		"Required For:^777777 Earth Spike (L1 Wizard), Ice Wall (L1 Wizard), Seismic Weapon (L1 Sage) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 26 - SkillLV ^000000",
@@ -285,7 +281,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_FIREBALL] = {
 
 		"Fire Ball",
-		"Required For:^777777 Fire Wall (L5), Crimson Rock (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -310,7 +305,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_FIREWALL] = {
 
 		"Fire Wall",
-		"Required For:^777777 Fire Pillar (L1 Wizard) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -335,7 +329,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_FIREBOLT] = {
 
 		"Fire Bolt",
-		"Required For:^777777 Fire Ball (L4), Flame Launcher (L1 Sage) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive, Level Selectable ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -350,7 +343,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_LIGHTNINGBOLT] = {
 
 		"Lightning Bolt",
-		"Required For:^777777 Jupitel Thunder (L1 Wizard), Sightrasher (L1 Wizard), Thunder Storm (L4), Water Ball (L1 Wizard), Lightning Loader (L1 Sage) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive, Level Selectable ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -365,7 +357,6 @@ SKILL_DESCRIPT = {
 	[SKID.MG_THUNDERSTORM] = {
 
 		"Thunder Storm",
-		"Required For:^777777 Lord of Vermillion (L1 Wizard), Meteor Storm (L1 Wizard). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 24 + 5*SkillLV ^000000",
@@ -390,7 +381,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_DP] = {
 
 		"Divine Protection",
-		"Required For:^777777 Angelus (L3 Acolyte), Blessing (L5 Acolyte), Demon Bane (L3 Acolyte/Crusader), Iron Palm (L10 Monk), Providence (L5 Crusader) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Reduces damage from Undead property and Demon family monsters by (3*SkillLV)+[0.04*(BaseLV + 1)]. Damage is subtracted after DEF reductions.",
@@ -410,7 +400,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_DEMONBANE] = {
 
 		"Demon Bane",
-		"Required For:^777777 Signum Crucis (L3), Iron Palm (L10 Monk), Heal (L5 Crusader), Gospel (L5 Paladin), Mana Recharge (L10 High Priest) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases damage against Undead property and Demon family monsters by (3*SkillLV)+[0.05*(BaseLV + 1)]. Damage ignores DEF reduction from armor, but not from VIT. The skill bonus increases with higher character BaseLV.",
@@ -430,7 +419,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_RUWACH] = {
 
 		"Ruwach",
-		"Required For:^777777 Lex Divina (Priest), Teleportation ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -462,7 +450,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_TELEPORT] = {
 
 		"Teleportation",
-		"Required For:^777777 Warp Portal (L2) ^000000",
 		"Max Level:^777777 2 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 11 - SkillLV ^000000",
@@ -479,7 +466,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_WARP] = {
 
 		"Warp Portal",
-		"Required For:^777777 Pneuma (L4) ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 38 - 3*SkillLV ^000000",
@@ -504,7 +490,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_HEAL] = {
 
 		"Heal",
-		"Required For:^777777 Cure (L2 Acolyte), Increase Agility (L3 Acolyte), Sanctuary (L1 Priest), Providence (L5 Crusader), Coluceo Heal (LV1) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active, Level Selectable ^000000",
 		"SP Cost:^777777 10 + 3*SkillLV ^000000",
@@ -520,7 +505,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_INCAGI] = {
 
 		"Increase Agility",
-		"Required For:^777777 Decrease Agility (L1), Canto Candidus (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active, Level Selectable ^000000",
 		"SP Cost:^777777 15 + 3*SkillLV ^000000",
@@ -574,7 +558,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_HOLYWATER] = {
 
 		"Aqua Benedicta",
-		"Required For:^777777 Aspersio (Priest) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -615,7 +598,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_ANGELUS] = {
 
 		"Angelus",
-		"Required For:^777777 Kyrie Eleison (L2 Priest), Assumptio (L1 High Priest) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active, Level Selectable ^000000",
 		"SP Cost:^777777 20 + 3*SkillLV ^000000",
@@ -639,7 +621,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_BLESSING] = {
 
 		"Blessing",
-		"Required For:^777777 Divine Protection (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active, Level Selectable ^000000",
 		"SP Cost:^777777 24 + 4*SkillLV ^000000",
@@ -667,7 +648,6 @@ SKILL_DESCRIPT = {
 	[SKID.AL_CURE] = {
 
 		"Cure",
-		"Required For:^777777 Divine Protection (Crusader) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -683,7 +663,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_INCCARRY] = {
 
 		"Enlarge Weight Limit",
-		"Required For:^777777 Discount (L3), Pushcart (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases maximum carrying capacity by 200*SkillLV. ^000000",
@@ -702,7 +681,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_DISCOUNT] = {
 
 		"Discount",
-		"Required For:^777777 Overcharge (L3) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Allows buying items at reduced prices from NPC shops. Deals, vending shops, and chat-selling NPCs (e.g. Upgrade stone NPC) are not affected. The final price is always rounded down and has a minimum value of 1z.",
@@ -739,7 +717,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_PUSHCART] = {
 
 		"Pushcart",
-		"Required For:^777777 Vending (L3), Cart Boost (L5 Whitesmith). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Allows the character to equip and use a pushcart. Movement speed with a Pushcart equipped is (50+5*SkillLV)% (yes, you move much slower at the beginning).",
@@ -797,7 +774,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_MAMMONITE] = {
 
 		"Mammonite",
-		"Required For:^777777 Cart Termination (L10 Whitesmith). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive, Level Selectable ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -822,7 +798,6 @@ SKILL_DESCRIPT = {
 	[SKID.AC_OWL] = {
 
 		"Owl's Eye",
-		"Required For:^777777 Vulture's Eye (L3), True Sight (L10 Sniper). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases DEX by 1*SkillLV. ^000000",
@@ -841,7 +816,6 @@ SKILL_DESCRIPT = {
 	[SKID.AC_VULTURE] = {
 
 		"Vulture's Eye",
-		"Required For:^777777 Attention Concentrate (L1), Double Strafing (L10 Rogue), Falcon Assault (L5 Sniper), True Sight (L10 Sniper). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases range with bows by 1*SkillLV cells and increases HIT by 1 per SkillLV. ^000000",
@@ -860,7 +834,6 @@ SKILL_DESCRIPT = {
 	[SKID.AC_CONCENTRATION] = {
 
 		"Attention Concentrate",
-		"Required For:^777777 Detecting (L1), Wind Walk (L9 Sniper), True Sight (L10 Sniper), Sharp Shooting (L10 Sniper), Moonlit Water Mill (L5 Clown/Gypsy), Marionette Control (L10 Clown & Gypsy), Wand of Hermode (L10 Clown & Gypsy), Tarot Card of Fate (L10 Clown & Gypsy). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 20 + 5*SkillLV ^000000",
@@ -884,7 +857,6 @@ SKILL_DESCRIPT = {
 	[SKID.AC_DOUBLE] = {
 
 		"Double Strafing",
-		"Required For:^777777 Arrow Shower (L5 Archer), Beast Strafing (L10 Hunter -SoulLinked), Remove Trap (L5 Rogue), Sharp Shooting (L5 Sniper). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -909,7 +881,6 @@ SKILL_DESCRIPT = {
 	[SKID.AC_SHOWER] = {
 
 		"Arrow Shower",
-		"Required For:^777777 Arrow Vulcan (L5 Clown & Gypsy) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -934,7 +905,6 @@ SKILL_DESCRIPT = {
 	[SKID.TF_DOUBLE] = {
 
 		"Double Attack",
-		"Required For:^777777 Advanced Katar Research (L5 Assassin Cross), Soul Breaker (L5 Assassin Cross). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Gives chance to double swing a Dagger class weapon with a chance equal to (5*SkillLV)%, and adds +1 HIT per SkillLV (that only applies in double attacks). In the case of an Assassin wielding two Dagger class weapons, it applies to the right-hand weapon only.",
@@ -973,7 +943,6 @@ SKILL_DESCRIPT = {
 	[SKID.TF_STEAL] = {
 
 		"Steal",
-		"Required For:^777777 Hiding (L5), Snatcher (L1 Rogue) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -1001,7 +970,6 @@ SKILL_DESCRIPT = {
 	[SKID.TF_HIDING] = {
 
 		"Hiding",
-		"Required For:^777777 Cloaking (L2 Assassin), Tunnel Drive (L1 Rogue), Chase Walk (L5 Stalker) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + see below ^000000",
@@ -1028,7 +996,6 @@ SKILL_DESCRIPT = {
 	[SKID.TF_POISON] = {
 
 		"Envenom",
-		"Required For:^777777 Detoxify (L3), Enchant Poison (L1 Assassin), Soul Breaker (L5 Assassin Cross), Create Deadly Poison (L10 Assassin Cross). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -1055,7 +1022,6 @@ SKILL_DESCRIPT = {
 	[SKID.TF_DETOXIFY] = {
 
 		"Detoxify",
-		"Required For:^777777 Create Deadly Poison (Assassin Cross) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -1070,7 +1036,6 @@ SKILL_DESCRIPT = {
 	[SKID.ALL_RESURRECTION] = {
 
 		"Resurrection",
-		"Required For:^777777 Turn Undead (L1). ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 60 ^000000",
@@ -1091,7 +1056,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_SPEARMASTERY] = {
 
 		"Spear Mastery",
-		"Required For:^777777 Pierce (L1 Knight), Spear Quicken (L10 Crusader), Concentration (L5 Lord Knight), Spiral Pierce (L10 Lord Knight), Head Crush (L9 Lord Knight), Joint Beat (L9 Lord Knight). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases damage with all Spears by +4*SkillLV. If riding a Peco Peco, then the damage improvement is +5*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks. ^000000",
@@ -1110,7 +1074,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_PIERCE] = {
 
 		"Pierce",
-		"Required For:^777777 Spear Boomerang (L3), Spear Stab (L5), Spiral Pierce (L5 Lord Knight). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive",
 		"SP Cost:^777777 9 ^000000",
@@ -1138,7 +1101,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_BRANDISHSPEAR] = {
 
 		"Brandish Spear",
-		"Required For:^777777 Phantom Trust (LV2). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -1176,7 +1138,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_SPEARSTAB] = {
 
 		"Spear Stab",
-		"Required For:^777777 Brandish Spear (L3), Spiral Pierce (L5 Lord Knight). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 9 ^000000",
@@ -1221,7 +1182,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_TWOHANDQUICKEN] = {
 
 		"Two-Hand Quicken",
-		"Required For:^777777 Bowling Bash (L10), One-Hand Quicken (L10 -SoulLinked), Parrying (L3 Lord Knight) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 4*SkillLV ^000000",
@@ -1245,7 +1205,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_AUTOCOUNTER] = {
 
 		"Auto Counter",
-		"Required For:^777777 Bowling Bash (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 3 ^000000",
@@ -1289,7 +1248,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_RIDING] = {
 
 		"Riding",
-		"Required For:^777777 Brandish Spear, Cavalry Mastery, Concentration (Lord Knight), Spiral Pierce (Lord Knight), Head Crush (Lord Knight) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 This skill allows the character to ride a Peco Peco. Mounted characters gain an additional 25% walking speed (cumulative with AGI UP) and the maximum weight limit a character can carry is increased by 1000.",
@@ -1300,7 +1258,6 @@ SKILL_DESCRIPT = {
 	[SKID.KN_CAVALIERMASTERY] = {
 
 		"Cavalry Mastery",
-		"Required For:^777777 Joint Beat (L3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Helps return weapon swinging speed to normal while riding a Peco Peco. The swinging speed while riding a Peco Peco is (50+10*SkillLV)% based on unmounted ASPD. This can be incorporated into ASPD as Weapon Delay*(2 - 0.2*SkillLV)*(250 - AGI - [DEX/4])/250. ^000000",
@@ -1314,7 +1271,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_MACEMASTERY] = {
 
 		"Mace Mastery",
-		"Required For:^777777 Mana Recharge (L10 High Priest) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases damage with Maces by +3*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks. ^000000",
@@ -1333,7 +1289,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_IMPOSITIO] = {
 
 		"Impositio Manus",
-		"Required For:^777777 Aspersio (L3), Suffragium (L2), Assumptio (L3 High Priest). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 3*SkillLV ^000000",
@@ -1373,7 +1328,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_ASPERSIO] = {
 
 		"Aspersio",
-		"Required For:^777777 Benedictio Sanctissimi Sacramenti (L5), Safety Wall (L4), Meditatio (L3 High Priest), Duple Light (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 4*SkillLV ^000000",
@@ -1418,7 +1372,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_SANCTUARY] = {
 
 		"Sanctuary",
-		"Required For:^777777 Safety Wall (L3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 12 + 3*SkillLV ^000000",
@@ -1471,7 +1424,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_STRECOVERY] = {
 
 		"Recovery",
-		"Required For:^777777 Resurrection, Slow Poison, Lauda Agnus(LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -1487,7 +1439,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_KYRIE] = {
 
 		"Kyrie Eleison",
-		"Required For:^777777 Gloria (L4), Basilica (L3 High Priest), Praefatio (LV5). ^000000. ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 + 5*[(SkillLV - 1)/3 rounded down] ^000000",
@@ -1514,7 +1465,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_MAGNIFICAT] = {
 
 		"Magnificat",
-		"Required For:^777777 Gloria (L3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -1534,7 +1484,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_GLORIA] = {
 
 		"Gloria",
-		"Required For:^777777 Benedictio Sanctissimi Sacramenti (L3), Basilica (L2 High Priest) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -1554,7 +1503,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_LEXDIVINA] = {
 
 		"Lex Divina",
-		"Required For:^777777 Lex Aeterna (L5), Turn Undead (L3), Meditatio (L5 High Priest). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 LV 1-5 20; LV 6-10 30-2*SkillLV ^000000",
@@ -1580,7 +1528,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_TURNUNDEAD] = {
 
 		"Turn Undead",
-		"Required For:^777777 Magnus Exorcismus (L3), Judex (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -1596,7 +1543,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_LEXAETERNA] = {
 
 		"Lex Aeterna",
-		"Required For:^777777 Magnus Exorcismus ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -1611,7 +1557,6 @@ SKILL_DESCRIPT = {
 	[SKID.PR_MAGNUS] = {
 
 		"Magnus Exorcismus",
-		"Required For:^777777 Adoramus (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 38 + 2*SkillLV ^000000",
@@ -1667,7 +1612,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_SIGHTRASHER] = {
 
 		"Sightrasher",
-		"Required For:^777777 Meteor Storm (L2) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive, Combo ^000000",
 		"SP Cost:^777777 33 + 2*SkillLV ^000000",
@@ -1704,7 +1648,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_METEOR] = {
 
 		"Meteor Storm",
-		"Required For:^777777 Summon Fire Ball (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 See below ^000000",
@@ -1729,7 +1672,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_JUPITEL] = {
 
 		"Jupitel Thunder",
-		"Required For:^777777 Lord of Vermillion (L5), Storm Gust (L3) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 17 + 3*SkillLV ^000000",
@@ -1754,7 +1696,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_VERMILION] = {
 
 		"Lord of Vermillion",
-		"Required For:^777777 Summon Lightning Ball (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 56 + 4*SkillLV ^000000",
@@ -1793,19 +1734,19 @@ SKILL_DESCRIPT = {
 		"In any given X by X grid, the game determines that you are surrounded by (X*X)-1 cells. So, at level 4/5 Waterball, you can cast up to (5*5)-1, or 24 water balls.",
 		"However, if you're only standing in a 3x3 pool, you will only cast 8 water balls. If you're standing in a freaky grid (like a partially-used Deluge), the number of balls cast is equal to the number of water-occupied cells in your grid, so if you're in a cell like this:",
 
-		"O = empty",
+		"O = empty",
 		"X = water",
 		"* = player",
 
-		"OOOOO",
+		"OOOOO",
 		"OOOOO",
 		"XX*XX",
 		"OOOOO",
 		"OOOOO",
 
-		"...you'll only cast 4 water balls with level 4/5. With level 2/3, you'll only cast 2 water balls, since only 2 are in the 3x3 grid surrounding you.",
+		"...you'll only cast 4 water balls with level 4/5. With level 2/3, you'll only cast 2 water balls, since only 2 are in the 3x3 grid surrounding you.",
 
-		"This is particularly useful to keep in mind when you're with a Deluge Sage, since Waterball uses up the Deluge cells.",
+		"This is particularly useful to keep in mind when you're with a Deluge Sage, since Waterball uses up the Deluge cells.",
 		"You can determine which cells are used by how you stand in the cast area (every cast will wipe out the respective grid section around you, centered on you), and maximize the effectiveness of the water ball spells you cast. ^000000",
 		"[LV 1]^777777 1 Waterball / 1x1 Grid, 130% MATK ^000000",
 		"[LV 2]^777777 3 Waterball / 3x3 Grid, 160% MATK ^000000",
@@ -1817,7 +1758,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_ICEWALL] = {
 
 		"Ice Wall",
-		"Required For:^777777 Frost Nova (L1 Wizard), Ganbantein (L1 High Wizard). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -1869,7 +1809,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_STORMGUST] = {
 
 		"Storm Gust",
-		"Required For:^777777 Summon Water Ball (L1) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 78 ^000000",
@@ -1896,7 +1835,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_EARTHSPIKE] = {
 
 		"Earth Spike",
-		"Required For:^777777 Heaven's Drive (L3 Wizard), Heaven's Drive (L1 Sage). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive, Level Selectable ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -1911,7 +1849,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_HEAVENDRIVE] = {
 
 		"Heaven's Drive",
-		"Required For:^777777 Quagmire (L1 Wizard), Summon Stone (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 24 + 4*SkillLV ^000000",
@@ -1927,7 +1864,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_QUAGMIRE] = {
 
 		"Quagmire",
-		"Required For:^777777 Gravitation Field (L1 High Wizard), Marsh Of Abyss (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5*SkillLV ^000000",
@@ -1942,7 +1878,6 @@ SKILL_DESCRIPT = {
 	[SKID.WZ_ESTIMATION] = {
 
 		"Monster Property",
-		"Required For:^777777 Ganbantein (High Wizard) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -1957,7 +1892,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_IRON] = {
 
 		"Iron Tempering",
-		"Required For:^777777 Enchanted Stone Craft (L1), Steel Tempering (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 1 Iron Ore, 1 Mini-Furnace ^000000",
@@ -1969,7 +1903,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_STEEL] = {
 
 		"Steel Tempering",
-		"Required For:^777777 Finding Ore (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 5 Iron, 1 Coal, 1 Mini-Furnace ^000000",
@@ -1981,7 +1914,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_ENCHANTEDSTONE] = {
 
 		"Enchanted Stone Craft",
-		"Required For:^777777 Research Oridecon (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 Varies (see effect) ^000000",
@@ -2002,7 +1934,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_DAGGER] = {
 
 		"Smith Dagger",
-		"Required For:^777777 Smith Brass Knuckle (L1), Smith Spear (L2), Smith Sword (L1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 Varies ^000000",
@@ -2054,7 +1985,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_SWORD] = {
 
 		"Smith Sword",
-		"Required For:^777777 Smith Axe (L2), Smith Two-Handed Sword (L1) ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 Varies ^000000",
@@ -2251,7 +2181,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_KNUCKLE] = {
 
 		"Smith Brass Knuckle",
-		"Required For:^777777 Smith Mace (L1) ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Catalyst:^777777 Varies ^000000",
@@ -2352,7 +2281,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_HILTBINDING] = {
 
 		"Hilt Binding",
-		"Required For:^777777 Finding Ore, Weaponry Research, Melt Down (Whitesmith), Cart Boost (Whitesmith) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Gives a +1 bonus to STR and +4 ATK. Increases Adrenaline Rush, Over Thrust and Weapon Perfection duration by 10%. DOES NO LONGER prevent you from dropping the equipped weapon upon death. The chance of items dropping on death is only implemented in Nightmare mode PvP currently. ^000000",
@@ -2369,7 +2297,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_WEAPONRESEARCH] = {
 
 		"Weaponry Research",
-		"Required For:^777777 Weapon Perfection (L2), Repair Weapon (L1), Melt Down (L5 Whitesmith), Weapon Refine (L10 Whitesmith). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases character's HIT by +2 per SkillLV, ATK by +2 per SkillLV and weapon forging success rate by +1% per SkillLV. The damage applies even on a missed attack and is affected by elemental properties and card modifiers.",
@@ -2409,7 +2336,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_SKINTEMPER] = {
 
 		"Skin Tempering",
-		"Required For:^777777 Melt Down (L3 Whitesmith) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases character's resistance to Fire element by (4*SkillLV)% and reduces non-elemental damage by (1*SkillLV)%. ^000000",
@@ -2423,7 +2349,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_HAMMERFALL] = {
 
 		"Hammer Fall",
-		"Required For:^777777 Adrenaline Rush (L2), Cart Termination (L5 Whitesmith). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"Range:^777777 Melee ^000000",
@@ -2442,7 +2367,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_ADRENALINE] = {
 
 		"Adrenaline Rush",
-		"Required For:^777777 Over Thrust (L3), Weapon Perfection (L2), Full Adrenaline Rush (L5 -SoulLinked). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 17 + 3*SkillLV ^000000",
@@ -2461,7 +2385,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_WEAPONPERFECT] = {
 
 		"Weapon Perfection",
-		"Required For:^777777 Maximize Power (L3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 - 2*SkillLV ^000000",
@@ -2480,7 +2403,6 @@ SKILL_DESCRIPT = {
 	[SKID.BS_OVERTHRUST] = {
 
 		"Over Thrust",
-		"Required For:^777777 Maximize Power (L2), Melt Down (L3 Whitesmith), Maximum Over Thrust (L5 Whitesmith). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 - 2*SkillLV ^000000",
@@ -2517,7 +2439,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_SKIDTRAP] = {
 
 		"Skid Trap",
-		"Required For:^777777 Ankle Snare (L1), Flasher (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -2540,7 +2461,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_LANDMINE] = {
 
 		"Land Mine",
-		"Required For:^777777 Blast Mine (L1), Remove Trap (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -2564,7 +2484,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_ANKLESNARE] = {
 
 		"Ankle Snare",
-		"Required For:^777777 Shockwave Trap (L1), Aimed Bolt (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -2588,7 +2507,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_SHOCKWAVE] = {
 
 		"Shockwave Trap",
-		"Required For:^777777 Claymore Trap (L1), Talkie Box (L1), Electric Shcoker (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 45 ^000000",
@@ -2611,7 +2529,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_SANDMAN] = {
 
 		"Sandman",
-		"Required For:^777777 Blast Mine (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -2634,7 +2551,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_FLASHER] = {
 
 		"Flasher",
-		"Required For:^777777 Freezing Trap (L1), Sandman (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -2658,7 +2574,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_FREEZINGTRAP] = {
 
 		"Freezing Trap",
-		"Required For:^777777 Blast Mine (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -2682,7 +2597,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_BLASTMINE] = {
 
 		"Blast Mine",
-		"Required For:^777777 Claymore Trap (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -2705,7 +2619,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_CLAYMORETRAP] = {
 
 		"Claymore Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Trap ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -2729,7 +2642,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_REMOVETRAP] = {
 
 		"Remove Trap",
-		"Required For:^777777 Spring Trap, Talkie Box ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -2759,7 +2671,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_BEASTBANE] = {
 
 		"Beast Bane",
-		"Required For:^777777 Falconry Mastery (L1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases damage to Brute and Insect family monsters by +4*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks. ^000000",
@@ -2778,7 +2689,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_FALCON] = {
 
 		"Falconry Mastery",
-		"Required For:^777777 Blitz Beat, Detecting, Spring Trap, True Sight (Sniper), Falcon Assault (Sniper) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Allows you to hire a Falcon from the Falcon Master in the Hunter Guild in Hugel.",
@@ -2788,7 +2698,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_STEELCROW] = {
 
 		"Steel Crow",
-		"Required For:^777777 Falcon Assault (L3 Sniper) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Adds 6*SkillLV damage to each hit with Blitz Beat. Note that Blitz Beat can do up to 5 hits. ^000000",
@@ -2807,7 +2716,6 @@ SKILL_DESCRIPT = {
 	[SKID.HT_BLITZBEAT] = {
 
 		"Blitz Beat",
-		"Required For:^777777 Steel Crow (L5), Falcon Assault (L5 Sniper). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 7 + 3*SkillLV ^000000",
@@ -2866,7 +2774,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_RIGHT] = {
 
 		"Right-Hand Mastery",
-		"Required For:^777777 Left-Hand Mastery (L2), Meteor Assault (L3 Assassin Cross). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Damage on the right-hand weapon while equipping two weapons is (50+10*SkillLV)%. DOES NOT WORK FOR KATARS AS THESE COUNT AS 2-HANDED WEAPONS. ^000000",
@@ -2880,7 +2787,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_LEFT] = {
 
 		"Left-Hand Mastery",
-		"Required For:^777777 Weapon Blocking (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Damage on the left-hand weapon while equipping two weapons is (30+10*SkillLV)%. DOES NOT WORK FOR KATARS AS THESE COUNT AS 2-HANDED WEAPONS. ^000000",
@@ -2894,7 +2800,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_KATAR] = {
 
 		"Katar Mastery",
-		"Required For:^777777 Sonic Blow (L4), Advanced Katar Research (L7 Assassin Cross), Meteor Assault (L5 Assassin Cross). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases damage with Katar class weapons by 3*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks. ^000000",
@@ -2913,7 +2818,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_CLOAKING] = {
 
 		"Cloaking",
-		"Required For:^777777 Grimtooth (L2), Soul Breaker (L3 Assassin Cross), Cloaking Exceed (LV3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -2943,7 +2847,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_SONICBLOW] = {
 
 		"Sonic Blow",
-		"Required For:^777777 Grimtooth (L5), Meteor Assault (L5 Assassin Cross), Cross Impact (LV10), Rolling Cutter (LV10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 14 + 2*SkillLV ^000000",
@@ -2988,7 +2891,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_ENCHANTPOISON] = {
 
 		"Enchant Poison",
-		"Required For:^777777 Poison React (L3), Venom Dust (L5), Create Deadly Poison (L5 Assassin Cross), Soul Breaker (L6 Assassin Cross), Venom Impress (LV3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -3012,7 +2914,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_POISONREACT] = {
 
 		"Poison React",
-		"Required For:^777777 Venom Splasher (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 + 5*SkillLV (but 45 for LV 10) ^000000",
@@ -3037,7 +2938,6 @@ SKILL_DESCRIPT = {
 	[SKID.AS_VENOMDUST] = {
 
 		"Venom Dust",
-		"Required For:^777777 Venom Splasher (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -3363,7 +3263,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_CARTREVOLUTION] = {
 
 		"Cart Revolution",
-		"Required For:^777777 Cart Boost (Whitesmith). ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 ^000000",
 		"Target:^777777 1 Enemy ^000000",
@@ -3378,7 +3277,6 @@ SKILL_DESCRIPT = {
 	[SKID.MC_CHANGECART] = {
 
 		"Change Cart",
-		"Required For:^777777 Cart Boost (Whitesmith). ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
 		"Target:^777777 Self ^000000",
@@ -3440,7 +3338,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_SNATCHER] = {
 
 		"Snatcher",
-		"Required For:^777777 Steal Coin (L4) ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 Enemy ^000000",
 		"Effect:^777777 Steals from the enemy while attacking normally. Steal success chance is based on the Thief Steal Skill. ^000000",
@@ -3459,7 +3356,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_STEALCOIN] = {
 
 		"Steal Coin",
-		"Required For:^777777 Strip Helm (L2), Back Stab (L4) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"Target:^777777 Monster ^000000",
@@ -3474,7 +3370,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_BACKSTAP] = {
 
 		"Back Stab",
-		"Required For:^777777 Raid (L2), Intimidate (L4) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"Target:^777777 Enemy ^000000",
@@ -3499,7 +3394,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_TUNNELDRIVE] = {
 
 		"Tunnel Drive",
-		"Required For:^777777 Raid (L2), Chase Walk (L3 Stalker) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"SP Cost:^777777 Hide dependant ^000000",
@@ -3515,7 +3409,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_RAID] = {
 
 		"Raid",
-		"Required For:^777777 Intimidate (L5) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"Target:^777777 Enemy ^000000",
@@ -3535,7 +3428,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_STRIPWEAPON] = {
 
 		"Strip Weapon",
-		"Required For:^777777 Reject Sword (L1 Stalker), Full Strip (L5 Stalker) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 + 2*SkillLV ^000000",
@@ -3556,7 +3448,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_STRIPSHIELD] = {
 
 		"Strip Shield",
-		"Required For:^777777 Gangster's Paradise (L3), Strip Armor (L5), Full Strip (L5 Stalker) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -3577,7 +3468,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_STRIPARMOR] = {
 
 		"Strip Armor",
-		"Required For:^777777 Strip Weapon (L5), Full Strip (L5 Stalker) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 + 2*SkillLV ^000000",
@@ -3598,7 +3488,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_STRIPHELM] = {
 
 		"Strip Helm",
-		"Required For:^777777 Strip Shield (L5), Full Strip (L5 Stalker) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -3619,7 +3508,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_INTIMIDATE] = {
 
 		"Intimidate",
-		"Required For:^777777 Plagiarism (L5) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 3*SkillLV ^000000",
@@ -3654,7 +3542,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_FLAGGRAFFITI] = {
 
 		"Flag Graffiti",
-		"Required For:^777777 Graffiti (L5) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"Target:^777777 Area ^000000",
@@ -3676,7 +3563,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_CLEANER] = {
 
 		"Cleaner",
-		"Required For:^777777 Flag Graffiti ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"Target:^777777 Area ^000000",
@@ -3693,7 +3579,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_GANGSTER] = {
 
 		"Gangster's Paradise",
-		"Required For:^777777 Compulsion Discount, Cleaner ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 When 2 or more Rogues sit next to each other (all must have this skill) aggressive monsters, except Boss monsters, won't attack. ^000000",
@@ -3715,7 +3600,6 @@ SKILL_DESCRIPT = {
 	[SKID.RG_PLAGIARISM] = {
 
 		"Plagiarism",
-		"Required For:^777777 Preserve (L10 Stalker) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Passive ^000000",
 		"Effect:^777777 Allows the last offensive skill used on you to be used as a skill you have gained. Only one skill may be copied at a time in this fashion, maximum copied skill level equals the Plagiarism SkillLV. ^000000",
@@ -3752,7 +3636,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_LEARNINGPOTION] = {
 
 		"Learning Potion",
-		"Required For:^777777 Pharmacy (L5) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases effectiveness of healing items by 5% per SkillLV and potion creation chance by 1% per SkillLV. ^000000",
@@ -3771,7 +3654,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_PHARMACY] = {
 
 		"Pharmacy",
-		"Required For:^777777 Sphere Mine (L2), Potion Pitcher (L3), Demonstration (L4), Acid Terror (L5), Bio Cannibalize (L6), Chemical Protection Helm (L2), Twilight Alchemy I (L10 -SoulLinked), Twilight Alchemy II (L10 -SoulLinked), Twilight Alchemy III (L10 -SoulLinked). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -3784,26 +3666,19 @@ SKILL_DESCRIPT = {
 		"JobLV?.2+(DEX+LUK+INT/2)?.1+Learning Potion?.5+Pharmacy?+Base Value",
 		"^000000-Normal Potions^777777 Base Value =  + Random(1-100)/10 + 20%",
 		"^000000-Blue Potions^777777 Base Value = None",
-
 		"^000000-Alcohol-^777777 Base Value = + Random(1-100)/10 + 10%",
-
 		"^000000-Fire/Acid/Plant/Grenade Bottles-^777777 Base Value = + Random(1-100)/10",
-
 		"^000000-Condensed Red Potions-^777777 Base Value = None",
 		"^000000-Condensed Yellow Potions-^777777 Base Value = - Random(1-50)/10",
 		"^000000-Condensed White Potions-^777777 Base Value = - Random(1-100)/10",
-
 		"^000000-Glistening Coat-^777777 Base Value = - Random(1-100)/10",
-
 		"^000000-All Other-^777777 Base Value = None",
-
 		"^000099And as an important note to remember, an adopted Alchemist will have -30% success rates! ^000000",
 	},
 
 	[SKID.AM_DEMONSTRATION] = {
 
 		"Demonstration",
-		"Required For:^777777 Acid Demonstration (L5 Creator). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive^bb0000 (Fire) ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -3825,7 +3700,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_ACIDTERROR] = {
 
 		"Acid Terror",
-		"Required For:^777777 Acid Demonstration (L5 Creator). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -3850,7 +3724,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_POTIONPITCHER] = {
 
 		"Potion Pitcher",
-		"Required For:^777777 Slim Potion Pitcher (L5 Creator) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Level Selectable ^000000",
 		"SP Cost:^777777 1 ^000000",
@@ -3882,7 +3755,7 @@ SKILL_DESCRIPT = {
 		"Duration:^777777 35 + 5*SkillLV sec (only 60 sec at LV 5 confirmed) ^000000",
 		"Effect:^777777 Summon various plants to attack monsters or players. The level you have determines the HP of the plant, while the level you use determines the type of plant summoned, the duration, and the amount of ^66cc33Plant Bottles^777777 consumed.",
 		"The HP formula is 2230+200*Possessed SkillLV per plant (yes, these have significantly more HP than normal ones), all other stats remain the same. If you have less than the total amount of bottles required for the Skill Level you used, it will take the rest of the bottles, and summon that many plants.",
-		"So if you have three plant bottles, and use level one, you뭠l end up with three Mandragora instead of the typical five. When used during the War of Emperium, the defense value of the castle the plants are in raises the defense of the plants themselves.",
+		"So if you have three plant bottles, and use level one, you뭠l end up with three Mandragora instead of the typical five. When used during the War of Emperium, the defense value of the castle the plants are in raises the defense of the plants themselves.",
 		"Their attacks are considered extensions of your own when it comes to a single thing: auto-cast spells granted by weapons or cards. Status effects and damage increasing cards do not carry over to the plants.",
 		"You can only summon more plants once your first plants have died, or gone through their duration time. So long as you remain on screen with them, you will get the experience for their kills.",
 		"An effective strategy for all the plants is to summon them, hit/target a monster, and then use a Hiding accessory once the monster is in range of your plants.",
@@ -3928,7 +3801,7 @@ SKILL_DESCRIPT = {
 		"ASPD: Average.",
 		"Range: 3",
 		"Tip: randomly casts a 1024 HP Heal on allies. On specific servers (Aegis) in PvP only heals you if you뭨e in a party, it뭩 required for the Geographer to recognize you as a valid target for healing even if you are the only member. ^000000",
-	},
+	},
 
 	[SKID.AM_SPHEREMINE] = {
 
@@ -3954,7 +3827,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_CP_WEAPON] = {
 
 		"Chemical Protection Weapon",
-		"Required For:^777777 Full Chemical Protection (L5 Creator) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 30 ^000000",
@@ -3975,7 +3847,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_CP_SHIELD] = {
 
 		"Chemical Protection Shield",
-		"Required For:^777777 Chemical Protection Armor (L3), Full Chemical Protection (L5 Creator) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -3996,7 +3867,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_CP_ARMOR] = {
 
 		"Chemical Protection Armor",
-		"Required For:^777777 Chemical Protection Weapon (L3), Full Chemical Protection (L5 Creator) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -4017,7 +3887,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_CP_HELM] = {
 
 		"Chemical Protection Helm",
-		"Required For:^777777 Chemical Protection Shield (L3), Full Chemical Protection (L5 Creator) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -4038,7 +3907,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_BIOETHICS] = {
 
 		"Bioethics",
-		"Required For:^777777 Rest ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Allows Alchemist to begin learning the Homunculus Skill Tree. ^000000",
@@ -4079,7 +3947,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_CALLHOMUN] = {
 
 		"Call Homunculus",
-		"Required For:^777777 Resurrect Homunuculus ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -4090,7 +3957,7 @@ SKILL_DESCRIPT = {
 		"Effect:^777777 Summon or recall an already created Homunculus using an 'Embryo' item. When used for the first time the Embryo gives one of the 4 possible types at random, if you don't like the Homunculus, destroy it and make a new one.",
 		"You can see its state by right-clicking on it, then order it to either - attack, move, stay, feed, name change, and delete.",
 
-		"[Status]",
+		"[Status]",
 		"This shows variety of information about your Homunculus. This is where variety of command can be given to your Homunculus.",
 		"[Attack]",
 		"Select an enemy via Alt + Right click, then press Alt + Right click one more time to set the Homunculus to attack that target. To cancel, simply give it order to move or stay.",
@@ -4101,15 +3968,15 @@ SKILL_DESCRIPT = {
 		"[Feed]",
 		"Select this, or click [Feed] in Homunculus status window, then you will feed the Homunculus with appropriate food.",
 
-		"Homunculus eats following food:",
+		"Homunculus eats following food:",
 		"Lif: Pet Food",
 		"Amistr: Zargon",
 		"Filir: Garlet",
 		"Vanilmirth: Scell",
 
-		"Warning: Homunculus is an artificial life form. If you do not feed it periodically, it will simply disappear. So, take extra care in its feeding time!",
+		"Warning: Homunculus is an artificial life form. If you do not feed it periodically, it will simply disappear. So, take extra care in its feeding time!",
 
-		"Every Homunculus has different Skills, depending on its type:",
+		"Every Homunculus has different Skills, depending on its type:",
 		"^000000",
 		"- Lif (Dryad): -support caster",
 		"Touch of Heal^777777 - heals the master ^000000",
@@ -4117,25 +3984,25 @@ SKILL_DESCRIPT = {
 		"Brain Surgery",
 		"Mental Change (unknown)",
 
-		"- Amistr (Sheep): -defensive melee",
+		"- Amistr (Sheep): -defensive melee",
 		"Castling",
 		"Defense",
 		"Adamantium Skin",
 		"Blood Lust (unknown)",
 
-		"- Filir (Bird): -offensive meele",
+		"- Filir (Bird): -offensive meele",
 		"Moonlight",
 		"Fleet Move",
 		"Over Speed",
 		"S.B.R.44 (unknown)",
 
-		"- Vanilmirth (Mutant Jelly): -offensive spellcaster",
+		"- Vanilmirth (Mutant Jelly): -offensive spellcaster",
 		"Caprice",
 		"Chaotic Benediction",
 		"Change Instruction",
 		"Bio Explosion (unknown)",
 
-		"Leveling For Homunculus^777777",
+		"Leveling For Homunculus^777777",
 		"- Exp acquire by Homunculus depends on the damage it deals to the monster.",
 		"- No matter how many monsters the player kill, the Homunculus will not gain any exp.",
 		"- Let the Homunculus attack in order to level up Homunculus [no special effect when Homunculus Level Up].",
@@ -4148,7 +4015,6 @@ SKILL_DESCRIPT = {
 	[SKID.AM_REST] = {
 
 		"Rest",
-		"Required For:^777777 Call Homunculus ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"Effect:^777777 Destroys a currently created Homunculus. ^000000",
@@ -4195,7 +4061,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_TRUST] = {
 
 		"Faith",
-		"Required For:^777777 Cure (L5), Heal (L10), Holy Cross (L7), Grand Cross (L10), Pressure (L5 Paladin), Sacrifice (L5 Paladin), Gospel (L8 Paladin). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases Maximum HP by 200 and Resistance to Holy attacks by 5% per SkillLV. ^000000",
@@ -4214,7 +4079,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_AUTOGUARD] = {
 
 		"Auto Guard",
-		"Required For:^777777 Shield Charge (L5) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Supportive ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -4238,7 +4102,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_SHIELDCHARGE] = {
 
 		"Shield Charge",
-		"Required For:^777777 Shield Boomerang (L3), Pressure (L2 Paladin) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -4258,7 +4121,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_SHIELDBOOMERANG] = {
 
 		"Shield Boomerang",
-		"Required For:^777777 Defender (L1), Reflect Shield (L3), Shield Chain (L5 Paladin) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 ^000000",
@@ -4278,7 +4140,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_REFLECTSHIELD] = {
 
 		"Reflect Shield",
-		"Required For:^777777 Devotion (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 30 + 5*SkillLV ^000000",
@@ -4302,7 +4163,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_HOLYCROSS] = {
 
 		"Holy Cross",
-		"Required For:^777777 Grand Cross (L6) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + SkillLV ^000000",
@@ -4327,7 +4187,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_GRANDCROSS] = {
 
 		"Grand Cross",
-		"Required For:^777777 Devotion (L4). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30 + 7*SkillLV ^000000",
@@ -4360,7 +4219,6 @@ SKILL_DESCRIPT = {
 	[SKID.CR_DEVOTION] = {
 
 		"Devotion",
-		"Required For:^777777 Sacrifice (L3 Paladin). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -4446,7 +4304,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_IRONHAND] = {
 
 		"Iron Hand",
-		"Required For:^777777 Call Spirits (L2), Dodge (L5), Palm Push Strike (L7 Champion), Tiger Knuckle Fist (L5 Champion), Chain Crush Combo (L5 Champion). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases Attack Power of fists and knuckle type weapons by 3 per SkillLV. ^000000",
@@ -4465,7 +4322,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_SPIRITSRECOVERY] = {
 
 		"Spirits Recovery",
-		"Required For:^777777 Body Relocation (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Recovers HP and SP every 10 seconds while sitting (not while standing). Recovery is every 20 seconds when overweight and it works even when recuperating from Asura Strike, but without the natural recuperation bonuses",
@@ -4481,7 +4337,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_CALLSPIRITS] = {
 
 		"Call Spirits",
-		"Required For:^777777 Dodge (L5), Investigate (L5), Absorb Spirits (L5), Dangerous Soul Collect (L5, Champion), Palm Push Strike (L5 Champion), Tiger Knuckle Fist (L5 Champion), Chain Crush Combo (L5 Champion). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 8 ^000000",
@@ -4496,7 +4351,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_ABSORBSPIRITS] = {
 
 		"Absorb Spirits",
-		"Required For:^777777 Critical Explosion, Dangerous Soul Collect (Champion) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -4511,7 +4365,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_TRIPLEATTACK] = {
 
 		"Triple Attack",
-		"Required For:^777777 Chain Combo (L5), Tiger Knuckle Fist (L5 Champion) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Combo Time:^777777 1.3 sec ^000000",
@@ -4551,7 +4404,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_DODGE] = {
 
 		"Dodge",
-		"Required For:^777777 Blade Stop (L5), Triple Attack (L5) ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases Flee Rate by +1.5 per SkillLV rounded down. ^000000",
 		"[LV 1]^777777 Flee Rate + 1 ^000000",
@@ -4569,7 +4421,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_INVESTIGATE] = {
 
 		"Investigate",
-		"Required For:^777777 Finger Offensive (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 -0.5*(SkillLV*SkillLV) + 5.5*SkillLV + 5 ^000000",
@@ -4584,7 +4435,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_FINGEROFFENSIVE] = {
 
 		"Finger Offensive",
-		"Required For:^777777 Asura Strike (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"Range:^777777 9 cells ^000000",
@@ -4606,7 +4456,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_STEELBODY] = {
 
 		"Steel Body",
-		"Required For:^777777 Body Relocation (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 50% ^000000",
@@ -4626,7 +4475,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_BLADESTOP] = {
 
 		"Blade Stop",
-		"Required For:^777777 Spirits Recovery (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -4649,7 +4497,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_EXPLOSIONSPIRITS] = {
 
 		"Critical Explosion",
-		"Required For:^777777 Asura Strike (L3), Dangerous Soul Collect (L5, Champion) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -4668,7 +4515,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_EXTREMITYFIST] = {
 
 		"Asura Strike",
-		"Required For:^777777 Body Relocation (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 all ^000000",
@@ -4691,7 +4537,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_CHAINCOMBO] = {
 
 		"Chain Combo",
-		"Required For:^777777 Combo Finish (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + SkillLV ^000000",
@@ -4711,7 +4556,6 @@ SKILL_DESCRIPT = {
 	[SKID.MO_COMBOFINISH] = {
 
 		"Combo Finish",
-		"Required For:^777777 Steel Body (L3), Tiger Knuckle Fist (L3 Champion). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + SkillLV ^000000",
@@ -4732,7 +4576,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_ADVANCEDBOOK] = {
 
 		"Advanced Book",
-		"Required For:^777777 Dragonology (L9), Cast Cancel (L2), Magic Rod (L4), Flame Launcher (L5), Frost Weapon (L5), Lightning Loader (L5), Seismic Weapon (L5), Memorize (L5 Professor). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Raises ATK by 3 and ASPD by 0.5% per SkillLV when using book type weapons. ^000000",
@@ -4751,7 +4594,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_CASTCANCEL] = {
 
 		"Cast Cancel",
-		"Required For:^777777 Free Cast (L1), Soul Burn (L5 Professor) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 2 ^000000",
@@ -4770,7 +4612,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_MAGICROD] = {
 
 		"Magic Rod",
-		"Required For:^777777 Spell Breaker (L1), Soul Change (L3, Professor), Soul Burn (L3 Professor), Health Conversion (L1 Professor). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 2 ^000000",
@@ -4790,7 +4631,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_SPELLBREAKER] = {
 
 		"Spell Breaker",
-		"Required For:^777777 Dispell (L3), Soul Change (L2 Professor). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 2 ^000000",
@@ -4812,7 +4652,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_FREECAST] = {
 
 		"Free Cast",
-		"Required For:^777777 Auto Spell (L4), Memorize (L5 Professor). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Allows movement and attack while casting spells. ",
@@ -4832,7 +4671,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_AUTOSPELL] = {
 
 		"Auto Spell",
-		"Required For:^777777 Abracadabra (L5), Memorize (L1 Professor), Double Casting (L1 Professor). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 35 ^000000",
@@ -4857,7 +4695,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_FLAMELAUNCHER] = {
 
 		"Flame Launcher",
-		"Required For:^777777 Volcano (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -4878,7 +4715,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_FROSTWEAPON] = {
 
 		"Frost Weapon",
-		"Required For:^777777 Deluge (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -4899,7 +4735,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_LIGHTNINGLOADER] = {
 
 		"Lightning Loader",
-		"Required For:^777777 Violent Gale (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -4920,7 +4755,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_SEISMICWEAPON] = {
 
 		"Seismic Weapon",
-		"Required For:^777777 Earth Spike (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -4941,7 +4775,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_DRAGONOLOGY] = {
 
 		"Dragonology",
-		"Required For:^777777 Spider Web (L4 Professor). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases Attack Power, MATK and DEF against Dragon type monsters by 4% per SkillLV. Also passively increases your INT depending on SkillLV. ^000000",
@@ -4955,7 +4788,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_VOLCANO] = {
 
 		"Volcano",
-		"Required For:^777777 Land Protector (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Area Enchantment ^000000",
 		"SP Cost:^777777 50 - 2*SkillLV ^000000",
@@ -4977,7 +4809,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_DELUGE] = {
 
 		"Deluge",
-		"Required For:^777777 Land Protector (L3), Wall of Fog (L2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Area Enchantment ^000000",
 		"SP Cost:^777777 50 - 2*SkillLV ^000000",
@@ -4999,7 +4830,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_VIOLENTGALE] = {
 
 		"Violent Gale",
-		"Required For:^777777 Land Protector (L3), Wall of Fog (L2 Professor). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Area Enchantment ^000000",
 		"SP Cost:^777777 50 - 2*SkillLV ^000000",
@@ -5020,7 +4850,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_LANDPROTECTOR] = {
 
 		"Land Protector",
-		"Required For:^777777 Abracadabra (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active, Area Enchantment ^000000",
 		"SP Cost:^777777 70 - 4*SkillLV ^000000",
@@ -5042,7 +4871,6 @@ SKILL_DESCRIPT = {
 	[SKID.SA_DISPELL] = {
 
 		"Dispell",
-		"Required For:^777777 Abracadabra (L1), Soul Burn (L3 Professor). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 As casted spell ^000000",
@@ -5181,7 +5009,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_ADAPTATION] = {
 
 		"Adaptation to Circumstances",
-		"Required For:^777777 Encore (Bard & Dancer), Ugly Dance (Dancer), Dissonance (Bard) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 1 ^000000",
@@ -5195,7 +5022,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_ENCORE] = {
 
 		"Encore",
-		"Required For:^777777 Scream, Frost Joker ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 See below ^000000",
@@ -5207,7 +5033,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_LULLABY] = {
 
 		"Lullaby",
-		"Required For:^777777 Into the Abyss (Bard/Dancer) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Ensemble ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -5258,7 +5083,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_DRUMBATTLEFIELD] = {
 
 		"A Drum on the Battlefield",
-		"Required For:^777777 The Ring of Nibelungen (L3 Bard/Dancer) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Ensemble ^000000",
 		"SP Cost:^777777 35 + 3*SkillLV ^000000",
@@ -5299,7 +5123,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_ROKISWEIL] = {
 
 		"Loki's Veil",
-		"Required For:^777777 Eternal Chaos (LBard/Dancer) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Ensemble ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -5330,7 +5153,6 @@ SKILL_DESCRIPT = {
 	[SKID.BD_SIEGFRIED] = {
 
 		"Invulnerable Siegfried",
-		"Required For:^777777 Mr. Kim A Rich Man (L3 Bard/Dancer) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Ensemble ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -5358,7 +5180,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_MUSICALLESSON] = {
 
 		"Musical Lesson",
-		"Required For:^777777 Musical Strike (L3), Dissonance (L1), Moonlit Water Mill (L7 Clown/Gypsy), Marionette Control (L5 Clown & Gypsy), Longing for Freedom (L10 Clown & Gypsy), Wand of Hermode (L10 Clown & Gypsy). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Raises Attack Power of instruments by 3 per SkillLV, and increases effects of songs. This skill also partially counters the walking speed reduction while performing. ^000000",
@@ -5377,7 +5198,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_MUSICALSTRIKE] = {
 
 		"Musical Strike",
-		"Required For:^777777 Arrow Vulcan (L1 Clown & Gypsy) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2*SkillLV - 1 ^000000",
@@ -5397,7 +5217,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_DISSONANCE] = {
 
 		"Dissonance",
-		"Required For:^777777 A Whistle (L3), Assassin Cross of Sunset (L3), A Poem of Bragi (L3), The Apple of Idun (L3), Tarot Card of Fate (L3 Clown & Gypsy). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 + 3*SkillLV ^000000",
@@ -5437,7 +5256,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_WHISTLE] = {
 
 		"A Whistle",
-		"Required For:^777777 Lullaby (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 + 4*SkillLV ^000000",
@@ -5465,7 +5283,6 @@ SKILL_DESCRIPT = {
 
 		"BA_ASSASSINCROSS#",
 		"Assassin Cross of Sunset",
-		"Required For:^777777 Loki's Veil (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 35 + 3*SkillLV ^000000",
@@ -5491,7 +5308,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_POEMBRAGI] = {
 
 		"A Poem of Bragi",
-		"Required For:^777777 Invulnerable Siegfried (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -5518,7 +5334,6 @@ SKILL_DESCRIPT = {
 	[SKID.BA_APPLEIDUN] = {
 
 		"The Apple of Idun",
-		"Required For:^777777 A Drum on the Battlefield (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -5544,7 +5359,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_DANCINGLESSON] = {
 
 		"Dancing Lesson",
-		"Required For:^777777 Throw Arrow (L3), Ugly Dance (L1), Moonlit Water Mill (L7 Clown/Gypsy), Marionette Control (L5 Clown & Gypsy), Longing for Freedom (L10 Clown & Gypsy), Wand of Hermode (L10 Clown & Gypsy). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increases whip type weapon damage and effectiveness of dancing skills by 3 per SkillLV. This skill also partially counters the walking speed reduction while performing. ^000000",
@@ -5563,7 +5377,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_THROWARROW] = {
 
 		"Throw Arrow",
-		"Required For:^777777 Arrow Vulcan (L1 Clown & Gypsy) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2*SkillLV - 1 ^000000",
@@ -5583,7 +5396,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_UGLYDANCE] = {
 
 		"Ugly Dance",
-		"Required For:^777777 Humming (L3), Please Don't Forget Me (L3), Fortune's Kiss (L3), Service for You (L3), Tarot Card of Fate (L3 Clown & Gypsy) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 + 3*SkillLV ^000000",
@@ -5623,7 +5435,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_HUMMING] = {
 
 		"Humming",
-		"Required For:^777777 Lullaby (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 20 + 2*SkillLV ^000000",
@@ -5650,7 +5461,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_DONTFORGETME] = {
 
 		"Please Don't Forget Me",
-		"Required For:^777777 Loki's Veil (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 25 + 3*SkillLV ^000000",
@@ -5678,7 +5488,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_FORTUNEKISS] = {
 
 		"Fortune's Kiss",
-		"Required For:^777777 Invulnerable Siegfried (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 40 + 3*SkillLV ^000000",
@@ -5705,7 +5514,6 @@ SKILL_DESCRIPT = {
 	[SKID.DC_SERVICEFORYOU] = {
 
 		"Service for You",
-		"Required For:^777777 A Drum on the Battlefield (L10 Bard/Dancer) ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -5938,7 +5746,6 @@ SKILL_DESCRIPT = {
 	[SKID.HW_MAGICCRASHER] = {
 
 		"Magic Crasher",
-		"Required For:^777777 Gravitation Field ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8 ^000000",
@@ -5954,7 +5761,6 @@ SKILL_DESCRIPT = {
 	[SKID.HW_MAGICPOWER] = {
 
 		"Amplify Magic Power",
-		"Required For:^777777 Gravitation Field (L10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Supportive ^000000",
 		"SP Cost:^777777 10 + 4*SkillLV ^000000",
@@ -6081,7 +5887,6 @@ SKILL_DESCRIPT = {
 	[SKID.CH_TIGERFIST] = {
 
 		"Tiger Knuckle Fist",
-		"Required For:^777777 Chain Crush Combo (L2) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2 + 2*SkillLV ^000000",
@@ -6161,7 +5966,6 @@ SKILL_DESCRIPT = {
 	[SKID.PF_SOULBURN] = {
 
 		"Soul Burn",
-		"Required For:^777777 Mind Breaker (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 70 + 10*SkillLV ^000000",
@@ -6206,7 +6010,6 @@ SKILL_DESCRIPT = {
 	[SKID.ASC_BREAKER] = {
 
 		"Soul Breaker",
-		"Required For:^777777 Metor Assault (L1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 LV 1-5 20SP",
@@ -6349,7 +6152,6 @@ SKILL_DESCRIPT = {
 	[SKID.WS_CARTBOOST] = {
 
 		"Cart Boost",
-		"Required For:^777777 Cart Termination ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Supportive ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -6358,7 +6160,6 @@ SKILL_DESCRIPT = {
 		"Cool Down:^777777 None ^000000",
 		"Duration:^777777 60 sec ^000000",
 		"Effect:^777777 This skill makes your movement speed 20% faster for 60 seconds. It does not stack with other speed changing spells whether beneficial or harmful.",
-		"Using this skill when you are under such an effect will cancel that effect if it is beneficial but won't give you the boost, a second usage is required for that.",
 		"It will not work at all if the effect is harmful (e.g. Curse, AGI Down). You need to have a cart in order to use this skill. ^000000",
 	},
 
@@ -6498,7 +6299,6 @@ SKILL_DESCRIPT = {
 	[SKID.CG_MARIONETTE] = {
 
 		"Marionette Control",
-		"Required For:^777777 Longing for Freedom (Clown & Gypsy) ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Supportive ^000000",
 		"SP Cost:^777777 100 ^000000",
@@ -6538,7 +6338,6 @@ SKILL_DESCRIPT = {
 	[SKID.LK_HEADCRUSH] = {
 
 		"Head Crush",
-		"Required For:^777777 Joint Beat (L3) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 23 ^000000",
@@ -6708,7 +6507,6 @@ SKILL_DESCRIPT = {
 	[SKID.ASC_CDP] = {
 
 		"Create Deadly Poison",
-		"Required For:^777777 Enchant Deadly Poison ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 50 ^000000",
@@ -6783,7 +6581,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_STORMKICK] = {
 
 		"Whirlwind Kick",
-		"Required For:^777777 Prepare Whirlwind Kick (L1). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16 - 2*SkillLV ^000000",
@@ -6820,7 +6617,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_DOWNKICK] = {
 
 		"Axe Kick",
-		"Required For:^777777 Prepare Axe Kick (L1). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16 - 2*SkillLV ^000000",
@@ -6856,7 +6652,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_TURNKICK] = {
 
 		"Round Kick",
-		"Required For:^777777 Prepare Round Kick (L1). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"Type:^000099 Passive ^000000",
@@ -6895,7 +6690,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_COUNTER] = {
 
 		"Counter Kick",
-		"Required For:^777777 Prepare Counter Kick (L1). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16 - 2*SkillLV ^000000",
@@ -6932,7 +6726,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_JUMPKICK] = {
 
 		"Flying Side Kick",
-		"Required For:^777777 Break Fall (L7). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 80 - 10*SkillLV ^000000",
@@ -6960,7 +6753,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_HPTIME] = {
 
 		"Peaceful Rest",
-		"Required For:^777777 Warm Wind (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 If there is another TaeKwon, Star Gladiator or Soul Linker sitting next to you while sitting, this skill activates, allowing you to regenerate HP.",
@@ -6980,7 +6772,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_SPTIME] = {
 
 		"Enjoyable Rest",
-		"Required For:^777777 Warm Wind (L5), Kaina (L1 Soul Linker). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 If there is another TaeKwon, Star Gladiator or Soul Linker sitting next to you while sitting, this skill activates, allowing you to regenerate SP.",
@@ -7003,7 +6794,6 @@ SKILL_DESCRIPT = {
 	[SKID.TK_POWER] = {
 
 		"Fighting Chant",
-		"Required For:^777777 Warm Wind (L5), TaeKwon Mission (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 It increases your ATK (2*SkillLV)% per party member on the same map.",
@@ -7059,7 +6849,6 @@ SKILL_DESCRIPT = {
 	[SKID.SG_FEEL] = {
 
 		"Feeling of the Sun, Moon and Stars",
-		"Required For:^777777 Warmth of the Sun (L1), Warmth of the Moon (L2), Warmth of the Stars (L3), Comfort of the Sun (L1), Comfort of the Moon (L2), Comfort of the Stars (L3),",
 		"Blessing of the Sun (L1), Blessing of the Moon (L2), Blessing of the Stars (L3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^33cc00 Active ^000000",
@@ -7191,7 +6980,6 @@ SKILL_DESCRIPT = {
 	[SKID.SG_HATE] = {
 
 		"Hatred of the Sun, Moon, and Stars",
-		"Required For:^777777 Anger of the Sun (L1), Anger of the Moon (L2), Anger of the Stars (L3), Blessing of the Sun (L1), Blessing of the Moon (L2), Blessing of the Stars (L3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 100 ^000000",
@@ -7315,7 +7103,6 @@ SKILL_DESCRIPT = {
 	[SKID.SG_KNOWLEDGE] = {
 
 		"Knowledge of the Sun, Moon and Stars",
-		"Required For:^777777 Union of the Sun, Moon, and Stars (L9 -SoulLinked). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 When you login the game on a map (only login, NOT by walking/teleporting) that is designated as Place of the Sun, or Moon, or Stars, this passive skill grants you increased weight capacity at +(10*SkillLV)%.",
@@ -7350,7 +7137,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_ALCHEMIST] = {
 
 		"Alchemist Spirit",
-		"Required For:^777777 Blacksmith Spirit (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7385,7 +7171,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_MONK] = {
 
 		"Monk Spirit",
-		"Required For:^777777 Priest Spirit (L1), Eska (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7403,7 +7188,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_STAR] = {
 
 		"Star Gladiator Spirit",
-		"Required For:^777777 Soul Linker Spirit (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7418,7 +7202,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_SAGE] = {
 
 		"Sage Spirit",
-		"Required For:^777777 Wizard Spirit (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7433,7 +7216,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_CRUSADER] = {
 
 		"Crusader Spirit",
-		"Required For:^777777 Knight Spirit (L1), Kaahi (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7448,7 +7230,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_SUPERNOVICE] = {
 
 		"Super Novice Spirit",
-		"Required For:^777777 Rebirth Spirit (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7466,7 +7247,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_KNIGHT] = {
 
 		"Knight Spirit",
-		"Required For:^777777 Eske (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7481,7 +7261,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_WIZARD] = {
 
 		"Wizard Spirit",
-		"Required For:^777777 Kaite (L1), Estin (L1), Estun (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7497,7 +7276,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_PRIEST] = {
 
 		"Priest Spirit",
-		"Required For:^777777 Kaizel (L1), Kaahi (L1), Eswoo (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7512,7 +7290,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_BARDDANCER] = {
 
 		"Bard and Dancer Spirits",
-		"Required For:^777777 Hunter Spirit (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7534,7 +7311,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_ROGUE] = {
 
 		"Rogue Spirit",
-		"Required For:^777777 Kaupe (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7552,7 +7328,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_ASSASIN] = {
 
 		"Assassin Spirit",
-		"Required For:^777777 Rogue Spirit (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 560 - 100*SkillLV ^000000",
@@ -7729,7 +7504,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_STIN] = {
 
 		"Estin",
-		"Required For:^777777 Esma (L7). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000^777777, Es- Type ^000000",
 		"SP Cost:^777777 16 + 2*SkillLV ^000000",
@@ -7753,7 +7527,6 @@ SKILL_DESCRIPT = {
 	[SKID.SL_STUN] = {
 
 		"Estun",
-		"Required For:^777777 Esma (L7). ^000000",
 		"Max Level:^777777 7 ^000000",
 		"Type:^777777 Offensive ^000000^777777, Es- Type ^000000",
 		"SP Cost:^777777 16 + 2*SkillLV ^000000",
@@ -8320,7 +8093,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_GLITTERING] = {
 
 		"Flip the Coin",
-		"Required For:^777777 Fling (L1), Magical Bullet (L1), Cracker (L1), Triple Action (L1), Bull's Eye (L5),",
 		"Madness Canceller (L4), Adjustment (L4), Increasing Accuracy (L2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
@@ -8457,7 +8229,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_SINGLEACTION] = {
 
 		"Single Action",
-		"Required For:^777777 Chain Action (L1), Tracking (L5), Dust (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 Self ^000000",
@@ -8477,7 +8248,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_SNAKEEYE] = {
 
 		"Snake's Eye",
-		"Required For:^777777 Increasing Accuracy (L10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 Self ^000000",
@@ -8497,7 +8267,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_CHAINACTION] = {
 
 		"Chain Action",
-		"Required For:^777777 Rapid Shower (L3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 Self ^000000",
@@ -8507,7 +8276,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_TRACKING] = {
 
 		"Tracking",
-		"Required For:^777777 Piercing Shot (L5), Disarm (L7), Bull's Eye (L10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active / Ranged Single Target Physical Attack ^000000",
 		"SP Cost:^777777 10 + 5*SkillLV ^000000",
@@ -8533,7 +8301,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_DISARM] = {
 
 		"Disarm",
-		"Required For:^777777 Adjustment (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + 5*SkillLV ^000000",
@@ -8570,7 +8337,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_RAPIDSHOWER] = {
 
 		"Rapid Shower",
-		"Required For:^777777 Desperado (L5), Gatling Fever (L7). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 20 + 2*SkillLV ^000000",
@@ -8596,7 +8362,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_DESPERADO] = {
 
 		"Desperado",
-		"Required For:^777777 Gatling Fever (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30 + 2*SkillLV ^000000",
@@ -8622,7 +8387,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_GATLINGFEVER] = {
 
 		"Gatling Fever",
-		"Required For:^777777 Madness Canceller (L10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 28 + 2*SkillLV ^000000",
@@ -8647,7 +8411,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_DUST] = {
 
 		"Dust",
-		"Required For:^777777 Full Buster (L3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 3*SkillLV ^000000",
@@ -8673,7 +8436,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_FULLBUSTER] = {
 
 		"Full Buster",
-		"Required For:^777777 Spread Attack (L5), Ground Drift (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 + 5*SkillLV ^000000",
@@ -8700,7 +8462,6 @@ SKILL_DESCRIPT = {
 	[SKID.GS_SPREADATTACK] = {
 
 		"Spread Attack",
-		"Required For:^777777 Ground Drift (L7). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + 5*SkillLV ^000000",
@@ -8752,7 +8513,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_TOBIDOUGU] = {
 
 		"Throwing Mastery",
-		"Required For:^777777 Throw Shuriken (L1), Throw Huuma Shuriken (L5), Issen (L7), Throw Zeny (L10). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Increase Throw Shuriken skill damage by +3*SkillLV.",
@@ -8772,7 +8532,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_SYURIKEN] = {
 
 		"Throw Shuriken",
-		"Required For:^777777 Throw Kunai (L5), Throw Huuma Shuriken (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2 ^000000",
@@ -8799,7 +8558,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_KUNAI] = {
 
 		"Throw Kunai",
-		"Required For:^777777 Throwing Mastery (L1), Throw Huuma Shuriken (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 35 - 5*SkillLV ^000000",
@@ -8817,7 +8575,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_HUUMA] = {
 
 		"Throw Huuma Shuriken",
-		"Required For:^777777 Throw Zeny (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 + 5*SkillLV ^000000",
@@ -8864,7 +8621,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_TATAMIGAESHI] = {
 
 		"Reverse Tatami",
-		"Required For:^777777 Shadow Jump (L1), Shadow Slash (L1), Mist Slash (L1), Cast-off Ciceda Shell (L1), Illusionary Shadow (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -8886,7 +8642,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_KASUMIKIRI] = {
 
 		"Mist Slash",
-		"Required For:^777777 Shadow Slash (L5), Illusionary Shadow (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8 + 2*SkillLV ^000000",
@@ -8913,7 +8668,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_SHADOWJUMP] = {
 
 		"Shadow Jump",
-		"Required For:^777777 Shadow Slash (L1), Cast-off Ciceda Shell (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -8936,7 +8690,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_KIRIKAGE] = {
 
 		"Shadow Slash",
-		"Required For:^777777 Bunshin no Jutsu (L3), Issen (L5), Illusionary Shadow (L3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 + 2*SkillLV ^000000",
@@ -8957,7 +8710,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_UTSUSEMI] = {
 
 		"Cast-off Ciceda Shell",
-		"Required For:^777777 Illusionary Shadow (L4). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 9 + 3*SkillLv ^000000",
@@ -9000,7 +8752,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_NINPOU] = {
 
 		"Ninpou Training",
-		"Required For:^777777 Crimson Fire Blossom (L1), Crimson Fire Formation (L1), Lightning Spear of Ice (L1), Wind Blade (L1), Soul (L5), Dragon Fire Formation (L10), Falling Ice Pillar (L10), North Wind (L10), Lightning Crash (L1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 Recovers (Maximum SP/500 + 3)*SkillLV SP per 10 full seconds when standing still and increases the efficiency of SP recovering items by +2% per SkillLV. ^000000",
@@ -9019,7 +8770,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_KOUENKA] = {
 
 		"Crimson Fire Blossom",
-		"Required For:^777777 Crimson Fire Formation (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16 + 2*SkillLV ^000000",
@@ -9044,7 +8794,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_KAENSIN] = {
 
 		"Crimson Fire Formation",
-		"Required For:^777777 Dragon Fire Formation (L7). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -9090,7 +8839,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_HYOUSENSOU] = {
 
 		"Lightning Spear of Ice",
-		"Required For:^777777 Water Escape Technique (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 + 3*SkillLV ^000000",
@@ -9105,7 +8853,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_SUITON] = {
 
 		"Water Escape Technique",
-		"Required For:^777777 Falling Ice Pillar (L7). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 12 + 3*SkillLV ^000000",
@@ -9152,7 +8899,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_HUUJIN] = {
 
 		"Wind Blade",
-		"Required For:^777777 Lightning Crash (L5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 10 + 2*SkillLV ^000000",
@@ -9177,7 +8923,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_RAIGEKISAI] = {
 
 		"Lightning Crash",
-		"Required For:^777777 North Wind (L5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 12 + 4*SkillLV ^000000",
@@ -9218,7 +8963,6 @@ SKILL_DESCRIPT = {
 	[SKID.NJ_NEN] = {
 
 		"Soul",
-		"Required For:^777777 Final Strike (L1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 10 + 10*SkillLV ^000000",
@@ -9251,631 +8995,505 @@ SKILL_DESCRIPT = {
 
 	[SKID.MB_FIGHTING] = {
 
-
 	},
 
 	[SKID.MB_NEUTRAL] = {
-
 
 	},
 
 	[SKID.MB_TAIMING_PUTI] = {
 
-
 	},
 
 	[SKID.MB_WHITEPOTION] = {
-
 
 	},
 
 	[SKID.MB_MENTAL] = {
 
-
 	},
 
 	[SKID.MB_CARDPITCHER] = {
-
 
 	},
 
 	[SKID.MB_PETPITCHER] = {
 
-
 	},
 
 	[SKID.MB_BODYSTUDY] = {
-
 
 	},
 
 	[SKID.MB_BODYALTER] = {
 
-
 	},
 
 	[SKID.MB_PETMEMORY] = {
-
 
 	},
 
 	[SKID.MB_M_TELEPORT] = {
 
-
 	},
 
 	[SKID.MB_B_GAIN] = {
-
 
 	},
 
 	[SKID.MB_M_GAIN] = {
 
-
 	},
 
 	[SKID.MB_MISSION] = {
-
 
 	},
 
 	[SKID.MB_MUNAKKNOWLEDGE] = {
 
-
 	},
 
 	[SKID.MB_MUNAKBALL] = {
-
 
 	},
 
 	[SKID.MB_SCROLL] = {
 
-
 	},
 
 	[SKID.MB_B_GATHERING] = {
-
 
 	},
 
 	[SKID.MB_M_GATHERING] = {
 
-
 	},
 
 	[SKID.MB_B_EXCLUDE] = {
-
 
 	},
 
 	[SKID.MB_B_DRIFT] = {
 
-
 	},
 
 	[SKID.MB_B_WALLRUSH] = {
-
 
 	},
 
 	[SKID.MB_M_WALLRUSH] = {
 
-
 	},
 
 	[SKID.MB_B_WALLSHIFT] = {
-
 
 	},
 
 	[SKID.MB_M_WALLCRASH] = {
 
-
 	},
 
 	[SKID.MB_M_REINCARNATION] = {
-
 
 	},
 
 	[SKID.MB_B_EQUIP] = {
 
-
 	},
 
 	[SKID.SL_DEATHKNIGHT] = {
-
 
 	},
 
 	[SKID.SL_COLLECTOR] = {
 
-
 	},
 
 	[SKID.SL_NINJA] = {
-
 
 	},
 
 	[SKID.SL_GUNNER] = {
 
-
 	},
 
 	[SKID.AM_TWILIGHT4] = {
-
 
 	},
 
 	[SKID.DE_BERSERKAIZER] = {
 
-
 	},
 
 	[SKID.DA_DARKPOWER] = {
-
 
 	},
 
 	[SKID.DE_PASSIVE] = {
 
-
 	},
 
 	[SKID.DE_PATTACK] = {
-
 
 	},
 
 	[SKID.DE_PSPEED] = {
 
-
 	},
 
 	[SKID.DE_PDEFENSE] = {
-
 
 	},
 
 	[SKID.DE_PCRITICAL] = {
 
-
 	},
 
 	[SKID.DE_PHP] = {
-
 
 	},
 
 	[SKID.DE_PSP] = {
 
-
 	},
 
 	[SKID.DE_RESET] = {
-
 
 	},
 
 	[SKID.DE_RANKING] = {
 
-
 	},
 
 	[SKID.DE_PTRIPLE] = {
-
 
 	},
 
 	[SKID.DE_ENERGY] = {
 
-
 	},
 
 	[SKID.DE_NIGHTMARE] = {
-
 
 	},
 
 	[SKID.DE_SLASH] = {
 
-
 	},
 
 	[SKID.DE_COIL] = {
-
 
 	},
 
 	[SKID.DE_WAVE] = {
 
-
 	},
 
 	[SKID.DE_REBIRTH] = {
-
 
 	},
 
 	[SKID.DE_AURA] = {
 
-
 	},
 
 	[SKID.DE_FREEZER] = {
-
 
 	},
 
 	[SKID.DE_CHANGEATTACK] = {
 
-
 	},
 
 	[SKID.DE_PUNISH] = {
-
 
 	},
 
 	[SKID.DE_POISON] = {
 
-
 	},
 
 	[SKID.DE_INSTANT] = {
-
 
 	},
 
 	[SKID.DE_WARNING] = {
 
-
 	},
 
 	[SKID.DE_RANKEDKNIFE] = {
-
 
 	},
 
 	[SKID.DE_RANKEDGRADIUS] = {
 
-
 	},
 
 	[SKID.DE_GAUGE] = {
-
 
 	},
 
 	[SKID.DE_GTIME] = {
 
-
 	},
 
 	[SKID.DE_GPAIN] = {
-
 
 	},
 
 	[SKID.DE_GSKILL] = {
 
-
 	},
 
 	[SKID.DE_GKILL] = {
-
 
 	},
 
 	[SKID.DE_ACCEL] = {
 
-
 	},
 
 	[SKID.DE_BLOCKDOUBLE] = {
-
 
 	},
 
 	[SKID.DE_BLOCKMELEE] = {
 
-
 	},
 
 	[SKID.DE_BLOCKFAR] = {
-
 
 	},
 
 	[SKID.DE_FRONTATTACK] = {
 
-
 	},
 
 	[SKID.DE_DANGERATTACK] = {
-
 
 	},
 
 	[SKID.DE_TWINATTACK] = {
 
-
 	},
 
 	[SKID.DE_WINDATTACK] = {
-
 
 	},
 
 	[SKID.DE_WATERATTACK] = {
 
-
 	},
 
 	[SKID.DA_ENERGY] = {
-
 
 	},
 
 	[SKID.DA_CLOUD] = {
 
-
 	},
 
 	[SKID.DA_FIRSTSLOT] = {
-
 
 	},
 
 	[SKID.DA_HEADDEF] = {
 
-
 	},
 
 	[SKID.DA_SPACE] = {
-
 
 	},
 
 	[SKID.DA_TRANSFORM] = {
 
-
 	},
 
 	[SKID.DA_EXPLOSION] = {
-
 
 	},
 
 	[SKID.DA_REWARD] = {
 
-
 	},
 
 	[SKID.DA_CRUSH] = {
-
 
 	},
 
 	[SKID.DA_ITEMREBUILD] = {
 
-
 	},
 
 	[SKID.DA_ILLUSION] = {
-
 
 	},
 
 	[SKID.DA_NUETRALIZE] = {
 
-
 	},
 
 	[SKID.DA_RUNNER] = {
-
 
 	},
 
 	[SKID.DA_TRANSFER] = {
 
-
 	},
 
 	[SKID.DA_WALL] = {
-
 
 	},
 
 	[SKID.DA_REVENGE] = {
 
-
 	},
 
 	[SKID.DA_EARPLUG] = {
-
 
 	},
 
 	[SKID.DA_CONTRACT] = {
 
-
 	},
 
 	[SKID.DA_BLACK] = {
-
 
 	},
 
 	[SKID.DA_DREAM] = {
 
-
 	},
 
 	[SKID.DA_MAGICCART] = {
-
 
 	},
 
 	[SKID.DA_COPY] = {
 
-
 	},
 
 	[SKID.DA_CRYSTAL] = {
-
 
 	},
 
 	[SKID.DA_EXP] = {
 
-
 	},
 
 	[SKID.DA_CARTSWING] = {
-
 
 	},
 
 	[SKID.DA_REBUILD] = {
 
-
 	},
 
 	[SKID.DA_JOBCHANGE] = {
-
 
 	},
 
 	[SKID.DA_EDARKNESS] = {
 
-
 	},
 
 	[SKID.DA_EGUARDIAN] = {
-
 
 	},
 
 	[SKID.DA_TIMEOUT] = {
 
-
 	},
 
 	[SKID.ALL_TIMEIN] = {
-
 
 	},
 
 	[SKID.DA_ZENYRANK] = {
 
-
 	},
 
 	[SKID.DA_ACCESSORYMIX] = {
-
 
 	},
 
 	[SKID.NPC_EARTHQUAKE] = {
 
-
 	},
 
 	[SKID.NPC_DRAGONFEAR] = {
-
 
 	},
 
 	[SKID.NPC_PULSESTRIKE] = {
 
-
 	},
 
 	[SKID.NPC_HELLJUDGEMENT] = {
-
 
 	},
 
 	[SKID.NPC_WIDESILENCE] = {
 
-
 	},
 
 	[SKID.NPC_WIDEFREEZE] = {
-
 
 	},
 
 	[SKID.NPC_WIDEBLEEDING] = {
 
-
 	},
 
 	[SKID.NPC_WIDESTONE] = {
-
 
 	},
 
 	[SKID.NPC_WIDECONFUSE] = {
 
-
 	},
 
 	[SKID.NPC_WIDESLEEP] = {
-
 
 	},
 
 	[SKID.NPC_EVILLAND] = {
 
-
 	},
 
 	[SKID.NPC_MAGICMIRROR] = {
-
 
 	},
 
 	[SKID.NPC_SLOWCAST] = {
 
-
 	},
 
 	[SKID.NPC_CRITICALWOUND] = {
-
 
 	},
 
 	[SKID.NPC_STONESKIN] = {
 
-
 	},
 
 	[SKID.NPC_ANTIMAGIC] = {
-
 
 	},
 
 	[SKID.NPC_WIDECURSE] = {
 
-
 	},
 
 	[SKID.NPC_WIDESTUN] = {
-
 
 	},
 
 	[SKID.NPC_VAMPIRE_GIFT] = {
 
-
 	},
 
 	[SKID.NPC_WIDESOULDRAIN] = {
-
 
 	},
 
@@ -9899,11 +9517,9 @@ SKILL_DESCRIPT = {
 
 	[SKID.NPC_HELLPOWER] = {
 
-
 	},
 
 	[SKID.NPC_ALLHEAL] = {
-
 
 	},
 
@@ -9938,7 +9554,6 @@ SKILL_DESCRIPT = {
 	},
 
 	[SKID.ALL_REVERSEORCISH] = {
-
 
 	},
 
@@ -10229,7 +9844,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_ENCHANTBLADE] = {
 
 		"Enchant Blade",
-		"Required For:^777777 Rune Mastery (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -10247,7 +9861,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_SONICWAVE] = {
 
 		"Sonic Wave",
-		"Required For:^777777 Enchant Blade (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25 + 5*SkillLV ^000000",
@@ -10266,7 +9879,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_DEATHBOUND] = {
 
 		"Death Bound",
-		"Required For:^777777 Auto Counter (LV1), Enchant Blade (L2). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 50 LV1, 60+5*SkillLV LV2+ ^000000",
@@ -10280,7 +9892,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_HUNDREDSPEAR] = {
 
 		"Hundred Spear",
-		"Required For:^777777 Phantom Trust (LV3). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 60 ^000000",
@@ -10302,7 +9913,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_WINDCUTTER] = {
 
 		"Wind Cutter",
-		"Required For:^777777 Enchant Blade (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16+4*SkillLV ^000000",
@@ -10319,7 +9929,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_IGNITIONBREAK] = {
 
 		"Ignition Break",
-		"Required For:^777777 Sonic Wave (LV2), Wind Cutter (LV3), Death Bound (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30+5*SkillLV ^000000",
@@ -10338,7 +9947,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_DRAGONTRAINING] = {
 
 		"Dragon Training",
-		"Required For:^777777 Cavalier Mastery (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Passive ^000000",
 		"Effect:^777777 Allows the user to use a dragon mount. Increasing the skill level recovers your lost attack speed when using the mount, and also slightly increases the damage of dragon breath. ",
@@ -10351,7 +9959,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_DRAGONBREATH] = {
 
 		"Dragon Breath",
-		"Required For:^777777 Dragon Training (LV2). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 0+5*SkillLV ^000000",
@@ -10364,7 +9971,6 @@ SKILL_DESCRIPT = {
 	[SKID.RK_DRAGONHOWLING] = {
 
 		"Dragon Howling",
-		"Required For:^777777 Dragon Training (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30+5*SkillLV ^000000",
@@ -10398,53 +10004,43 @@ SKILL_DESCRIPT = {
 
 	[SKID.RK_MILLENNIUMSHIELD] = {
 
-
 	},
 
 	[SKID.RK_CRUSHSTRIKE] = {
-
 
 	},
 
 	[SKID.RK_REFRESH] = {
 
-
 	},
 
 	[SKID.RK_GIANTGROWTH] = {
-
 
 	},
 
 	[SKID.RK_STONEHARDSKIN] = {
 
-
 	},
 
 	[SKID.RK_VITALITYACTIVATION] = {
-
 
 	},
 
 	[SKID.RK_STORMBLAST] = {
 
-
 	},
 
 	[SKID.RK_FIGHTINGSPIRIT] = {
 
-
 	},
 
 	[SKID.RK_ABUNDANCE] = {
-
 
 	},
 
 	[SKID.RK_PHANTOMTHRUST] = {
 
 		"Phantom Thrust",
-		"Required For:^777777 Brandish Spear (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15+3*SkillLV ^000000",
@@ -10461,7 +10057,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_VENOMIMPRESS] = {
 
 		"Venom Impress",
-		"Required For:^777777 Enchant Poison (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8+4*SkillLV ^000000",
@@ -10478,7 +10073,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_CROSSIMPACT] = {
 
 		"Cross Impact",
-		"Required For:^777777 Sonic Blow (LV10). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10495,7 +10089,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_DARKILLUSION] = {
 
 		"Dark Illusion",
-		"Required For:^777777 Cross Impact (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -10535,7 +10128,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_CREATENEWPOISON] = {
 
 		"Create New Poison",
-		"Required For:^777777 Research New Poison (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 ?? ^000000",
@@ -10546,7 +10138,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_ANTIDOTE] = {
 
 		"Antidote",
-		"Required For:^777777 Research New Poison (LV5). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 10 ^000000",
@@ -10557,7 +10148,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_POISONINGWEAPON] = {
 
 		"Poisoning Weapon",
-		"Required For:^777777 Create New Poison (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 16+4*SkillLV ^000000",
@@ -10576,7 +10166,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_WEAPONBLOCKING] = {
 
 		"Weapon Blocking",
-		"Required For:^777777 Left Hand Mastery (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 44-4*SkillLV ^000000",
@@ -10595,7 +10184,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_COUNTERSLASH] = {
 
 		"Counter Slash",
-		"Required For:^777777 Weapon Blocking (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 2+3*SkillLV ^000000",
@@ -10613,7 +10201,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_WEAPONCRUSH] = {
 
 		"Weapon Crush",
-		"Required For:^777777 Weapon Blocking (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2+3*SkillLV ^000000",
@@ -10626,7 +10213,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_VENOMPRESSURE] = {
 
 		"Venom Pressure",
-		"Required For:^777777 Weapon Blocking (LV1), Poisoning Weapon (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10644,7 +10230,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_POISONSMOKE] = {
 
 		"Poison Smoke",
-		"Required For:^777777 Venom Pressure (LV5), Poisoning Weapon (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10657,7 +10242,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_CLOAKINGEXCEED] = {
 
 		"Cloaking Exceed",
-		"Required For:^777777 Cloacking (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 9-1*SkillLV ^000000",
@@ -10676,7 +10260,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_PHANTOMMENACE] = {
 
 		"Phantom Menace",
-		"Required For:^777777 Dark Illusion (LV5), Cloaking Exceed (LV5). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30 ^000000",
@@ -10689,7 +10272,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_HALLUCINATIONWALK] = {
 
 		"Hallucination Walk",
-		"Required For:^777777 Phantom Menace (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 ??-??*SkillLV ^000000",
@@ -10708,7 +10290,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_ROLLINGCUTTER] = {
 
 		"Rolling Cutter",
-		"Required For:^777777 Sonic Blow (LV10). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 ??-??*SkillLV ^000000",
@@ -10726,7 +10307,6 @@ SKILL_DESCRIPT = {
 	[SKID.GC_CROSSRIPPERSLASHER] = {
 
 		"Cross Ripper Slasher",
-		"Required For:^777777 Rolling Cutter (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16+4*SkillLV ^000000",
@@ -10744,7 +10324,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_JUDEX] = {
 
 		"Judex",
-		"Required For:^777777 Turn Undead (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 27+3*SkillLV ^000000",
@@ -10761,7 +10340,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_ANCILLA] = {
 
 		"Ancilla",
-		"Required For:^777777 Clementia (LV3). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30% MaxSP ^000000",
@@ -10774,7 +10352,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_ADORAMUS] = {
 
 		"Adoramus",
-		"Required For:^777777 Judex (LV5), Ancilla (LV1), Magnus Exorcismus (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 16+4*SkillLV ^000000",
@@ -10798,7 +10375,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_CLEMENTIA] = {
 
 		"Clementia",
-		"Required For:^777777 Blessing (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 180+20*SkillLV ^000000",
@@ -10813,7 +10389,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_CANTO] = {
 
 		"Canto Candidus",
-		"Required For:^777777 Increase Agility (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 130+15*SkillLV ^000000",
@@ -10828,7 +10403,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_CHEAL] = {
 
 		"Coluceo Heal",
-		"Required For:^777777 Heal (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 115+15*SkillLV ^000000",
@@ -10843,7 +10417,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_EPICLESIS] = {
 
 		"Epiclesis",
-		"Required For:^777777 Ancilla (LV1), Highness Heal (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Summon ^000000",
 		"SP Cost:^777777 300 ^000000",
@@ -10860,7 +10433,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_PRAEFATIO] = {
 
 		"Praefatio",
-		"Required For:^777777 Kyrie Eleison (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10882,7 +10454,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_ORATIO] = {
 
 		"Oratio",
-		"Required For:^777777 Praefatio (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10904,7 +10475,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_LAUDAAGNUS] = {
 
 		"Lauda Agnus",
-		"Required For:^777777 Status Recovery (LV1). ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 40+10*SkillLV ^000000",
@@ -10920,7 +10490,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_LAUDARAMUS] = {
 
 		"Lauda Ramus",
-		"Required For:^777777 Lauda Agnus (LV2). ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 40+10*SkillLV ^000000",
@@ -10936,7 +10505,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_EUCHARISTICA] = {
 
 		"Eucharistica",
-		"Required For:^777777 Epiclesis (LV1), Expiatio (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Passive ^000000",
 		"SP Cost:^777777 ?? ^000000",
@@ -10958,7 +10526,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_RENOVATIO] = {
 
 		"Renovatio",
-		"Required For:^777777 Coluceo Heal (LV3). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -10971,7 +10538,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_HIGHNESSHEAL] = {
 
 		"Higness Heal",
-		"Required For:^777777 Renovatio (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 40+20*SkillLV ^000000",
@@ -10988,7 +10554,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_CLEARANCE] = {
 
 		"Clearance",
-		"Required For:^777777 Lauda Ramus (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support / Offensive ^000000",
 		"SP Cost:^777777 48+6*SkillLV ^000000",
@@ -11005,7 +10570,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_EXPIATIO] = {
 
 		"Expiatio",
-		"Required For:^777777 Oratio (LV5), Duple Light (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 30+5*SkillLV ^000000",
@@ -11023,7 +10587,6 @@ SKILL_DESCRIPT = {
 	[SKID.AB_DUPLELIGHT] = {
 
 		"Duple Light",
-		"Required For:^777777 Aspersio (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 50+5*SkillLV ^000000",
@@ -11045,18 +10608,15 @@ SKILL_DESCRIPT = {
 
 	[SKID.AB_DUPLELIGHT_MELEE] = {
 
-
 	},
 
 	[SKID.AB_DUPLELIGHT_MAGIC] = {
-
 
 	},
 
 	[SKID.AB_SILENTIUM] = {
 
 		"Silentium",
-		"Required For:^777777 Clearance (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 20+4*SkillLV ^000000",
@@ -11074,7 +10634,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_WHITEIMPRISON] = {
 
 		"White Imprison",
-		"Required For:^777777 Soul Expansion (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support / Offensive ^000000",
 		"SP Cost:^777777 45+5*SkillLV ^000000",
@@ -11094,7 +10653,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SOULEXPANSION] = {
 
 		"Soul Expansion",
-		"Required For:^777777 Drain Life (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25+5*SkillLV ^000000",
@@ -11112,7 +10670,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_FROSTMISTY] = {
 
 		"Frost Misty",
-		"Required For:^777777 Summon Water Ball (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Debuff ^000000",
 		"SP Cost:^777777 32+8*SkillLV ^000000",
@@ -11131,7 +10688,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_JACKFROST] = {
 
 		"Jack Frost",
-		"Required For:^777777 Frost Misty (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 20+10*SkillLV ^000000",
@@ -11148,7 +10704,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_MARSHOFABYSS] = {
 
 		"Marsh Of Abyss",
-		"Required For:^777777 Quagmire (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Debuff ^000000",
 		"SP Cost:^777777 38+2*SkillLV ^000000",
@@ -11166,7 +10721,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_RECOGNIZEDSPELL] = {
 
 		"Recognize Spell",
-		"Required For:^777777 Release (LV2), Stasis (LV1), White Imprison (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Special Status ^000000",
 		"SP Cost:^777777 40+10*SkillLV ^000000",
@@ -11184,7 +10738,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SIENNAEXECRATE] = {
 
 		"Sienna Execrate",
-		"Required For:^777777 Summon Stone (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30+2*SkillLV ^000000",
@@ -11213,7 +10766,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_STASIS] = {
 
 		"Stasis",
-		"Required For:^777777 Drain Life (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 50+20*SkillLV ^000000",
@@ -11232,7 +10784,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_DRAINLIFE] = {
 
 		"Drain Life",
-		"Required For:^777777 Radius (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive / Support ^000000",
 		"SP Cost:^777777 16+4*SkillLV ^000000",
@@ -11250,7 +10801,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_CRIMSONROCK] = {
 
 		"Crimson Rock",
-		"Required For:^777777 Summon Fire Ball (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 50+10*SkillLV ^000000",
@@ -11268,7 +10818,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_HELLINFERNO] = {
 
 		"Hell Inferno",
-		"Required For:^777777 Crimson Rock (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 30+5*SkillLV ^000000",
@@ -11286,7 +10835,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_COMET] = {
 
 		"Comet",
-		"Required For:^777777 Hell Inferno (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 200+40*SkillLV ^000000",
@@ -11306,7 +10854,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_CHAINLIGHTNING] = {
 
 		"Chain Lightning",
-		"Required For:^777777 Summon Lightning Ball (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 70+10*SkillLV ^000000",
@@ -11325,7 +10872,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_EARTHSTRAIN] = {
 
 		"Earth Strain",
-		"Required For:^777777 Sienna Execrate (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 62+8*SkillLV ^000000",
@@ -11343,7 +10889,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_TETRAVORTEX] = {
 
 		"Tetra Vortex",
-		"Required For:^777777 Jack Frost (LV5), Chain Lightning (LV5), Earth Strain (LV5), Hell Inferno (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 90+30*SkillLV ^000000",
@@ -11362,7 +10907,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SUMMONFB] = {
 
 		"Summon Fire Ball",
-		"Required For:^777777 Meteor Storm (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8+2*SkillLV ^000000",
@@ -11380,7 +10924,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SUMMONBL] = {
 
 		"Summon Lightning Ball",
-		"Required For:^777777 Lord Of Vermilion (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8+2*SkillLV ^000000",
@@ -11398,7 +10941,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SUMMONWB] = {
 
 		"Summon Water Ball",
-		"Required For:^777777 Storm Gust (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8+2*SkillLV ^000000",
@@ -11416,7 +10958,6 @@ SKILL_DESCRIPT = {
 	[SKID.WL_SUMMONSTONE] = {
 
 		"Summon Stone",
-		"Required For:^777777 Heaven's Drive (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 8+2*SkillLV ^000000",
@@ -11468,7 +11009,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_ARROWSTORM] = {
 
 		"Arrow Storm",
-		"Required For:^777777 Aimed Bolt (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 28+2*SkillLV ^000000",
@@ -11491,7 +11031,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_FEARBREEZE] = {
 
 		"Fear Breeze",
-		"Required For:^777777 Camouflage (LV1), Arrow Storm (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 32+4*SkillLV ^000000",
@@ -11529,7 +11068,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_AIMEDBOLT] = {
 
 		"Aimed Bolt",
-		"Required For:^777777 Ankle Snare (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 28+2*SkillLV ^000000",
@@ -11553,7 +11091,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_DETONATOR] = {
 
 		"Detonator",
-		"Required For:^777777 Cluster Bomb (LV3). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Passive ^000000",
 		"Target:^777777 Enemy ^000000",
@@ -11566,7 +11103,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_ELECTRICSHOCKER] = {
 
 		"Electric Shocker",
-		"Required For:^777777 Shockwave Trap (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 35 ^000000",
@@ -11584,7 +11120,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_CLUSTERBOMB] = {
 
 		"Cluster Bomb",
-		"Required For:^777777 Research Trap (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -11614,7 +11149,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_WUGRIDER] = {
 
 		"Warg Rider",
-		"Required For:^777777 Warg Mastery (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 20 ^000000",
@@ -11626,7 +11160,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_WUGDASH] = {
 
 		"Warg Dash",
-		"Required For:^777777 Warg Rider (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -11638,7 +11171,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_WUGSTRIKE] = {
 
 		"Warg Strike",
-		"Required For:^777777 Tooth Of Warg (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 28+2*SkillLV ^000000",
@@ -11656,7 +11188,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_WUGBITE] = {
 
 		"Warg Bite",
-		"Required For:^777777 Warg Mastery (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 36+4*SkillLV ^000000",
@@ -11674,7 +11205,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_TOOTHOFWUG] = {
 
 		"Tooth Of Warg",
-		"Required For:^777777 Warg Mastery (LV1). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Passive ^000000",
 		"Cast Time:^777777 ?? ^000000",
@@ -11694,7 +11224,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_SENSITIVEKEEN] = {
 
 		"Sensitive Keen",
-		"Required For:^777777 Tooth Of Warg (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 24 ^000000",
@@ -11711,7 +11240,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_CAMOUFLAGE] = {
 
 		"Camouflage",
-		"Required For:^777777 Ranger Main (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 7-(1*SkillLV) ^000000",
@@ -11732,7 +11260,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_RESEARCHTRAP] = {
 
 		"Research Trap",
-		"Required For:^777777 Claymore Trap (LV1), Remove Trap (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Passive ^000000",
 		"SP Cost:^777777 100 + 10*SkillLV ^000000",
@@ -11749,7 +11276,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_MAGENTATRAP] = {
 
 		"Magenta Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -11761,7 +11287,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_COBALTTRAP] = {
 
 		"Cobalt Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -11773,7 +11298,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_MAIZETRAP] = {
 
 		"Maize Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -11785,7 +11309,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_VERDURETRAP] = {
 
 		"Verdure Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -11797,7 +11320,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_FIRINGTRAP] = {
 
 		"Firing Trap",
-		"Required For:^777777 Detonator (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 15 ^000000",
@@ -11814,7 +11336,6 @@ SKILL_DESCRIPT = {
 	[SKID.RA_ICEBOUNDTRAP] = {
 
 		"Ice Bound Trap",
-		"Required For:^777777 Detonator (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25 ^000000",
@@ -11844,7 +11365,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_BOOSTKNUCKLE] = {
 
 		"Boost Knuckle",
-		"Required For:^777777 Magic Gear License (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 5+5*SkillLV ^000000",
@@ -11860,7 +11380,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_PILEBUNKER] = {
 
 		"Pile Bunker",
-		"Required For:^777777 Boost Knuckle (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 50 ^000000",
@@ -11874,7 +11393,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_VULCANARM] = {
 
 		"Vulcan Arm",
-		"Required For:^777777 Boost Knuckle (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 2 ^000000",
@@ -11889,7 +11407,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_FLAMELAUNCHER] = {
 
 		"Flame Launcher",
-		"Required For:^777777 Vulcan Arm (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -11903,7 +11420,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_COLDSLOWER] = {
 
 		"Cold Slower",
-		"Required For:^777777 Vulcan Arm (LV3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 40 ^000000",
@@ -11918,7 +11434,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_ARMSCANNON] = {
 
 		"Arms Cannon",
-		"Required For:^777777 Flame Launcher (LV2), Cold Slower (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 50 ^000000",
@@ -11929,8 +11444,7 @@ SKILL_DESCRIPT = {
 		"[LV 2]^777777 1000~800~600% ATK, Area 5x5 ^000000",
 		"[LV 3]^777777 1200~1000~800% ATK, Area 3x3 ^000000",
 
-		"Cannon Ball Descriptions:",
-
+		"Cannon Ball Descriptions:",
 		"- Cannon Ball = Attribute 'None', ATK 100, Weight 1, Price 100z",
 		"- Holy Cannon Ball = Attribute 'Holy', ATK 120, Weight 1, Price 200z",
 		"- Iron Cannon Ball = Attribute 'Neutral', ATK 250, Weight 1, Price 200z",
@@ -11941,7 +11455,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_ACCELERATION] = {
 
 		"Acceleration",
-		"Required For:^777777 Magic Gear License (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 0+20*SkillLV ^000000",
@@ -11953,7 +11466,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_HOVERING] = {
 
 		"Hovering",
-		"Required For:^777777 Acceleration (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -11966,7 +11478,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_F_SIDESLIDE] = {
 
 		"Front Side Slide",
-		"Required For:^777777 Hovering (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -11978,7 +11489,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_B_SIDESLIDE] = {
 
 		"Back Side Slide",
-		"Required For:^777777 Hovering (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -11990,7 +11500,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_MAINFRAME] = {
 
 		"Mainframe Restructure",
-		"Required For:^777777 Magic Gear License (LV4). ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^777777 Passive ^000000",
 		"Effect:^777777 Restructures the magic gear body to be more defensive and add over-heat limit. Overheating causes the Magic Gear to take continuous damage over time. Overheat limit increases the point at which the gear will Overheat. ^000000",
@@ -12003,7 +11512,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_SELFDESTRUCTION] = {
 
 		"Self Destruction",
-		"Required For:^777777 Mainframe Restructure (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 200 ^000000",
@@ -12017,7 +11525,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_SHAPESHIFT] = {
 
 		"Shape Shift",
-		"Required For:^777777 Mainframe Restructure (LV2). ^000000",
 		"Max Level:^777777 4 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 100 ^000000",
@@ -12033,33 +11540,28 @@ SKILL_DESCRIPT = {
 	[SKID.NC_EMERGENCYCOOL] = {
 
 		"Emergency Cool",
-		"Required For:^777777 Self Destruction (LV2). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
 		"Cast Time:^777777 ?? ^000000",
 		"Catalyst:^777777 2 Magic Gear Fuel ^000000",
 		"Effect:^777777 Rapidly cools the magic gear removing overheat status. Requires the magic gear equipment Cooling System equipped. ^000000",
-
 	},
 
 	[SKID.NC_INFRAREDSCAN] = {
 
 		"Infrared Scan",
-		"Required For:^777777 Shape Shift (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV^000000",
 		"Cast Time:^777777 ?? ^000000",
 		"Cool Down:^777777 15 sec ^000000",
 		"Effect:^777777 Detects all targets in a 15 x 15 targets around you and has a 50% chance to drop their evasion rate. ^000000",
-
 	},
 
 	[SKID.NC_ANALYZE] = {
 
 		"Analyze",
-		"Required For:^777777 Infrared Scan (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 ??+??*SkillLV ^000000",
@@ -12075,7 +11577,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_MAGNETICFIELD] = {
 
 		"Magnetic Field",
-		"Required For:^777777 Emergency Cool (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 90+14+3*SkillLV^000000",
@@ -12092,7 +11593,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_NEUTRALBARRIER] = {
 
 		"Neutral Barrier",
-		"Required For:^777777 Magnetic Field (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 90 ^000000",
@@ -12110,7 +11610,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_STEALTHFIELD] = {
 
 		"Stealth Field",
-		"Required For:^777777 Analyse (LV3), Neutral Barrier (LV2). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support ^000000",
 		"SP Cost:^777777 50+50*SkillLV ^000000",
@@ -12126,7 +11625,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_REPAIR] = {
 
 		"Repair",
-		"Required For:^777777 Magic Gear License (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Support ^000000",
 		"SP Cost:^777777 20+5*SkillLV ^000000",
@@ -12176,7 +11674,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_AXEBOOMERANG] = {
 
 		"Axe Boomerang",
-		"Required For:^777777 Axe Training (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 25+4*SkillLV ^000000",
@@ -12195,7 +11692,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_POWERSWING] = {
 
 		"Power Swing",
-		"Required For:^777777 Axe Boomerang (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 17+3*SkillLV ^000000",
@@ -12213,7 +11709,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_AXETORNADO] = {
 
 		"Axe Tornado",
-		"Required For:^777777 Axe Training (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Offensive ^000000",
 		"SP Cost:^777777 26+6*SkillLV ^000000",
@@ -12231,7 +11726,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_SILVERSNIPER] = {
 
 		"FAW - Silver Sniper",
-		"Required For:^777777 Research Fire / Earth (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / FAW Construction ^000000",
 		"SP Cost:^777777 20+5*SkillLV ^000000",
@@ -12248,7 +11742,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_MAGICDECOY] = {
 
 		"FAW - Magic Decoy",
-		"Required For:^777777 FAW - Silver Sniper (LV2). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / FAW Construction ^000000",
 		"SP Cost:^777777 35+5*SkillLV ^000000",
@@ -12265,7 +11758,6 @@ SKILL_DESCRIPT = {
 	[SKID.NC_DISJOINT] = {
 
 		"FAW - Removal",
-		"Required For:^777777 FAW - Silver Sniper (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Active / FAW Construction ^000000",
 		"SP Cost:^777777 35+5*SkillLV ^000000",
@@ -12276,7 +11768,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_FATALMENACE] = {
 
 		"Fatal Menace",
-		"Required For:^777777 Intimidate (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Attack ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -12293,7 +11784,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_REPRODUCE] = {
 
 		"Reproduce",
-		"Required For:^777777 Plagiarism (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -12306,7 +11796,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_AUTOSHADOWSPELL] = {
 
 		"Auto Shadow Spell",
-		"Required For:^777777 Reproduce (LV5). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 35 + 5*SkillLV ^000000",
@@ -12327,7 +11816,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_SHADOWFORM] = {
 
 		"Shadow Form",
-		"Required For:^777777 Tunnel Drive (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 30 + 10*SkillLV ^000000",
@@ -12345,7 +11833,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_TRIANGLESHOT] = {
 
 		"Triangle Slot",
-		"Required For:^777777 Double Strafing (LV7). ^000000",
 		"Max Level:^777777 10 ^000000",
 		"Type:^777777 Active ^000000",
 		"SP Cost:^777777 20 + 2*SkillLV ^000000",
@@ -12381,7 +11868,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_INVISIBILITY] = {
 
 		"Invisibility",
-		"Required For:^777777 Auto Shadow Spell (LV7), Deadly Infect (LV5), Masquerade - Unlucky (LV3). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 100 ^000000",
@@ -12398,7 +11884,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_DEADLYINFECT] = {
 
 		"Deadly Infect",
-		"Required For:^777777 Shadow Form (LV3), Auto Shadow Spell (LV5). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Buff ^000000",
 		"SP Cost:^777777 36 + 4*SkillLV ^000000",
@@ -12414,7 +11899,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_ENERVATION] = {
 
 		"Masquerade - Enervation",
-		"Required For:^777777 Body Painting (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12430,7 +11914,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_GROOMY] = {
 
 		"Masquerade - Gloomy",
-		"Required For:^777777 Body Painting (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12446,7 +11929,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_IGNORANCE] = {
 
 		"Masquerade - Ignorance",
-		"Required For:^777777 Body Painting (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12462,7 +11944,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_LAZINESS] = {
 
 		"Masquerade - Laziness",
-		"Required For:^777777 Masquerade - Enervation (LV1), Masquerade - Gloomy (LV1), Masquerade - Ignorance (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12478,7 +11959,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_UNLUCKY] = {
 
 		"Masquerade - Unlucky",
-		"Required For:^777777 Masquerade - Laziness (LV1), Masquerade - Weakness (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12495,7 +11975,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_WEAKNESS] = {
 
 		"Masquerade - Weakness",
-		"Required For:^777777 Masquerade - Enervation (LV1), Masquerade - Gloomy (LV1), Masquerade - Ignorance (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 20 + 10*SkillLV ^000000",
@@ -12511,7 +11990,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_STRIPACCESSARY] = {
 
 		"Strip Accessory ",
-		"Required For:^777777 Strip Weapon (LV1). ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^777777 Active / Debuff ^000000",
 		"SP Cost:^777777 12 + 3*SkillLV ^000000",
@@ -12528,7 +12006,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_MANHOLE] = {
 
 		"Man Hole",
-		"Required For:^777777 Flag Grafitti (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 15 + 5*SkillLV ^000000",
@@ -12544,7 +12021,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_DIMENSIONDOOR] = {
 
 		"Dimension Door",
-		"Required For:^777777 Man Hole (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 24 + 6*SkillLV ^000000",
@@ -12560,7 +12036,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_CHAOSPANIC] = {
 
 		"Chaos Panic",
-		"Required For:^777777 Man Hole (LV1). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 24 + 6*SkillLV ^000000",
@@ -12576,7 +12051,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_MAELSTROM] = {
 
 		"Maelstrom",
-		"Required For:^777777 Chaos Panic (LV3), Masquerade - Unlucky (LV3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 45 + 5*SkillLV ^000000",
@@ -12592,7 +12066,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_BLOODYLUST] = {
 
 		"Bloody Lust",
-		"Required For:^777777 Dimension Door (LV3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 50 + 10*SkillLV ^000000",
@@ -12608,7 +12081,6 @@ SKILL_DESCRIPT = {
 	[SKID.SC_FEINTBOMB] = {
 
 		"Feint Bomb",
-		"Required For:^777777 Dimension Door (LV3). ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Active / Ground ^000000",
 		"SP Cost:^777777 20 + 4*SkillLV ^000000",
@@ -12623,1742 +12095,1920 @@ SKILL_DESCRIPT = {
 
 	[SKID.LG_CANNONSPEAR] = {
 
-		"캐논 스피어",
-		"MAX Lv : 5",
-		"^777777습득조건 : 핀포인트 어택 1^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  창 전용 스킬. 거리 11 셀까지의 일직선 상 (너비 3 셀) 의 모든 적을 공격한다. 시전자의 STR 에 영향을 받아 데미지가 상승한다. ^000000",
-		"[Level 1] : ^777777 공격력 50% ^000000",
-		"[Level 2] : ^777777 공격력 100%  ^000000",
-		"[Level 3] : ^777777 공격력 150%  ^000000",
-		"[Level 4] : ^777777 공격력 200%  ^000000",
-		"[Level 5] : ^777777 공격력 250%  ^000000",
+		"Cannon Spear",
+		"Prerequisites:^777777 Pinpoint Attack (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Spear exclusive skill. Hits all targets in a straight line up to 11 cells.^000000",
+		"[LV 1]^777777 150% ATK^000000",
+		"[LV 2]^777777 200% ATK^000000",
+		"[LV 3]^777777 250% ATK^000000",
+		"[LV 4]^777777 300% ATK^000000",
+		"[LV 5]^777777 350% ATK^000000",
 	},
 
 	[SKID.LG_BANISHINGPOINT] = {
 
-		"배니싱 포인트",
-		"MAX Lv : 10",
-		"^777777습득조건 : 창 수련 1 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  창 전용 스킬. 사정거리 7 셀까지의 원거리 창 공격. 레벨이 오를 수록 명중율이 상승. 배쉬 레벨에 따라 추가 적인 데미지가 있다.  ^000000",
-		"[Level 1] : ^777777 공격력 50% ^000000",
-		"[Level 2] : ^777777 공격력 110%  ^000000",
-		"[Level 3] : ^777777 공격력 150%  ^000000",
-		"[Level 4] : ^777777 공격력 200%  ^000000",
-		"[Level 5] : ^777777 공격력 250%  ^000000",
-		"[Level 6] : ^777777 공격력 300% ^000000",
-		"[Level 7] : ^777777 공격력 350%  ^000000",
-		"[Level 8] : ^777777 공격력 400%  ^000000",
-		"[Level 9] : ^777777 공격력 450%  ^000000",
-		"[Level 10] : ^777777 공격력 500%  ^000000",
+		"Banishing Point",
+		"Prerequisites:^777777 Spear Quicken (L1)^000000",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Spear exclusive skill. A ranged attack with 7 cell range. Level increases hit rate of the skill. The level of Bash you know increases the damage.^000000",
+		"[LV 1]^777777 130% ATK^000000",
+		"[LV 2]^777777 160% ATK^000000",
+		"[LV 3]^777777 190% ATK^000000",
+		"[LV 4]^777777 220% ATK^000000",
+		"[LV 5]^777777 250% ATK^000000",
+		"[LV 6]^777777 280% ATK^000000",
+		"[LV 7]^777777 310% ATK^000000",
+		"[LV 8]^777777 340% ATK^000000",
+		"[LV 9]^777777 370% ATK^000000",
+		"[LV 10]^777777 400% ATK^000000",
 	},
 
 	[SKID.LG_TRAMPLE] = {
 
-		"트램플",
-		"MAX Lv : 3",
-		"^777777습득조건 : 로열가드 기본 ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  짓밟기. 트랩에 걸리거나, 자신 주변 5 x 5 셀에 트랩이 있는 경우, 그것을 짓밟아 제거한다. 그러나 폭발 타입의 경우, 일정 확률로 트랩이 발동하지 않을 수도 있다. 시전자의 DEX 및 AGI 에 따라 트랩 파괴 시 데미지가 발생하지 않을 확률이 증가한다.  ^000000",
-		"[Level 1] : ^777777 성공율 50% ^000000",
-		"[Level 2] : ^777777 성공율 75%  ^000000",
-		"[Level 3] : ^777777 성공율 100%  ^000000",
+		"Trample",
+		"Max Level:^777777 3^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Tramples an area 5 x 5 around you, destroying all traps. Traps that are explosive type activate normally.^000000",
+		"[LV 1]^777777 Success Rate 50%^000000",
+		"[LV 2]^777777 Success Rate 75%^000000",
+		"[LV 3]^777777 Success Rate 100%^000000",
 	},
 
 	[SKID.LG_SHIELDPRESS] = {
 
-		"실드 프레스",
-		"MAX Lv : 5",
-		"^777777습득조건 : 실드 챠지 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  방패 장비시 사용 가능. 방패로 적 1 체를 내리쳐서 데미지와 함께 스턴 효과를 유발시킨다. 데미지는 방패 무게 및 제련도, 시전자의 스탯에 영향을 받는다. 스턴 성공율은 시전자의 DEX 및 직업 레벨에 의해 상승한다.  ^000000",
-		"[Level 1] : ^777777 스턴 확률 38% ^000000",
-		"[Level 2] : ^777777 스턴 확률 46%   ^000000",
-		"[Level 3] : ^777777 스턴 확률 54%   ^000000",
-		"[Level 4] : ^777777 스턴 확률 62%   ^000000",
-		"[Level 5] : ^777777 스턴 확률 70%   ^000000",
+		"Shield Press",
+		"Prerequisites:^777777 Shield Charge (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Shield exclusive skill. Strikes a single target with a shield and stuns the target. The damage is influenced by shield weight, refine rate, and the user's status.^000000",
+		"[LV 1]^777777 Stun Chance 70%^000000",
+		"[LV 2]^777777 Stun Chance 75%^000000",
+		"[LV 3]^777777 Stun Chance 80%^000000",
+		"[LV 4]^777777 Stun Chance 85%^000000",
+		"[LV 5]^777777 Stun Chance 90%^000000",
 	},
 
 	[SKID.LG_REFLECTDAMAGE] = {
 
-		"리플렉트 데미지",
-		"MAX Lv : 5",
-		"^777777습득조건 : 리플렉트 실드 5 ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  방패 장비시 사용 가능. 자신의 받은 물리/ 마법 데미지의 일부를 자신의 주변에 되돌린다. 반사되는 데미지의 최대량은 자신의 MHP와 같으며 베이스 레벨에 따라 1.5배까지 상승한다. 스킬 사용시 매 초당 일정량의 SP 를 소모한다. 이 스킬은 리플렉트 실드와 함께 사용할 수 없다.  ^000000",
-		"[Level 1] : ^777777 데미지의 20%를 반사 / 지속시간 300 초 ^000000",
-		"[Level 2] : ^777777 데미지의 25%를 반사 / 지속시간 300 초 ^000000",
-		"[Level 3] : ^777777 데미지의 30%를 반사 / 지속시간 300 초 ^000000",
-		"[Level 4] : ^777777 데미지의 35%를 반사 / 지속시간 300 초 ^000000",
-		"[Level 5] : ^777777 데미지의 40%를 반사 / 지속시간 300 초 ^000000",
+		"Reflect Damage",
+		"Prerequisites:^777777 Reflect Shield (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 5 minutes^000000",
+		"Effect:^777777 Shield exclusive skill. When receiving physical or magical damage part of the damage is returned in a radius around the user. While active, this skill drains SP every second. This skill cannot be used with Shield Reflect.^000000",
+		"[LV 1]^777777 Damage Reflect 20%^000000",
+		"[LV 2]^777777 Damage Reflect 25%^000000",
+		"[LV 3]^777777 Damage Reflect 30%^000000",
+		"[LV 4]^777777 Damage Reflect 35%^000000",
+		"[LV 5]^777777 Damage Reflect 40%^000000",
 	},
 
 	[SKID.LG_PINPOINTATTACK] = {
 
-		"핀 포인트 어택",
-		"MAX Lv : 5",
-		"^777777습득조건 : 배니싱 포인트 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  창 전용 스킬. 일정 거리를 빠르게 돌진하여, 목표 대상 1 체의 급소를 노려서 공격. 스킬 레벨에 따라 다양한 효과를 발생시킨다. 시전자의 AGI 에 의해 데미지가 상승한다. 100% 크리티컬 데미지.  ^000000",
-		"[Level 1] : ^777777 공격력 100% / 출혈 효과 발생 ^000000",
-		"[Level 2] : ^777777 공격력 200% / 투구 파괴 발생 ^000000",
-		"[Level 3] : ^777777 공격력 300% / 방패 파괴 발생 ^000000",
-		"[Level 4] : ^777777 공격력 400% / 갑옷 파괴 발생 ^000000",
-		"[Level 5] : ^777777 공격력 500% / 무기 파괴 발생 ^000000",
+		"Pinpoint Attack",
+		"Prerequisites:^777777 Banishing Point (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Spear exclusive skill. Rush a target quickly from a distance, striking a target at a vital point. The skill level causes different effects. The user's AGI stat influences the damage. Deals critical damage 100% of the time.^000000",
+		"[LV 1]^777777 100% ATK, Causes Bleeding^000000",
+		"[LV 2]^777777 200% ATK, Remove Spirit Spheres^000000",
+		"[LV 3]^777777 300% ATK, Break Shield^000000",
+		"[LV 4]^777777 400% ATK, Break Armor^000000",
+		"[LV 5]^777777 500% ATK, Break Weapon^000000",
 	},
 
 	[SKID.LG_FORCEOFVANGUARD] = {
 
-		"포스 오브 뱅가드",
-		"MAX Lv : 5",
-		"^777777습득조건 : 로열 가드 기본 ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  스킬 사용 후 MHP와 방어력이 상승하며 데미지를 입을 때 마다 분노 카운터가 쌓인다. 이 분노 카운터는 레이지 버스트 어택에 사용된다. 스킬을 한 번 더 사용하면 포스 오브 뱅가드 상태가 해제된다. 스킬 효과 중에는 지속적으로 SP 가 소모된다.  ^000000",
-		"[Level 1] : ^777777 데미지를 입을 때 20% 확률 / 최대 분노 카운터 7 개 ^000000",
-		"[Level 2] : ^777777 데미지를 입을 때 32% 확률 / 최대 분노 카운터 9 개  ^000000",
-		"[Level 3] : ^777777 데미지를 입을 때 44% 확률 / 최대 분노 카운터 11 개  ^000000",
-		"[Level 4] : ^777777 데미지를 입을 때 56% 확률 / 최대 분노 카운터 13 개  ^000000",
-		"[Level 5] : ^777777 데미지를 입을 때 68% 확률 / 최대 분노 카운터 15 개  ^000000",
+		"Force of Vanguard",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 While the skill is active, when you take physical damage you increase your rage counter. The rage counters can be used for the skill Rage Burst. When you use Rage Burst, Force of Vanguard cancels. While the skill is active, it consumes SP over time.^000000",
+		"[LV 1]^777777 Chance to get Rage 10%. Max Counter Rage Counters 7^000000",
+		"[LV 2]^777777 Chance to get Rage 12%. Max Counter Rage Counters 9^000000",
+		"[LV 3]^777777 Chance to get Rage 14%. Max Counter Rage Counters 11^000000",
+		"[LV 4]^777777 Chance to get Rage 16%. Max Counter Rage Counters 13^000000",
+		"[LV 5]^777777 Chance to get Rage 18%. Max Counter Rage Counters 15^000000",
 	},
 
 	[SKID.LG_RAGEBURST] = {
 
-		"레이지 버스트 어택",
-		"MAX Lv : 1",
-		"^777777습득조건 : 포스 오브 뱅가드 1 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  포스 오브 뱅가드로 모인 분노 카운터 전부를 방출해 대상 1 체에게 큰 데미지를 입힌다. 기 구체의 숫자가 많을 수록 데미지가 상승한다. ^000000",
+		"Rage Burst",
+		"Prerequisites:^777777 Force of Vanguard (L1)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active / Attack^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Uses all rage counters from Force of Vanguard to deal large damage to a single target. The damage is increased by the number of rage counters you have.^000000",
 	},
 
 	[SKID.LG_SHIELDSPELL] = {
 
-		"실드 스펠",
-		"MAX Lv : 3",
-		"^777777습득조건 : 실드 프레스 3 / 어스 드라이브 2  ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  방패 장비시 사용 가능. 장비하고 있는 방패의 방어력, 마법방어력, 제련도에 따라 다양한 효과가 발동된다. ^000000",
-		"[Level 1] : ^777777 방패 방어도에 따른 마법 발동 ^000000",
-		"[Level 2] : ^777777 방패 마법 방어도에 따른 마법 발동 ^000000",
-		"[Level 3] : ^777777 방패 제련도에 따른 마법 발동 ^000000",
+		"Shield Spell",
+		"Prerequisites:^777777 Shield Press (L3), Earth Drive (L2)^000000",
+		"Max Level:^777777 3^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Shield exclusive skill. Evokes magic specific abilities based on your shield defense, magic defense, and refine rate.^000000",
+		"[LV 1]^777777 Evokes magic based on shield defense^000000",
+		"[LV 2]^777777 Evokes magic based on shield magic defense^000000",
+		"[LV 3]^777777 Evokes magic based on shield upgrade level^000000",
 	},
 
 	[SKID.LG_EXEEDBREAK] = {
 
-		"익시드 브레이크",
-		"MAX Lv : 5",
-		"^777777습득조건 : 배니싱 포인트 3  ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  힘을 모아서 최초의 일격을 보다 더 강하게 때린다. 시전자의 직업 레벨 및 무기레벨, 무게에 영향을 받아 데미지가 상승한다. 근접 물리 공격 후 즉시 효과가 해제되며, 스킬 데미지에는 영향을 미치지 않는다. 효과 지속 중에는 이동속도가 감소한다. ^000000",
-		"[Level 1] : ^777777 공격력 150% / 이동속도 50% 감소 ^000000",
-		"[Level 2] : ^777777 공격력 300% / 이동속도 40% 감소 ^000000",
-		"[Level 3] : ^777777 공격력 450% / 이동속도 50% 감소 ^000000",
-		"[Level 4] : ^777777 공격력 600% / 이동속도 20% 감소 ^000000",
-		"[Level 5] : ^777777 공격력 750% / 이동속도 10% 감소 ^000000",
+		"Exceed Break",
+		"Prerequisites:^777777 Banishing Point (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Collects your strength, so your next attack deals large damage. The user's stats influence the damage done. If you receive a short range physical attack the skill cancels. The skill doesn't influence skill damage. While active your movement speed is slowed.^000000",
+		"[LV 1]^777777 150% ATK, Movement Speed Decreased 50%^000000",
+		"[LV 2]^777777 300% ATK, Movement Speed Decreased 40%^000000",
+		"[LV 3]^777777 450% ATK, Movement Speed Decreased 30%^000000",
+		"[LV 4]^777777 600% ATK, Movement Speed Decreased 20%^000000",
+		"[LV 5]^777777 750% ATK, Movement Speed Decreased 10%^000000",
 	},
 
 	[SKID.LG_OVERBRAND] = {
 
-		"오버 브랜드",
-		"MAX Lv : 5",
-		"^777777습득조건 : 문 슬래셔 3 / 핀 포인트 어택 1  ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  창 전용 스킬. 피의 십자가를 그리며 연속으로 거리 6 셀까지의 찌르기와 좌우 6 셀까지의 휘두르기 공격을  한다. 휘두르기 데미지를 입은 대상은 넉 백 되며, 넉 백 중 벽 등에 부딫히면 추가 데미지를 입는다. 찌르기 공격은 스피어 퀴큰 레벨에, 휘두르기 공격은 시전자의 STR 및 DEX 에 영향을 받아 데미지가 상승한다. ^000000",
-		"[Level 1] : ^777777 찌르기 공격력 400% / 휘두르기 공격력 300%  ^000000",
-		"[Level 2] : ^777777 찌르기 공격력 800% / 휘두르기 공격력 600%  ^000000",
-		"[Level 3] : ^777777 찌르기 공격력 1200% / 휘두르기 공격력 900%  ^000000",
-		"[Level 4] : ^777777 찌르기 공격력 1600% / 휘두르기 공격력 1200%  ^000000",
-		"[Level 5] : ^777777 찌르기 공격력 2000% / 휘두르기 공격력 1500%  ^000000",
+		"Over Brand",
+		"Prerequisites:^777777 Moon Slasher (L3), Pinpoint Attack (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Spear exclusive skill. Draws a cross which deals area damage with a range of up to 6 cells and width of 6 cells. Enemies that receive damage are knocked back. If those knocked back are pushed into a wall, they take additional damage. The level of Spear Quicken you have increases the damage.^000000",
+		"[LV 1]^777777 100% ATK, Brandish Damage 100%^000000",
+		"[LV 2]^777777 200% ATK, Brandish Damage 200%^000000",
+		"[LV 3]^777777 300% ATK, Brandish Damage 300%^000000",
+		"[LV 4]^777777 400% ATK, Brandish Damage 400%^000000",
+		"[LV 5]^777777 500% ATK, Brandish Damage 500%^000000",
 	},
 
 	[SKID.LG_PRESTIGE] = {
 
-		"프레스티지",
-		"MAX Lv : 5",
-		"^777777습득조건 : 트램플 3  ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  특권. 일시적으로 마법 회피율을 갖게되며, 방어력이 상승한다. 시전자의 스탯에 따라 마법 회피율에 영향을 받으며, 디펜더 스킬레벨에 따라 방어력 상승에 영향을 받는다. 마법 회피에 성공하면 마법 데미지를 전혀 입지 않게 된다.^000000",
-		"[Level 1] : ^777777 지속시간 30 초  ^000000",
-		"[Level 2] : ^777777 지속시간 45 초   ^000000",
-		"[Level 3] : ^777777 지속시간 60 초   ^000000",
-		"[Level 4] : ^777777 지속시간 75 초   ^000000",
-		"[Level 5] : ^777777 지속시간 90 초   ^000000",
+		"Prestige",
+		"Prerequisites:^777777 Trample (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Adds a chance to evade magic damage, and increases physical defense. The user's stats increases the evasion chance, and the user's Defending Aura level increases the defense boost. When successfully evading magic, you completely negate all damage.^000000",
+		"[LV 1]^777777 Duration 30 sec^000000",
+		"[LV 2]^777777 Duration 45 sec^000000",
+		"[LV 3]^777777 Duration 60 sec^000000",
+		"[LV 4]^777777 Duration 75 sec^000000",
+		"[LV 5]^777777 Duration 90 sec^000000",
 	},
 
 	[SKID.LG_BANDING] = {
 
-		"밴딩",
-		"MAX Lv : 5",
-		"^777777습득조건 : 핀 포인트 어택 3 / 레이지 버스트 어택 1  ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  연합. 파티원에 같은 로열 가드가 각각 밴딩을 사용하여 일정 거리 내에 있다면, 공격력 과 방어력이 상승하며, HP를 공유하게 된다. 스킬 지속시간 중 지속적으로 SP 를 소모하며, 스킬을 다시 한 번 사용하면 해제된다. 파티원의 숫자가 많을 수록 효과가 상승한다. 밴딩 상태 중에 어떤 목표가 로열 가드에게 접근하면, 로열 가드가 목표를 \"위압\" 하여 목표의 이동 속도를 감소시킨다. 로열 가드의 기본 레벨 및 밴딩 레벨이 상승할 수록 대상이 \"위압\" 에 걸릴 확률과 지속시간이 상승한다.   ^000000",
+		"Banding",
+		"Prerequisites:^777777 Pinpoint Attack (L3), Rage Burst Attack (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 When Royal Guards in party have Banding activated, if you are close enough together, your attack increases, defense increases, and share HP. While the skill is active, it continually uses SP. Reusing the skill will cancel the skill. The number of party members increases the effectiveness of the skill.^000000",
 	},
 
 	[SKID.LG_MOONSLASHER] = {
 
-		"문 슬래셔",
-		"MAX Lv : 5",
-		"^777777습득조건 : 창 수련 1  ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  자신을 중심으로 반경 3 셀 내의 모든 대상에게 데미지와 함께 강제로 앉기 상태로 만든다. 몬스터의 경우는 1~3 초 간 경직된다. 오버 브랜드 스킬레벨에 따라 데미지가 상승한다. ^000000",
-		"[Level 1] : ^777777 공격력 120% / 성공율 40%  ^000000",
-		"[Level 2] : ^777777 공격력 240% / 성공율 48% ^000000",
-		"[Level 3] : ^777777 공격력 360% / 성공율 56% ^000000",
-		"[Level 4] : ^777777 공격력 480% / 성공율 64% ^000000",
-		"[Level 5] : ^777777 공격력 600% / 성공율 72% ^000000",
+		"Moon Slasher",
+		"Prerequisites:^777777 Spear Quicken (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Deals damage to all enemies in a 3 cell radius around you, which forces the enemies hit to sit. When used against monsters it stops them from moving for 1~3 seconds. Over Brand skill level increases the damage dealt.^000000",
+		"[LV 1]^777777 50% ATK, Success Rate 40%^000000",
+		"[LV 2]^777777 100% ATK, Success Rate 48%^000000",
+		"[LV 3]^777777 150% ATK, Success Rate 56%^000000",
+		"[LV 4]^777777 200% ATK, Success Rate 64%^000000",
+		"[LV 5]^777777 250% ATK, Success Rate 72%^000000",
 	},
 
 	[SKID.LG_RAYOFGENESIS] = {
 
-		"레이 오브 제네시스",
-		"MAX Lv : 5",
-		"^777777습득조건 : 그랜드 크로스 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  하늘로 부터 신의 사자의 분노가 떨어진다. 반경 5 셀 내의 모든 대상은 성속성 데미지를 입는다. 스킬 사용시 2 명 이상의 로열 가드가 밴딩 상태이거나 혹은 1 인 일 때라도 인스피레이션 스킬 발동 중이라면 사용 가능.  밴딩 상태의 로열 가드가 많을 수록 추가적 마법 데미지가 발생한다. 대상이 언데드 혹은 악마형일 경우, 50% 확률로 암흑에 걸린다.^000000",
-		"[Level 1] : ^777777 공격력 물리 600% 마법 300%  / HP 3% 소모  ^000000",
-		"[Level 2] : ^777777 공격력 물리 900% 마법 600% / HP 6% 소모 ^000000",
-		"[Level 3] : ^777777 공격력 물리 1200% 마법 900% / HP 9% 소모 ^000000",
-		"[Level 4] : ^777777 공격력 물리 1500% 마법 1200% / HP 12% 소모 ^000000",
-		"[Level 5] : ^777777 공격력 물리 1800% 마법 1500% / HP 15% 소모 ^000000",
+		"Ray of Genesis",
+		"Prerequisites:^777777 Grand Cross (L10)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Calls down the wrath of God's messenger from the sky. Deals holy element damage to all targets in a 5 cell radius. Requires two Royal Guards with Banding activated. The damage is increased by the number of banding Royal Guards. When used on undead or demon monsters, it has a 50% chance of blinding.^000000",
+		"[LV 1]^777777 400% ATK, 100% MATK, HP Cost 5%^000000",
+		"[LV 2]^777777 500% ATK, 200% MATK, HP Cost 10%^000000",
+		"[LV 3]^777777 600% ATK, 300% MATK, HP Cost 15%^000000",
+		"[LV 4]^777777 700% ATK, 400% MATK, HP Cost 20%^000000",
+		"[LV 5]^777777 800% ATK, 500% MATK, HP Cost 25%^000000",
 	},
 
 	[SKID.LG_PIETY] = {
 
-		"파이어티",
-		"MAX Lv : 5",
-		"^777777습득조건 : 믿음 3 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777  신앙심. 자신 혹은 파티원 1 명과 그 주변 파티원의 갑옷 속성에 성속성을 부여한다. 스킬 사용시 성수 2 개를 소모한다.^000000",
-		"[Level 1] : ^777777 지속시간 60 초  ^000000",
-		"[Level 2] : ^777777 지속시간 80 초   ^000000",
-		"[Level 3] : ^777777 지속시간 100 초   ^000000",
-		"[Level 4] : ^777777 지속시간 120 초   ^000000",
-		"[Level 5] : ^777777 지속시간 140 초   ^000000",
+		"Piety",
+		"Prerequisites:^777777 Faith (L10)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Endows a target party member's armor and that of nearby party members with Holy element. Consumes 2 Holy Waters. Can be used on yourself.^000000",
+		"[LV 1]^777777 Duration 60 sec^000000",
+		"[LV 2]^777777 Duration 80 sec^000000",
+		"[LV 3]^777777 Duration 100 sec^000000",
+		"[LV 4]^777777 Duration 120 sec^000000",
+		"[LV 5]^777777 Duration 140 sec^000000",
 	},
 
 	[SKID.LG_EARTHDRIVE] = {
 
-		"어스 드라이브",
-		"MAX Lv : 5",
-		"^777777습득조건 : 리플렉트 데미지 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  방패를 크게 휘둘러서 자신 주변의 모든 적에게 [지속성] 데미지를 입힌다. 이 공격에 데미지를 입은 적은 방어력 및 공속이 25% 감소하며, 지면 마법을 제거하고 하이딩 상태의 적도 공격 가능하다. 스킬레벨이 오를 수록 공속 및 방어력 감소 지속시간이 늘어난다. 데미지는 방패 무게에 영향을 받아 상승한다.  낮은 확률로 방패가 파괴된다.^000000",
-		"[Level 1] : ^777777 효과범위 3 x 3 셀 / 공속 및 방어력 감소 효과 지속시간 3 초 ^000000",
-		"[Level 2] : ^777777 효과범위 3 x 3 셀 / 공속 및 방어력 감소 효과 지속시간 6 초 ^000000",
-		"[Level 3] : ^777777 효과범위 5 x 5 셀 / 공속 및 방어력 감소 효과 지속시간 9 초 ^000000",
-		"[Level 4] : ^777777 효과범위 5 x 5 셀 / 공속 및 방어력 감소 효과 지속시간 12 초 ^000000",
-		"[Level 5] : ^777777 효과범위 7 x 7 셀 / 공속 및 방어력 감소 효과 지속시간 15 초 ^000000",
+		"Earth Drive",
+		"Prerequisites:^777777 Reflect Damage (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Brandishes your shield, dealing earth element damage to enemies in an area. Enemies which take damage have their defense and attack speed lowered by 25%. Skill level increases the duration of the attack speed and defense reduction. Damage is influenced by your shield weight.^000000",
+		"[LV 1]^777777 200% ATK, Effect Time 3 sec^000000",
+		"[LV 2]^777777 300% ATK, Effect Time 6 sec^000000",
+		"[LV 3]^777777 400% ATK, Effect Time 9 sec^000000",
+		"[LV 4]^777777 500% ATK, Effect Time 12 sec^000000",
+		"[LV 5]^777777 600% ATK, Effect Time 15 sec^000000",
 	},
 
 	[SKID.LG_HESPERUSLIT] = {
 
-		"헤스페루스 리트",
-		"MAX Lv : 5",
-		"^777777습득조건 : 프레스티지 3 / 밴딩 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  3 명 이상의 로열 가드가 밴딩 상태일 때, 혹은 1 인이라도 인스피레이션 스킬 발동 중 사용 가능. 밴딩한 로열 가드 전원이 대상 1 체에게 합동 공격을 가한다. 밴딩한 로열 가드의 숫자에 비례해 공격 횟수가 증가하며, 추가 효과가 달라진다. 스킬 사용 시, 밴딩 상태인 다른 로열 가드 전원도 시전자가 소모한 SP 의 절반의 SP 를 소모한다.  ^000000",
-		"[Level 1] : ^777777 공격력 120% ^000000",
-		"[Level 2] : ^777777 공격력 240% ^000000",
-		"[Level 3] : ^777777 공격력 360% ^000000",
-		"[Level 4] : ^777777 공격력 480% ^000000",
-		"[Level 5] : ^777777 공격력 600% ^000000",
+		"Hesperus Lit",
+		"Prerequisites:^777777 Prestige (L3), Banding (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Usable by 3 Royal Guards in Banding. All Royal Guards in Banding strike a target together at once. The number of hits is increased by the number of banding Royal Guards and changes the effect. When using the skill, half of the SP is consumed by other Royal Guards in Banding.^000000",
+		"[LV 1]^777777 40% ATK^000000",
+		"[LV 2]^777777 80% ATK^000000",
+		"[LV 3]^777777 120% ATK^000000",
+		"[LV 4]^777777 160% ATK^000000",
+		"[LV 5]^777777 200% ATK^000000",
 	},
 
 	[SKID.LG_INSPIRATION] = {
 
-		"인스피레이션",
-		"MAX Lv : 5",
-		"^777777습득조건 : 실드 스펠 3 / 레이 오브 제네시스 4 / 파이어티 5 ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  성령 감응. 성령을 자신의 몸에 받아들여 일시적으로 명중율 및 스탯이 상승하며, 공격력과 MHP가 증가된다. 스킬 발동 시에는 모든 버프 및 상태이상이 해제되고, 지속 시간 중에는 특정의 버프나 상태이상을 전부 무효화하는 오오라에 보호된다. 그러나 스킬 지속시간 동안 지속적으로 HP 와 SP 가 감소된다, 또한 공격시 자신이 입힌 데미지의 일부를 스스로도 입게 된다. 지속시간이 끝나거나 SP 가 0 이 되면 스킬은 자동으로 해제되며, HP 감소 효과로 인하여 자신이 사망할 수도 있다. 스킬 사용시 0.1% 의 경험치가 하락하며, 이 경험치 소실은 어떤 효과로도 막을 수 없다. 이 스킬은 밴딩 및 프레스티지와 함께 사용 할 수 없다. ^000000",
-		"[Level 1] : ^777777 지속시간 30 초  ^000000",
-		"[Level 2] : ^777777 지속시간 45 초   ^000000",
-		"[Level 3] : ^777777 지속시간 60 초   ^000000",
-		"[Level 4] : ^777777 지속시간 75 초   ^000000",
-		"[Level 5] : ^777777 지속시간 90 초   ^000000",
+		"Inspiration",
+		"Prerequisites:^777777 Shield Spell (L3), Ray of Genesis (L1), Piety (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 When you use Inspiration, your accuracy rate, stats, attack power and Max HP increase. While the skill is active, your HP and SP continually decrease, and you will receive some of the damage you deal back. If your SP reaches 0 the skill will automatically cancel, and if your HP reaches 0, you die. Using the skill costs 1% of your experience, and you cannot prevent the experience loss. While this skill is active, you cannot use Banding or Prestige.^000000",
+		"[LV 1]^777777 Duration 30 sec^000000",
+		"[LV 2]^777777 Duration 45 sec^000000",
+		"[LV 3]^777777 Duration 60 sec^000000",
+		"[LV 4]^777777 Duration 75 sec^000000",
+		"[LV 5]^777777 Duration 90 sec^000000",
 	},
 
 	[SKID.SR_DRAGONCOMBO] = {
 
-		"쌍룡각(雙龍脚)",
-		"MAX Lv : 10",
-		"^777777습득조건 : 육합권 5^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  목표 1체에게 2회 빠른 돌려차기로 데미지를 입힌다.  쌍룡각에서 대전 붕추로 연계되는 스킬을 사용할 수 있다. ^000000",
-		"[Level 1] : ^777777 공격력 140% / 스턴 확률 2% ^000000",
-		"[Level 2] : ^777777 공격력 180% / 스턴 확률 3% ^000000",
-		"[Level 3] : ^777777 공격력 220% / 스턴 확률 4%^000000",
-		"[Level 4] : ^777777 공격력 260% / 스턴 확률 5%^000000",
-		"[Level 5] : ^777777 공격력 300% / 스턴 확률 6%^000000",
-		"[Level 6] : ^777777 공격력 340% / 스턴 확률 7% ^000000",
-		"[Level 7] : ^777777 공격력 380% / 스턴 확률 8%^000000",
-		"[Level 8] : ^777777 공격력 420% / 스턴 확률 9%^000000",
-		"[Level 9] : ^777777 공격력 460% / 스턴 확률 10%^000000",
-		"[Level 10] : ^777777 공격력 500% / 스턴 확률 11% ^000000",
+		"Dragon Combo (Twin Dragon)",
+		"Prerequisites:^777777 Triple Attack (L5)^000000",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Rapidly strikes a single target with two blows. The skill Fallen Empire can be used in combination with Dragon Combo.^000000",
+		"[LV 1]^777777 200% ATK, Stun Chance 2%^000000",
+		"[LV 2]^777777 220% ATK, Stun Chance 3%^000000",
+		"[LV 3]^777777 240% ATK, Stun Chance 4%^000000",
+		"[LV 4]^777777 260% ATK, Stun Chance 5%^000000",
+		"[LV 5]^777777 280% ATK, Stun Chance 6%^000000",
+		"[LV 6]^777777 300% ATK, Stun Chance 7%^000000",
+		"[LV 7]^777777 320% ATK, Stun Chance 8%^000000",
+		"[LV 8]^777777 340% ATK, Stun Chance 9%^000000",
+		"[LV 9]^777777 360% ATK, Stun Chance 10%^000000",
+		"[LV 10]^777777 380% ATK, Stun Chance 11%^000000",
 	},
 
 	[SKID.SR_SKYNETBLOW] = {
 
-		"천라지망(天羅地網)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 쌍룡각 3^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  제자리에서 회전하면서 폭풍같은 연타를 내어, 주변의 모든 적에게 데미지를 입히면서 3 셀 넉 백 시킨다. 시전자의 AGI 가 높을 수록 더 큰 데미지를 입힌다.  ^000000",
-		"[Level 1] : ^777777 공격력 80%   ^000000",
-		"[Level 2] : ^777777 공격력 160%  ^000000",
-		"[Level 3] : ^777777 공격력 240%  ^000000",
-		"[Level 4] : ^777777 공격력 320%  ^000000",
-		"[Level 5] : ^777777 공격력 400%  ^000000",
+		"Sky Net Blow",
+		"Prerequisites:^777777 Dragon Combo (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 A spinning blow that kicks up a storm, dealing damage to all targets in an area and throwing them back 3 cells. When using the skill, it consumes 1 spirit sphere. The user's AGI stat increases the damage.^000000",
+		"[LV 1]^777777 200% ATK^000000",
+		"[LV 2]^777777 250% ATK^000000",
+		"[LV 3]^777777 300% ATK^000000",
+		"[LV 4]^777777 350% ATK^000000",
+		"[LV 5]^777777 400% ATK^000000",
 	},
 
 	[SKID.SR_EARTHSHAKER] = {
 
-		"지뢰진(地雷震)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 쌍룡각 1 / 주박진 1^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 지면에 충격파를 내보내어 자신 주변의 모든 적에게 스턴 상태이상 및 데미지를 입히며, 숨어있는 적에게는 더 큰 데미지를 입힌다. 하이딩 / 클로킹 등으로 숨어있는 대상은 바로 그 모습이 드러나게 된다. 스킬 사용 시 기 구체 1 개를 소모한다.  ^000000",
-		"[Level 1] : ^777777 범위 3 x 3  셀 / 공격력 100%  / 300% ^000000",
-		"[Level 2] : ^777777 범위 5 x 5  셀 /공격력 150%  / 450% ^000000",
-		"[Level 3] : ^777777 범위 7 x 7  셀 /공격력 200%  / 600%^000000",
-		"[Level 4] : ^777777 범위 9 x 9  셀 /공격력 250%  / 750% ^000000",
-		"[Level 5] : ^777777 범위 11 x 11  셀 /공격력 300%  / 900% ^000000",
+		"Earth Shaker",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Sends a shockwave through the ground which damages all targets in a 11 x 11 area, dealing additional damage against hidden targets. Targets in Hiding, Cloaking, etc will be revealed when hit. Consumes 1 spirit sphere.^000000",
+		"[LV 1]^777777 Normal/on hide target 100%/300% ATK^000000",
+		"[LV 2]^777777 Normal/on hide target 150%/450% ATK^000000",
+		"[LV 3]^777777 Normal/on hide target 200%/600% ATK^000000",
+		"[LV 4]^777777 Normal/on hide target 250%/750% ATK^000000",
+		"[LV 5]^777777 Normal/on hide target 300%/900% ATK^000000",
 	},
 
 	[SKID.SR_FALLENEMPIRE] = {
 
-		"대전붕추(大纏崩墜)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 쌍룡각 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  어깨와 주먹을 이용해 목표를 띄워 올려 큰 데미지를 주는 공격. 대상의 무게가 무거울 수록 데미지가 증가한다. 데미지를 입은 적은 잠시동안 아무 행동도 못하고 경직된다. 쌍룡각 이후에 연계로만 사용 가능하다. 대전 붕추 이후 호포 / 나찰파황격을 연계로 사용 가능하다. 스킬 사용시 기 구체 2 개가 소모된다.^000000",
-		"[Level 1] : ^777777 공격력 250% / 경직시간 0.5 초 ^000000",
-		"[Level 2] : ^777777 공격력 400% / 경직시간 1 초 ^000000",
-		"[Level 3] : ^777777 공격력 550% / 경직시간 1.5 초 ^000000",
-		"[Level 4] : ^777777 공격력 700% / 경직시간 2 초 ^000000",
-		"[Level 5] : ^777777 공격력 850% / 경직시간 2.5 초 ^000000",
+		"Fallen Empire",
+		"Prerequisites:^777777 Dragon Combo (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Use your shoulders and fists to do an upwards blow to deal large damage to a single enemy. The enemy takes additional damage if the target is heavier. After receiving damage the target is unable to move for a short period of time. Fallen Empire can only be used after Dragon Combo. After fallen empire, Tiger Cannon and Gate of Hell can be used.^000000",
+		"[LV 1]^777777 250% ATK, Immobility Time 0.5s^000000",
+		"[LV 2]^777777 400% ATK, Immobility Time 1s^000000",
+		"[LV 3]^777777 550% ATK, Immobility Time 1.5s^000000",
+		"[LV 4]^777777 700% ATK, Immobility Time 2s^000000",
+		"[LV 5]^777777 850% ATK, Immobility Time 2.5s^000000",
 	},
 
 	[SKID.SR_TIGERCANNON] = {
 
-		"호포(號砲)",
-		"MAX Lv : 10",
-		"^777777습득조건 : 대전붕추 3^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  자신의 HP 및 SP 를 일정 소모하여 목표 대상 1 체 및 주변 대상의 HP / SP 양쪽에 데미지를 입힌다. 많은 HP 와 SP 를 소모할 수록 더 강한 데미지를 입힌다. 스킬 사용시 기 구체 2 개를 소모한다. 폭기 상태일 때만 발동된다. 대전붕추 이후 연계로 사용 시 데미지가 상승한다. ^000000",
-		"[Level 1] : ^777777 범위 3 x 3  셀 / 자신의 HP 소모 12% / SP 소모 6% ^000000",
-		"[Level 2] : ^777777 범위 3 x 3  셀 / 자신의 HP 소모 14% / SP 소모 7% ^000000",
-		"[Level 3] : ^777777 범위 3 x 3  셀 / 자신의 HP 소모 16% / SP 소모 8% ^000000",
-		"[Level 4] : ^777777 범위 3 x 3  셀 / 자신의 HP 소모 18% / SP 소모 9% ^000000",
-		"[Level 5] : ^777777 범위 3 x 3  셀 / 자신의 HP 소모 20% / SP 소모 10% ^000000",
-		"[Level 6] : ^777777 범위 5 x 5  셀 / 자신의 HP 소모 22% / SP 소모 11% ^000000",
-		"[Level 7] : ^777777 범위 5 x 5  셀 / 자신의 HP 소모 24% / SP 소모 12% ^000000",
-		"[Level 8] : ^777777 범위 5 x 5  셀 / 자신의 HP 소모 26% / SP 소모 13% ^000000",
-		"[Level 9] : ^777777 범위 5 x 5  셀 / 자신의 HP 소모 28% / SP 소모 14% ^000000",
-		"[Level 10] : ^777777 범위 5 x 5  셀 / 자신의 HP 소모 30% / SP 소모 15%  ^000000",
+		"Tiger Cannon",
+		"Prerequisites:^777777 Fallen Empire (L5)^000000",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Consumes your own HP and SP to deal damage ot the target's HP and SP. The more HP and SP used, the more damage it does. Consumes 2 spirit spheres. Can only be used in Fury state. When used after Fallen Empire, it does additional damage.^000000",
+		"[LV 1]^777777 User's HP/SP Used 2%/1%^000000",
+		"[LV 2]^777777 User's HP/SP Used 4%/2%^000000",
+		"[LV 3]^777777 User's HP/SP Used 6%/3%^000000",
+		"[LV 4]^777777 User's HP/SP Used 8%/4%^000000",
+		"[LV 5]^777777 User's HP/SP Used 10%/5%^000000",
+		"[LV 6]^777777 User's HP/SP Used 12%/6%^000000",
+		"[LV 7]^777777 User's HP/SP Used 14%/7%^000000",
+		"[LV 8]^777777 User's HP/SP Used 16%/8%^000000",
+		"[LV 9]^777777 User's HP/SP Used 18%/9%^000000",
+		"[LV 10]^777777 User's HP/SP Used 20%/10%^000000",
 	},
 
 	[SKID.SR_RAMPAGEBLASTER] = {
 
-		"폭기산탄(爆氣散彈)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 지뢰진 2 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 가지고 있는 모든 기 구체를 소모하여, 자신 주변 범위 7 x 7 셀 내의 모든 적에게 데미지를 입힌다.   기 구체 숫자가 많을 수록 더 큰 데미지를 입힐 수 있다. 폭기 상태에서 사용하면 데미지가 더욱 상승한다.  ^000000",
+		"Rampage Blaster (Explosive Spirit Shot)",
+		"Prerequisites:^777777 Earthshaker (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Consumes all of your spirit spheres and deals damage to all enemies in a 7 x 7 cell radius. The number of spirit spheres increases your damage. The skill deals increased damage if you are in fury state.^000000",
+		"[LV 1]^777777 N?Spirit Spheres x 50% ATK^000000",
+		"[LV 2]^777777 N?Spirit Spheres x 100% ATK^000000",
+		"[LV 3]^777777 N?Spirit Spheres x 150% ATK^000000",
+		"[LV 4]^777777 N?Spirit Spheres x 200% ATK^000000",
+		"[LV 5]^777777 N?Spirit Spheres x 250% ATK^000000",
 	},
 
 	[SKID.SR_CRESCENTELBOW] = {
 
-		"파쇄주(破碎柱)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 천라지망 5  ^000000",
-		"계열 : ^777777  액티브 / 반격 ^000000",
-		"내용 : ^777777  상대의 공격에 맞춰 반격을 시도하여, 대상을 넉 백 시킴과 동시에 대상에게 데미지를 입히며, 자신도 데미지의 일부를 입는다. 대상의 HP가 높을 수록 더 큰 데미지를 입힌다. 스킬 발동 시, 기 구체를 2 개 소모한다. 이 스킬은 보스 몬스터에게 통하지 않는다.  ^000000",
-		"[Level 1] : ^777777 발동 확률 95% ^000000",
-		"[Level 2] : ^777777 발동 확률 96%^000000",
-		"[Level 3] : ^777777 발동 확률 97% ^000000",
-		"[Level 4] : ^777777 발동 확률 98% ^000000",
-		"[Level 5] : ^777777 발동 확률 99% ^000000",
+		"Crescent Elbow",
+		"Prerequisites:^777777 Sky Net Blow (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Counter^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Attempt to counter an enemies attack, knocking back the opponent and dealing damage, though you'll still take damage. The higher the HP of the target, the more damage it does. The skill consumes 2 spirit spheres, and cannot be used on boss monsters.^000000",
+		"[LV 1]^777777 Probability 24%^000000",
+		"[LV 2]^777777 Probability 27%^000000",
+		"[LV 3]^777777 Probability 30%^000000",
+		"[LV 4]^777777 Probability 33%^000000",
+		"[LV 5]^777777 Probability 36%^000000",
 	},
 
 	[SKID.SR_CURSEDCIRCLE] = {
 
-		"주박진(呪縛陣)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 진검백파도 2 / 점혈 - 묵 2 ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  시전자를 중심으로 범위 내의 모든 적을 일시적으로 이동 / 공격 불가 상태로 만들며, 이 효과로 붙잡힌 적은 효과 지속시간 동안 침묵에 걸리게 된다. 시전자는 주박진 효과 상태에서 다른 스킬을 사용할 수 있으며, 다른 스킬을 사용하면 주박진 효과는 즉시 해제된다. 스킬 사용시 기 구체를 1 개 소모한다. ^000000",
-		"[Level 1] : ^777777 범위 3 x 3  셀 / 지속시간 3 초  ^000000",
-		"[Level 2] : ^777777 범위 5 x 5  셀 / 지속시간 4 초 ^000000",
-		"[Level 3] : ^777777 범위 7 x 7  셀 / 지속시간 5 초 ^000000",
-		"[Level 4] : ^777777 범위 9 x 9  셀 / 지속시간 6 초 ^000000",
-		"[Level 5] : ^777777 범위 11 x 11  셀 / 지속시간 7 초 ^000000",
+		"Cursed Circle",
+		"Prerequisites:^777777 Stop Blade (L2), Pressure Point - Silence (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Creates an area 5x5 cells around the caster where all enemies cannot move or attack, and become silenced for the duration of the skill. If the user of cursed circle uses any other skill, cursed circle immediately ends. The skill consumes 1 spirit sphere.^000000",
+		"[LV 1]^777777 Duration 5s^000000",
+		"[LV 2]^777777 Duration 6s^000000",
+		"[LV 3]^777777 Duration 7s^000000",
+		"[LV 4]^777777 Duration 8s^000000",
+		"[LV 5]^777777 Duration 9s^000000",
 	},
 
 	[SKID.SR_LIGHTNINGWALK] = {
 
-		"섬전보(閃電步)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 선풍퇴 1^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  시전자가 원거리 물리 공격이나 마법 공격의 타겟이 되었을 때, (범위 마법은 제외) 데미지를 한 번 무효화 하며 자신을 공격한 대상의 바로 앞까지 순간적으로 [파고드는] 고속 이동 스킬이다. 스킬 발동 시 효과는 자동적으로 해제된다. ^000000",
-		"[Level 1] : ^777777 효과 지속시간 10 초 / 발동 확률 90% ^000000",
-		"[Level 2] : ^777777 효과 지속시간 15 초 / 발동 확률 92%^000000",
-		"[Level 3] : ^777777 효과 지속시간 20 초 / 발동 확률 94% ^000000",
-		"[Level 4] : ^777777 효과 지속시간 25 초 / 발동 확률 96% ^000000",
-		"[Level 5] : ^777777 효과 지속시간 30 초 / 발동 확률 98% ^000000",
+		"Lightning Walk",
+		"Prerequisites:^777777 Windmill (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active Toggle / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 When targeted with a ranged or magic attack (targeted magic only), instead of taking damage you immediately jump at high speeds to the attacker. When using the skill, it consumes some HP, and drains some SP each second. When the skill activates, the status effect ends.^000000",
+		"[LV 1]^777777 HP Consumed 5%, SP Drain er second 3, Chance for activating 30% ^000000",
+		"[LV 2]^777777 HP Consumed 4%, SP Drain er second 3, Chance for activating 35%^000000",
+		"[LV 3]^777777 HP Consumed 3%, SP Drain er second 2, Chance for activating 40%^000000",
+		"[LV 4]^777777 HP Consumed 2%, SP Drain er second 2, Chance for activating 45%^000000",
+		"[LV 5]^777777 HP Consumed 1%, SP Drain er second 1, Chance for activating 50%^000000",
 	},
 
 	[SKID.SR_KNUCKLEARROW] = {
 
-		"수라신탄(修羅身彈)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 섬전보 3 / 폭기산탄 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 순간적으로 적에게 거리를 좁히며 뛰어들어, 목표를 강타하여 데미지와 함께 넉 백 시킨다. 목표가 넉 백 될 때 벽이나 장애물 등에 부딫히면 추가적인 데미지를 입는다.  스킬 사용시 기 구체 1 개가 소모된다. ^000000",
-		"[Level 1] : ^777777 공격력 600% / 넉백 데미지 150% + 추가 ^000000",
-		"[Level 2] : ^777777 공격력 700% / 넉백 데미지 300% + 추가  ^000000",
-		"[Level 3] : ^777777 공격력 800% / 넉백 데미지 450% + 추가 ^000000",
-		"[Level 4] : ^777777 공격력 900% / 넉백 데미지 600% + 추가 ^000000",
-		"[Level 5] : ^777777 공격력 1000% / 넉백 데미지 750% + 추가 ^000000",
+		"Knuckle Arrow (Shura Body Bullet)",
+		"Prerequisites:^777777 Lightning Walk (L3), Rampage Blaster (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Instantly closes the distance between you and a target, dealing damage and throwing the target back. When the target is knocked back, if they collide with a wall or obstacle, they take additional damage. Consumes 2 spirit spheres when used.^000000",
+		"[LV 1]^777777 200% ATK, Knockback Damage 150% + Bonus^000000",
+		"[LV 2]^777777 300% ATK, Knockback Damage 300% + Bonus^000000",
+		"[LV 3]^777777 400% ATK, Knockback Damage 450% + Bonus^000000",
+		"[LV 4]^777777 500% ATK, Knockback Damage 600% + Bonus^000000",
+		"[LV 5]^777777 600% ATK, Knockback Damage 750% + Bonus^000000",
 	},
 
 	[SKID.SR_WINDMILL] = {
 
-		"선풍퇴(旋風腿)",
-		"MAX Lv : 1",
-		"^777777습득조건 : 주박진 1 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 하단 돌려차기로 5 x 5 셀 주변의 모든 적에게 데미지와 함께 강제로 /앉기 상태로 만든다. 몬스터의 경우 1-4 초간 스턴에 빠지게 된다. 이 스킬은 보스 몬스터에게는 통하지 않는다. ^000000",
+		"Windmill",
+		"Prerequisites:^777777 Cursed Circle (LV1)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 A low to the ground spinning kick that damages targets in a 5x5 area and forces them to use [/sit]. Will stun monsters for 1-4 seconds. Does not work on boss monsters.^000000",
 	},
 
 	[SKID.SR_RAISINGDRAGON] = {
 
-		"잠룡승천(潛龍昇天)",
-		"MAX Lv : 10",
-		"^777777습득조건 : 폭기산탄 3 / 점혈 - 구 3 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777  시전자의 기혈을 일시적으로 개방하여, 가질 수 있는 최대 기 구체의 숫자를 늘리며, 그만큼의 기 구체를 얻는다., 최대 HP 와  SP 양을 증가시키고 공격 속도를 빠르게 한다. 또한 이 스킬 지속시간 중에는 폭기 상태가 유지된다. 스킬 사용시 매 초당 HP 를 조금씩 잃는다. HP가 일정 이하가 되면 스킬 효과는 자동적으로 사라진다. ^000000",
-		"[Level 1] : ^777777 최대 기 구체 6 / MHP, MSP 3% 증가 / 지속시간 30 초^000000",
-		"[Level 2] : ^777777 최대 기 구체 7 / MHP, MSP 4% 증가 / 지속시간 45 초^000000",
-		"[Level 3] : ^777777 최대 기 구체 8 / MHP, MSP 5% 증가 / 지속시간 60 초^000000",
-		"[Level 4] : ^777777 최대 기 구체 9 / MHP, MSP 6% 증가 / 지속시간 75 초^000000",
-		"[Level 5] : ^777777 최대 기 구체 10 / MHP, MSP 7% 증가 / 지속시간 90 초^000000",
-		"[Level 6] : ^777777 최대 기 구체 11 / MHP, MSP 8% 증가 / 지속시간 105 초^000000",
-		"[Level 7] : ^777777 최대 기 구체 12 / MHP, MSP 9% 증가 / 지속시간 120 초^000000",
-		"[Level 8] : ^777777 최대 기 구체 13 / MHP, MSP 10% 증가 / 지속시간 135 초^000000",
-		"[Level 9] : ^777777 최대 기 구체 14 / MHP, MSP 11% 증가 / 지속시간 150 초^000000",
-		"[Level 10] : ^777777 최대 기 구체 15 / MHP, MSP 12% 증가 / 지속시간 165 초^000000",
+		"Rising Dragon",
+		"Prerequisites:^777777 Rampage Blaster (L3), Pressure Point - Energy Gain (L3)^000000",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Temporarily releases your mind and spirit, allowing you to gather more spirit spheres, increase your max HP and SP and improves your attack speed. During the duration of this skill you'll remain in Fury state. When using the skill, it will slowly drain your HP each second. If your HP gets too low, the skill effect will cancel.^000000",
+		"[LV 1]^777777 Max Spirit Spheres 6, Max HP/SP +3%, Duration 30sec^000000",
+		"[LV 2]^777777 Max Spirit Spheres 7, Max HP/SP +4%, Duration 45 sec^000000",
+		"[LV 3]^777777 Max Spirit Spheres 8, Max HP/SP +5%, Duration 60 sec^000000",
+		"[LV 4]^777777 Max Spirit Spheres 9, Max HP/SP +6%, Duration 75sec^000000",
+		"[LV 5]^777777 Max Spirit Spheres 10, Max HP/SP +7%, Duration 90sec^000000",
+		"[LV 6]^777777 Max Spirit Spheres 11, Max HP/SP +8%, Duration 105sec^000000",
+		"[LV 7]^777777 Max Spirit Spheres 12, Max HP/SP +9%, Duration 120sec^000000",
+		"[LV 8]^777777 Max Spirit Spheres 13, Max HP/SP +10%, Duration 135sec^000000",
+		"[LV 9]^777777 Max Spirit Spheres 14, Max HP/SP +11%, Duration 150sec^000000",
+		"[LV 10]^777777 Max Spirit Spheres 15, Max HP/SP +12%, Duration 165sec^000000",
 	},
 
 	[SKID.SR_ASSIMILATEPOWER] = {
 
-		"흡기공(吸氣攻)",
-		"MAX Lv : 1",
-		"^777777습득조건 : 흡기 1, 전기주입 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  자신 및 자신 주변 5 x 5 셀 내의 모든 기 구체를 흡수하여 SP 를 회복한다.  ^000000",
+		"Assimilate Power",
+		"Prerequisites:^777777 Vigor Absorption (L1), Power Velocity (L1)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Uses Absorb Spirit Spheres on all targets in a 5x5 area, recovering SP.^000000",
 	},
 
 	[SKID.SR_POWERVELOCITY] = {
 
-		"전기 주입(全氣注入)",
-		"MAX Lv : 1",
-		"^777777습득조건 : 축기 5^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  자신이 가진 기 구체를 목표 1 체에게 전부 주게된다. ^000000",
+		"Power Velocity (All Spirit Injection)",
+		"Prerequisites:^777777 Vigor Condensation (L5)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Ally^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Transfers all of your spirit spheres to a designated target.^000000",
 	},
 
 	[SKID.SR_GATEOFHELL] = {
 
-		"나찰파황격(羅刹破凰擊)",
-		"MAX Lv : 10",
-		"^777777습득조건 : 잠룡승천 5 / 호포 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  적에게 일순간에 무수한 연타를 퍼붓는다.  시전자의 HP가 적을 수록 데미지가증가한다. 스킬 사용시 일정량의 SP와 기 구체 5개를 소모한다. 대전붕추 이후 연계로도 사용 가능하며, 연계 사용 시 공격력이 약간 증가한다.^000000",
+		"Gate of Hell (Rakshasa Phoenix Destruction Fist)",
+		"Prerequisites:^777777 Rising Dragon (L5), Tiger Cannon (L5)^000000 ",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Can only be used while in Fury state. Instantly strikes a target with countless blows. The more spirit spheres you have, and the lower the caster's HP, the more damage it does. The skill consumes 30% of your Max SP and all of your spirit spheres. Can be used after Fallen Empire, and when used this way the SP consumption is reduced by 10% and the damage slightly increased.^000000",
 	},
 
 	[SKID.SR_GENTLETOUCH_QUIET] = {
 
-		"점혈 - 묵(點穴-默)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 전기주입 1^000000",
-		"계열 : ^777777  액티브 / 데미지 및 디버프 ^000000",
-		"내용 : ^777777  점혈 수법을 사용해 목표 1 체에게 데미지와 함께 침묵을 건다. 시전자의 DEX가 높을 수록 데미지가 커진다. ^000000",
-		"[Level 1] : ^777777 사정거리 2 셀 / 공격력 100% ^000000",
-		"[Level 2] : ^777777 사정거리 2 셀 / 공격력 200% ^000000",
-		"[Level 3] : ^777777 사정거리 2 셀 / 공격력 300% ^000000",
-		"[Level 4] : ^777777 사정거리 2 셀 / 공격력 400% ^000000",
-		"[Level 5] : ^777777 사정거리 2 셀 / 공격력 500% ^000000",
+		"Gentle Touch - Quiet (Pressure Point: Silence)",
+		"Prerequisites:^777777 Power Velocity (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage / Debuff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Enemy^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 By using special pressure point techniques, you deal damage and silence one target. The caster's dex greatly increases the damage.^000000",
+		"[LV 1]^777777 Range 2, 100% ATK^000000",
+		"[LV 2]^777777 Range 2, 200% ATK^000000",
+		"[LV 3]^777777 Range 2, 300% ATK^000000",
+		"[LV 4]^777777 Range 2, 400% ATK^000000",
+		"[LV 5]^777777 Range 2, 500% ATK^000000",
 	},
 
 	[SKID.SR_GENTLETOUCH_CURE] = {
 
-		"점혈 - 쾌(點穴-快)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 전기주입 1^000000",
-		"계열 : ^777777  액티브 /  회복 및 버프 ^000000",
-		"내용 : ^777777  점혈 수법을 사용해 자신 및 대상 1 체의 HP 를 회복 시키며 일부의 상태이상을 치료한다. 스킬레벨이 높을 수록 성공확률이 오른다. 이 스킬로 치료 가능한 스킬은 석화 / 동빙 / 스턴 / 독 / 침묵 / 암흑 / 환각 / 발화 / 빙결 등이며, 일부의 길로틴 크로스 독도 치료한다. 또한 이 스킬은 자신이 석화, 동빙, 스턴 상태에 빠져도 스스로 사용 가능하다. 스킬 사용시 기 구체 1 개를 소모한다. ^000000",
+		"Gentle Touch - Cure (Presure Point: Recovery)",
+		"Prerequisites:^777777 Power Velocity (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Recovery / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Ally^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Using special pressure point techniques, you recover a target's HP and cure them of various status ailments. Skill level increases the probability of success. The skill can recover Petrification / Frozen / Stun / Poison / Silence / Blind / Hallucination / Burning / Freezing / and Guillotine Cross poison statuses. Using this skill you can also recover yourself from Petrification / Frozen / Stun statuses. Consumes 1 spirit sphere.^000000",
 	},
 
 	[SKID.SR_GENTLETOUCH_ENERGYGAIN] = {
 
-		"점혈 - 구(點穴-球)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 점혈 - 묵 3 ^000000",
-		"계열 : ^777777  액티브 / 자기 버프 ^000000",
-		"내용 : ^777777  자기 자신에게 점혈 수법을 사용해 투기를 극한으로 끌어올려, 근접 물리 공격을 하거나 데미지를 입게되면 기 구체 하나를 생성한다. 스킬 사용시 HP 를 소모한다. 이 스킬은 [점혈 : 활] 및 [점혈 : 반] 스킬과 함께 사용할 수 없다.  ^000000",
-		"[Level 1] : ^777777 HP 1% 소모 / 15% 확률로 생성 / 지속시간 60초  ^000000",
-		"[Level 2] : ^777777 HP 2% 소모 / 20% 확률로 생성 / 지속시간 120초^000000",
-		"[Level 3] : ^777777 HP 3% 소모 / 25% 확률로 생성 / 지속시간 180초 ^000000",
-		"[Level 4] : ^777777 HP 4% 소모 / 30% 확률로 생성 / 지속시간 240초^000000",
-		"[Level 5] : ^777777 HP 5% 소모 / 35% 확률로 생성 / 지속시간 300초^000000",
+		"Gentle Touch - Energy Gain (Pressure Point: Energy Gain)",
+		"Prerequisites:^777777 Pressure Point: Silence (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Using pressure points on your own body you can improve your fighting spirit, allowing you to gain spirit spheres when you deal and receive physical damage. The skill consumes some HP when initially cast. This skill cannot be used in combination with Pressure Point: Change and Presure Point: Revitalize.^000000",
+		"[LV 1]^777777 HP Cost 1%, Chance to get a spirit sphere 15%, Duration 60 sec^000000",
+		"[LV 2]^777777 HP Cost 2%, Chance to get a spirit sphere 20%, Duration 120 sec^000000",
+		"[LV 3]^777777 HP Cost 3%, Chance to get a spirit sphere 25%, Duration 180 sec^000000",
+		"[LV 4]^777777 HP Cost 4%, Chance to get a spirit sphere 30%, Duration 240 sec^000000",
+		"[LV 5]^777777 HP Cost 5%, Chance to get a spirit sphere 35%, Duration 300 sec^000000",
 	},
 
 	[SKID.SR_GENTLETOUCH_CHANGE] = {
 
-		"점혈 - 반(點穴-反)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 점혈 - 쾌 4 ^000000",
-		"계열 : ^777777  액티브 /  버프 ^000000",
-		"내용 : ^777777  점혈 수법을 사용해 대상의 체력과 마법방어력을 떨어뜨리는 대신, 공격력과 공격 속도를 증가시킨다. 스킬 사용 시 기 구체 2개와 약간의 HP 를 소모하며, MHP 가 감소한다. 이 스킬은 [점혈 :  구] 및 [점혈 : 활] 스킬과 함께 사용할 수 없다. ^000000",
-		"[Level 1] : ^777777 MHP 2% 감소 / 지속시간 60초  ^000000",
-		"[Level 2] : ^777777 MHP 4% 감소 / 지속시간 120초^000000",
-		"[Level 3] : ^777777 MHP 6% 감소 / 지속시간 180초 ^000000",
-		"[Level 4] : ^777777 MHP 8% 감소 / 지속시간 240초^000000",
-		"[Level 5] : ^777777 MHP 10% 감소 / 지속시간 300초^000000",
+		"Gentle Touch - Change (Pressure Point: Change)",
+		"Prerequisites:^777777 Pressure Point: Silence (L4)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Using special presure points you take your own physical and magical defense and instead turns it into attack power and attack speed. Casting the skill takes 2 spirit spheres and drains some HP. Cannot be used in combination with Pressure Point: Energy Gain and Pressure Point: Revitalize.^000000",
+		"[LV 1]^777777 HP Cost 1%, Duration 60s^000000",
+		"[LV 2]^777777 HP Cost 2%, Duration 120s^000000",
+		"[LV 3]^777777 HP Cost 3%, Duration 180s^000000",
+		"[LV 4]^777777 HP Cost 4%, Duration 240s^000000",
+		"[LV 5]^777777 HP Cost 5%, Duration 300s^000000",
 	},
 
 	[SKID.SR_GENTLETOUCH_REVITALIZE] = {
 
-		"점혈 - 활(點穴-活)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 점혈 - 반 5 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777  점혈 수법을 사용해 자신과 대상 1체의  VIT 및 MHP 를 상승시키고 HP 자연 회복 속도를 빠르게 한다. 또한 물리방어력이 상승한다. 이 효과중에는 이동이나 공격 중에도 HP가 회복하게 된다. 스킬 사용시 기 구체 2 개를 소모한다. 이 스킬은 [점혈 : 구] 및 [점혈 : 반] 과 함께 사용할 수 없다.  ^000000",
-		"[Level 1] : ^777777 MHP 3% 증가 / HP 자연회복 속도 80% 증가 ^000000",
-		"[Level 2] : ^777777 MHP 6% 증가 / HP 자연회복 속도 110% 증가 ^000000",
-		"[Level 3] : ^777777 MHP 9% 증가 / HP 자연회복 속도 140% 증가  ^000000",
-		"[Level 4] : ^777777 MHP 12% 증가 / HP 자연회복 속도 170% 증가  ^000000",
-		"[Level 5] : ^777777 MHP 15% 증가 / HP 자연회복 속도 200% 증가  ^000000",
+		"Gentle Touch - Revitalize (Pressure Point: Revitalize)",
+		"Prerequisites^777777 Presure Point: Change (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Using special pressure points you increase your VIT, MaxHP, and improve your natural HP regeneration. Also increases your physical defense. While in this state your movement and attack speed and HP recovery increase as well. Consumes 2 spirit spheres. Cannot be used in combination with Pressure Point: Energy Gain and Pressure Point: Change.^000000",
+		"[LV 1]^777777 Max HP 6%, Natural HP Recovery +100%^000000",
+		"[LV 2]^777777 Max HP 12%, Natural HP Recovery +140%^000000",
+		"[LV 3]^777777 Max HP 18%, Natural HP Recovery +180%^000000",
+		"[LV 4]^777777 Max HP 24%, Natural HP Recovery +220%^000000",
+		"[LV 5]^777777 Max HP 30%, Natural HP Recovery +260%^000000",
 	},
 
 	[SKID.WA_SWING_DANCE] = {
 
-		"스윙 댄스",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 채찍 전용 스킬. 60 초 동안 자신 및 파티원의 이동 속도를 빠르게 하며, 공격 속도를 증가시킨다. 공격 속도의 증가는 스킬레벨 및 시전자의 직업 레벨에 영향을 받는다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 15 x 15  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 17 x 17  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 19 x 19  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 21 x 21  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 23 x 23  ^000000",
+		"Swing Dance",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 50+50*SkillLV sec^000000",
+		"Effect:^777777 Temporarily increases movement speed and attack speed for all party members.^000000",
+		"[LV 1]^777777 Movement Speed +4%, ASPD +4%^000000",
+		"[LV 2]^777777 Movement Speed +8%, ASPD +8%^000000",
+		"[LV 3]^777777 Movement Speed +12%, ASPD +12%^000000",
+		"[LV 4]^777777 Movement Speed +16%, ASPD +16%^000000",
+		"[LV 5]^777777 Movement Speed +20%, ASPD +20%^000000",
 	},
 
 	[SKID.WA_SYMPHONY_OF_LOVER] = {
 
-		"연인들을 위한 심포니",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 채찍 전용 스킬. 60 초 동안 자신 및 파티원의 마법 방어력을 일시적으로 상승시킨다. 마법 방어력 증가는 레슨 스킬 레벨 및 시전자의 직업 레벨에 영향을 받는다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 15 x 15  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 17 x 17  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 19 x 19  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 21 x 21  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 23 x 23  ^000000",
+		"Symphony of Lover",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 50+50*SkillLV sec^000000",
+		"Effect:^777777 Temporarily increases magic defense of yourself and party members.^000000",
+		"[LV 1]^777777 20% MDEF^000000",
+		"[LV 2]^777777 40% MDEF^000000",
+		"[LV 3]^777777 60% MDEF^000000",
+		"[LV 4]^777777 80% MDEF^000000",
+		"[LV 5]^777777 100% MDEF^000000",
 	},
 
 	[SKID.WA_MOONLIT_SERENADE] = {
 
-		"달빛의 세레나데",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 채찍 전용 스킬. 60 초 동안 자신 및 파티원의 마법 공격력을 일시적으로 상승시킨다. 마법 공격력 증가는 레슨 스킬 및 시전자의 직업 레벨에 영향을 받는다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 15 x 15  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 17 x 17  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 19 x 19  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 21 x 21  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 23 x 23  ^000000",
+		"Moonlit Serenade",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 50+50*SkillLV sec^000000",
+		"Effect:^777777 Temporarily increases magic attack power of yourself and party members.^000000",
+		"[LV 1]^777777 10% MATK^000000",
+		"[LV 2]^777777 20% MATK^000000",
+		"[LV 3]^777777 30% MATK^000000",
+		"[LV 4]^777777 40% MATK^000000",
+		"[LV 5]^777777 50% MATK^000000",
 	},
 
 	[SKID.MI_RUSH_WINDMILL] = {
 
-		"풍차를 향해 돌격",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 악기 전용 스킬. 60 초 동안 자신 및 파티원의 공격력을 일시적으로 상승시킨다. 공격력 증가는 레슨 스킬 및 시전자의 직업 레벨에 영향을 받는다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 15 x 15  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 17 x 17  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 19 x 19  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 21 x 21  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 23 x 23  ^000000",
+		"Windmill Rush Attack",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 50+50*SkillLV sec^000000",
+		"Effect:^777777 Temporarily increases attack power of yourself and your party members.^000000",
+		"[LV 1]^777777 10% ATK^000000",
+		"[LV 2]^777777 20% ATK^000000",
+		"[LV 3]^777777 30% ATK^000000",
+		"[LV 4]^777777 40% ATK^000000",
+		"[LV 5]^777777 50% ATK^000000",
 	},
 
 	[SKID.MI_ECHOSONG] = {
 
-		"메아리의 노래",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 악기 전용 스킬. 60 초 동안 자신 및 파티원의 방어력을 일시적으로 상승시킨다. 방어력 증가는 레슨 스킬 및 시전자의 직업 레벨에 영향을 받는다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 15 x 15  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 17 x 17  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 19 x 19  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 21 x 21  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 23 x 23  ^000000",
+		"Echo Song",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 50+50*SkillLV sec^000000",
+		"Effect:^777777 Temporarily increases defense power of yourself and your party members.^000000",
+		"[LV 1]^777777 10% DEF^000000",
+		"[LV 2]^777777 20% DEF^000000",
+		"[LV 3]^777777 30% DEF^000000",
+		"[LV 4]^777777 40% DEF^000000",
+		"[LV 5]^777777 50% DEF^000000",
 	},
 
 	[SKID.MI_HARMONIZE] = {
 
-		"하모나이즈",
-		"MAX Lv : 5",
-		"^777777습득조건 : 안식의 자장가 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777 악기 전용 스킬. 60 초 동안 자신 과 대상 1체의 모든 스테이터스 가중치를 일정하게 만든다. ^000000",
-		"[Level 1] : ^777777 모든 스테이터스 가중치를 3-5 로 만든다. ^000000",
-		"[Level 2] : ^777777 모든 스테이터스 가중치를 5-7 로 만든다.  ^000000",
-		"[Level 3] : ^777777 모든 스테이터스 가중치를 7-9 로 만든다.  ^000000",
-		"[Level 4] : ^777777 모든 스테이터스 가중치를 9-11 로 만든다.  ^000000",
-		"[Level 5] : ^777777 모든 스테이터스 가중치를 11-15 으로 만든다. ^000000",
+		"Harmonize",
+		"Prerequisites:^777777 Deep Sleep Lullaby (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 Unknown^000000",
+		"Effect:^777777 Temporarily increases all stats of a single target.^000000",
+		"[LV 1]^777777 Increases all stats by 5^000000",
+		"[LV 2]^777777 Increases all stats by 7^000000",
+		"[LV 3]^777777 Increases all stats by 9^000000",
+		"[LV 4]^777777 Increases all stats by 11^000000",
+		"[LV 5]^777777 Increases all stats by 13^000000",
 	},
 
 	[SKID.WM_LESSON] = {
 
-		"레슨",
-		"MAX Lv : 10",
-		"^777777습득조건 : 원더러 민스트렐 기본 스킬^000000",
-		"계열 : ^777777  패시브 ^000000",
-		"내용 : ^777777 최대 MSP가 증가하며, SP 회복 속도가 빨라진다. 스킬 레벨 5 이상인 경우, 2차 스킬 연주나 합주 중에도 3차의 노래 스킬이 사용 가능해진다.  ^000000",
-		"[Level 1] : ^777777 MSP +30  ^000000",
-		"[Level 2] : ^777777 MSP +60   ^000000",
-		"[Level 3] : ^777777 MSP +90  ^000000",
-		"[Level 4] : ^777777 MSP +120  ^000000",
-		"[Level 5] : ^777777 MSP +150  / 2차 연주 스킬 중 3차 노래 가능 ^000000",
-		"[Level 6] : ^777777 MSP +180  / 2차 연주 스킬 중 3차 노래 가능^000000",
-		"[Level 7] : ^777777 MSP +200  / 2차 연주 스킬 중 3차 노래 가능^000000",
-		"[Level 8] : ^777777 MSP +240  / 2차 연주 스킬 중 3차 노래 가능^000000",
-		"[Level 9] : ^777777 MSP +270  / 2차 연주 스킬 중 3차 노래 가능 ^000000",
-		"[Level 10] : ^777777 MSP +300 / 2차 연주 스킬 중 3차 노래 가능^000000",
+		"Lesson",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Passive^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 Unknown^000000",
+		"Effect:^777777 Increases your Max SP and SP recovery. At skill level 5 and higher, allows you to use 3rd job song skills while doing 2nd job performance and ensemble skills.^000000",
+		"[LV 1]^777777 Max SP +30^000000",
+		"[LV 2]^777777 Max SP +60^000000",
+		"[LV 3]^777777 Max SP +90^000000",
+		"[LV 4]^777777 Max SP +120^000000",
+		"[LV 5]^777777 Max SP +150^000000",
+		"[LV 6]^777777 Max SP +180^000000",
+		"[LV 7]^777777 Max SP +210^000000",
+		"[LV 8]^777777 Max SP +240^000000",
+		"[LV 9]^777777 Max SP +270^000000",
+		"[LV 10]^777777 Max SP +300^000000",
 	},
 
 	[SKID.WM_METALICSOUND] = {
 
-		"메탈릭 사운드",
-		"MAX Lv : 5",
-		"^777777습득조건 : 도미니언 임펄스 1 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 대상 1체에게 고음의 소리를 방출하여 혼란과 함께 HP, SP 양 쪽으로 데미지를 입힌다. 수면 상태의 적에게는 더 큰 데미지를 입힌다. 레슨 스킬 레벨에 따라 데미지가 상승한다.  ^000000",
-		"[Level 1] : ^777777 마법공격력 120% + 레슨 스킬 레벨에 따른 가중치 ^000000",
-		"[Level 2] : ^777777 마법공격력 240% + 레슨 스킬 레벨에 따른 가중치 ^000000",
-		"[Level 3] : ^777777 마법공격력 360% + 레슨 스킬 레벨에 따른 가중치 ^000000",
-		"[Level 4] : ^777777 마법공격력 480% + 레슨 스킬 레벨에 따른 가중치 ^000000",
-		"[Level 5] : ^777777 마법공격력 600% + 레슨 스킬 레벨에 따른 가중치 ^000000",
+		"Metallic Sound",
+		"Prerequisites:^777777 Dominion Impulse (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 Unknown^000000",
+		"Effect:^777777 Emits a high pitched sound at a single target, damaging their HP and SP. The damage is greatly increased if the target is currently asleep. Lesson skill level increases the damage.^000000",
+		"[LV 1]^777777 500% + Increased damage for Lesson^000000",
+		"[LV 2]^777777 550% + Increased damage for Lesson^000000",
+		"[LV 3]^777777 600% + Increased damage for Lesson^000000",
+		"[LV 4]^777777 650% + Increased damage for Lesson^000000",
+		"[LV 5]^777777 700% + Increased damage for Lesson^000000",
 	},
 
 	[SKID.WM_REVERBERATION] = {
 
-		"진동 잔향",
-		"MAX Lv : 5",
-		"^777777습득조건 : 불협화음 혹은 막춤 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 지면 1 곳에 고주파 음파동을 발생시켜, 이 파동에 닿거나, 지속시간이 끝나면 주변 3 x 3 셀의 모든 적에게 분산 데미지를 입힌다. 원거리 공격이나 마법 등으로 진동잔향을 공격해서 없앨 수 있다. 진동 잔향은 지면에 3 개까지 발생시킬 수 있다. ^000000",
-		"[Level 1] : ^777777 공격력 400% + 마법 공격력 200% ^000000",
-		"[Level 2] : ^777777 공격력 500% + 마법 공격력 300%  ^000000",
-		"[Level 3] : ^777777 공격력 600% + 마법 공격력 400%   ^000000",
-		"[Level 4] : ^777777 공격력 700% + 마법 공격력 500%   ^000000",
-		"[Level 5] : ^777777 공격력 800% + 마법 공격력 600%   ^000000",
+		"Reverberation",
+		"Prerequisites:^777777 Unchained Serenate (L5) or Hip Shaker (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 Unknown^000000",
+		"Effect:^777777 Generates high pitched sound waves from a location on the ground. When near these waves, you receive damage. You can have up to 3 reverberation's active at once, and when touched or the duration ends all targets in a 3x3 area take damage. The reverberation can be removed with ranged attacks or magic.^000000",
+		"[LV 1]^777777 400% ATK, 200% MATK^000000",
+		"[LV 2]^777777 500% ATK, 300% MATK^000000",
+		"[LV 3]^777777 600% ATK, 400% MATK^000000",
+		"[LV 4]^777777 700% ATK, 500% MATK^000000",
+		"[LV 5]^777777 800% ATK, 600% MATK^000000",
 	},
 
 	[SKID.WM_DOMINION_IMPULSE] = {
 
-		"도미니온 임펄스",
-		"MAX Lv : 1",
-		"^777777습득조건 : 진동 잔향 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777 11 x 11 범위 내의 지면에 발생되어져 있는 진동 잔향을 바로 발동 시킨다. 다른 플레이어가 만들어 놓은 진동 잔향도 발동 시킬 수 있다. ^000000",
+		"Dominion Impulse",
+		"Prerequisites:^777777 Reverberation (L1)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 Unknown^000000",
+		"Effect:^777777 Activates any Reverberations active in a 11 x 11 area around you. This can trigger the reverberations of other players as well.^000000",
 	},
 
 	[SKID.WM_SEVERE_RAINSTORM] = {
 
-		"서비어 레인스톰",
-		"MAX Lv : 5",
-		"^777777습득조건 : 화살감아던지기 혹은 뮤지컬 스트라이크 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 활 전용 스킬. 공중으로 무수한 화살을 쏘아 보내어, 11 x 11 범위에 화살의 비를 내리게 한다. 시전자의 AGI / DEX 에 따라 데미지가 상승한다. 스킬 사용시 화살을 20 발 소모하며, 화살 갯수가 20 발 미만일 경우 발동하지 않는다. ^000000",
-		"[Level 1] : ^777777 0.3 초당 1회 타격 / 지속시간 0.9 초^000000",
-		"[Level 2] : ^777777 0.3 초당 1회 타격 / 지속시간 1.5 초  ^000000",
-		"[Level 3] : ^777777 0.3 초당 1회 타격 / 지속시간 2.1 초   ^000000",
-		"[Level 4] : ^777777 0.3 초당 1회 타격 / 지속시간 2.7 초  ^000000",
-		"[Level 5] : ^777777 0.3 초당 1회 타격 / 지속시간 3 초  ^000000",
+		"Severe Rainstorm",
+		"Prerequisites:^777777 Slinging Arrow (L5) or Melody Strike (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Throws countless arrows into the air, which rain down on a 11 x 11 area, dealing 1 hit every 0.3 seconds. The skill requires 20 arrows, and fails if you do not have 20 arrows.^000000",
+		"[LV 1]^777777 100% ATK, Duration 0.9 sec^000000",
+		"[LV 2]^777777 150% ATK, Duration 1.5 sec^000000",
+		"[LV 3]^777777 200% ATK, Duration 2.1 sec^000000",
+		"[LV 4]^777777 250% ATK, Duration 2.7 sec^000000",
+		"[LV 5]^777777 300% ATK, Duration 3 sec^000000",
 	},
 
 	[SKID.WM_POEMOFNETHERWORLD] = {
 
-		"나락의 노래",
-		"MAX Lv : 5",
-		"^777777습득조건 : 레슨 1 ^000000",
-		"계열 : ^777777  액티브 / 디버프 ^000000",
-		"내용 : ^777777 악기 / 채찍 전용 스킬. 지면 1 셀에 대상의 운동신경에 영향을 미치는 특수한 음파를 발생시켜 그 음파 3 x3 셀 효과 내에 들어온 대상의 움직임을 일시적으로 멈추게 한다. 최대 5 개까지 발생시키는 것이 가능하며, 이 스킬은 보스형 몬스터에게는 통용되지 않는다. 효과 대상이 된 목표의 레벨에 따라 효과 시간이 감소한다. 스킬 사용시 [목보호캔디] 하나를 소모한다. ^000000",
-		"[Level 1] : ^777777 효과 지속시간 8 초 / 음파 지속시간 9 초 ^000000",
-		"[Level 2] : ^777777 효과 지속시간 10 초 / 음파 지속시간 11 초 ^000000",
-		"[Level 3] : ^777777 효과 지속시간 12 초 / 음파 지속시간 13 초 ^000000",
-		"[Level 4] : ^777777 효과 지속시간 14 초 / 음파 지속시간 15 초 ^000000",
-		"[Level 5] : ^777777 효과 지속시간 16 초 / 음파 지속시간 17 초 ^000000",
+		"Poem of the Netherworld",
+		"Prerequisites:^777777 Lesson (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Debuff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Create a special sound on a target cell that affects the targets reflexes, making them unable to move. You can have up to 5 active at once and they affect a 3x3 area. The skill does not affect boss monsters. The duration is affected by the difference in level between you and the target. Consumes 1 Caugh Drop.^000000",
+		"[LV 1]^777777 Effect Duration 8 sec, Sound Duration 9 sec^000000",
+		"[LV 2]^777777 Effect Duration 10 sec, Sound Duration 11 sec^000000",
+		"[LV 3]^777777 Effect Duration 12 sec, Sound Duration 13 sec^000000",
+		"[LV 4]^777777 Effect Duration 14 sec, Sound Duration 15 sec^000000",
+		"[LV 5]^777777 Effect Duration 16 sec, Sound Duration 17 sec^000000",
 	},
 
 	[SKID.WM_VOICEOFSIREN] = {
 
-		"세이렌의 목소리",
-		"MAX Lv : 5",
-		"^777777습득조건 : 나락의 노래 3 ^000000",
-		"계열 : ^777777  액티브 / 디버프 ^000000",
-		"내용 : ^777777 악기 / 채찍 전용 스킬. 자신 주변 11 x 11 셀 내의 목표 전원에게 매료효과를 걸어 자신쪽으로 끌어당긴다. 몬스터의 경우 시전자를 공격할 수 없게 되며, 플레이어의 경우 지속시간 동안 시전자를 공격 목표로서 타겟팅 할 수 없게 된다. (시전자 제외) 효과에 걸린 목표 대상은 하트 이모티콘을 띄우게 된다. 효과 대상의 레벨에 따라 효과 시간이 감소한다. 대상이 데미지를 입으면 매료 효과는 즉시 해제된다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 5 x 5  / 효과 지속시간 15 초 ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 7 x 7  / 효과 지속시간 18 초 ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 9 x 9  / 효과 지속시간 21 초  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 11 x 11  / 효과 지속시간 24 초  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 13 x 13  / 효과 지속시간 27 초  ^000000",
+		"Voice of Siren",
+		"Prerequisites:^777777 Poem of the Netherworld (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Debuff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 12+3*SkillLV sec^000000",
+		"Effect:^777777 Causes targets in a 11x11 area around the caster to become fascinated and drawn towards the caster. Monsters will be unable to attack you, and players will be unable to attack the user for the skill duration. While under the effect of the skill you will use the heart emotion. The skill duration is reduced proportionate to the target's level. The skill effect ends when the target receives damage.^000000",
+		"[LV 1]^777777 Success Rate 30%^000000",
+		"[LV 2]^777777 Success Rate 40%^000000",
+		"[LV 3]^777777 Success Rate 50%^000000",
+		"[LV 4]^777777 Success Rate 60%^000000",
+		"[LV 5]^777777 Success Rate 70%^000000",
 	},
 
 	[SKID.WM_DEADHILLHERE] = {
 
-		"사망의 골짜기에서",
-		"MAX Lv : 5",
-		"^777777습득조건 : 순환하는 자연의소리 3 ^000000",
-		"계열 : ^777777  액티브 / 회복 ^000000",
-		"내용 : ^777777 악기 / 채찍 전용 스킬. 사망한 플레이어 1 명을 부활시킨다. 사망한 플레이어는 사망 상태에서 남은 SP 만큼의 HP를 가지고 부활한다. 사망시 SP 가 0 이었다면, 1 로 부활한다. 스킬 시전 시 아이템 [안타까운 눈물] 1 개를 소모한다. ^000000",
-		"[Level 1] : ^777777 성공율 90% / 부활 대상의 SP 50% 소모 ^000000",
-		"[Level 2] : ^777777 성공율 92% / 부활 대상의 SP 40% 소모  ^000000",
-		"[Level 3] : ^777777 성공율 94% / 부활 대상의 SP 30% 소모  ^000000",
-		"[Level 4] : ^777777 성공율 96% / 부활 대상의 SP 20% 소모  ^000000",
-		"[Level 5] : ^777777 성공율 98% / 부활 대상의 SP 10% 소모  ^000000",
+		"Valley of Death",
+		"Prerequisites:^777777 Circle of Nature's Sound (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Recovery^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Target 1 player is revived. That player is resurrected with HP equal to the SP they currently have. If the player has 0 SP, they are resurrected with 1 HP. Consumes 1 Painful Tear.^000000",
+		"[LV 1]^777777 Success Rate 90%, Target's SP Consumption 100%^000000",
+		"[LV 2]^777777 Success Rate 92%, Target's SP Consumption 80%^000000",
+		"[LV 3]^777777 Success Rate 94%, Target's SP Consumption 60%^000000",
+		"[LV 4]^777777 Success Rate 96%, Target's SP Consumption 40%^000000",
+		"[LV 5]^777777 Success Rate 98%, Target's SP Consumption 20%^000000",
 	},
 
 	[SKID.WM_LULLABY_DEEPSLEEP] = {
 
-		"안식의 자장가",
-		"MAX Lv : 5",
-		"^777777습득조건 : 레슨 1 ^000000",
-		"계열 : ^777777  액티브 / 디버프 ^000000",
-		"내용 : ^777777 악기 / 채찍 전용 스킬. 지정 범위 내의 모든 목표를 \"깊은 잠\" 상태에 빠뜨린다. 깊은 잠에 빠진 목표는 이동, 공격 및 아이템과 스킬 사용을 할 수 없게 되며, 대화 조차도 할 수 없게 된다. 데미지를 입으면 즉시 해제되나, 깊은 잠 상태에서는 통상의 데미지보다 1.5 배 큰 피해를 입는다. 깊은 잠 상태의 목표는 2 초당 3% 의 HP /SP 를 회복한다. ^000000",
-		"[Level 1] : ^777777 효과 범위 11 x 11 ^000000",
-		"[Level 2] : ^777777 효과 범위 13 x 13 ^000000",
-		"[Level 3] : ^777777 효과 범위 15 x 15 ^000000",
-		"[Level 4] : ^777777 효과 범위 19 x 19 ^000000",
-		"[Level 5] : ^777777 효과 범위 21 x 21 ^000000",
+		"Deep Sleep Lullaby",
+		"Prerequisites:^777777 Lesson (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Debuff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 All targets around you fall into \"Deep Sleep\". While in deep sleep the target cannot move, attack, use items or skills. Being hit will wake them, but any damage they take in Deep Sleep status is amplified by 1.5 times. While in deep sleep the target recovers 1% of their HP/SP every 2 seconds.^000000",
+		"[LV 1]^777777 Success Rate 90%, 11x11 cells^000000",
+		"[LV 2]^777777 Success Rate 92%, 13x13 cells^000000",
+		"[LV 3]^777777 Success Rate 94%, 15x15 cells^000000",
+		"[LV 4]^777777 Success Rate 96%, 19x19 cells^000000",
+		"[LV 5]^777777 Success Rate 98%, 21x21 cells^000000",
 	},
 
 	[SKID.WM_SIRCLEOFNATURE] = {
 
-		"순환하는 자연의 소리",
-		"MAX Lv : 5",
-		"^777777습득조건 : 레슨 1 ^000000",
-		"계열 : ^777777  액티브 / 회복 ^000000",
-		"내용 : ^777777 악기 / 채찍 전용 스킬. 60 초 동안 자신 주변의 모든 목표에게 순환하는 자연의 효과를 건다. 이 효과는 매 초 당 일정량의 SP 를 소모시키면서 그 대신 HP 를 회복 시킨다.  만약 효과 대상이 소모할 SP 가 없다면 이 효과는 바로 해제된다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 7 x 7  / 초당 SP 4 소모 / 초당 HP 40 회복 ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 9 x 9 / 초당 SP 8 소모 / 초당 HP 80 회복 ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 11 x 11 / 초당 SP 12 소모 / 초당 HP 120 회복 ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 13 x 13 / 초당 SP 16 소모 / 초당 HP 160 회복 ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 15 x 15 / 초당 SP 20 소모 / 초당 HP 200 회복 ^000000",
+		"Circle of Nature's Sound",
+		"Prerequisites:^777777 Lesson (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Recovery^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 5+5*SkillLV sec^000000",
+		"Effect:^777777 All targets in range receive the effect of Circle of Nature. Every second the effect consumes a fixed amount of SP and recovers your HP. If a player has no remaining SP, the effect ends for them.^000000",
+		"[LV 1]^777777 Consumes 2 SP/sec, Recovers 40 HP/sec^000000",
+		"[LV 2]^777777 Consumes 3 SP/sec, Recovers 80 HP/sec^000000",
+		"[LV 3]^777777 Consumes 4 SP/sec, Recovers 120 HP/sec^000000",
+		"[LV 4]^777777 Consumes 5 SP/sec, Recovers 240 HP/sec^000000",
+		"[LV 5]^777777 Consumes 6 SP/sec, Recovers 360 HP/sec^000000",
 	},
 
 	[SKID.WM_RANDOMIZESPELL] = {
 
-		"불확정 요소의 언어",
-		"MAX Lv : 5",
-		"^777777습득조건 : 나락의 노래 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 ^000000",
-		"내용 : ^777777  랜덤하게 마법사나 위저드의 공격 마법 하나를 발동한다. 마법이 발동하기 위해 필요한 촉매 등은 전부 무시된다. ^000000",
-		"[Level 1] : ^777777 스킬 레벨 5 의 마법 하나를 랜덤 발동 ^000000",
-		"[Level 2] : ^777777 스킬 레벨 6 의 마법 하나를 랜덤 발동 ^000000",
-		"[Level 3] : ^777777 스킬 레벨 7 의 마법 하나를 랜덤 발동 ^000000",
-		"[Level 4] : ^777777 스킬 레벨 8 의 마법 하나를 랜덤 발동 ^000000",
-		"[Level 5] : ^777777 스킬 레벨 9 의 마법 하나를 랜덤 발동 ^000000",
+		"Improvised Song",
+		"Prerequisites:^777777 Poem of the Netherworld (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Invokes one random Magician or Wizard abililty. Ignores any catalyst required for casting.^000000",
+		"[LV 1]^777777 Uses a random Level 5 magic skill^000000",
+		"[LV 2]^777777 Uses a random Level 6 magic skill^000000",
+		"[LV 3]^777777 Uses a random Level 7 magic skill^000000",
+		"[LV 4]^777777 Uses a random Level 8 magic skill^000000",
+		"[LV 5]^777777 Uses a random Level 9 magic skill^000000",
 	},
 
 	[SKID.WM_GLOOMYDAY] = {
 
-		"수줍은 하루의 우울",
-		"MAX Lv : 5",
-		"^777777습득조건 : 불확정 요소의 언어 1 ^000000",
-		"계열 : ^777777  액티브 / 버프 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 이 효과는 특정 스킬의 데미지를 상승시키지만, 그 대신 회피율과 공속이 감소한다.  이 효과로 인하여 데미지에 영향을 미치는 스킬은 다음과 같다. [브랜디쉬 스피어 / 스파이럴 피어스 / 실드 챠지 / 실드 부메랑 / 실드 체인 / 실드 프레스] 위 스킬을 가지고 있지 않은 목표가 이 효과를 받으면, 회피율과 공속 페널티만 받게된다.  아군에게도 사용 가능하다. ^000000",
-		"[Level 1] : ^777777 회피 -5 / 공속 -3% ^000000",
-		"[Level 2] : ^777777 회피 -10 / 공속 -6% ^000000",
-		"[Level 3] : ^777777 회피 -15 / 공속 -9% ^000000",
-		"[Level 4] : ^777777 회피 -25 / 공속 -12% ^000000",
-		"[Level 5] : ^777777 회피 -30 / 공속 -15% ^000000",
+		"Gloomy Day",
+		"Prerequisites:^777777 Improvised Song (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff or Debuff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Increases the damage of several specific skills, or reduces evasion and attack speed. The following skills are improved [ Brandish Spear / Spiral Pierce / Shield Charge / Shield Boomerang / Shield Chain / Shield Press ]. If you don't have any of those skills, instead your evasion and attack speed are reduced.^000000",
+		"[LV 1]^777777 Evasion -5, ASPD -3%^000000",
+		"[LV 2]^777777 Evasion -10, ASPD -6%^000000",
+		"[LV 3]^777777 Evasion -15, ASPD -9%^000000",
+		"[LV 4]^777777 Evasion -20, ASPD -12%^000000",
+		"[LV 5]^777777 Evasion -25, ASPD -15%^000000",
 	},
 
 	[SKID.WM_GREAT_ECHO] = {
 
-		"그레이트 에코",
-		"MAX Lv : 5",
-		"^777777습득조건 : 메탈릭 사운드 1 ^000000",
-		"계열 : ^777777  액티브 / 데미지 / 합창 ^000000",
-		"내용 : ^777777  시전자는 노래로 큰 울림을 발생시켜 일정 범위 내의 모든 목표에게 데미지를 입힌다. 파티원 중에 원더러 민스트렐이 많으면 많을 수록 공격력이 상승하며, 소모 SP 도 그 숫자에 비례해서 감소한다. 스킬 사용시 파티에 참가한 모든 원더러 / 민스트렐이 SP 를 소모하게 된다. 스킬 사용시 \"목 보호 캔디\" 를 하나 소모한다. ^000000",
-		"[Level 1] : ^777777 효과범위 5 x 5 / 공격력 1000% ^000000",
-		"[Level 2] : ^777777 효과범위 7 x 7 / 공격력 1100%^000000",
-		"[Level 3] : ^777777 효과범위 7 x 7 / 공격력 1200% ^000000",
-		"[Level 4] : ^777777 효과범위 9 x 9 / 공격력 1300% ^000000",
-		"[Level 5] : ^777777 효과범위 9 x 9 / 공격력 1400% ^000000",
+		"Great Echo",
+		"Prerequisites:^777777 Metallic Sound (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 The user creates an incredibly loud echo which damages all enemies in range. If you have more Wanderers/Minstrels in party, the damage increases and SP cost is decreased. Consumes SP of all Wanderers/Minstrels in party. Consumes one Lozange.^000000",
+		"[LV 1]^777777 5x5 cells, 1000% ATK^000000",
+		"[LV 2]^777777 7x7 cells, 1100% ATK^000000",
+		"[LV 3]^777777 7x7 cells, 1200% ATK^000000",
+		"[LV 4]^777777 9x9 cells, 1300% ATK^000000",
+		"[LV 5]^777777 9x9 cells, 1400% ATK^000000",
 	},
 
 	[SKID.WM_SONG_OF_MANA] = {
 
-		"마나의 노래",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스윙 댄스(하모나이즈) , 연인들을 위한 심포니 (풍차를 향해 돌격), 달빛의 세레나데 (메아리의 노래) 1  ^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 마나의 순환을 돕는 노래를 불러 자신 및 파티원의 SP를 5 초 당 10 씩 회복 시킨다. 파티원 중에 원더러, 민스트렐이 많을 수록 회복량이 증가한다.  ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 11 x 11 / 지속시간 30 초 ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 13 x 13 / 지속시간 60 초 ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 15 x 15 / 지속시간 90 초 ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 17 x 17 / 지속시간 120 초 ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 19 x 19 / 지속시간 150 초 ^000000",
+		"Song of Mana",
+		"Prerequisites:^777777 Swing Dance (L1) or Harmonize (L1), Symphony of Lover (L1) or Windmill Rush Attack (L1), Moonlit Serenade (L1) or Echo Song (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 0+30*SkillLV sec^000000",
+		"Effect:^777777 A song which aids in the circulation of mana, recovering 10 sp every 3 seconds for all party members. The recovery amount is increased if there are more Wanderers/Minstrels in the party.^000000",
 	},
 
 	[SKID.WM_DANCE_WITH_WUG] = {
 
-		"워그와 함께 춤을",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스윙 댄스(하모나이즈) , 연인들을 위한 심포니 (풍차를 향해 돌격), 달빛의 세레나데 (메아리의 노래) 1  ^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 신나고 빠른 템포의 노래를 통해, 자신 및 파티원의 공격 속도를 약간 증가시키고,  고정 캐스팅 시간을  감소시킨다. 시전자의 파티원 중에 원더러 민스트렐의 수가 많을 수록 효과가 증가한다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 11 x 11 / 지속시간 30 초 ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 13 x 13 / 지속시간 60 초 ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 15 x 15 / 지속시간 90 초 ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 17 x 17 / 지속시간 120 초 ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 19 x 19 / 지속시간 150 초 ^000000",
+		"Dance With Warg",
+		"Prerequisites:^777777 Swing Dance (L1) or Harmonize (L1), Symphony of Lover (L1) or Windmill Rush Attack (L1), Moonlit Serenade (L1) or Echo Song (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 0+30*SkillLV sec^000000",
+		"Effect:^777777 Sing a song with a fast tempo, increasing you and your parties attack speed silghtly, and reducing all cast time. The effect of this skill is improved as there are more Minstrels/Wanderers in party.^000000",
 	},
 
 	[SKID.WM_SOUND_OF_DESTRUCTION] = {
 
-		"사운드 오브 디스트럭션",
-		"MAX Lv : 5",
-		"^777777습득조건 : 새터데이 나이트 피버 3 , 멜로디 오브 싱크 3  ^000000",
-		"계열 : ^777777  액티브 / 특수 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 목표 1 체와 그 주변 대상의 모든 노래, 합창 효과를 제거 시킨다. 성공확률은 대상의 Dex 및 레벨과 사운드 디스트럭션 레벨, 그리고 목표의 Int 및 대상이 효과를 받고 있는 노래, 합창 스킬 레벨에 따라 달라진다. 시전자의 파티원 중에 원더러 민스트렐의 수가 많을 수록 성공율이 상승한다. ^000000",
-		"[Level 1] : ^777777 목표 1 체 및 그 주변  5 x 5  ^000000",
-		"[Level 2] : ^777777 목표 1 체 및 그 주변  5 x 5  ^000000",
-		"[Level 3] : ^777777 목표 1 체 및 그 주변  7 x 7  ^000000",
-		"[Level 4] : ^777777 목표 1 체 및 그 주변  7 x 7  ^000000",
-		"[Level 5] : ^777777 목표 1 체 및 그 주변  9 x 9  ^000000",
+		"Sound of Destruction",
+		"Prerequisites:^777777 Saturday Night Fever (L3), Melody of Sink (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Unique / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Cancels all song and chorus effects in a circumference around a target enemy. The success rate is based on the targets Int and Dex, the targets level, Sound of Destruction level, as well as the level of song or chorus skill in effect on the target. The success rate is increased if there are more Wanderers/Minstrels in the party.^000000",
+		"[LV 1]^777777 5x5 cells^000000",
+		"[LV 2]^777777 7x7 cells^000000",
+		"[LV 3]^777777 7x7 cells^000000",
+		"[LV 4]^777777 9x9 cells^000000",
+		"[LV 5]^777777 9x9 cells^000000",
 	},
 
 	[SKID.WM_SATURDAY_NIGHT_FEVER] = {
 
-		"새터데이 나이트 피버",
-		"MAX Lv : 5",
-		"^777777습득조건 : 워그와 함께 춤을 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 시전자 자신을 포함한 화면 전체의 모든 대상이 광란 효과에 빠진다. 광란에 걸린 대상은 HP 와 SP 를 지속적으로 잃게되며, 공격력이 상승하고, 방어력과 회피율이 대폭 하락한다. 또한, 아이템을 사용할 수 없게 된다. 광란의 효과가 끝나면 효과에 걸렸던 모든 대상은 강제로 3 초간 앉기 상태가 된다. 만약 한 번에 7 명 이상의 목표가 광란 상태에 빠졌을 경우, 광기의 신이 등장하여 광란에 빠진 모든 대상에게 9999 데미지를 입힌다. ^000000",
-		"[Level 1] : ^777777 효과범위 시전자 주변 7 x 7  / 공격력 +100 / 방어력 -20% / 회피율 -50%  ^000000",
-		"[Level 2] : ^777777 효과범위 시전자 주변 9 x 9   / 공격력 +200 / 방어력 -30% / 회피율 -60%  ^000000",
-		"[Level 3] : ^777777 효과범위 시전자 주변 11 x 11   / 공격력 +300 / 방어력 -40% / 회피율 -70%  ^000000",
-		"[Level 4] : ^777777 효과범위 시전자 주변 13 x 13   / 공격력 +400 / 방어력 -50% / 회피율 -80%  ^000000",
-		"[Level 5] : ^777777 효과범위 시전자 주변 15 x 15   / 공격력 +500 / 방어력 -60% / 회피율 -90%  ^000000",
+		"Saturday Night Fever",
+		"Prerequisites:^777777 Dance With Warg (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Unique / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Throws all targets on screen including yourself into a frenzy. While in frenzy you can't recover HP or SP, your attack power increases, and your defense and evasion drop considerably. Additionally you cannot use skills or items. When the frenzy effect ends, you're forced to sit for 10 seconds. If more than 7 people enter frenzy at once, all players affected receive 9999 damage from the god of madness.^000000",
+		"[LV 1]^777777 Drains 2% HP/SP every 3 sec, ATK +100, DEF -20%, Evasion -50%^000000",
+		"[LV 2]^777777 Drains 3% HP/SP every 3 sec, ATK +200, DEF -30%, Evasion -60%^000000",
+		"[LV 3]^777777 Drains 4% HP/SP every 3 sec, ATK +300, DEF -40%, Evasion -70%^000000",
+		"[LV 4]^777777 Drains 5% HP/SP every 3 sec, ATK +400, DEF -50%, Evasion -80%^000000",
+		"[LV 5]^777777 Drains 6% HP/SP every 3 sec, ATK +500, DEF -60%, Evasion -90%^000000",
 	},
 
 	[SKID.WM_LERADS_DEW] = {
 
-		"레라드의 이슬",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스윙 댄스(하모나이즈) , 연인들을 위한 심포니 (풍차를 향해 돌격), 달빛의 세레나데 (메아리의 노래) 1  ^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 자신을 포함하여 자기 주변의 파티원의 MHP 를 일시적으로 상승시킨다. 단, 버서크 상태의 캐릭터에게는 아무 효과도 발동되지 않는다. 파티원 중에 원더러 민스트렐의 숫자가 많을 수록 더 많은 양의 MHP 가 상승하게 된다. ^000000",
-		"[Level 1] : ^777777 MHP 200 증가  / 지속시간 20 초 ^000000",
-		"[Level 2] : ^777777 MHP 400 증가  / 지속시간 30 초 ^000000",
-		"[Level 3] : ^777777 MHP 600 증가  / 지속시간 40 초 ^000000",
-		"[Level 4] : ^777777 MHP 800 증가  / 지속시간 50 초 ^000000",
-		"[Level 5] : ^777777 MHP 1000 증가  / 지속시간 60 초 ^000000",
+		"Lerad's Dew",
+		"Prerequisites:^777777 Swing Dance (L1) or Harmonize (L1), Symphony of Lover (L1) or Windmill Rush Attack (L1), Moonlit Serenade (L1) or Echo Song (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+10*SkillLV sec^000000",
+		"Effect:^777777 Boosts max HP of party members on screen. Does not have any effect on Berserk characters. The amount of HP gained is greatly increased by the number of Wanderers/Minstrels in the party.^000000",
+		"[LV 1]^777777 Max HP +5%^000000",
+		"[LV 2]^777777 Max HP +10%^000000",
+		"[LV 3]^777777 Max HP +15%^000000",
+		"[LV 4]^777777 Max HP +20%^000000",
+		"[LV 5]^777777 Max HP +25%^000000",
 	},
 
 	[SKID.WM_MELODYOFSINK] = {
 
-		"멜로디 오브 싱크",
-		"MAX Lv : 5",
-		"^777777습득조건 : 마나의 노래 1^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 시전자를 포함하여 주변의 모든 대상의 마법 공격력을 향상시키고, 그 대신에 물리 공격력을 하락시킨다. 이 스킬은 비욘드 오브 워 크라이와 중복하여 사용할 수 없으며, 두 효과 중에 나중에 발동되는 효과가 우선된다. 파티원 중에 원더러 민스트렐의 숫자가 많을 수록 효과는 더욱 커진다. ^000000",
-		"[Level 1] : ^777777 마법 공격력 5% 증가 / 물리 공격력 5% 감소 /  지속시간 20 초 ^000000",
-		"[Level 2] : ^777777 마법 공격력 10% 증가 / 물리 공격력 10% 감소 / 지속시간 30 초 ^000000",
-		"[Level 3] : ^777777 마법 공격력 15% 증가 / 물리 공격력 15% 감소 / 지속시간 40 초 ^000000",
-		"[Level 4] : ^777777 마법 공격력 20% 증가 / 물리 공격력 20% 감소 / 지속시간 50 초 ^000000",
-		"[Level 5] : ^777777 마법 공격력 25% 증가 / 물리 공격력 25% 감소 / 지속시간 60 초 ^000000",
+		"Melody of Sink",
+		"Prerequisites:^777777 Song of Mana (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+10*SkillLV sec^000000",
+		"Effect:^777777 Increases magic attack power of all targets in a radius around you, while decreasing physical attack power. If the skill is overlapped with Warcry of Beyond, the last skill effect takes priority. The effect is increased by the number of Wanderers/Minstrels in party.^000000",
+		"[LV 1]^777777 5% MATK, -5% ATK^000000",
+		"[LV 2]^777777 10% MATK, -10% ATK^000000",
+		"[LV 3]^777777 15% MATK, -15% ATK^000000",
+		"[LV 4]^777777 20% MATK, -20% ATK^000000",
+		"[LV 5]^777777 25% MATK, -25% ATK^000000",
 	},
 
 	[SKID.WM_BEYOND_OF_WARCRY] = {
 
-		"비욘드 오브 워 크라이 ",
-		"MAX Lv : 5",
-		"^777777습득조건 : 레라드의 이슬 1^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 시전자를 포함하여 주변의 모든 대상의 물리 공격력을 향상시키고, 그 대신에 마법 공격력을 하락시킨다. 이 스킬은 멜로디 오브 싱크와 중복하여 사용할 수 없으며, 두 효과 중에 나중에 발동되는 효과가 우선된다. 파티원 중에 원더러 민스트렐의 숫자가 많을 수록 효과는 더욱 커진다. ^000000",
-		"[Level 1] : ^777777 물리 공격력 5% 증가 / 마법 공격력 5% 감소 /  지속시간 20 초 ^000000",
-		"[Level 2] : ^777777 물리 공격력 10% 증가 / 마법 공격력 10% 감소 / 지속시간 30 초 ^000000",
-		"[Level 3] : ^777777 물리 공격력 15% 증가 / 마법 공격력 15% 감소 / 지속시간 40 초 ^000000",
-		"[Level 4] : ^777777 물리 공격력 20% 증가 / 마법 공격력 20% 감소 / 지속시간 50 초 ^000000",
-		"[Level 5] : ^777777 물리 공격력 25% 증가 / 마법 공격력 25% 감소 / 지속시간 60 초 ^000000",
+		"Warcry of Beyond",
+		"Prerequisites:^777777 Lerad's Dew (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+10*SkillLV sec^000000",
+		"Effect:^777777 Increases physical attack power of all targets in a radius around you, while decreasing magic attack power. If the skill is overlapped with Melody of Sink, the last skill effect takes priority. The effect is increased by the number of Wanderers/Minstrels in party.^000000",
+		"[LV 1]^777777 5% ATK, -5% MATK^000000",
+		"[LV 2]^777777 10% ATK, -10% MATK^000000",
+		"[LV 3]^777777 15% ATK, -15% MATK^000000",
+		"[LV 4]^777777 20% ATK, -20% MATK^000000",
+		"[LV 5]^777777 25% ATK, -25% MATK^000000",
 	},
 
 	[SKID.WM_UNLIMITED_HUMMING_VOICE] = {
 
-		"언리미티드 허밍 보이스",
-		"MAX Lv : 5",
-		"^777777습득조건 : 사운드 오브 디스트럭션 1 , 비욘드 오브 워 크라이 1^000000",
-		"계열 : ^777777  액티브 / 버프 / 합창 ^000000",
-		"내용 : ^777777  악기 / 채찍 전용 스킬. 자신을 중심으로 범위 내의 모든 대상의 스킬 / 마법 캐스팅이 끊기지 않도록 한다. 단, 스킬 사용시의 소모 SP 가 15% 증가한다. 파티원 중에 원더러 민스트렐의 숫자가 많을 수록 스킬 사용시의 추가 SP 소모량이 감소된다.  ^000000",
-		"[Level 1] : ^777777 지속시간 20 초 ^000000",
-		"[Level 2] : ^777777 지속시간 30 초 ^000000",
-		"[Level 3] : ^777777 지속시간 40 초 ^000000",
-		"[Level 4] : ^777777 지속시간 50 초 ^000000",
-		"[Level 5] : ^777777 지속시간 60 초 ^000000",
+		"Unlimited Humming Voice",
+		"Prerequisites:^777777 Sound of Destruction (L1), Warcry of Beyond (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff / Chorus^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+10*SkillLV sec^000000",
+		"Effect:^777777 Makes all skills and magic cast in a radius around you un-interruptable. However skills consume 15% more SP. If there are more Wanderers/Minstrels in party the increased SP consumption decreases.^000000",
 	},
 
 	[SKID.SO_FIREWALK] = {
 
-		"파이어 워크",
-		"MAX Lv : 5",
-		"^777777습득조건 : 볼케이노 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777 12 초 간 시전자의 발 밑에서 불꽃을 일으켜, 시전자가 걸어다닌 위치에 화속성의 데미지 존을 생성한다.  스킬 레벨이 높을 수록 데미지가 증가한다. ^000000",
-		"[Level 1] : ^777777  최대 8 개 생성   ^000000",
-		"[Level 2] : ^777777  최대 10 개 생성   ^000000",
-		"[Level 3] : ^777777  최대 12 개 생성   ^000000",
-		"[Level 4] : ^777777  최대 14 개 생성   ^000000",
-		"[Level 5] : ^777777  최대 16 개 생성   ^000000",
+		"Fire Walk",
+		"Prerequisites:^777777 Volcano (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 26+4*SkillLV^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+2*SkillLV sec^000000",
+		"Effect:^777777 Generates fire under the feet of the caster, leaving a trail of fire element damage zones when you walk.^000000",
+		"[LV 1]^777777 Up to 8 areas^000000",
+		"[LV 2]^777777 Up to 10 areas^000000",
+		"[LV 3]^777777 Up to 12 areas^000000",
+		"[LV 4]^777777 Up to 14 areas^000000",
+		"[LV 5]^777777 Up to 16 areas^000000",
 	},
 
 	[SKID.SO_ELECTRICWALK] = {
 
-		"일렉트릭 워크",
-		"MAX Lv : 5",
-		"^777777습득조건 : 바이어런스 게일 1 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777 12 초 간 시전자의 발 밑에서 전격을 일으켜, 시전자가 걸어다닌 위치에 풍속성의 데미지 존을 생성한다.  스킬 레벨이 높을 수록 데미지가 증가한다.^000000",
-		"[Level 1] : ^777777  최대 8 개 생성   ^000000",
-		"[Level 2] : ^777777  최대 10 개 생성   ^000000",
-		"[Level 3] : ^777777  최대 12 개 생성   ^000000",
-		"[Level 4] : ^777777  최대 14 개 생성   ^000000",
-		"[Level 5] : ^777777  최대 16 개 생성   ^000000",
+		"Electric Walk",
+		"Prerequisites:^777777 Whirlwind (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 26+4*SkillLV^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 10+2*SkillLV sec^000000",
+		"Effect:^777777 Generates thunder under the feet of the caster, leaving a trail of wind element damage zones when you walk.^000000",
+		"[LV 1]^777777 Up to 8 areas^000000",
+		"[LV 2]^777777 Up to 10 areas^000000",
+		"[LV 3]^777777 Up to 12 areas^000000",
+		"[LV 4]^777777 Up to 14 areas^000000",
+		"[LV 5]^777777 Up to 16 areas^000000",
 	},
 
 	[SKID.SO_SPELLFIST] = {
 
-		"스펠 피스트",
-		"MAX Lv : 5",
-		"^777777습득조건 : 오토 스펠 4 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777  파이어, 콜드, 라이트닝 볼트 시전 중 이 스킬을 사용하면, 볼트류 캐스팅이 중단되며 그 마법력이 시전자의 양 손에 집중된다. 이 상태에서 직접 목표를 타격하면 대상에게 볼트 마법 데미지를 줄 수 있다. 스킬 레벨이 높을 수록 추가적인 데미지가 상승한다. 스킬 지속시간 중 타격 횟수 만큼의 공격을 하거나, 다른 스킬을 사용하면 이 효과는 해제된다. ^000000",
-		"[Level 1] : ^777777 지속시간 20 초  / 최대 2 회 타격  ^000000",
-		"[Level 2] : ^777777 지속시간 25 초  / 최대 3 회 타격  ^000000",
-		"[Level 3] : ^777777 지속시간 30 초  / 최대 4 회 타격  ^000000",
-		"[Level 4] : ^777777 지속시간 35 초  / 최대 5 회 타격  ^000000",
-		"[Level 5] : ^777777 지속시간 40 초  / 최대 6 회 타격  ^000000",
+		"Spell Fist",
+		"Prerequisites:^777777 Hindsight (L4)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 36+4*SkillLV^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 15+5*SkillLV sec^000000",
+		"Effect:^777777 Usable while casting fire/cold/lightening bolt, the bolt skill cast is interrupted and the magic power converges on the user's hands. While in this state your physical attacks will deal magic damage of the bolt. Higher skill level increases the damage. After a set duration or a number of hits have been dealt, the skill will cancel.^000000",
+		"[LV 1]^777777 2 hits^000000",
+		"[LV 2]^777777 3 hits^000000",
+		"[LV 3]^777777 4 hits^000000",
+		"[LV 4]^777777 5 hits^000000",
+		"[LV 5]^777777 6 hits^000000",
 	},
 
 	[SKID.SO_EARTHGRAVE] = {
 
-		"어스 그레이브 ",
-		"MAX Lv : 5",
-		"^777777습득조건 :  어스 스파이크 5 ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  일정 범위의 흙더미를 단단한 창으로 변화시켜, 대상의 발 밑에서 부터 솟구치게 하여 지속성 마법 데미지와 함께 출혈 상태이상을 유발시킨다. 스킬 레벨 및 사이즈믹 스킬 레벨이 높을 수록 데미지가 증가한다. 또한 하이딩, 클로킹 상태의 대상에게도 데미지를 입힐 수 있다.^000000",
-		"[Level 1] : ^777777 범위 7 x 7 셀  ^000000",
-		"[Level 2] : ^777777 범위 7 x 7 셀  ^000000",
-		"[Level 3] : ^777777 범위 7 x 7 셀   ^000000",
-		"[Level 4] : ^777777 범위 9 x 9 셀   ^000000",
-		"[Level 5] : ^777777 범위 9 x 9 셀   ^000000",
+		"Earth Grave",
+		"Prerequisites:^777777 Earth Spike (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Summons numerous spikes from the ground that deals Earth element damage to all targets in the range, and may cause Bleeding status.^000000",
+		"[LV 1]^777777 7x7 cells^000000",
+		"[LV 2]^777777 7x7 cells^000000",
+		"[LV 3]^777777 7x7 cells^000000",
+		"[LV 4]^777777 9x9 cells^000000",
+		"[LV 5]^777777 9x9 cells^000000",
 	},
 
 	[SKID.SO_DIAMONDDUST] = {
 
-		"다이아몬드 더스트",
-		"MAX Lv : 5",
-		"^777777습득조건 :  델류즈 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  일정 범위에 차가운 냉기 폭풍을 퍼부어 수속성 마법 데미지와 함께 상태이상 : [냉동] 을 유발시킨다. 스킬 레벨 및 프로스트 웨폰의 레벨에 따라 데미지가 증가한다. 목표 대상의 VIT 이 높을 경우 냉동 효과의 지속시간이 감소한다. ^000000",
-		"[Level 1] : ^777777 범위 7 x 7 셀  ^000000",
-		"[Level 2] : ^777777 범위 7 x 7 셀  ^000000",
-		"[Level 3] : ^777777 범위 7 x 7 셀   ^000000",
-		"[Level 4] : ^777777 범위 9 x 9 셀   ^000000",
-		"[Level 5] : ^777777 범위 9 x 9 셀   ^000000",
+		"Diamond Dust",
+		"Prerequisites:^777777 Deluge (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Calls a Cold Chill of Storm onto a targeted cell that deals Water Element Magic Damage that may cause Freezing status.^000000",
+		"[LV 1]^777777 7x7 cells^000000",
+		"[LV 2]^777777 7x7 cells^000000",
+		"[LV 3]^777777 7x7 cells^000000",
+		"[LV 4]^777777 9x9 cells^000000",
+		"[LV 5]^777777 9x9 cells^000000",
 	},
 
 	[SKID.SO_POISON_BUSTER] = {
 
-		"포이즌 버스터",
-		"MAX Lv : 5",
-		"^777777습득조건 :  클라우드 킬 2  ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  독에 걸린 대상의 체내의 독 기운을 활성화 시켜, 몸을 끓어오르게 하여 더욱 큰 데미지를 입힌다. 데미지를 입은 대상은 독 상태가 해제된다. 독 속성의 몬스터에게는 효과가 발동하지 않는다. 스킬레벨이 상승할 수록 데미지가 증가한다. ^000000",
+		"Poison Buster",
+		"Prerequisites:^777777 Cloud Kill (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 50+20*SkillLV^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Activates the poison within a target, causing the target to take large damage. When the skill is used it cancels poison status on the target. Has no effect on poison attribute monsters.^000000",
 	},
 
 	[SKID.SO_PSYCHIC_WAVE] = {
 
-		"사이킥 웨이브",
-		"MAX Lv : 5",
-		"^777777습득조건 :  디스펠 2  ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  일정 범위에 염동 에너지를 발사하여 수차례의 무속성 마법 데미지를 준다. 스킬 레벨 및 시전자 INT 에 따라 데미지가 증가한다. ^000000",
-		"[Level 1] : ^777777 범위 7 x 7 셀 / 타격횟수 3 회 ^000000",
-		"[Level 2] : ^777777 범위 7 x 7 셀 / 타격횟수 4 회  ^000000",
-		"[Level 3] : ^777777 범위 9 x 9 셀 / 타격횟수 5 회  ^000000",
-		"[Level 4] : ^777777 범위 9 x 9 셀 / 타격횟수 6 회  ^000000",
-		"[Level 5] : ^777777 범위 11 x 11 셀 / 타격횟수 7 회  ^000000",
+		"Psychic Wave",
+		"Prerequisites:^777777 Dispell (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Fire's a wave of psychic energy at targets in range to deal multiple hits of neutral element magic damage. All targets that receive damage have a chance to be stunned.^000000",
+		"[LV 1]^777777 7x7 cells, 3 hits, SP Cost 48^000000",
+		"[LV 2]^777777 7x7 cells, 4 hits, SP Cost 56^000000",
+		"[LV 3]^777777 9x9 cells, 5 hits, SP Cost 64^000000",
+		"[LV 4]^777777 9x9 cells, 6 hits, SP Cost 70^000000",
+		"[LV 5]^777777 11x11 cells, 7 hits, SP Cost 78^000000",
 	},
 
 	[SKID.SO_CLOUD_KILL] = {
 
-		"클라우드 킬",
-		"MAX Lv : 5",
-		"^777777습득조건 :  헤븐즈 드라이브 5  ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  7 x 7  범위에 독 구름을 소환, 지속시간 동안 범위 내의 모든 대상에게 독속성 마법 데미지를 주고, [상태이상 : 독]에 걸리게 한다. 스킬 레벨이 높을 수록 데미지가 증가한다. 스킬 사용시 레드 젬스톤 2 개를 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 8 초  ^000000",
-		"[Level 2] : ^777777 지속시간 10 초  ^000000",
-		"[Level 3] : ^777777 지속시간 12 초  ^000000",
-		"[Level 4] : ^777777 지속시간 14 초  ^000000",
-		"[Level 5] : ^777777 지속시간 16 초  ^000000",
+		"Cloud Kill",
+		"Prerequisites:^777777 Heaven's Drive (L5)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 6+2*SkillLV sec^000000",
+		"Effect:^777777 Summons a 7x7 radius poisonous cloud at a target location, continually dealing poison element damage and causing poison status. Targets that take damage have a chance to be changed to poison attribute.^000000",
+		"[LV 1]^777777 SP Cost 48^000000",
+		"[LV 2]^777777 SP Cost 56^000000",
+		"[LV 3]^777777 SP Cost 64^000000",
+		"[LV 4]^777777 SP Cost 70^000000",
+		"[LV 5]^777777 SP Cost 78^000000",
 	},
 
 	[SKID.SO_STRIKING] = {
 
-		"스트라이킹",
-		"MAX Lv : 5",
-		"^777777습득조건 :  프레임 런쳐 1 / 프로스트 웨폰 1 / 라이트닝 로더 1 / 사이즈믹 웨폰 1  ^000000",
-		"계열 : ^777777  액티브 / 버프  ^000000",
-		"내용 : ^777777  자신 및 파티원의 무기 공격력 및 크리티컬 확률을 상승시킨다. 스트라이킹 효과를 받은 대상은 매 초 당 일정량의 SP 를 소모한다. 시전자가 배운 속성 부여 스킬 (프레임 런쳐 / 프로스트 웨폰 / 라이트닝 로더 / 사이즈믹 웨폰 ) 레벨에 따라 효과가 증가한다. ^000000",
-		"[Level 1] : ^777777 무기 공격력 + 35 / 크리티컬 + 1% / 지속시간 60 초  ^000000",
-		"[Level 2] : ^777777 무기 공격력 + 45 / 크리티컬 + 2% / 지속시간 60 초  ^000000",
-		"[Level 3] : ^777777 무기 공격력 + 55 / 크리티컬 + 3% / 지속시간 60 초  ^000000",
-		"[Level 4] : ^777777 무기 공격력 + 65 / 크리티컬 + 4% / 지속시간 60 초  ^000000",
-		"[Level 5] : ^777777 무기 공격력 + 75 / 크리티컬 + 5% / 지속시간 60 초  ^000000",
+		"Striking",
+		"Prerequisites:^777777 Flame Launcher (L1), Frost Weapon (L1), Lightning Loader (L1), Seismic Weapon (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 60 sec^000000",
+		"Effect:^777777 Increases your own and your party member's weapon attack power and critical rate.^000000",
+		"[LV 1]^777777 ATK +100, Critical Rate +1^000000",
+		"[LV 2]^777777 ATK +150, Critical Rate +2^000000",
+		"[LV 3]^777777 ATK +200, Critical Rate +3^000000",
+		"[LV 4]^777777 ATK +250, Critical Rate +4^000000",
+		"[LV 5]^777777 ATK +300, Critical Rate +5^000000",
 	},
 
 	[SKID.SO_WARMER] = {
 
-		"워머",
-		"MAX Lv : 5",
-		"^777777습득조건 :  볼케이노 1 / 바이어런스 게일 1 ^000000",
-		"계열 : ^777777  액티브 / 지면 / 회복  ^000000",
-		"내용 : ^777777  7x 7 셀 내의 모든 목표의 냉동 , 동빙, 빙결 상태를 해제하며, 지속 시간 동안 이 효과 내의 모든 대상은 냉동, 동빙, 빙결 상태에 걸리지 않는다. 또한, 효과 범위 내의 모든 대상은 3 초당 일정량의 HP를 회복한다.^000000",
-		"[Level 1] : ^777777 지속시간 10 초  ^000000",
-		"[Level 2] : ^777777 지속시간 15 초  ^000000",
-		"[Level 3] : ^777777 지속시간 20 초  ^000000",
-		"[Level 4] : ^777777 지속시간 25 초  ^000000",
-		"[Level 5] : ^777777 지속시간 30 초  ^000000",
+		"Warmer",
+		"Prerequisites:^777777 Volcano (L1), Whirlwind (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 5+5*SkillLV sec^000000",
+		"Effect:^777777 Cancels Freezing and Frozen status in 7x7 AoE and prevents Freezing and Frozen for a certain duration. Also heals the target(s) every second for some amount of hp.^000000",
 	},
 
 	[SKID.SO_VACUUM_EXTREME] = {
 
-		"바큠 익스트림",
-		"MAX Lv : 5",
-		"^777777습득조건 : 랜드 프로텍터 2 ^000000",
-		"계열 : ^777777  액티브 / 특수  ^000000",
-		"내용 : ^777777  지면 1 셀에 진공의 구덩이를 생성시켜, 범위 내의 모든 목표를 그 자리에 붙잡아 중앙으로 끌어당긴다.  붙잡힌 모든 대상은 지속시간이 끝날 때 까지 움직일 수 없다. 목표 대상의 STR 이 높을 경우 바큠 익스트림의 지속시간이 감소한다. ^000000",
-		"[Level 1] : ^777777 효과 범위 3 x 3 셀 / 지속시간 4 초  ^000000",
-		"[Level 2] : ^777777 효과 범위 3 x 3 셀 /지속시간 6 초  ^000000",
-		"[Level 3] : ^777777 효과 범위 5 x 5 셀 /지속시간 8 초  ^000000",
-		"[Level 4] : ^777777 효과 범위 5 x 5 셀 /지속시간 10 초  ^000000",
-		"[Level 5] : ^777777 효과 범위 7 x 7 셀 /지속시간 12 초  ^000000",
+		"Vacuum Extreme",
+		"Prerequisites:^777777 Land Protector (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 60+4*SkillLV^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 4+1*SkillLV^000000",
+		"Effect:^777777 Creates a vacuum at a target cell, that suspends all targets in a 7x7 area. Targets affected cannot move until the skill has ended.^000000",
 	},
 
 	[SKID.SO_VARETYR_SPEAR] = {
 
-		"바레티르 스피어",
-		"MAX Lv : 5",
-		"^777777습득조건 :  사이즈믹 웨폰 1 / 바이어런스 게일 4 ^000000",
-		"계열 : ^777777  액티브 / 데미지  ^000000",
-		"내용 : ^777777  하늘로부터 거대한 전격 창을 소환하여, 목표 1 체 및 그 주변에 물리/마법적인 타격(풍속성)을 동시에 준다. 데미지를 입은 모든 대상은 일정 확률로 스턴에 걸린다. 스킬 레벨 및 라이트닝 로더 레벨이 높을 수록 데미지가 증가한다.  ^000000",
-		"[Level 1] : ^777777 목표 및 주변 3 x 3 셀  ^000000",
-		"[Level 2] : ^777777 목표 및 주변 3 x 3 셀  ^000000",
-		"[Level 3] : ^777777 목표 및 주변 5 x 5 셀  ^000000",
-		"[Level 4] : ^777777 목표 및 주변 5 x 5 셀  ^000000",
-		"[Level 5] : ^777777 목표 및 주변 7 x 7 셀  ^000000",
+		"Varetyr Spear",
+		"Prerequisites:^777777 Whirlwind (L4), Seismic Weapon (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Deals Wind element Physical and Magical damage (MATK + ATK) and has a chance to stun the target.^000000",
+		"[LV 1]^777777 3x3 cells^000000",
+		"[LV 2]^777777 3x3 cells^000000",
+		"[LV 3]^777777 5x5 cells^000000",
+		"[LV 4]^777777 5x5 cells^000000",
+		"[LV 5]^777777 7x7 cells^000000",
 	},
 
 	[SKID.SO_ARRULLO] = {
 
-		"아를로",
-		"MAX Lv : 5",
-		"^777777습득조건 :   워머 2  ^000000",
-		"계열 : ^777777  액티브 / 특수  ^000000",
-		"내용 : ^777777  대상 목표 1 체 및 그 주변의 모든 대상을 [깊은잠] 상태에 빠뜨린다. 스킬 사용시 옐로우 젬스톤 1 개를 소모하며, 아군에게는 사용할 수 없다. ^000000",
-		"[Level 1] : ^777777 목표 및 주변 3 x 3 셀  ^000000",
-		"[Level 2] : ^777777 목표 및 주변 3 x 3 셀  ^000000",
-		"[Level 3] : ^777777 목표 및 주변 5 x 5 셀  ^000000",
-		"[Level 4] : ^777777 목표 및 주변 5 x 5 셀  ^000000",
-		"[Level 5] : ^777777 목표 및 주변 7 x 7 셀  ^000000",
+		"Arrullo",
+		"Prerequisites:^777777 Warmer (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Duration:^777777 5+5*SkillLV sec^000000",
+		"Effect:^777777 Causes [Deep Sleep] status on the target and surrounding cells. Disables chat while sleeping. Higher level increases success rate.^000000",
+		"[LV 1]^777777 3x3 cells^000000",
+		"[LV 2]^777777 3x3 cells^000000",
+		"[LV 3]^777777 5x5 cells^000000",
+		"[LV 4]^777777 5x5 cells^000000",
+		"[LV 5]^777777 7x7 cells^000000",
 	},
 
 	[SKID.SO_EL_CONTROL] = {
 
-		"정령 제어 ",
-		"MAX Lv : 4",
-		"^777777습득조건 :   4 원소 분석 1   ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777 웨이트(대기) 모드 상태인 정령에게 명령을 내려 패시브(버프), 디펜시브(방어), 오펜시브(공격) 모드로 전환이 가능하다. 다시 한 번 같은 명령을 내리면 웨이트 (대기) 모드로 전환된다. 대기 모드 상태의 정령은 HP 와 SP 를 조금씩 회복한다. ^000000",
-		"[Level 1] : ^777777 정령을 패시브 모드로 전환  ^000000",
-		"[Level 2] : ^777777 정령을 디펜시브 모드로 전환   ^000000",
-		"[Level 3] : ^777777 정령을 오펜시브 모드로 전환   ^000000",
-		"[Level 4] : ^777777 정령 소환을 해제 한다.   ^000000",
+		"Spirit Control",
+		"Prerequisites:^777777 Four Element Analysis (L1)^000000",
+		"Max Level: ^777777 4^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Switches your summoned spirit from Standby Mode to passive (buff) mode, defensive mode, and offensive mode. Using the skill again returns the spirit to standby mode. While in standby, the spirit will recover HP and SP faster.^000000",
+		"[LV 1]^777777 Change the Spirit to Passive Mode^000000",
+		"[LV 2]^777777 Change the Spirit to Defensive Mode^000000",
+		"[LV 3]^777777 Change the Spirit to Offensive Mode^000000",
+		"[LV 4]^777777 Cancles the currently Summoned Spirit^000000",
 	},
 
 	[SKID.SO_SUMMON_AGNI] = {
 
-		"불의 정령 아그니 소환",
-		"MAX Lv : 3",
-		"^777777습득조건 :   정령 제어 1 / 워머 3  ^000000",
-		"계열 : ^777777  액티브 / 소환  ^000000",
-		"내용 : ^777777 불의 정령 아그니를 소환한다. 소환시 레벨에 따라 [ 레드 블러드 3 / 레드 블러드 6 / 프레임 하트 1 ]개 를 촉매로서 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 600 초 / 10 초당 5 의 SP 소모 ^000000",
-		"[Level 2] : ^777777 지속시간 900 초 / 10 초당 8 의 SP 소모   ^000000",
-		"[Level 3] : ^777777 지속시간 1200 초 / 10 초당 11 의 SP 소모   ^000000",
+		"Summon Fire Spirit 'Agni'",
+		"Prerequisites:^777777 Spirit Control (L1), Warmer (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Summons a spirit of Thor, Agni. Summoning costs [3 Red Blood / 6 Red Blood / 1 Flame Heart] depending on skill level.^000000",
+		"[LV 1]^777777 Duration 600s / Every 10s drains 5 SP^000000",
+		"[LV 2]^777777 Duration 900s / Every 10s drains 8 SP^000000",
+		"[LV 3]^777777 Duration 1200s / Every 10s drains 11 SP^000000",
 	},
 
 	[SKID.SO_SUMMON_AQUA] = {
 
-		"SO_SUMMON_AQUA\"",
-		"물의 정령 아쿠아 소환",
-		"MAX Lv : 3",
-		"^777777습득조건 :   정령 제어 1 / 다이아몬드 더스트 3  ^000000",
-		"계열 : ^777777  액티브 / 소환  ^000000",
-		"내용 : ^777777 물의 정령 아쿠아를 소환한다. 소환시 레벨에 따라 [ 크리스탈 블루 3 / 크리스탈 블루 6 / 미스틱 프로즌 1 ]개 를 촉매로서 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 600 초 / 10 초당 5 의 SP 소모 ^000000",
-		"[Level 2] : ^777777 지속시간 900 초 / 10 초당 8 의 SP 소모   ^000000",
-		"[Level 3] : ^777777 지속시간 1200 초 / 10 초당 11 의 SP 소모   ^000000",
+		"Summon Water Spirit 'Aqua'",
+		"Prerequisites:^777777 Spirit Control (L1), Diamond Dust (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Summons a spirit of water, Aqua. Summoning costs [3 Crystal Blue / 6 Crystal Blue / 1 Mystic Frozen] depending on skill level.^000000",
+		"[LV 1]^777777 Duration 600s / Every 10s drains 5 SP^000000",
+		"[LV 2]^777777 Duration 900s / Every 10s drains 8 SP^000000",
+		"[LV 3]^777777 Duration 1200s / Every 10s drains 11 SP^000000",
 	},
 
 	[SKID.SO_SUMMON_VENTUS] = {
 
-		"바람의 정령 벤투스 소환",
-		"MAX Lv : 3",
-		"^777777습득조건 :   정령 제어 1 / 바레티르 스피어 3  ^000000",
-		"계열 : ^777777  액티브 / 소환  ^000000",
-		"내용 : ^777777 바람의 정령 벤투스를 소환한다. 소환시 레벨에 따라 [ 윈드 오브 버듀어 3 / 윈드 오브 버듀어 6 / 러프 윈드 1 ]개 를 촉매로서 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 600 초 / 10 초당 5 의 SP 소모 ^000000",
-		"[Level 2] : ^777777 지속시간 900 초 / 10 초당 8 의 SP 소모   ^000000",
-		"[Level 3] : ^777777 지속시간 1200 초 / 10 초당 11 의 SP 소모   ^000000",
+		"Summon Wind Spirit 'Ventus'",
+		"Prerequisites:^777777 Spirit Control (L1), Vartyr Spear (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Summons Ventus, a spirit of wind. Summoning costs [3 Wind of Verdure / 6 Wind of Verdure / 1 Rough Wind] depending on skill level.^000000",
+		"[LV 1]^777777 Duration 600s / Every 10s drains 5 SP^000000",
+		"[LV 2]^777777 Duration 900s / Every 10s drains 8 SP^000000",
+		"[LV 3]^777777 Duration 1200s / Every 10s drains 11 SP^000000",
 	},
 
 	[SKID.SO_SUMMON_TERA] = {
 
-		"땅의 정령 테라 소환",
-		"MAX Lv : 3",
-		"^777777습득조건 :   정령 제어 1 / 어스 그레이브 3  ^000000",
-		"계열 : ^777777  액티브 / 소환  ^000000",
-		"내용 : ^777777 땅의 정령 테라를 소환한다. 소환시 레벨에 따라 [ 그린 라이브 3 / 그린 라이브 6 / 그레이트 네이쳐 1 ]개 를 촉매로서 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 600 초 / 10 초당 5 의 SP 소모 ^000000",
-		"[Level 2] : ^777777 지속시간 900 초 / 10 초당 8 의 SP 소모   ^000000",
-		"[Level 3] : ^777777 지속시간 1200 초 / 10 초당 11 의 SP 소모   ^000000",
+		"Summon Wind Spirit 'Tera'",
+		"Prerequisites:^777777 Spirit Control (L1), Earth Grave (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Summons Tera, spirit of Earth. Summoning costs [3 Green Live / 6 Green Live / 1 Great Nature] depending on skill level.^000000",
+		"[LV 1]^777777 Duration 600s / Every 10s drains 5 SP^000000",
+		"[LV 2]^777777 Duration 900s / Every 10s drains 8 SP^000000",
+		"[LV 3]^777777 Duration 1200s / Every 10s drains 11 SP^000000",
 	},
 
 	[SKID.SO_EL_ACTION] = {
 
-		"엘리멘탈 액션\"",
-		"MAX Lv : 1 ",
-		"^777777습득조건 :  정령 제어 3   ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777 소환 중인 정령의 오펜시브(공격) 모드 명령 하나를 즉시 발동시킨다. ^000000",
+		"Elemental Action",
+		"Prerequisites:^777777 Spirit Control (L3)^000000",
+		"Max Level: ^777777 1^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Instantly switches your spirit to offensive mode.^000000",
 	},
 
 	[SKID.SO_EL_ANALYSIS] = {
 
-		"4 원소 분석",
-		"^777777습득조건 :  프레임 런쳐 1 / 프로스트 웨폰 1 / 라이트닝 로더 1 / 사이즈믹 웨폰 1   ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777 정령을 소환하는데 있어 필요한 촉매인 속성석을 원석으로 분해하거나 반대로 원석을 속성석으로 결합한다. ^000000",
-		"[Level 1] : ^777777 속성석을 속성 원석으로 분해한다 ( 프레임하트, 러프 윈드, 미스틱 프로즌, 그레이트 네이쳐 1 개를 변환 창에 넣으면 레드 블러드, 윈드 오브 버듀어, 크리스탈 블루, 그린 라이브 여러 개로  분해한다. 분해되는 갯수는 랜덤으로 결정된다.  ^000000",
-		"[Level 2] : ^777777 속성원석을 속성석으로 결합한다  ( 레드 블러드, 윈드 오브 버듀어, 크리스탈 블루, 그린 라이브 10 개를 변환 창에 넣으면 프레임하트, 러프 윈드, 미스틱 프로즌, 그레이트 네이쳐 1 개를 얻는다 ) 속성석 결합에 실패하여 아무것도 얻지 못할 수도 있다. ^000000",
+		"Four Spirit Analysis",
+		"Prerequisites:^777777 Flame Launcher (L1), Frost Weapon (L1), Lightning Loader (L1), Seismic Weapon (L1)^000000",
+		"Max Level: ^777777 2^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Allows you to synthesize elemental stones into kinds needed for summoning elemental spirits.^000000",
+		"[LV 1]^777777 Splits elemental stones into elemental stone ore . (Using Flame Heart, Rough Wind, Mystic Frozen, Great Nature you can create Red Blood, Wind of Verdure, Crystal Blue, Yellow Live. The number created is random)^000000",
+		"[LV 2]^777777 Combines elemental stone ore into elemental stones. (10 Red Blood, Wind of Verdure, Crystal Blue or Yellow Live can be used to create Flame Heart, Rough Wind, Mystic Frozen, or Great Nature). Synthesis can fail, resulting in loss of items^000000",
 	},
 
 	[SKID.SO_EL_SYMPATHY] = {
 
-		"정령 교감",
-		"MAX Lv : 5",
-		"^777777습득조건 :   정령 제어 3  ^000000",
-		"계열 : ^777777  패시브  ^000000",
-		"내용 : ^777777  소환된 정령과의 교감을 통해 정령의 HP, SP 및 공격력을 증가시키고 소환 시의  SP 소모량을 줄여준다. ^000000",
-		"[Level 1] : ^777777 HP 500,  SP 50 증가  / 공격력 25 증가 / 소환 시 SP 10% 감소 ^000000",
-		"[Level 2] : ^777777 HP 1000,  SP 100 증가  / 공격력 50 증가 / 소환 시 SP 15% 감소^000000",
-		"[Level 3] : ^777777 HP 1500,  SP 150 증가  / 공격력 75 증가 / 소환 시 SP 20% 감소  ^000000",
-		"[Level 4] : ^777777 HP 2000,  SP 200 증가  / 공격력 100 증가 / 소환 시 SP 25% 감소  ^000000",
-		"[Level 5] : ^777777 HP 2500,  SP 250 증가  / 공격력 125 증가 / 소환 시 SP 30% 감소  ^000000",
+		"Spirit Sympathy",
+		"Prerequisites:^777777 Elemental Control (L3)^000000",
+		"Max Level: ^777777 5^000000",
+		"Type:^777777 Passive^000000",
+		"Effect:^777777 Increases the HP, SP, and attack power of elemental spirits you summon, as well as decrease the SP cost of summoning those spirits.^000000",
+		"[LV 1]^777777 HP +500, SP + 50 / Attack + 25 / Summoning Cost -10%^000000",
+		"[LV 2]^777777 HP +1000, SP + 100 / Attack + 50 / Summoning Cost -15%^000000",
+		"[LV 3]^777777 HP +1500, SP + 150 / Attack + 75 / Summoning Cost -20%^000000",
+		"[LV 4]^777777 HP +2000, SP + 200 / Attack + 100 / Summoning Cost -25%^000000",
+		"[LV 5]^777777 HP +2500, SP + 250 / Attack + 125 / Summoning Cost -30%^000000",
 	},
 
 	[SKID.SO_EL_CURE] = {
 
-		"정령 치유",
-		"MAX Lv : 1 ",
-		"^777777습득조건 :  정령 교감 1   ^000000",
-		"계열 : ^777777  액티브 / 회복 ^000000",
-		"내용 : ^777777 시전자 자신의 HP, SP 를 일부 소모하여 정령의 HP, SP 를 회복시킨다. ^000000",
+		"Spirit Recovery",
+		"Prerequisites:^777777 Spirit Sympathy (L1)^000000",
+		"Max Level: ^777777 1^000000",
+		"Type:^777777 Active / Recovery^000000",
+		"Effect:^777777 Consumes your own HP and SP and uses it to recover the HP and SP of a spirit.^000000",
 	},
 
 	[SKID.SO_FIRE_INSIGNIA] = {
 
-		"파이어 인시그니아",
-		"MAX Lv : 3",
-		"^777777습득조건 :   불의 정령 아그니 소환 3   ^000000",
-		"계열 : ^777777  액티브 / 지면 마법  ^000000",
-		"내용 : ^777777 지면 3 x 3 범위에 불의 문장을 그려 이 범위 내의 화속성 갑옷을 장비한 대상 및 화속성 몬스터는 5 초당 1% HP 를 회복한다. 반대로 지속성 갑옷을 장비한 대상 혹은 지속성 몬스터에게는 5 초당 1% 의 HP가 감소한다. 또한 효과 범위 내의 모든 대상은 반대 속성인 수속성 공격에 대해서는 데미지가 1.5 배 증가한다. 스킬 사용시 각 레벨마다 [스칼렛 포인트 1 / 2 / 3 ] 개 를 소모한다. ^000000",
-		"[Level 1] : ^777777 불의 정령 아그니의 공격력이 20% 증가. 3초 마다 HP, SP 회복량이 2 배가 된다. ^000000",
-		"[Level 2] : ^777777 공격력이 50 증가. 무기 속성이 화속성으로 변화. 물리 공격력이 10% 증가. ^000000",
-		"[Level 3] : ^777777 마법 공격력이 50 증가. 일부의 화속성 마법 사용시 공격력이 25% 증가. ^000000",
+		"Fire Insignia",
+		"Prerequisites:^777777 Summon Fire Spirit Agni (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active / Ground Magic^000000",
+		"Effect:^777777 Creates a 3x3 fire crest on the ground, which recovers 1% HP every 5 seconds for fire monsters and players with fire attribute armor. Targets of the opposite element Earth will lose 1% HP every 5 seconds. When in range water element attacks deal 1.5 times damage. The skill consumes [1/2/3 Scarlet Point] depending on the skill level.^000000",
+		"[LV 1]^777777 Increases the fire spirit Agni's attack power by 20%. HP and SP recovered every 3 seconds is doubled^000000",
+		"[LV 2]^777777 Attack Power + 50. Weapon attribute becomes fire property. Physical attack power + 10%^000000",
+		"[LV 3]^777777 Magic Attack Power + 50. When using fire attribute damage, damage + 25%^000000",
 	},
 
 	[SKID.SO_WATER_INSIGNIA] = {
 
-		"워터 인시그니아",
-		"MAX Lv : 3",
-		"^777777습득조건 :   물의 정령 아쿠아 소환 3   ^000000",
-		"계열 : ^777777  액티브 / 지면 마법  ^000000",
-		"내용 : ^777777 지면 3 x 3 범위에 물의 문장을 그려 이 범위 내의 수속성 갑옷을 장비한 대상 및 수속성 몬스터는 5 초당 1% HP 를 회복한다. 반대로 화속성 갑옷을 장비한 대상 혹은 화속성 몬스터에게는 5 초당 1% 의 HP가 감소한다. 또한 효과 범위 내의 모든 대상은 반대 속성인 풍속성 공격에 대해서는 데미지가 1.5 배 증가한다. 스킬 사용시 각 레벨마다 [인디고 포인트 1 / 2 / 3 ] 개 를 소모한다. ^000000",
-		"[Level 1] : ^777777 물의 정령 아쿠아의 공격력이 20% 증가. 3초 마다 HP, SP 회복량이 2 배가 된다. ^000000",
-		"[Level 2] : ^777777 힐 회복효과가 10% 증가. 무기 속성이 수속성으로 변화. 물리 공격력 10% 증가. ^000000",
-		"[Level 3] : ^777777 일부 수속성 마법의 변동 캐스팅이 30% 감소. 일부의 수속성 마법 사용시 공격력이 25% 증가. ^000000",
+		"Water Insignia",
+		"Prerequisites:^777777 Summon Fire Spirit Aqua (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active / Ground Magic^000000",
+		"Effect:^777777 Creates a 3x3 water crest on the ground, which recovers 1% HP every 5 seconds for water monsters and players with water attribute armor. Targets of the opposite element fire will lose 1% HP every 5 seconds. When in range wind element attacks deal 1.5 times damage. The skill consumes [1/2/3 Indigo Point] depending on the skill level.^000000",
+		"[LV 1]^777777 Increases the water spirit Aqua's attack power by 20%. HP and SP recovered every 3 seconds is doubled^000000",
+		"[LV 2]^777777 Heal recovery + 10%. Weapon attribute becomes water property. Physical attack power + 10%^000000",
+		"[LV 3]^777777 When casting water attribute magic, variable cast time -30%. When using water attribute magic, damage + 25%^000000",
 	},
 
 	[SKID.SO_WIND_INSIGNIA] = {
 
-		"윈드 인시그니아",
-		"MAX Lv : 3",
-		"^777777습득조건 :   바람의 정령 벤투스 소환 3   ^000000",
-		"계열 : ^777777  액티브 / 지면 마법  ^000000",
-		"내용 : ^777777 지면 3 x 3 범위에 바람의 문장을 그려 이 범위 내의 풍속성 갑옷을 장비한 대상 및 풍속성 몬스터는 5 초당 1% HP 를 회복한다. 반대로 수속성 갑옷을 장비한 대상 혹은 수속성 몬스터에게는 5 초당 1% 의 HP가 감소한다. 또한 효과 범위 내의 모든 대상은 반대 속성인 지속성 공격에 대해서는 데미지가 1.5 배 증가한다. 스킬 사용시 각 레벨마다 [옐로우 위시 포인트 1 / 2 / 3 ] 개 를 소모한다. ^000000",
-		"[Level 1] : ^777777 바람의 정령 벤투스의 공격력이 20% 증가. 3초 마다 HP, SP 회복량이 2 배가 된다. ^000000",
-		"[Level 2] : ^777777 공격 속도가 약간 증가. 무기 속성이 풍속성으로 변화. 물리 공격력이 10% 증가. ^000000",
-		"[Level 3] : ^777777 일부 풍속성 마법의 스킬 딜레이가 50% 감소. 일부 풍속성 마법의 공격력이 25% 증가. ^000000",
+		"Wind Insignia",
+		"Prerequisites:^777777 Summon Fire Spirit Ventus (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active / Ground Magic^000000",
+		"Effect:^777777 Creates a 3x3 wind crest on the ground, which recovers 1% HP every 5 seconds for wind monsters and players with wind attribute armor. Targets of the opposite element water will lose 1% HP every 5 seconds. When in range earth element attacks deal 1.5 times damage. The skill consumes [1/2/3 Yellow Wish Point] depending on the skill level.^000000",
+		"[LV 1]^777777 Increases the wind spirit Ventus's attack power by 20%. HP and SP recovered every 3 seconds is doubled^000000",
+		"[LV 2]^777777 Gives a small increase in attack speed. Weapon attribute becomes water property. Physical attack power + 10%^000000",
+		"[LV 3]^777777 When casting wind attribute magic, skill delay time -50%. When using wind attribute magic, damage + 25%^000000",
 	},
 
 	[SKID.SO_EARTH_INSIGNIA] = {
 
-		"어스 인시그니아\"",
-		"MAX Lv : 3",
-		"^777777습득조건 :   땅의 정령 테라 소환 3   ^000000",
-		"계열 : ^777777  액티브 / 지면 마법  ^000000",
-		"내용 : ^777777 지면 3 x 3 범위에 땅의 문장을 그려 이 범위 내의 지속성 갑옷을 장비한 대상 및 지속성 몬스터는 5 초당 1% HP 를 회복한다. 반대로 풍속성 갑옷을 장비한 대상 혹은 풍속성 몬스터에게는 5 초당 1% 의 HP가 감소한다. 또한 효과 범위 내의 모든 대상은 반대 속성인 화속성 공격에 대해서는 데미지가 1.5 배 증가한다. 스킬 사용시 각 레벨마다 [라임 그린 포인트 1 / 2 / 3 ] 개 를 소모한다. ^000000",
-		"[Level 1] : ^777777 땅의 정령 테라의 공격력이 20% 증가. 3초 마다 HP, SP 회복량이 2 배가 된다. ^000000",
-		"[Level 2] : ^777777 MHP 500, DEF 50 증가.  무기 속성이 지속성으로 변화. 물리 공격력이 10% 증가. ^000000",
-		"[Level 3] : ^777777 MSP 50 , MDEF 50 증가. 일부 지속성 마법의 공격력이 25% 증가. ^000000",
+		"Earth Insignia",
+		"Prerequisites:^777777 Summon Fire Spirit Tera (L3)^000000",
+		"Max Level: ^777777 3^000000",
+		"Type:^777777 Active / Ground Magic^000000",
+		"Effect:^777777 Creates a 3x3 earth crest on the ground, which recovers 1% HP every 5 seconds for earth monsters and players with earth attribute armor. Targets of the opposite element wind will lose 1% HP every 5 seconds. When in range fire element attacks deal 1.5 times damage. The skill consumes [1/2/3 Lime Green Point] depending on the skill level.^000000",
+		"[LV 1]^777777 Increases the earth spirit Tera's attack power by 20%. HP and SP recovered every 3 seconds is doubled^000000",
+		"[LV 2]^777777 Max HP + 500, DEF + 50. Weapon attribute becomes earth property. Physical attack power + 10%^000000",
+		"[LV 3]^777777 Max SP + 50, MDEF + 50. When using earth attribute magic, damage + 25%^000000",
 	},
 
 	[SKID.EL_AQUAPLAY] = {
-
 
 	},
 
 	[SKID.EL_BLAST] = {
 
-
 	},
 
 	[SKID.EL_CHILLY_AIR] = {
-
 
 	},
 
 	[SKID.EL_CIRCLE_OF_FIRE] = {
 
-
 	},
 
 	[SKID.EL_COOLER] = {
-
 
 	},
 
 	[SKID.EL_CURSED_SOIL] = {
 
-
 	},
 
 	[SKID.EL_FIRE_ARROW] = {
-
 
 	},
 
 	[SKID.EL_FIRE_BOMB] = {
 
-
 	},
 
 	[SKID.EL_FIRE_BOMB_ATK] = {
-
 
 	},
 
 	[SKID.EL_FIRE_CLOAK] = {
 
-
 	},
 
 	[SKID.EL_FIRE_MANTLE] = {
-
 
 	},
 
 	[SKID.EL_FIRE_WAVE] = {
 
-
 	},
 
 	[SKID.EL_FIRE_WAVE_ATK] = {
-
 
 	},
 
 	[SKID.EL_GUST] = {
 
-
 	},
 
 	[SKID.EL_HEATER] = {
-
 
 	},
 
 	[SKID.EL_HURRICANE] = {
 
-
 	},
 
 	[SKID.EL_HURRICANE_ATK] = {
-
 
 	},
 
 	[SKID.EL_ICE_NEEDLE] = {
 
-
 	},
 
 	[SKID.EL_PETROLOGY] = {
-
 
 	},
 
 	[SKID.EL_POWER_OF_GAIA] = {
 
-
 	},
 
 	[SKID.EL_PYROTECHNIC] = {
-
 
 	},
 
 	[SKID.EL_ROCK_CRUSHER] = {
 
-
 	},
 
 	[SKID.EL_ROCK_CRUSHER_ATK] = {
-
 
 	},
 
 	[SKID.EL_SOLID_SKIN] = {
 
-
 	},
 
 	[SKID.EL_STONE_HAMMER] = {
-
 
 	},
 
 	[SKID.EL_STONE_RAIN] = {
 
-
 	},
 
 	[SKID.EL_STONE_SHIELD] = {
-
 
 	},
 
 	[SKID.EL_TIDAL_WEAPON] = {
 
-
 	},
 
 	[SKID.EL_TROPIC] = {
-
 
 	},
 
 	[SKID.EL_TYPOON_MIS] = {
 
-
 	},
 
 	[SKID.EL_TYPOON_MIS_ATK] = {
-
 
 	},
 
 	[SKID.EL_UPHEAVAL] = {
 
-
 	},
 
 	[SKID.EL_WATER_BARRIER] = {
-
 
 	},
 
 	[SKID.EL_WATER_DROP] = {
 
-
 	},
 
 	[SKID.EL_WATER_SCREEN] = {
-
 
 	},
 
 	[SKID.EL_WATER_SCREW] = {
 
-
 	},
 
 	[SKID.EL_WATER_SCREW_ATK] = {
-
 
 	},
 
 	[SKID.EL_WILD_STORM] = {
 
-
 	},
 
 	[SKID.EL_WIND_CURTAIN] = {
-
 
 	},
 
 	[SKID.EL_WIND_SLASH] = {
 
-
 	},
 
 	[SKID.EL_WIND_STEP] = {
-
 
 	},
 
 	[SKID.EL_ZEPHYR] = {
 
-
 	},
 
 	[SKID.GN_TRAINING_SWORD] = {
 
-		"검 수련",
-		"MAX Lv : 5",
-		"^777777습득조건 : 제네릭 기본^000000",
-		"계열 : ^777777  패시브 ^000000",
-		"내용 : ^777777  검 수련을 통해 한손 검과 단검의 공격력 및 명중율에 보너스를 받는다. ^000000",
-		"[Level 1] : ^777777 공격력 + 10 / 명중율 + 3  ^000000",
-		"[Level 2] : ^777777 공격력 + 20 / 명중율 + 6  ^000000",
-		"[Level 3] : ^777777 공격력 + 30 / 명중율 + 9  ^000000",
-		"[Level 4] : ^777777 공격력 + 40 / 명중율 + 12  ^000000",
-		"[Level 5] : ^777777 공격력 + 50 / 명중율 + 15  ^000000",
+		"Sword Training",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Passive^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Through training, you achieve higher attack power, accuracy, and speed when using one-hand sword or dagger.^000000",
+		"[LV 1]^777777 ATK +10, HIT +3^000000",
+		"[LV 2]^777777 ATK +20, HIT +6^000000",
+		"[LV 3]^777777 ATK +30, HIT +9^000000",
+		"[LV 4]^777777 ATK +40, HIT +12^000000",
+		"[LV 5]^777777 ATK +50, HIT +15^000000",
 	},
 
 	[SKID.GN_REMODELING_CART] = {
 
-		"카트 개조",
-		"MAX Lv : 5",
-		"^777777습득조건 : 제네릭 기본^000000",
-		"계열 : ^777777  패시브 ^000000",
-		"내용 : ^777777 카트를 개조하여 카트 레볼루션, 카트 토네이도, 카트 캐논의 명중율을 상승시킨다. 또한 최대 카트 적재량을 늘린다. ^000000",
-		"[Level 1] : ^777777 적재량 + 500 / 카트 스킬 명중율 + 4  ^000000",
-		"[Level 2] : ^777777 적재량 + 1000 / 카트 스킬 명중율 + 8  ^000000",
-		"[Level 3] : ^777777 적재량 + 1500 / 카트 스킬 명중율 + 12  ^000000",
-		"[Level 4] : ^777777 적재량 + 2000 / 카트 스킬 명중율 + 16  ^000000",
-		"[Level 5] : ^777777 적재량 + 2500 / 카트 스킬 명중율 + 20  ^000000",
+		"Cart Remodeling",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Passive^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Improves your cart, increasing accuracy with Cart Revolution, Cart Tornado, and Cart Cannon. Increases max weight limit of your cart as well.^000000",
+		"[LV 1]^777777 Weight +500, Cart Skill HIT +4^000000",
+		"[LV 2]^777777 Weight +1000, Cart Skill HIT +8^000000",
+		"[LV 3]^777777 Weight +1500, Cart Skill HIT +12^000000",
+		"[LV 4]^777777 Weight +2000, Cart Skill HIT +16^000000",
+		"[LV 5]^777777 Weight +2500, Cart Skill HIT +20^000000",
 	},
 
 	[SKID.GN_CART_TORNADO] = {
 
-		"카트 토네이도",
-		"MAX Lv : 5",
-		"^777777습득조건 : 카트 개조 1^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 카트를 회전시켜 시전자를 중심으로 반경 2 셀 범위 내에 데미지와 함께 스턴 상태이상을 입히며 데미지를 입은 대상을 2 셀 넉 백시킨다. 카트를 장착하지 않으면 사용할 수 없다. 카트 개조 스킬 레벨이 높을 수록 데미지가 상승한다.^000000",
-		"[Level 1] : ^777777 공격력 150% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 2] : ^777777 공격력 200% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 3] : ^777777 공격력 250% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 4] : ^777777 공격력 300% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 5] : ^777777 공격력 350% + 카트 개조 스킬레벨에 따라 ^000000",
+		"Cart Tornado",
+		"Prerequisites:^777777 Cart Remodeling (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Swings your cart around you and striking all targets within 2 cells around you. Targets that are hit will be stunned and pushed back 2 cells. Requires a cart to be used. Cart Remodeling greatly increases the damage of this skill.^000000",
+		"[LV 1]^777777 150% ATK + Cart Remodeling Level^000000",
+		"[LV 2]^777777 200% ATK + Cart Remodeling Level^000000",
+		"[LV 3]^777777 250% ATK + Cart Remodeling Level^000000",
+		"[LV 4]^777777 300% ATK + Cart Remodeling Level^000000",
+		"[LV 5]^777777 350% ATK + Cart Remodeling Level^000000",
 	},
 
 	[SKID.GN_CARTCANNON] = {
 
-		"카트 캐논",
-		"MAX Lv : 5",
-		"^777777습득조건 : 카트 개조 2^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 카트에 장비된 대포로 대상 1 체 및 그 주변에 큰 데미지를 입힌다. 카트를 장착하지 않으면 사용할 수 없으며, 시전자의 INT 및 카트 개조 스킬 레벨이 높을 수록 데미지가 상승한다. ^000000",
-		"[Level 1] : ^777777 공격력 400% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 2] : ^777777 공격력 450% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 3] : ^777777 공격력 500% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 4] : ^777777 공격력 550% + 카트 개조 스킬레벨에 따라 ^000000",
-		"[Level 5] : ^777777 공격력 600% + 카트 개조 스킬레벨에 따라 ^000000",
+		"Cart Cannon",
+		"Prerequisites:^777777 Cart Remodeling (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Fire's a gun from your cart to deal large damage to a single target. Requires a cart to be used. The user's INT and Cart Remodeling skill level greatly increases the damage of this skill.^000000",
+		"[LV 1]^777777 400% ATK + Cart Remodeling Level^000000",
+		"[LV 2]^777777 450% ATK + Cart Remodeling Level^000000",
+		"[LV 3]^777777 500% ATK + Cart Remodeling Level^000000",
+		"[LV 4]^777777 550% ATK + Cart Remodeling Level^000000",
+		"[LV 5]^777777 600% ATK + Cart Remodeling Level^000000",
 	},
 
 	[SKID.GN_CARTBOOST] = {
 
-		"카트 부스트",
-		"MAX Lv : 5",
-		"^777777습득조건 : 카트 개조 3^000000",
-		"계열 : ^777777  자기자신 버프  ^000000",
-		"내용 : ^777777 지속시간 90초 동안 시전자의 이동 속도를 증가시키며, 공격력이 상승한다. 카트를 장착하지 않으면 사용할 수 없다.^000000",
-		"[Level 1] : ^777777 이동속도 50% 증가 / 공격력 10 증가 ^000000",
-		"[Level 2] : ^777777 이동속도 50% 증가 / 공격력 20 증가 ^000000",
-		"[Level 3] : ^777777 이동속도 75% 증가 / 공격력 30 증가 ^000000",
-		"[Level 4] : ^777777 이동속도 75% 증가 / 공격력 40 증가 ^000000",
-		"[Level 5] : ^777777 이동속도 100% 증가 / 공격력 50 증가 ^000000",
+		"Cart Boost",
+		"Prerequisites:^777777 Cart Remodeling (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Self Buff^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Increases the users movement speed and attack power for 90 seconds. Requires a cart to be used.^000000",
+		"[LV 1]^777777 Movement Speed +50%, ATK +10^000000",
+		"[LV 2]^777777 Movement Speed +50%, ATK +20^000000",
+		"[LV 3]^777777 Movement Speed +75%, ATK +30^000000",
+		"[LV 4]^777777 Movement Speed +75%, ATK +40^000000",
+		"[LV 5]^777777 Movement Speed +100%, ATK +50^000000",
 	},
 
 	[SKID.GN_THORNS_TRAP] = {
 
-		"가시나무 덫",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스페셜 파머시 2 ^000000",
-		"계열 : ^777777  특수 / 데미지 ^000000",
-		"내용 : ^777777 지면 1 셀에 가시나무 덫을 설치하여 적의 발을 묶는다. 대상이 묶여있는 동안, 가시나무에 의해 조금씩 데미지를 입는다. 가시나무 덫에 걸린 대상에게 화속성 공격을 하면, 가시나무가 불타버려 즉시 풀려나게 된다. 스킬 사용시, [가시나무 씨앗] 하나를 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 10 초  ^000000",
-		"[Level 2] : ^777777 지속시간 12 초  ^000000",
-		"[Level 3] : ^777777 지속시간 14 초  ^000000",
-		"[Level 4] : ^777777 지속시간 16 초  ^000000",
-		"[Level 5] : ^777777 지속시간 18 초  ^000000",
+		"Thorn Trap",
+		"Prerequisites:^777777 Special Pharmacy (L2)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Throws a thorn trap onto a cell which binds the enemy's feet. While the target is trapped, they receive damage over time. If the target is hit by a Fire attribute attack, the thorn trap is destroyed. Consumes 1 Thorny Seed.^000000",
+		"[LV 1]^777777 Duration 10 sec^000000",
+		"[LV 2]^777777 Duration 12 sec^000000",
+		"[LV 3]^777777 Duration 14 sec^000000",
+		"[LV 4]^777777 Duration 16 sec^000000",
+		"[LV 5]^777777 Duration 18 sec^000000",
 	},
 
 	[SKID.GN_BLOOD_SUCKER] = {
 
-		"블러드 서커 (흡혈초)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스페셜 파머시 3 ^000000",
-		"계열 : ^777777  특수 / 데미지 ^000000",
-		"내용 : ^777777 대상 1 체에게 생체 에너지를 빨아들이는 흡혈 식물을 붙여, 데미지를 입히는 동시에 시전자의 HP 를 약간 회복시킨다. 흡혈 식물은 최대 3 개 까지 사용가능하다.  목표와의 거리가 12 셀 이상 떨어지면 흡혈 식물에 대한 통제력을 잃게 되므로, 스킬 효과가 사라진다. 스킬 사용시, [흡혈 식물 씨앗] 하나를 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 20 초  ^000000",
-		"[Level 2] : ^777777 지속시간 22 초  ^000000",
-		"[Level 3] : ^777777 지속시간 24 초  ^000000",
-		"[Level 4] : ^777777 지속시간 26 초  ^000000",
-		"[Level 5] : ^777777 지속시간 28 초  ^000000",
+		"Blood Sucker",
+		"Prerequisites:^777777 Special Pharmacy (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Attach a blood sucking plant that can absorb life energy to a target, which as the target takes damage the caster recovers some HP. Up to 3 blood suckers can be active at once. If the user and target are over 12 cells apart, the blood sucker will fall off. Consumes 1 Blood Sucker Seed.^000000",
+		"[LV 1]^777777 Duration 20 sec^000000",
+		"[LV 2]^777777 Duration 22 sec^000000",
+		"[LV 3]^777777 Duration 24 sec^000000",
+		"[LV 4]^777777 Duration 26 sec^000000",
+		"[LV 5]^777777 Duration 28 sec^000000",
 	},
 
 	[SKID.GN_SPORE_EXPLOSION] = {
 
-		"스포어 익스플로젼",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스페셜 파머시 4 ^000000",
-		"계열 : ^777777  특수 / 데미지 ^000000",
-		"내용 : ^777777 대상 1 체에게 폭발성 버섯 포자를 붙인다. 약간의 시간이 지나면 버섯 포자가 폭발하면서, 대상 뿐만 아니라 그 주변까지 전부 마법적인 피해를 입히게 된다. 스킬 레벨이 상승할 수록 폭발 범위가 늘어나며, 스킬 사용시, [폭발 버섯 포자] 를 하나 소모한다. ^000000",
-		"[Level 1] : ^777777 효과 범위 3 x 3 셀 / 2초 후 폭발  ^000000",
-		"[Level 2] : ^777777 효과 범위 5 x 5 셀 / 2초 후 폭발  ^000000",
-		"[Level 3] : ^777777 효과 범위 7 x 7 셀 / 3초 후 폭발  ^000000",
-		"[Level 4] : ^777777 효과 범위 9 x 9 셀 / 3초 후 폭발 ^000000",
-		"[Level 5] : ^777777 효과 범위 11 x 11 셀 / 4초 후 폭발  ^000000",
+		"Spore Explosion",
+		"Prerequisites:^777777 Special Pharmacy (L4)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Attach an explosive mushroom spore to a target. After a short period of time, the mushroom spores will explode, and damaging not just the target but dealing magical damage to anyone in range. Skill level increases the radius of the explosion. Consumes 1 Explosive Mushroom Spore.^000000",
+		"[LV 1]^777777 Radius 3x3 cells, Detonates in 2 sec^000000",
+		"[LV 2]^777777 Radius 5x5 cells, Detonates in 2 sec^000000",
+		"[LV 3]^777777 Radius 7x7 cells, Detonates in 3 sec^000000",
+		"[LV 4]^777777 Radius 9x9 cells, Detonates in 3 sec^000000",
+		"[LV 5]^777777 Radius 11x11 cells, Detonates in 4 sec^000000",
 	},
 
 	[SKID.GN_WALLOFTHORN] = {
 
-		"가시나무의 벽",
-		"MAX Lv : 5",
-		"^777777습득조건 : 가시나무 덫 3 ^000000",
-		"계열 : ^777777  특수 / 벽 ^000000",
-		"내용 : ^777777 대상 1 체를 중심으로 가시나무의 벽을 생성한다. 대상이 가시나무 벽에 닿으면, 데미지를 입고 밀려나게 된다. 가시나무 벽은 공격하여 파괴할 수 있으며, 내구도 이상의 데미지를 입히면 제거된다. 가시나무 벽에 화속성 데미지를 입히면, 가시나무 벽은 불타올라 파이어 월로 변화한다. 가시나무 벽은 1 개 이상 만들어낼 수 없으며, 스킬 사용시 [가시나무 씨앗] 을 하나 소모한다. ^000000",
-		"[Level 1] : ^777777 지속시간 10 초  ^000000",
-		"[Level 2] : ^777777 지속시간 11 초  ^000000",
-		"[Level 3] : ^777777 지속시간 12 초  ^000000",
-		"[Level 4] : ^777777 지속시간 13 초  ^000000",
-		"[Level 5] : ^777777 지속시간 14 초  ^000000",
+		"Wall Of Thorns",
+		"Prerequisites:^777777 Special Pharmacy (L4)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Creates a barrier of thorns around a target location. If a target touches the wall, it will advance on them and deal damage. The wall can be attacked, and if it takes enough damage, it automatically cancels. If the wall is struck with a Fire attribute attack, it becomes a Firewall. Only one Wall Of Thorns can be active at once. Consumes 1 Thorny Seed.^000000",
+		"[LV 1]^777777 Duration 10 sec^000000",
+		"[LV 2]^777777 Duration 11 sec^000000",
+		"[LV 3]^777777 Duration 12 sec^000000",
+		"[LV 4]^777777 Duration 13 sec^000000",
+		"[LV 5]^777777 Duration 14 sec^000000",
 	},
 
 	[SKID.GN_CRAZYWEED] = {
 
-		"크레이지 위드 ",
-		"MAX Lv : 10",
-		"^777777습득조건 : 가시나무 벽 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 거대한 식물 덩어리를 소환하여 떨어뜨림으로서 범위 내의 모든 목표에게 지속성 데미지를 입히며, 지면에 깔려있는 트랩 및 효과를 제거한다. 스킬 레벨이 오를 수록 소환되는 식물 덩어리의 갯수가 증가한다. ^000000",
-		"[Level 1] : ^777777 공격력 600% / 3 개   ^000000",
-		"[Level 2] : ^777777 공격력 700% / 4 개  ^000000",
-		"[Level 3] : ^777777 공격력 800% / 4 개  ^000000",
-		"[Level 4] : ^777777 공격력 900% / 5개   ^000000",
-		"[Level 5] : ^777777 공격력 1000% / 5 개   ^000000",
-		"[Level 6] : ^777777 공격력 1100% / 6 개   ^000000",
-		"[Level 7] : ^777777 공격력 1200% / 6 개   ^000000",
-		"[Level 8] : ^777777 공격력 1300% / 7 개   ^000000",
-		"[Level 9] : ^777777 공격력 1400% / 7 개   ^000000",
-		"[Level 10] : ^777777 공격력 1500% / 8 개   ^000000",
+		"Crazy Weed",
+		"Prerequisites:^777777 Thorn Trap (L3)^000000",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Summons a huge plant mass that deals Earth element damage to all nearby targets and destroys any traps in the area. Skill level increases the damage and the number of plant masses you can summon.^000000",
+		"[LV 1]^777777 600% ATK, Up to 3^000000",
+		"[LV 2]^777777 700% ATK, Up to 4^000000",
+		"[LV 3]^777777 800% ATK, Up to 4^000000",
+		"[LV 4]^777777 900% ATK, Up to 5^000000",
+		"[LV 5]^777777 1000% ATK, Up to 5^000000",
+		"[LV 6]^777777 1100% ATK, Up to 6^000000",
+		"[LV 7]^777777 1200% ATK, Up to 6^000000",
+		"[LV 8]^777777 1300% ATK, Up to 7^000000",
+		"[LV 9]^777777 1400% ATK, Up to 7^000000",
+		"[LV 10]^777777 1500% ATK, Up to 8^000000",
 	},
 
 	[SKID.GN_DEMONIC_FIRE] = {
 
-		"데모닉 파이어 ",
-		"MAX Lv : 5",
-		"^777777습득조건 : 스포어 익스플로젼 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777 화염병을 던져 일정 범위를 불바다로 만든다. 효과 범위 내의 모든 대상은 지속적으로 데미지를 입음과 동시에 [발화] 상태이상에 걸리게 된다. 스킬 사용시, [화염병] 하나를 소모한다. ^000000",
-		"[Level 1] : ^777777 화속성 마법 데미지 130 % / 지속시간 10 초 / 발화 확률 8%  ^000000",
-		"[Level 2] : ^777777 화속성 마법 데미지 150 % / 지속시간 12 초 / 발화 확률 12% ^000000",
-		"[Level 3] : ^777777 화속성 마법 데미지 170 % / 지속시간 14 초 / 발화 확률 16% ^000000",
-		"[Level 4] : ^777777 화속성 마법 데미지 190 % / 지속시간 16 초 / 발화 확률 20% ^000000",
-		"[Level 5] : ^777777 화속성 마법 데미지 210 % / 지속시간 18 초 / 발화 확률 24% ^000000",
+		"Demonic Fire",
+		"Prerequisites:^777777 Spore Explosion (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Throws a bottle grenade to create a sea of fire. Any target inside the area of the skill will receive continuous damage and have a chance to receive Burning status effect. Consumes 1 Bottle Grenade.^000000",
+		"[LV 1]^777777 130% MATK, Duration 10 sec, Burning Chance 8%^000000",
+		"[LV 2]^777777 150% MATK, Duration 12 sec, Burning Chance 12%^000000",
+		"[LV 3]^777777 170% MATK, Duration 14 sec, Burning Chance 16%^000000",
+		"[LV 4]^777777 190% MATK, Duration 16 sec, Burning Chance 20%^000000",
+		"[LV 5]^777777 210% MATK, Duration 18 sec, Burning Chance 24%^000000",
 	},
 
 	[SKID.GN_FIRE_EXPANSION] = {
 
-		"파이어 익스펜션",
-		"MAX Lv : 5",
-		"^777777습득조건 : 데모닉 파이어 3 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777 데모닉 파이어 시전 범위 내에 파이어 익스펜션을 사용하면, 사용한 아이템에 따라 다양한 효과를 발휘한다. ^000000",
-		"[Level 1] : ^777777 기름병 소모 / 데모닉 파이어 데미지 50% 증가 / 지속시간 10 초 증가 ^000000",
-		"[Level 2] : ^777777 폭발가루 소모 / 시전자 INT 에 따라 데모닉 파이어 데미지 증가 / 데모닉 파이어 소멸  ^000000",
-		"[Level 3] : ^777777 연막가루 소모 / 데모닉 파이어가 연막탄으로 변화 / 원거리 및 근거리 데미지 감소효과 / 회피율 상승^000000",
-		"[Level 4] : ^777777 최루가스 소모 / 데모닉 파이어가 최루가스로 변화 / 지속적 HP 감소 및 명중율 및 회피율 감소 ^000000",
-		"[Level 5] : ^777777 염산병 소모 / 데모닉 파이어가 애시드 데몬스트레이션으로 변화 / 시전자가 습득한 최고레벨로 발동 ^000000",
+		"Fire Expansion",
+		"Prerequisites:^777777 Demonic Fire (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 If used on an area that has a Demonic Fire, the skill causes various effects depending on what you throw.^000000",
+		"[LV 1]^777777 1 Oil Bottle, Demonic Fire Damage +50% / Duration + 10 sec^000000",
+		"[LV 2]^777777 1 Explosive Powder, Increases Demonic Fire damage based on INT / Cancels Demonic Fire^000000",
+		"[LV 3]^777777 1 Smokescreen Powder, Demonic Fire becomes a smokescreen / Reduces ranged damage / Increases evasion^000000",
+		"[LV 4]^777777 1 Tear Gas, Demonic Fire becomes teargas / Drains HP and reduces accuracy and evasion^000000",
+		"[LV 5]^777777 1 Acid Bottle, Demonic Fire becomes Acid Bomb / Uses the highest level learned of Acid Bomb^000000",
 	},
 
 	[SKID.GN_HELLS_PLANT] = {
 
-		"헬즈 플랜트 (지옥의 식물)",
-		"MAX Lv : 5",
-		"^777777습득조건 : 블러드 서커 3 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777 지옥에서 소환한 식인 식물을 지면에 숨겨두어, 목표가 접근하면 물어뜯어 데미지를 입힘과 동시에 스턴 혹은 출혈 효과를 발동 시킨다. ^000000",
-		"[Level 1] : ^777777 최대 소환 개수 2 체 / 출혈 10 % / 스턴 30%  ^000000",
-		"[Level 2] : ^777777 최대 소환 개수 3 체 / 출혈 15 % / 스턴 40%  ^000000",
-		"[Level 3] : ^777777 최대 소환 개수 4 체 / 출혈 20 % / 스턴 50%  ^000000",
-		"[Level 4] : ^777777 최대 소환 개수 5 체 / 출혈 25 % / 스턴 60%  ^000000",
-		"[Level 5] : ^777777 최대 소환 개수 6 체 / 출혈 30 % / 스턴 70%  ^000000",
+		"Hell's Plant",
+		"Prerequisites:^777777 Blood Sucker (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Summons a plant from hell onto the ground, which attacks nearby enemies dealing damage as well as causing Stun and Bleeding status.^000000",
+		"[LV 1]^777777 Max Summons 2, Bleeding chance 10%, Stun chance 30%^000000",
+		"[LV 2]^777777 Max Summons 3, Bleeding chance 15%, Stun chance 40%^000000",
+		"[LV 3]^777777 Max Summons 4, Bleeding chance 20%, Stun chance 50%^000000",
+		"[LV 4]^777777 Max Summons 5, Bleeding chance 25%, Stun chance 60%^000000",
+		"[LV 5]^777777 Max Summons 6, Bleeding chance 30%, Stun chance 70%^000000",
 	},
 
 	[SKID.GN_MANDRAGORA] = {
 
-		"하울링 오브 만드라고라",
-		"MAX Lv : 5",
-		"^777777습득조건 : 헬즈 플랜트  3 ^000000",
-		"계열 : ^777777  액티브 / 특수 / 데미지 ^000000",
-		"내용 : ^777777 괴성을 지르는 만드라고라를 화분에서 뽑아내어, 주변의 모든 대상의 INT 를 하락시키며, SP 를 하락시킨다. 또한 모든 스킬의 고정 캐스팅이 증가한다. 대상의 VIT 과 LUK 에 의해 효과에 걸릴 확률이 약간 감소한다. ^000000",
-		"[Level 1] : ^777777 INT 10 감소 / SP 30% 하락 / 성공확률 45 %   ^000000",
-		"[Level 2] : ^777777 INT 15 감소 / SP 35% 하락 / 성공확률 55 %   ^000000",
-		"[Level 3] : ^777777 INT 20 감소 / SP 40% 하락 / 성공확률 65 %   ^000000",
-		"[Level 4] : ^777777 INT 25 감소 / SP 45% 하락 / 성공확률 75 %   ^000000",
-		"[Level 5] : ^777777 INT 30 감소 / SP 50% 하락 / 성공확률 85 %   ^000000",
+		"Howling of Mandragora",
+		"Prerequisites:^777777 Hell's Plant (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Special / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Pulls a live Mandragora from the ground which releases a wild scream that lowers the INT of nearby targets and drains their SP. Increases the fixed casting time of all skills. The chance of success is reduced by the VIT and LUK of the target.^000000",
+		"[LV 1]^777777 INT -10, SP -30%, Success Rate 45%^000000",
+		"[LV 2]^777777 INT -15, SP -35%, Success Rate 55%^000000",
+		"[LV 3]^777777 INT -20, SP -40%, Success Rate 65%^000000",
+		"[LV 4]^777777 INT -25, SP -45%, Success Rate 75%^000000",
+		"[LV 5]^777777 INT -30, SP -50%, Success Rate 85%^000000",
 	},
 
 	[SKID.GN_SLINGITEM] = {
 
-		"슬링 아이템",
-		"MAX Lv : 1",
-		"^777777습득조건 : 체인지 매터리얼 1 ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777  \"투척용\" 으로 분류된 과일 폭탄이나, 혹은 던지기용 아이템을 던지는 스킬. 사정거리 11 셀. ^000000",
+		"Sling Item",
+		"Prerequisites:^777777 Change Material (L1)^000000",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Throws a fruit bomb or other items classified as Throwing type items. Max range is 11 cells.^000000",
 	},
 
 	[SKID.GN_CHANGEMATERIAL] = {
 
-		"체인지 매터리얼",
-		"MAX Lv : 1",
-		"^777777습득조건 : 제네릭 기본 ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777  소지하고 있는 다양한 아이템을 조합해서 다른 아이템을 만들어 낼 수 있다. 그렇다고 해서 아무거나 만들어진다는 것은 아니다. 정확한 아이템의 이름과 정확한 숫자를 계산하지 않으면 결과물은 만들어지지 않는다. 조합 아이템에 관한 정보는 세계 이곳 저곳에서 얻을 수 있다고 한다.  ^000000",
+		"Change Material",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Combines various items to make new items. However, you can't assume how to make something. If you don't know the item name and use the exact ingredients, the skill will fail. It's said that formulas for synthesized items are available somewhere in the world.^000000",
 	},
 
 	[SKID.GN_MIX_COOKING] = {
 
-		"믹스 쿠킹",
-		"MAX Lv : 2",
-		"^777777습득조건 : 스페셜 파머시 1 ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777  여러가지 요리 재료를 섞어 기존 보다 훨씬 더 맛있고 뛰어난 효능을 자랑하는 요리를 만든다. 믹스 쿠킹 2 스킬로는 한 번에 요리를 10 개씩 만들 수도 있다. 요리 제작시 제작하려고 하는 요리의 레시피(요리책) 가 필요하다. ^000000",
+		"Mix Cooking",
+		"Max Level:^777777 2^000000",
+		"Type:^777777 Active^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Mix various ingredients to create incredibly delicious food. If you use level 2 of Mix Cooking, you'll create 10 at a time. You'll need to have a recipe book and ingredients in order to use the skill.^000000",
 	},
 
 	[SKID.GN_MAKEBOMB] = {
 
-		"폭탄 제조",
-		"MAX Lv : 2",
-		"^777777습득조건 : 믹스 쿠킹 1 ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777  과일을 이용한 폭탄을 제작한다. 폭탄 제조 2 스킬로는 한 번에 폭탄을 10 개씩 만들 수도 있다. 폭탄 제작을 위해서 폭탄 제조 매뉴얼(제조책) 이 필요하다. ^000000",
+		"Create Bomb",
+		"Prerequisites:^777777 Mix Cooking (L1)^000000",
+		"Max Level:^777777 2^000000",
+		"Type:^777777 Active^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Creates explosives out of various kinds of fruit. If you use level 2 of Create Bomb, you'll create 10 at a time. Requires a bomb creation manual.^000000",
 	},
 
 	[SKID.GN_S_PHARMACY] = {
 
-		"스페셜 파머시 ",
-		"MAX Lv : 10",
-		"^777777습득조건 : 제네릭 기본 ^000000",
-		"계열 : ^777777  액티브  ^000000",
-		"내용 : ^777777  제네릭은 보다 더 다양한 포션이나 물약을 만들어 낼 수 있다. 스킬 레벨이 오를 수록 한 번에 제작하는 물약의 갯수가 증가한다. 각각의 물약을 제작하기 위해서는 물약 제조 매뉴얼이 필요하다. ^000000",
+		"Special Pharmacy",
+		"Max Level:^777777 10^000000",
+		"Type:^777777 Active^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Allows the Genetic to create a diverse number of potions and drinks. Skill level increases the number of items that can be made at one time. In order to create potions, you'll need to have the correct manual.^000000",
 	},
 
 	[SKID.AB_SECRAMENT] = {
 
-		"세크라멘트 (SECRAMENT / 성사 ; 聖事)",
-		"MAX Lv : 5 ",
-		"^777777습득조건 : 에피클레시스 1 / 엑스피아티오 1 ^000000",
-		"계열 : ^777777버프^000000",
-		"내용 : ^777777 자신 혹은 아군에게 성스러운 의식을 행하여  부정을 몰아냄으로서 대상의 캐스팅 시간을 감소시킨다. ^000000",
-		"[Level 1] : ^777777 고정 캐스팅 감소 10% / 지속시간 60 초   ^000000",
-		"[Level 2] : ^777777 고정 캐스팅 감소 20% / 지속시간 90 초   ^000000",
-		"[Level 3] : ^777777 고정 캐스팅 감소 30% / 지속시간 120 초   ^000000",
-		"[Level 4] : ^777777 고정 캐스팅 감소 40% / 지속시간 150 초    ^000000",
-		"[Level 5] : ^777777 고정 캐스팅 감소 50% / 지속시간 180 초    ^000000",
+		"Sacrament",
+		"Prerequisites:^777777 Epiclesis (L1), Expiatio (L1)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Support^000000",
+		"SP Cost:^777777 80+20*SkillLV^000000",
+		"Target:^777777 Ally / Self^000000",
+		"Cast Time:^777777 Instant^000000",
+		"Duration:^777777 30+30*SkillLV sec^000000",
+		"Effect:^777777 A holy ritual performed for an ally that purifies them, decreasing their fixed cast time.^000000",
+		"[LV 1]^777777 Fixed Casting Time Decrease 10%^000000",
+		"[LV 2]^777777 Fixed Casting Time Decrease 20%^000000",
+		"[LV 3]^777777 Fixed Casting Time Decrease 30%^000000",
+		"[LV 4]^777777 Fixed Casting Time Decrease 40%^000000",
+		"[LV 5]^777777 Fixed Casting Time Decrease 50%^000000",
 	},
 
 	[SKID.SR_HOWLINGOFLION] = {
 
-		"사자후(獅子吼)",
-		"MAX Lv : 5",
-		"^777777습득조건 :  흡기공 1 / 뇌광탄 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지(특수) ^000000",
-		"내용 : ^777777  단전에서 부터 힘을 모아 큰 외침을 발하여 자신 주변의 모든 대상에게 데미지와 함께 상태이상 : 공포 에 빠지게 한다. 또한 데미지를 입은 대상이 원더러 민스트렐의 노래 효과를 받고 있을 경우, 그 효과가 해제된다. ^000000",
-		"[Level 1] : ^777777 범위 7 x 7  셀 / 공격력 300% / 공포발생확률 10% ^000000",
-		"[Level 2] : ^777777 범위 9 x 9  셀 / 공격력 600% / 공포발생확률 15%^000000",
-		"[Level 3] : ^777777 범위 11 x 11 셀 / 공격력 900% / 공포발생확률 20%^000000",
-		"[Level 4] : ^777777 범위 13 x 13 셀 / 공격력 1200% / 공포발생확률 25%^000000",
-		"[Level 5] : ^777777 범위 15 x 15 셀 / 공격력 1500% / 공포발생확률 30%^000000",
+		"Howling of Lion",
+		"Prerequisites:^777777 Assimilate Power (L1), Ride In Lightening (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage (Special)^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Lets out a deep, deafening roar that damages all targets around you and causes the status effect Fear. If the targets in range were under the effect of a Minstrel or Wanderer song, that effect is removed.^000000",
+		"[LV 1]^777777 180% ATK, Radius 5 cells, Fear Chance 10%^000000",
+		"[LV 2]^777777 360% ATK, Radius 5 cells, Fear Chance 15%^000000",
+		"[LV 3]^777777 540% ATK, Radius 6 cells, Fear Chance 20%^000000",
+		"[LV 4]^777777 720% ATK, Radius 6 cells, Fear Chance 25%^000000",
+		"[LV 5]^777777 900% ATK, Radius 7 cells, Fear Chance 30%^000000",
 	},
 
 	[SKID.SR_RIDEINLIGHTNING] = {
 
-		"뇌광탄(雷光彈)",
-		"MAX Lv : 5",
-		"^777777습득조건 :  탄지신통 3 ^000000",
-		"계열 : ^777777  액티브 / 데미지 ^000000",
-		"내용 : ^777777  일정범위에 기 구체를 발사, 폭발시켜 그 주변의 모든 대상에게 데미지를 주는 광역 범위 데미지 스킬. 스킬레벨에 따라 소모되는 기 구체 숫자가 달라지며, 많은 기 구체를 소모할 수록 데미지가 커진다. 또한, 시전자의 무기 속성이 바람 속성일 경우 추가적인 데미지가 발생한다. 시전자의 DEX 가 높을 수록 데미지가 커진다.  ^000000",
-		"[Level 1] : ^777777 범위 5 x 5  / 기 구체 1 개 소모 ^000000",
-		"[Level 2] : ^777777 범위 5 x 5  / 기 구체 2 개 소모 ^000000",
-		"[Level 3] : ^777777 범위 7 x 7  / 기 구체 3 개 소모 ^000000",
-		"[Level 4] : ^777777 범위 7 x 7  / 기 구체 4 개 소모 ^000000",
-		"[Level 5] : ^777777 범위 9 x 9  / 기 구체 5 개 소모 ^000000",
+		"Ride In Lightening (Lightening Shot)",
+		"Prerequisites:^777777 Finger Offensive (L3)^000000",
+		"Max Level:^777777 5^000000",
+		"Type:^777777 Active / Damage^000000",
+		"SP Cost:^777777 Unknown^000000",
+		"Target:^777777 Self^000000",
+		"Cast Time:^777777 Unknown^000000",
+		"Effect:^777777 Fires your spirit spheres, resulting in an explosion that damages all targets in a wide area. The skill level controls how many spheres you use, and the more spheres shot the higher the damage is. If the user's weapon is endowed with wind element, the skill does additional damage. The user's dex increases the damage done.^000000",
+		"[LV 1]^777777 Area of Effect 5x5 cells, Sphere Used 1^000000",
+		"[LV 2]^777777 Area of Effect 5x5 cells, Sphere Used 3^000000",
+		"[LV 3]^777777 Area of Effect 7x7 cells, Sphere Used 5^000000",
+		"[LV 4]^777777 Area of Effect 7x7 cells, Sphere Used 7^000000",
+		"[LV 5]^777777 Area of Effect 9x9 cells, Sphere Used 15^000000",
 	},
 
 	[SKID.ALL_ODINS_RECALL] = {
-
 
 	},
 
 	[SKID.RETURN_TO_ELDICASTES] = {
 
-		"엘 디카스테스로의 귀환(RETURN_TO_ ELDICASTES)",
-		"MAX LV : 1",
-		"계열 : ^777777보조^bb0000(귀환)^000000",
-		"내용 : ^777777사파의 수도 “엘 디카스테스”로 돌아간다. 사용 후 5분간 재사용 할 수 없다.^000000",
+		"Return To El Dicastes",
+		"Max Level:^777777 1^000000",
+		"Type:^777777 Active^000000",
+		"Effect:^777777 Warps you to the town of El Dicastes.^000000",
 	},
 
 	[SKID.HLIF_HEAL] = {
@@ -14913,7 +14563,6 @@ SKILL_DESCRIPT = {
 	[SKID.MA_REMOVETRAP] = {
 
 		"Remove Trap",
-		"Required For:^777777 Research Trap (LV1). ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^33cc00 Active ^000000",
 		"SP Cost:^777777 5 ^000000",
@@ -15452,10 +15101,8 @@ SKILL_DESCRIPT = {
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 The Guild ^000000",
-		"Required For:^777777 Kafra Contract, Guardian Research, Battle Orders ^000000",
 		"Effect:^777777 Certification as an official guild of the Rune Midgard Kingdom. Members of official guilds are authorized to attack the Emperium inside guild territories.",
 		"^ff0000Without this skill all attacks on the Emperium will miss!!^777777 To disband a guild use the command ^00ffff/breakguild \"guildname\". ^000000",
-
 	},
 
 	[SKID.GD_KAFRACONTRACT] = {
@@ -15473,9 +15120,7 @@ SKILL_DESCRIPT = {
 		"Max Level:^777777 1 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Target:^777777 The Guild ^000000",
-		"Required For:^777777 Emergency Call ^000000",
 		"Effect:^777777 Study the Guardian technology. Allows the guild to hire Guardians for their territory. ^000000",
-
 	},
 
 	[SKID.GD_GUARDUP] = {
@@ -15516,13 +15161,11 @@ SKILL_DESCRIPT = {
 		"2. Emblems must be 24x24 pixels in BMP format using 256 colors",
 		"3. Create a folder named Emblem inside the Ragnarok Online folder (i.e. C:\Program Files\Gravity\RO) and copy the emblem file there.",
 		"If you are the guild master, you must place the emblem inside the Emblem folder in the game directory (i.e. C:\Program Files\Gravity\RO\Emblem). ^000000",
-
 	},
 
 	[SKID.GD_LEADERSHIP] = {
 
 		"Great Leadership",
-		"Required For:^777777 Sharp Hawk Eyes (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 All guild members in a 5x5 area around the Guild Leader will receive a +1*SkillLV STR bonus. Can only be used during guild sieges. ^000000",
@@ -15531,11 +15174,9 @@ SKILL_DESCRIPT = {
 	[SKID.GD_GLORYWOUNDS] = {
 
 		"Wounds of Glory",
-		"Required For:^777777 Soul of Cold (L1) ^000000",
 		"Max Level:^777777 5 ^000000",
 		"Type:^000099 Passive ^000000",
 		"Effect:^777777 All guild members in a 5x5 area around the Guild Leader will receive a +1*SkillLV VIT bonus. Can only be used during guild sieges. ^000000",
-
 	},
 
 	[SKID.GD_SOULCOLD] = {
@@ -15557,7 +15198,6 @@ SKILL_DESCRIPT = {
 	[SKID.GD_BATTLEORDER] = {
 
 		"Battle Orders",
-		"Required For:^777777 Regeneration ^000000",
 		"Max Level:^777777 1 ^000000",
 		"Type:^777777 Support, Guild Master only ^000000",
 		"SP Cost:^777777 Unknown ^000000",
@@ -15572,7 +15212,6 @@ SKILL_DESCRIPT = {
 	[SKID.GD_REGENERATION] = {
 
 		"Regeneration",
-		"Required For:^777777 Emergency Call (L1), Restore (L1) ^000000",
 		"Max Level:^777777 3 ^000000",
 		"Type:^777777 Support, Guild Master only ^000000",
 		"SP Cost:^777777 Unknown ^000000",
@@ -15624,7 +15263,6 @@ SKILL_DESCRIPT = {
 	},
 
 	[SKID.GD_ITEMEMERGENCYCALL] = {
-
 
 	},
 
