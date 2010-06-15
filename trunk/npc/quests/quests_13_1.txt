@@ -3,7 +3,7 @@
 //===== By: ================================================== 
 //= L0ne_W0lf
 //===== Current Version: ===================================== 
-//= 1.2
+//= 1.5
 //===== Compatible With: ===================================== 
 //= eAthena SVN
 //===== Description: ========================================= 
@@ -31,6 +31,7 @@
 //= 1.3 Added the two remaining 13.1 quests. [L0ne_W0lf]
 //=     Cat Hand Agents no longer ignore you with 300+ points.
 //= 1.4 Changed killmonsterall -> killmonster. (bugreport:4131)
+//= 1.5 Removed a 'close;' which should have been 'close2'. (bugreport:4276)
 //============================================================ 
 
 // Onward to the New World
@@ -14566,7 +14567,7 @@ mid_camp,199,311,7	script	Mr. Kidd#ep13_dan01	884,{
 			mes "......";
 			next;
 			mes "......";
-			mes "............­";
+			mes "............?;
 			next;
 			cutin "moc2_kid03",2;
 			mes "[Mr. Kidd]";
