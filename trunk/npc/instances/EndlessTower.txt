@@ -3,7 +3,7 @@
 //===== By: ================================================== 
 //= L0ne_W0lf
 //===== Current Version: ===================================== 
-//= 1.1
+//= 1.3
 //===== Compatible With: ===================================== 
 //= eAthena SVN
 //===== Description: ========================================= 
@@ -13,6 +13,10 @@
 //===== Additional Comments: ================================= 
 //= 1.0 First version.
 //= 1.1 Removed a disablenpc from #102FShadowDust1. (bugreport:4415)
+//= 1.2 Added ends to several NPCs which would allow you to restart timers.
+//=     Added some missing stopnpctimers to npcs. (bugreport:4418)
+//= 1.3 Fixed a couple copy/paste errors :D I fail. [L0ne_W0lf]
+//      Timer no longer resets when re-entering.
 //============================================================ 
 
 alberta,214,77,6	script	Captain Janssen	709,{
@@ -290,7 +294,7 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 						mes "The memorial dungeon " + .@md_name$ + " does not exist.";
 						mes "The party leader did not generate the dungeon yet.";
 					}
-					else if ((has_instance("1@orcs") != "") && (.@partymembercount < 2))
+					else if ((has_instance("1@tower") != "") && (.@partymembercount < 2))
 						mes "You can enter the dungeon after making a party.";
 					else {
 						mapannounce "e_tower", .@p_name2$ + " of the party, " + .@p_name$ + ", is entering the dungeon, " + .@md_name$ + ".",bc_map,"0x00ff99",FW_NORMAL,12;
@@ -319,11 +323,10 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 					mes "The memorial dungeon " + .@md_name$ + " does not exist.";
 					mes "The party leader did not generate the dungeon yet.";
 				}
-				else if ((has_instance("1@orcs") != "") && (.@partymembercount < 2))
+				else if ((has_instance("1@tower") != "") && (.@partymembercount < 2))
 					mes "You can enter the dungeon after making a party.";
 				else {
 					mapannounce "e_tower", .@p_name2$ + " of the party, " + .@p_name$ + ", is entering the dungeon, " + .@md_name$ + ".",bc_map,"0x00ff99",FW_NORMAL,12;
-					set etower_timer,gettimetick(2);
 					warp "1@tower",52,354;
 					end;
 				}
@@ -480,6 +483,8 @@ e_tower,151,185,4	script	Purification Stone#et2	844,{
 }
 
 1@tower,29,365,1	script	#1F Controller	844,{
+	end;
+
 OnInstanceInit:
 	areamonster "1@tower",7,351,17,387,"Metaling",1613,15,instance_npcname("#1F Controller", instance_id())+"::OnMyMobDead";
 	areamonster "1@tower",7,351,17,387,"Marin",1242,5,instance_npcname("#1F Controller", instance_id())+"::OnMyMobDead";
@@ -3818,6 +3823,8 @@ OnInstanceInit:
 }
 
 6@tower,45,89,2	script	Spring of Life#2	844,{
+	end;
+
 OnEnable:
 	specialeffect EF_BUBBLE;
 	initnpctimer;
@@ -3830,6 +3837,8 @@ OnTimer2000:
 }
 
 6@tower,45,89,2	script	Spring of Life#3	844,{
+	end;
+
 OnEnable:
 	specialeffect EF_BUBBLE;
 	initnpctimer;
@@ -3860,6 +3869,8 @@ OnMyMobDead:
 }
 
 6@tower,156,151,2	script	#1st Beeper	844,{
+	end;
+
 OnEnable:
 	initnpctimer;
 	end;
@@ -3882,6 +3893,7 @@ OnTimer15500:
 
 OnTimer20500:
 	instance_announce 0,"Let's see who runs fastest. Are you ready?",bc_map,"0x00ffcc";
+	stopnpctimer;
 	areamonster "6@tower",151,66,153,106,"Bone Guardian",1152,50,instance_npcname("#1st Beeper", instance_id())+"::OnMyMobDead";
 	areamonster "6@tower",158,66,160,106,"Bone Guardian",1152,50,instance_npcname("#1st Beeper", instance_id())+"::OnMyMobDead";
 	end;
@@ -3898,6 +3910,8 @@ OnMyMobDead:
 }
 
 6@tower,156,151,2	script	#2nd Beeper	844,{
+	end;
+
 OnEnable:
 	initnpctimer;
 	end;
@@ -3912,6 +3926,7 @@ OnTimer5500:
 
 OnTimer10500:
 	instance_announce 0,"I demand an encore!",bc_map,"0x00ffcc";
+	stopnpctimer;
 	areamonster "6@tower",151,66,153,106,"Wind Guardian",1263,30,instance_npcname("#2nd Beeper", instance_id())+"::OnMyMobDead";
 	areamonster "6@tower",158,66,160,106,"Wind Guardian",1263,30,instance_npcname("#2nd Beeper", instance_id())+"::OnMyMobDead";
 	end;
@@ -3928,6 +3943,8 @@ OnMyMobDead:
 }
 
 6@tower,156,151,2	script	#3rd Beeper	844,{
+	end;
+
 OnEnable:
 	initnpctimer;
 	end;
@@ -3942,6 +3959,7 @@ OnTimer5500:
 
 OnTimer10500:
 	instance_announce 0,"How would you like to play one more round?",bc_map,"0x00ffcc";
+	stopnpctimer;
 	areamonster "6@tower",151,66,153,106,"Sword Edge Guardian",1132,20,instance_npcname("#3rd Beeper", instance_id())+"::OnMyMobDead";
 	areamonster "6@tower",158,66,160,106,"Sword Edge Guardian",1132,20,instance_npcname("#3rd Beeper", instance_id())+"::OnMyMobDead";
 	end;
@@ -3958,6 +3976,8 @@ OnMyMobDead:
 }
 
 6@tower,156,151,2	script	#4th Beeper	844,{
+	end;
+
 OnEnable:
 	initnpctimer;
 	end;
@@ -4053,6 +4073,8 @@ OnTimer10500:
 }
 
 6@tower,169,127,2	script	#Effect30	844,{
+	end;
+
 OnInstanceInit:
 	disablenpc instance_npcname("#Effect30", instance_id());
 	end;
@@ -4069,6 +4091,8 @@ OnTimer1000:
 }
 
 6@tower,169,127,2	script	#Effect31	844,{
+	end;
+
 OnInstanceInit:
 	disablenpc instance_npcname("#Effect31", instance_id());
 	end;
