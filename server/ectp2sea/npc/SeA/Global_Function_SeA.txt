@@ -1,0 +1,295 @@
+//1:zeny
+//2:points
+//3:cash
+function	script	Give_to_All	{
+	set $@para1,atoi(@cmd_para$[0]);
+	if(!existitem($@para1) && !($@para1&3)) end;
+	set $@para2,atoi(@cmd_para$[1]);
+	switch($@para1)
+	{
+		case 1: script4each "{ if( isloggedin(getcharid(3)) != 1 ) end; set ZENY, ZENY+$@para2; dispmes msg(176); }",0; break;
+		case 2: script4each "{ if( isloggedin(getcharid(3)) != 1 ) end; atcommand \"@points \"+$@para2; }",0; break;
+		case 3: script4each "{ if( isloggedin(getcharid(3)) != 1 ) end; atcommand \"@cash \"+$@para2; }",0; break;
+		default: script4each "{ if( isloggedin(getcharid(3)) != 1 ) end; getitem $@para1,$@para2; dispmes msg(18); }",0; break;
+	}
+}
+
+function	script	cmd_mapmove	{
+	set .@m$,@cmd_para$[0];
+	set .@x,atoi(@cmd_para$[1]);
+	set .@y,atoi(@cmd_para$[2]);
+	if( !existmap(.@m$) ) {
+		dispmes msg(1);
+		end;
+	}
+	if( !.@x && !.@y ) ; else
+	if( checkcell(.@m$,.@x,.@y,cell_chknopass) ) {
+		dispmes msg(2);
+		set .@x,0;
+		set .@y,0;
+	}
+	if( getmapflag(.@m$,mf_nowarpto) && getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(247);
+		end;
+	}
+	if( getmapflag(.@m$,mf_nowarp) && getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(248);
+		end;
+	}
+	if( warp(.@m$,.@x,.@y) ) {
+		dispmes msg(1);
+		end;
+	}
+	dispmes msg(0);	
+}
+
+function	script	cmd_jumpto	{
+	set .@n$,@cmd_para$[0];
+	set .@i,getcharid(3,.@n$);
+	if( HP == 0 ) {
+		dispmes "死亡时无法传送";
+		end;
+	}
+	if( !isloggedin(.@i) ) {
+		dispmes msg(3);
+		end;
+	}
+	getmapxy .@m1$,.@x,.@y,0;
+	if( getmapflag(.@m1$,mf_nowarp) && getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(248);
+		end;
+	}
+	set .@j,getcharid(3);
+	attachrid .@i;
+	set .@n$, strcharinfo(0);
+	getmapxy .@m2$,.@x,.@y,0;
+	attachrid .@j;
+	if( getmapflag(.@m2$,mf_nowarpto) && getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(247);
+		end;
+	}
+	if( warp(.@m2$,.@x,.@y) ) {
+		dispmes msg(1);
+		end;
+	}
+	dispmes msg(4,.@n$);
+}
+
+function	script	cmd_jump	{
+	set .@x,atoi(@cmd_para$[0]);
+	set .@y,atoi(@cmd_para$[1]);
+	if( HP == 0 ) {
+		dispmes "死亡时无法传送";
+		end;
+	}
+	getmapxy .@m$,.@i,.@j,0;
+	if( !.@x && !.@y ) ; else
+	if( checkcell(.@m$,.@x,.@y,cell_chknopass) ) {
+		dispmes msg(2);
+		set .@x,0;
+		set .@y,0;
+	}
+	if( getmapflag(.@m$,mf_noteleport) && getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(248);
+		end;
+	}
+	if( warp(.@m$,.@x,.@y) ) {
+		dispmes msg(1);
+		end;
+	}
+	getmapxy .@m$,.@x,.@y,0;
+	dispmes msg(5,.@x,.@y);
+}
+
+function	script	cmd_where	{
+	set .@n$,@cmd_para$[0];
+	set .@i,getcharid(3,.@n$);
+	if( !isloggedin(.@i) ) {
+		dispmes msg(3);
+		end;
+	}
+	if( getbattleflag("hide_GM_session") && getcmduserlv() < getgmlevel(.@i) &&
+		!(getbattleflag("who_display_aid") && getcmduserlv() >= getbattleflag("who_display_aid"))
+	) {
+		dispmes msg(3);
+		end;
+	}
+	set .@j,getcharid(3);
+	attachrid .@i;
+	set .@n$, strcharinfo(0);
+	getmapxy .@m$,.@x,.@y,0;
+	attachrid .@j;
+	dispmes .@n$+" "+.@m$+" "+.@x+" "+.@y;
+}
+
+function	script	cmd_load	{
+	if( getmapflag(getsavepoint(0), mf_nowarpto) &&  getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(249);
+		end;
+	}
+	getmapxy .@m$,.@x,.@y,0;
+	if ( getmapflag(.@m$, mf_nowarp) &&  getbattleflag("any_warp_GM_min_level") > getcmduserlv() ) {
+		dispmes msg(248);
+		end;
+	}
+	warp(getsavepoint(0),getsavepoint(1),getsavepoint(2));
+	dispmes msg(7);
+}
+
+function	script	cmd_delitem	{
+	set .@i, atoi(@cmd_para$[0]);
+	set .@j, atoi(@cmd_para$[1]);
+	if(.@j < 1) set .@j, 1; 
+
+	if( existitem(.@i) )
+	{
+		set .@k, countitem(.@i);
+		if( .@k > .@j ) set .@k, .@j;
+		dispmes msg(113,.@k);
+		delitem .@i, .@k;
+		end;
+	}
+	else if( existitem(@cmd_para$[0]) )
+	{
+		set .@k, countitem(@cmd_para$[0]);
+		if( .@k > .@j ) set .@k, .@j;
+		dispmes msg(113,.@k);
+		delitem @cmd_para$[0], .@k;
+		end;
+	}
+	dispmes msg(19);
+	end;
+}
+
+function	script	cmd_monster	{
+	if( existmob(atoi(@cmd_para$[0])) ) 
+		set .@id, atoi(@cmd_para$[0]); 
+	else if( !set(.@id, existmob(@cmd_para$[0])) ) 
+	{ 
+		dispmes msg(40); 
+		end; 
+	} 
+
+	if( .@id == 1288 )
+	{ 
+		dispmes msg(83); 
+		end; 
+	} 
+	
+	set .@id, .@id+getarg(0)*MAX_MOB_DB;
+
+	set .@i,atoi(@cmd_para$[1]); 
+	if(.@i < 1)
+		set .@i, 1;
+	if( set(.@j,getbattleflag("atcommand_spawn_quantity_limit")) && .@i > .@j ) 
+		set .@i,.@j; 
+
+	getmapxy .@m$,.@x,.@y,0;
+	set .@j, sqrt(.@i);
+	areamonster .@m$, .@x-.@j-2, .@y-.@j-2, .@x+.@j+2, .@y+.@j+2, "--ja--", .@id, .@i; 
+	dispmes msg(39);
+}
+
+function	script	cmd_clone	{
+	if( !isloggedin(set(.@id, atoi(@cmd_para$[0]))) ) 
+	{
+		if( !isloggedin(set(.@id, getcharid(3,@cmd_para$[0]))) )
+		{
+			dispmes msg(3);
+			end;
+		}
+	}
+
+	set .@id2, getcharid(3);
+	attachrid .@id;
+	set .@id3, getcharid(0);
+	attachrid .@id2;
+	if(getgmlevel(.@id) > getcmduserlv()) {
+		dispmes msg(126);
+		end;
+	}
+
+	if( set(.@flag,getarg(0)) == 2 )
+	{
+		if( set(.@j,getbattleflag("atcommand_slave_clone_limit")) && countslave(.@id2) >= .@j ) 
+		{
+			dispmes msg(127);
+			end;
+		}
+		set .@master, getcharid(0);
+	}
+
+	getmapxy .@m$,.@x,.@y,0;
+	do {
+		set .@x1,.@x + (rand(10) - 5);
+		set .@y1,.@y + (rand(10) - 5);
+		if (set(.@i,.@i+1) >= 10) {
+			set .@x1,.@x;
+			set .@x1,.@x;
+			break;
+		}
+	} while( checkcell(.@m$,.@x1,.@y1,cell_chknopass) );
+
+	if( clone(.@m$,.@x1,.@y1,"",.@id3,.@master,0,.@flag?1:0,0) )
+	{
+		dispmes msg(128+.@flag*2);
+		end;
+	}
+	dispmes msg(129+.@flag*2);
+}
+
+function	script	cmd_disguise	{
+	if(getarg(0)&1)
+	{
+		if( existmob(atoi(@cmd_para$[0])) ) 
+			set .@id, atoi(@cmd_para$[0]); 
+		else if( !set(.@id, existmob(@cmd_para$[0])) ) 
+		{ 
+			if( set(.@id, getnpcdata(10,@cmd_para$[0])) == -1 )
+			{
+				dispmes msg(123); 
+				end; 
+			}
+		} 
+		if( checkriding() )
+		{ 
+			dispmes "坐骑时无法伪装。"; 
+			end; 
+		} 
+	}
+
+	if( getarg(0)&2 )
+	{
+		if(getarg(0)&1)
+		{
+			set $@id,.@id;
+			script4each "{ disguise $@id; }",0;
+			dispmes msg(122);
+			end;
+		}
+		script4each "{ undisguise; }",0;
+	}
+	else
+	{
+		if(getarg(0)&1)
+		{
+			disguise .@id;
+			dispmes msg(122);
+			end;
+		}
+		if( undisguise() )
+		{
+			dispmes msg(125);
+			end;
+		}
+	}
+	dispmes msg(124);
+}
+
+-	script	墓碑::Grave_System	565,{
+	set .@i,atoi(strnpcinfo(2));
+	mes "魔物 ["+mob_death_info(0,.@i)+"] 在";
+	mes mob_death_info(1,.@i)+"年"+mob_death_info(2,.@i)+"月"+mob_death_info(3,.@i)+"日"+mob_death_info(4,.@i)+"点"+mob_death_info(5,.@i)+"分";
+	mes "死于 "+(mob_death_info(6,.@i)==""?"无名氏":mob_death_info(6,.@i))+" 手下";
+	close;
+}
