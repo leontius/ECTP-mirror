@@ -1,5 +1,23 @@
 Date	Added
 
+2011/05/15
+	* Merged changes from trunk [14824:14825/trunk]. [Gepard]
+	* Added support for increased max statistics (parameters) for 3rd classes (regular and baby). [Gepard]
+	* Updated amounts of status points given at Base Level up for levels over 99. [Gepard]
+	* Fixes to Job Level stat bonuses table. [Gepard]
+	- Added missing bonuses: Warlock's INT, Minstrel's INT & AGI, Genetic's VIT.
+	- Official Royal Guard's bonuses.
+	* Merged changes from trunk [14784:14819/trunk]. [Ai4rei]
+2011/05/14
+	* Added Job Level stat bonuses for baby third classes. [Gepard]
+	- Fixed Genetic High's VIT bonus being given at different level than Genetic's (since r14557).
+	* Updated attribute (element) damage adjustment table. [Gepard]
+2011/05/08
+	* Fixed pcdb_checkid not recognizing invalid/unused job classes (bugreport:4830, since r14755). [Ai4rei]
+2011/02/07
+	* Updated enumerations of skill, skill unit and status option IDs. [Ai4rei]
+2011/01/29
+	* Merged changes from trunk (r14636:14686). [Ai4rei]
 2010/12/30
 	* Fixed a nullpo crash in pc_gainexp when receiving exp though script command getexp (topic:262958, since r14625). [Ai4rei]
 2010/12/27
