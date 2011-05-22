@@ -3,7 +3,7 @@
 //===== By: ==================================================
 //= Sara-chan (1.1)
 //===== Current Version: =====================================
-//= 1.7
+//= 1.7+
 //===== Compatible With: =====================================
 //= Any Athena Version; RO Episode 10+
 //===== Description: =========================================
@@ -18,6 +18,7 @@
 //= 1.5 Added Bingo warps [erKURITA]
 //= 1.6 Some official warps [Playtester]
 //= 1.7 Updated warps regarding Odin Temple Excavation Quest. [SinSloth]
+//= 1.7+ Fixed Church entrance warp. [5511]
 //============================================================
 
 //= Hugel City ===============================================
@@ -27,7 +28,7 @@ hu_fild06,200,372,0	warp	hugel01	1,1,hugel,95,37
 hugel,95,33,0	warp	hugel02	1,1,hu_fild06,200,367
 
 //Church
-hugel,155,114,0	warp	hugel03	1,1,hu_in01,211,177
+hugel,155,116,0	warp	hugel03	1,1,hu_in01,211,177
 hu_in01,211,173,0	warp	hugel04	1,1,hugel,159,114
 hu_in01,162,228,0	warp	hugel05	1,1,hu_in01,199,219
 hu_in01,195,219,0	warp	hugel06	1,1,hu_in01,159,228

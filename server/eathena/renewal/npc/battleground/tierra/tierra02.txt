@@ -3,7 +3,7 @@
 //===== By: ================================================== 
 //= L0ne_W0lf
 //===== Current Version: ===================================== 
-//= 1.1
+//= 1.1+
 //===== Compatible With: ===================================== 
 //= eAthena 1.0
 //===== Description: ========================================= 
@@ -14,6 +14,7 @@
 //===== Additional Comments: ================================= 
 //= 1.0 First Version.
 //= 1.1 Updated 'waitingroom' to support required zeny/lvl. [Kisuka]
+//= 1.1+ Fixed coordinates of "Food Storage". [5511]
 //============================================================
 
 // Waiting Room NPCs
@@ -150,7 +151,7 @@ OnTimer10000:
 
 bat_a02,15,16,3	script	OBJ#bat_a02_a	844,{
 OnEnable:
-	bg_monster $@TierraBG2_id1,"bat_a02",177,345,"Food Storage",1909,"OBJ#bat_a02_a::OnMyMobDead";
+	bg_monster $@TierraBG2_id1,"bat_a02",176,345,"Food Storage",1909,"OBJ#bat_a02_a::OnMyMobDead";
 	end;
 
 Onkill:
