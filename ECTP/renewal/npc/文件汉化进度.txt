@@ -1,0 +1,574 @@
+   ______  ______  _______  ______     
+  /\  ___\/\  ___\/\__  __\/\  ___`\   
+  \ \ \__/\ \ \__/\/_/\ \_/\ \  ____\  
+   \ \  ___\ \ \     \ \ \  \ \ \___/  
+    \ \ \__/\ \ \____ \ \ \  \ \ \     
+     \ \_____\ \_____\ \ \_\  \ \_\    
+      \/_____/\/_____/  \/_/   \/_/    
+                                       
+  eAthena Chinese Translation Project  
+   http://svn6.assembla.com/svn/ECTP   
+             Copyright (c)             
+---------------------------------------
+
+ECTP人员汉化进度
+
+[文件夹]
+文件名.txt			进度			翻译			校验I			校验II
+
+[airports]
+airships.txt			100%			5511
+einbroch.txt			100%			5511
+lighthalzen.txt			100%			5511
+yuno.txt			100%			5511
+
+[battleground]
+bg_common.txt			100%			5511
+
+[battleground/flavius]
+flavius01.txt			100%			5511
+flavius02.txt			100%			5511
+flavius_enter.txt		100%			5511
+
+[battleground/kvm]
+kvm01.txt			100%			5511
+kvm02.txt			100%			5511
+kvm03.txt			100%			5511
+kvm_enter.txt			100%			5511
+kvm_item_pay.txt		100%			5511
+
+[battleground/tierra]
+tierra01.txt			100%			5511
+tierra02.txt			100%			5511
+tierra_enter.txt		100%			5511
+
+[cities]
+alberta.txt			100%			5511
+aldebaran.txt			100%			5511
+amatsu.txt			100%			5511
+ayothaya.txt			100%			5511
+brasilis.txt			100%			5511
+comodo.txt			100%			5511
+einbech.txt			100%			5511
+einbroch.txt			100%			5511
+geffen.txt			100%			5511
+gonryun.txt			100%			5511
+hugel.txt			100%			5511
+izlude.txt			100%			5511
+jawaii.txt			100%			5511
+lighthalzen.txt			100%			5511
+louyang.txt			100%			5511
+lutie.txt			100%			5511
+manuk.txt			100%			5511
+morocc.txt			100%			5511
+moscovia.txt			100%			5511
+niflheim.txt			100%			5511
+payon.txt			100%			5511
+prontera.txt			100%			5511
+rachel.txt			100%			5511
+splendide.txt			100%			5511
+umbala.txt			100%			5511
+veins.txt			100%			5511
+yuno.txt			100%			5511
+
+[custom]
+adoption.txt			-
+card_remover.txt		-
+dye.txt				-
+floating_rates.txt		-
+lottery.txt			-
+morocc_raceway.txt		-
+platinum_skills.txt		-
+rpsroulette.txt			-
+sign_your_items.txt		-
+warper.txt			-
+
+[custom/Banks]
+bank.txt			-
+
+[custom/eAAC_Scripts]
+quest_warper.txt		-
+
+[custom/eAAC_Scripts/kafraExpress]
+global_functionsKE.txt		-
+config.txt			-
+ke_bank.txt			-
+ke_broadcast.txt		-
+ke_dye.txt			-
+ke_jobchange.txt		-
+ke_jobswap.txt			-
+ke_main.txt			-
+ke_refine.txt			-
+ke_rent.txt			-
+ke_shop.txt			-
+ke_statmarket.txt		-
+ke_stats.txt			-
+ke_uncard.txt			-
+ke_warp_dungeon.txt		-
+ke_warp_pvp.txt			-
+ke_warp_town.txt		-
+ke_warp_woe.txt			-
+
+[custom/events]
+uneasy_cemetery.txt		-
+
+[custom/quests]
+bandit_beard.txt		-
+bongunsword.txt			-
+bookofthedevil.txt		-
+dead_branch.txt			-
+elvenear.txt			-
+event_6_new_hats.txt		-
+ironcane.txt			-
+kahohorn.txt			-
+may_hats.txt			-
+sphinx_hat.txt			-
+sunglasses.txt			-
+tha_statues.txt			-
+
+[custom/quests/thq]
+THQS_ChatingNPC.txt		-
+THQS_GuildNPC.txt		-
+THQS_QuestNPC.txt		-
+THQS_Quests.txt			-
+THQS_TTShop.txt			-
+
+[custom/jobs]
+jobmaster.txt			-
+reset.txt			-
+
+[events]
+children_week.txt		-
+christmas_2005.txt		-
+christmas_2008.txt		-
+dumplingfestival.txt		100%			5511
+easter.txt			-
+easter_2008.txt			-
+event_skill_reset.txt		100%			5511
+gdevent_aru.txt			100%			5511
+gdevent_sch.txt			100%			5511
+god_se_festival.txt		100%			5511
+halloween_2006.txt		-
+halloween_2008.txt		-
+halloween_2009.txt		100%			5511
+idul_fitri.txt			-
+lunar_2008.txt			-
+MemorialDay_2008.txt		-
+StPatrick_2008.txt		-
+twintowers.txt			-
+valentinesday.txt		-
+valentinesday_2009.txt		100%			5511
+whiteday.txt			100%			5511
+xmas.txt			100%			5511
+
+[events/nguild]
+nguild_dunsw.txt		-
+nguild_ev_agit.txt		-
+nguild_flags.txt		-
+nguild_kafras.txt		-
+nguild_managers.txt		-
+nguild_warper.txt		-
+
+[guides]
+guides_alberta.txt		100%			5511
+guides_aldebaran.txt		100%			5511
+guides_amatsu.txt		100%			5511
+guides_ayothaya.txt		100%			5511
+guides_brasilis.txt		100%			5511
+guides_comodo.txt		100%			5511
+guides_einbroch.txt		100%			5511
+guides_geffen.txt		100%			5511
+guides_gonryun.txt		100%			5511
+guides_hugel.txt		100%			5511
+guides_izlude.txt		100%			5511
+guides_juno.txt			100%			5511
+guides_louyang.txt		100%			5511
+guides_lighthalzen.txt		100%			5511
+guides_lutie.txt		100%			5511
+guides_morroc.txt		100%			5511
+guides_moscovia.txt		100%			5511
+guides_niflheim.txt		100%			5511
+guides_payon.txt		100%			5511
+guides_prontera.txt		100%			5511
+guides_rachel.txt		100%			5511
+guides_umbala.txt		100%			5511
+guides_veins.txt		100%			5511
+
+[guild]
+agit_controller.txt 		100%			5511
+agit_template.txt  		100%			5511
+aldeg_cas01.txt  		100%			5511
+aldeg_cas02.txt  		100%			5511
+aldeg_cas03.txt  		100%			5511
+aldeg_cas04.txt  		100%			5511
+aldeg_cas05.txt  	  	100%			5511
+gefg_cas01.txt  		100%			5511
+gefg_cas02.txt  		100%			5511
+gefg_cas03.txt  		100%			5511
+gefg_cas04.txt  		100%			5511
+gefg_cas05.txt  		100%			5511
+payg_cas01.txt  		100%			5511
+payg_cas02.txt  		100%			5511
+payg_cas03.txt  		100%			5511
+payg_cas04.txt  		100%			5511
+payg_cas05.txt  		100%			5511
+prtg_cas01.txt  		100%			5511
+prtg_cas02.txt  		100%			5511
+prtg_cas03.txt  		100%			5511
+prtg_cas04.txt  		100%			5511
+prtg_cas05.txt  		100%			5511
+
+[guild2]
+agit_start_se.txt		100%			5511
+arug_cas01.txt  		100%			5511
+arug_cas02.txt  		100%			5511
+arug_cas03.txt   		100%			5511
+arug_cas04.txt    		100%			5511
+arug_cas05.txt  		100%			5511
+guild_dungeon.txt		100%			5511
+guild_flags.txt			100%			5511
+schg_cas01.txt  		100%			5511
+schg_cas02.txt  		100%			5511
+schg_cas03.txt  		100%			5511
+schg_cas04.txt  		100%			5511
+schg_cas05.txt  		100%			5511
+
+[instances]
+EndlessTower.txt		100%			5511
+NydhoggsNest.txt		100%			5511
+OrcsMemory.txt			100%			5511
+SealedShrine.txt		100%			5511
+
+[jobs]
+valkyrie.txt			100%			5511
+
+[jobs/1-1]
+acolyte.txt			100%			5511
+archer.txt			100%			5511
+mage.txt			100%			5511
+merchant.txt			100%			5511
+swordman.txt			100%			5511
+thief.txt			100%			5511
+
+[jobs/1-1e]
+gunslinger.txt			100%			5511
+ninja.txt			100%			5511
+taekwon.txt			100%			5511
+
+[jobs/2-1]
+assassin.txt			100%			5511
+blacksmith.txt			100%			5511
+hunter.txt			100%			5511
+knight.txt			100%			5511
+priest.txt			100%			5511
+wizard.txt			100%			5511
+
+[jobs/2-1a]
+AssassinCross.txt  		100%			5511
+HighPriest.txt  		100%			5511
+HighWizard.txt  		100%			5511
+LordKnight.txt  		100%			5511
+Sniper.txt  			100%			5511
+WhiteSmith.txt  		100%			5511
+
+[jobs/2-1e]
+StarGladiator.txt		100%			5511
+
+[jobs/2-2]
+alchemist.txt			100%			5511
+bard.txt			100%			5511
+crusader.txt			-
+dancer.txt			100%			5511
+monk.txt			-
+rogue.txt			-
+sage.txt			-
+
+[jobs/2-2a]
+Champion.txt  			100%			5511
+Clown.txt  			100%			5511
+Creator.txt  			100%			5511
+Gypsy.txt  			100%			5511
+Paladin.txt  			100%			5511
+Professor.txt  			100%			5511
+Stalker.txt  			100%			5511
+
+[jobs/2-2e]
+SoulLinker.txt			100%			5511
+
+[jobs/3-1]
+archbishop.txt
+rune_knight.txt
+
+[jobs/3-2]
+
+[jobs/cro/3-1]
+archbishop.txt			100%			5511
+guillotine_cross.txt		100%			5511
+mechanic.txt			100%			5511
+ranger.txt			100%			5511
+rune_knight.txt			100%			5511
+warlock.txt			100%			5511
+
+[jobs/cro/3-1]
+genetic.txt			100%			5511
+minstrel.txt			100%			5511
+royal_guard.txt			100%			5511
+shadow_chaser.txt		100%			5511
+sorcerer.txt			100%			5511
+sura.txt			100%			5511
+wanderer.txt			100%			5511
+
+[jobs/novice]
+novice.txt			100%			5511
+supernovice.txt			100%			5511
+supernovice_e.txt		100%			5511
+
+[kafras]
+cool_event_corp.txt		100%			5511
+dts_warper.txt			100%			5511
+functions_kafras.txt		100%			5511
+kafras_alb.txt			100%			5511
+kafras_alde.txt			100%			5511
+kafras_brasilis.txt		100%			5511
+kafras_com.txt			100%			5511
+kafras_dungeons.txt		100%			5511
+kafras_gef.txt			100%			5511
+kafras_izl.txt			100%			5511
+kafras_mor.txt			100%			5511
+kafras_mosk.txt			100%			5511
+kafras_new.txt			100%			5511
+kafras_pay.txt			100%			5511
+kafras_pron.txt			100%			5511
+kafras_woe.txt			100%			5511
+kafras_yun.txt			100%			5511
+
+[merchants]
+3rd_traders.txt			100%			5511
+advanced_refiner.txt		100%			5511
+alchemist.txt			100%			5511
+ammo_boxes.txt			100%			5511
+ammo_dealer.txt			100%			5511
+buying_shops.txt		100%			5511
+cash_hair.txt			100%			5511
+cash_refine.txt			100%			5511
+cash_trader.txt			100%			5511
+clothes_dyer.txt		100%			5511
+dye_maker.txt			100%			5511
+elemental_trader.txt		100%			5511
+enchan_arm.txt			100%			5511
+gemstone.txt			100%			5511
+hair_dyer.txt			100%			5511
+hair_style.txt			100%			5511
+icecream.txt			100%			5511
+inn.txt				100%			5511
+kunai_maker.txt			100%			5511
+manuk.txt			100%			5511
+milk_trader.txt			100%			5511
+novice_exchange.txt		100%			5511
+old_pharmacist.txt		100%			5511
+quivers.txt			100%			5511
+refine.txt			100%			5511
+refine_new.txt			100%			5511
+renters.txt			100%			5511
+shops.txt			100%			5511
+socket_enchant.txt		100%			5511
+socket_enchant2.txt		100%			5511
+son_hair_style.txt		100%			5511
+splendide.txt			100%			5511
+wander_pet_food.txt		100%			5511
+
+[other]
+auction.txt			100%			NO INFO.
+books.txt			10%			5511
+bulletin_boards.txt		100%			5511
+CashShop_Functions.txt		100%			5511
+CombItem_Functions.txt		100%			5511
+comodo_gambling.txt		100%			5511
+divorce.txt			100%			5511
+fortune.txt			-
+Global_Functions.txt		100%			5511
+guildpvp.txt			100%			5511
+gympass.txt			100%			5511
+hugel_bingo.txt			100%			NO INFO.
+mail.txt			100%			NO INFO.
+marriage.txt			100%			5511
+mercenary_rent.txt		100%			5511
+monster_museum.txt		100%			5511
+monster_race.txt		100%			5511
+msg_boards.txt			100%			5511
+poring_war.txt			100%			5511
+powernpc.txt			100%			5511
+pvp.txt				100%			5511
+resetskill.txt			100%			5511
+sealstatus.txt			100%			5511
+
+[other/arena]
+arena_lvl50.txt			100%			5511
+arena_lvl60.txt			100%			5511
+arena_lvl70.txt			100%			5511
+arena_lvl80.txt			100%			5511
+arena_party.txt			100%			5511
+arena_point.txt			100%			5511
+arena_room.txt			100%			5511
+arena_aco.txt			100%			5511
+
+[other/turbotrack]
+Expert_4.txt			100%			5511
+Expert_8.txt			100%			5511
+Expert_16.txt			100%			5511
+Normal_4.txt			100%			5511
+Normal_8.txt			100%			5511
+Normal_16.txt			100%			5511
+Normal_Solo.txt			100%			5511
+Turbo_Track.txt			100%			5511
+
+[quests]
+2007_relay.txt			100%			5511
+Bard_Quest.txt			-
+bunnyband.txt			100%			5511
+cooking_quest.txt		100%			5511
+counteragent_mixture.txt	100%			5511
+Dandelion_Request.txt		-
+doomed_swords.txt		100%			5511
+doomed_swords_quests.txt	100%			5511
+eye_of_hellion.txt		-
+guildrelay.txt			1%			5511
+gunslinger_quests.txt		-
+juice_maker.txt			100%			5511
+Kiel_Hyre_Quest.txt		-
+Lvl4_weapon_quest.txt		100%			5511
+monstertamers.txt		100%			5511
+mrsmile.txt			100%			5511
+ninja_quests.txt		-
+obb_quest.txt			100%			5511
+quests_13_1.txt			50%			5511
+quests_13_2.txt			100%			5511
+quests_13_3.txt			-
+quests_airship.txt		-
+quests_alberta.txt		100%			5511
+quests_aldebaran.txt		100%			5511
+quests_amatsu.txt		100%			5511
+quests_ayothaya.txt		100%			5511
+quests_brasilis.txt		100%			5511
+quests_comodo.txt		100%			5511
+quests_ein.txt			70%			5511
+quests_geffen.txt		100%			5511
+quests_gonryun.txt		100%			5511
+quests_hugel.txt		-
+quests_izlude.txt		100%			5511
+quests_juperos.txt		-
+quests_lighthalzen.txt		30%			5511
+quests_louyang.txt		100%			5511
+quests_lutie.txt		100%			5511
+quests_morocc.txt		100%			5511
+quests_moscovia.txt		10%			5511
+quests_nameless.txt		-
+quests_niflheim.txt		100%			5511
+quests_payon.txt		100%			5511
+quests_prontera.txt		90%			5511
+quests_rachel.txt		-
+quests_umbala.txt		100%			5511
+quests_veins.txt		40%			5511
+quests_yuno.txt			100%			5511
+thana_quest.txt			100%			5511
+The_Sign_Quest.txt		60%			5511
+
+[quests/collection]
+quest_creamy.txt		100%			5511
+quest_coco.txt			100%			5511
+quest_dryad.txt			100%			5511
+quest_golem.txt			100%			5511
+quest_caramel.txt		100%			5511
+quest_demonpungus.txt		100%			5511
+quest_pupa.txt			100%			5511
+quest_goat.txt			100%			5511
+quest_dokebi.txt		100%			5511
+quest_pecopeco.txt		100%			5511
+quest_alligator.txt		100%			5511
+quest_frilldora.txt		100%			5511
+quest_fabre.txt			100%			5511
+quest_hode.txt			100%			5511
+quest_leafcat.txt		100%			5511
+
+[quests/eden]
+11-25.txt			100%			5511
+26-40.txt			100%			5511
+41-55.txt			100%			5511
+56-70.txt			100%			5511
+71-85.txt			100%			5511
+eden_common.txt			100%			5511
+eden_quests.txt			100%			5511
+eden_service.txt		100%			5511
+
+[quests/first_class]
+tu_acolyte.txt			-
+tu_archer.txt			-
+tu_ma_th01.txt			-
+tu_magician01.txt		-
+tu_merchant.txt			-
+tu_sword.txt			-
+tu_thief01.txt			-
+
+[quests/quiz]
+quiz_qt.txt			-
+
+[quests/newgears]
+2004_headgears.txt		-
+2005_headgears.txt		100%			5511
+2006_headgear.txt		100%			5511
+2008_headgear.txt		100%			5511
+
+[quests/okolnir]
+godse_aru01.txt			100%			5511
+godse_aru02.txt			100%			5511
+godse_aru03.txt			100%			5511
+godse_aru04.txt			100%			5511
+godse_aru05.txt			100%			5511
+godse_sch01.txt			100%			5511
+godse_sch02.txt			100%			5511
+godse_sch03.txt			100%			5511
+godse_sch04.txt			100%			5511
+godse_sch05.txt			100%			5511
+
+[quests/others]
+ArlimQuest_1.txt		100%			5511
+
+[quests/seals]
+brisingamen_seal.txt		-
+god_global.txt			-
+god_weapon_creation.txt		100%			5511
+megingard_seal.txt		-
+mjolnir_seal.txt		-
+sleipnir_seal.txt		100%			5511
+
+[quests/skills]
+acolyte_skills.txt		100%			5511
+alchemist_skills.txt		-
+archer_skills.txt		-
+assassin_skills.txt		-
+bard_skills.txt			-
+blacksmith_skills.txt		-
+crusader_skills.txt		-
+dancer_skills.txt		-
+hunter_skills.txt		-
+knight_skills.txt		-
+mage_skills.txt			100%			5511
+merchant_skills.txt		-
+monk_skills.txt			-
+novice_skills.txt		-
+priest_skills.txt		-
+rogue_skills.txt		-
+sage_skills.txt			-
+swordman_skills.txt		100%			5511
+thief_skills.txt		-
+wizard_skills.txt		-
+
+[warps/dungeons]
+lzh_dun.txt			100%			5511
+mosk_dun.txt			100%			5511
+
+[warps/fields]
+abyss_warper.txt		100%			5511
+
+[warps/other]
+arena.txt			100%			5511

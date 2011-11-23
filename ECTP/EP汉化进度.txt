@@ -1,0 +1,298 @@
+   ______  ______  _______  ______     
+  /\  ___\/\  ___\/\__  __\/\  ___`\   
+  \ \ \__/\ \ \__/\/_/\ \_/\ \  ____\  
+   \ \  ___\ \ \     \ \ \  \ \ \___/  
+    \ \ \__/\ \ \____ \ \ \  \ \ \     
+     \ \_____\ \_____\ \ \_\  \ \_\    
+      \/_____/\/_____/  \/_/   \/_/    
+                                       
+  eAthena Chinese Translation Project  
+   http://svn6.assembla.com/svn/ECTP   
+             Copyright (c)             
+---------------------------------------
+
+* EP Malaya - 马来亚
+[马来亚]
+
+
+* EP Zero - 仙境新世界
+[职业]
+- 超级初学者二转		[DONE]
+
+[玛兰朵]
+
+
+* EP Dewata - 德瓦塔
+- 德瓦塔的传统酒		[NOINFO]
+- 佳堤族的王冠			[NOINFO]
+- 古旧短剑			[NOINFO]
+
+
+* EP14.1 - 彩虹桥
+
+
+* EP13.3 - 艾尔 迪卡斯特斯
+
+
+* EP Brasilis - 巴西利斯
+- 厕所的幽灵			[DONE]
+- 幸运的修炼			[DONE]
+- 瓜拉那糖果			[DONE]
+- 丢失的小狗			[DONE]
+- 变异海葵			[DONE]
+- 亚拉之歌			[DONE]
+
+
+* EP Renewal - 复兴
+[职业]
+- 初学者训练场			[DONE]
+- 1转职业			[DONE]
+- 2转职业			[WIP]
+- 3转职业			[WIP]
+
+[乐园团]
+- 一段训练			[DONE]
+- Lv11-25委托			[DONE]
+- Lv26-40委托			[DONE]
+- Lv41-55委托			[DONE]
+- Lv56-70委托			[DONE]
+- Lv71-85委托			[DONE]
+- 二段训练			[NOINFO]
+- Lv86-90委托			[NOINFO]
+- Lv91-99委托			[NOINFO]
+
+
+* EP13.2 - 未知的遭遇
+[艾尔贝塔]
+- 艾尔贝塔的少年		[DONE]
+
+[米德加尔同盟军营地]
+- 异世界的语言			[DONE]
+- 悬赏通缉			[DONE]
+- 收集飞龙蛋			[DONE]
+- 巴杰特的秘密笔记		[DONE]
+- 额外的猫手官员		[DONE]
+
+[司普兰迪德]
+- 两个种族			[DONE]
+- 伊格德拉修的守护者
+- 爱尔芙海姆香水		[DONE]
+- 守护精灵工匠			[DONE]
+
+[马努克]
+- 米德加尔特矿石		[DONE]
+- 收集钚镭			[DONE]
+- 魔物讨伐			[DONE]
+
+[副本]
+- 尼德霍德的巢穴		[DONE]
+
+
+* EP13.1 - 远征异世界
+[普隆德拉]
+- 前往新的世界			[DONE]
+
+[米德加尔同盟军营地]
+- 新的环境			[DONE]
+- 三方联盟的矛盾		[WIP]
+- 营地打工			[DONE]
+- 对新事物的态度		[DONE]
+- 追踪瑞安·莫尔		[WIP]
+- 新世界的报告书		[WIP]
+- 发现小妖精 & 发现巨树人	[DONE]
+- 猫手商团			[DONE]
+
+[莫斯科维亚]
+- 不死的科索伊			[WIP]
+
+[副本]
+- 兽人的记忆			[DONE]
+
+- 达纳托斯之塔(New)		[NOINFO]
+
+* EP12.0 - 再见梦罗克
+[梦罗克]
+- 魔王梦罗克的复活		[DONE]
+- 命运的乌鸦			[DONE]
+
+[普隆德拉]
+- 王位继承者			[DONE]
+
+[莫斯科维亚]
+- 橡实交换			[DONE]
+- 耳盖帽子			[DONE]
+- 移动的岛屿			[WIP]
+- 赶走冬天			[WIP]
+- 帮助米海亿			[WIP]
+
+[副本]
+- 封印的神殿			[DONE]
+- 无尽之塔			[DONE]
+
+
+* EP11.3 - 无名之岛
+[普隆德拉]
+- Z-Gang Quest			[WIP]
+- Unlucky Emerald		[WIP]
+
+[梦罗克]
+- Rogue Guild Investigation Assistance	[WIP]
+- Broken Diamond		[WIP]
+- Peace for Arunafeltz		[WIP]
+
+[克魔多]
+- Muff's Loan			[WIP]
+
+[飞空艇]
+- Nameless Island		[WIP]
+
+
+* EP11.2 - 火神-伊夫利特
+[普隆德拉]
+- 间谍任务			[DONE]
+
+[拉赫]
+- 托尔火山基地任务		[WIP]
+
+[菲音斯]
+- 石头任务			[DONE]
+- 兄妹任务			[WIP]
+
+
+* EP11.1 - 圣域之门-拉赫
+[拉赫]
+- Lost Child Quest		[WIP]
+- Sanctuary Quest		[WIP]
+- Ice Necklace Quest		[WIP]
+- Bruspetti Quest		[WIP]
+
+
+* EP10.4 - 田园都市
+[朱诺]
+- Kiel Hyre Quest		[WIP]
+
+[毀葛]
+- Medicine Quest		[WIP]
+- Biological Weapon Quest	[WIP]
+- Fish cake soup delivery	[WIP]
+- Cow Milking Quest		[WIP]
+- Hide and Seek quest		[WIP]
+- Memory Quest			[WIP]
+- Rebellion Quest		[WIP]
+- Juno Remedy Quest		[WIP]
+- Odin Temple Excavation quest	[WIP]
+
+
+* EP10.3 - 深渊之湖
+- 达纳托斯之塔(Old)		[DONE]
+
+[普隆德拉]
+- 戈奧布勒格家族诅咒		[DONE]
+- 烹饪任务			[DONE]
+
+
+* EP10.2 - 光影之都
+[里希塔乐镇]
+- 研究所任务			[DONE]
+- 里希塔乐镇的小偷		[DONE]
+- 友情任务			[DONE]
+- 诅咒的灵魂任务		[WIP]
+- 大总统任务			[WIP]
+- 雷根贝勒打工任务		[WIP]
+
+
+* EP10.1 - 新世代的诞生
+- THE SIGN			[WIP]
+
+[汶巴拉]
+- A 级武器作任务		[DONE]
+
+[尼芙菲姆]
+- S 级武器作任务		[DONE]
+
+[艾音布罗克]
+- 恋人任务			[DONE]
+- 工厂任务			[DONE]
+- 谋杀任务			[DONE]
+- 神之金属/矿石任务		[DONE]
+- 乌维·克莱茵任务		[WIP]
+
+[飞空艇]
+- 飞空艇任务			[WIP]
+- 飞空艇动力来源任务		[WIP]
+- 伊美乐心脏碎片任务		[WIP]
+
+
+* EP9.0 - 哎哟泰雅
+[哎呦泰雅]
+- 订婚戒指任务			[DONE]
+- 闪亮老虎任务			[DONE]
+- 冬阴汤任务			[DONE]
+
+
+* EP8.5 - 缤纷洛阳城
+[洛阳]
+- 四龙转入汤任务		[DONE]
+- 医生任务			[DONE]
+- 毒药王任务			[DONE]
+- 革命运动任务			[DONE]
+
+[吉芬]
+- Bard Quest			[WIP]
+
+
+* EP8.0 - 黑色派对
+[普隆德拉]
+- 传话任务			[DONE]
+
+[尼芙菲姆]
+- 被诅咒的灵魂			[DONE]
+- 钢琴键任务			[DONE]
+
+[汶巴拉]
+- 高空弹跳
+- 喜欢吃肉的小孩		[DONE]
+- 汶巴拉语言任务		[DONE]
+- 制作/分解属性石		[DONE]
+- 骷髅门任务			[DONE]
+- 家庭矛盾			[DONE]
+
+
+* EP7.0 - 最初感动
+
+
+* EP6.0 - 樱之花嫁
+[昆仑]
+- 破损的剑			[DONE]
+- 遗失的短剑			[DONE]
+
+[樱花城]
+- 属性原石交换			[DONE]
+- 桃太郎活动			[DONE]
+- 寿司任务			[DONE]
+- 密穴任务			[DONE]
+
+
+* EP5.0 - 梦想天空
+[朱诺]
+- 两种草药			[DONE]
+- 麦斗任务			[DONE]
+- 炼金术士兄弟			[DONE]
+- 命运之剑 第二篇 & 第三章	[DONE]
+
+
+* EP4.0 - 倾城之战
+[艾尔贝塔]
+- 乌龟岛任务			[DONE]
+
+
+* EP3.0 - 梦幻之岛
+[克魔多]
+- 命运之剑 第一篇		[DONE]
+
+
+* EP2.0 - 宠物情人
+
+
+* EP1.0 - 爱情竞技场 & 快乐圣诞
+
