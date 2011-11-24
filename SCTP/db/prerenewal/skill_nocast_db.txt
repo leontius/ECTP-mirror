@@ -1,0 +1,153 @@
+//============================================================
+// eAthena Chinese Translation Project 汉化组
+//============================================================
+// 技能禁用 数据 (Per-Renewal)
+//
+// 最新汉化修正日期: 2011.09.02
+//------------------------------------------------------------
+// 数据结构:
+// 技能ID,<Flag>
+//
+// 例如:
+// 8,6 = "霸体"无法在PvP和GvG地图使用 (2+4)
+//------------------------------------------------------------
+// 备注:
+// 	<Flag>取值:
+// 	 1 = 无法在普通地图使用
+// 	 2 = 无法在PvP地图使用 (PK服务器使用此项,而非使用1)
+// 	 4 = 无法在GvG地图使用
+// 	 8 = 无法在战场地图使用
+// 	 16 = 无法在城镇地图使用
+// 	 32 = 无法被克隆 (克隆人无法复制此技能)
+// 	 以下为限制区域 - 需使用'restricted <区域号>'的mapflag设置
+// 	 64 = 无法在区域1地图使用
+// 	 128 = 无法在区域2地图使用
+// 	 256 = 无法在区域3地图使用
+// 	 512 = 无法在区域4地图使用
+// 	 1024 = 无法在区域5地图使用
+// 	 2048 = 无法在区域6地图使用
+// 	 4096 = 无法在区域7地图使用
+//------------------------------------------------------------
+
+//GVG
+26,4	//AL_TELEPORT#瞬间移动
+27,4	//AL_WARP#传送之阵
+87,4	//WZ_ICEWALL#冰刃之墙
+150,4	//TF_BACKSLIDING#后退回避
+290,4	//SA_ABRACADABRA#随机技能
+336,4	//WE_CALLPARTNER#想念你
+361,4	//HP_ASSUMPTIO#圣母之祈福
+362,4	//HP_BASILICA#神圣殿堂
+395,4	//CG_MOONLIT#落花伴着月光下的水车小屋
+409,4	//WE_CALLPARENT#爸妈我想念您
+410,4	//WE_CALLBABY#宝贝请来这里
+426,4	//TK_HIGHJUMP#跳高
+491,4	//CR_CULTIVATION#植物栽培
+530,4	//NJ_KIRIKAGE#影切
+691,4	//CASH_ASSUMPTIO#圣母之祈福
+
+//Battle Ground
+26,8	//AL_TELEPORT#瞬间移动
+27,8	//AL_WARP#传送之阵
+87,8	//WZ_ICEWALL#冰刃之墙
+150,8	//TF_BACKSLIDING#后退回避
+264,8	//MO_BODYRELOCATION#弓身弹影
+336,8	//WE_CALLPARTNER#想念你
+361,8	//HP_ASSUMPTIO#圣母之祈福
+362,8	//HP_BASILICA#神圣殿堂
+395,8	//CG_MOONLIT#落花伴着月光下的水车小屋
+396,8	//CG_MARIONETTE#傀儡师的把戏
+491,8	//CR_CULTIVATION#植物栽培
+409,8	//WE_CALLPARENT#爸妈我想念您
+410,8	//WE_CALLBABY#宝贝请来这里
+411,8	//TK_RUN#跑步
+426,8	//TK_HIGHJUMP#跳高
+427,8	//SG_FEEL#太阳和月亮和星星的感觉
+428,8	//SG_SUN_WARM#太阳的温暖
+429,8	//SG_MOON_WARM#月亮的温暖
+430,8	//SG_STAR_WARM#星星的温暖
+431,8	//SG_SUN_COMFORT#太阳的平安感
+432,8	//SG_MOON_COMFORT#月亮的平安感
+433,8	//SG_STAR_COMFORT#星星的平安感
+434,8	//SG_HATE#太阳和月亮和星星的憎恶
+435,8	//SG_SUN_ANGER#太阳的愤怒
+436,8	//SG_MOON_ANGER#月亮的愤怒
+437,8	//SG_STAR_ANGER#星星的愤怒
+438,8	//SG_SUN_BLESS#太阳的祝福
+439,8	//SG_MOON_BLESS#月亮的祝福
+440,8	//SG_STAR_BLESS#星星的祝福
+530,8	//NJ_KIRIKAGE#影切
+691,8	//CASH_ASSUMPITO#圣母之祈福
+
+//Town
+232,16	//AM_CANNIBALIZE#生物调拨
+233,16	//AM_SPHEREMINE#气泡虫召唤
+491,16	//CR_CULTIVATION#植物栽培
+
+//Mixed
+488,3	//CG_HERMODE#海罗默德的手杖
+
+//Clone Forbidden/pointless skills
+77,32	//PR_TURNUNDEAD#转生术
+79,32	//PR_MAGNUS#十字驱魔攻击
+
+//Zone 1 - Aldebaran Turbo Track
+8,64	//SM_ENDURE#霸体
+26,64	//AL_TELEPORT#瞬间移动
+27,64	//AL_WARP#传送之阵
+35,64	//AL_CURE#治疗术
+51,64	//TF_HIDING#隐匿
+87,64	//WZ_ICEWALL#冰刃之墙
+135,64	//AS_CLOAKING#伪装
+219,64	//RG_INTIMIDATE#胁持
+264,64	//MO_BODYRELOCATION#弓身弹影
+336,64	//WE_CALLPARTNER#想念你
+357,64	//LK_CONCENTRATION#集中攻击
+359,64	//LK_BERSERK#狂怒之枪
+362,64	//HP_BASILICA#神圣殿堂
+387,64	//WS_CARTBOOST#手推车加速
+389,64	//ST_CHASEWALK#暗影追踪
+395,64	//CG_MOONLIT#落花伴着月光下的水车小屋
+
+//Zone 2 - Jail
+421,128	//TK_JUMPKICK#飞脚踢
+426,128	//TK_HIGHJUMP#跳高
+
+//Zone 3 - Izlude Battle Arena
+219,256 //RG_INTIMIDATE#胁持
+26,256	//AL_TELEPORT#瞬间移动
+336,256	//WE_CALLPARTNER#想念你
+
+//Zone 4 - WoE:SE
+26,512	//AL_TELEPORT#瞬间移动
+27,512	//AL_WARP#传送之阵
+87,512	//WZ_ICEWALL#冰刃之墙
+150,512	//TF_BACKSLIDING#后退回避
+290,512	//SA_ABRACADABRA#随机技能
+336,512	//WE_CALLPARTNER#想念你
+361,512	//HP_ASSUMPTIO#圣母之祈福
+362,512	//HP_BASILICA#神圣殿堂
+395,512	//CG_MOONLIT#落花伴着月光下的水车小屋
+409,512	//WE_CALLPARENT#爸妈我想念您
+410,512	//WE_CALLBABY#宝贝请来这里
+426,512	//TK_HIGHJUMP#跳高
+491,512	//CR_CULTIVATION#植物栽培
+530,512	//NJ_KIRIKAGE#影切
+
+//Zone 5 - Sealed Shrine
+12,1024	//MG_SAFETYWALL#暗之障壁
+26,1024	//AL_TELEPORT#瞬间移动
+336,1024	//WE_CALLPARTNER#想念你
+219,1024	//RG_INTIMIDATE#胁持
+361,1024	//HP_ASSUMPTIO#圣母之祈福
+691,1024	//CASH_ASSUMPTIO#圣母之祈福
+
+//Zone 6 - Endless Tower & Orc's Memory & Nidhoggur's Nest
+26,2048	//AL_TELEPORT#瞬间移动
+87,2048	//WZ_ICEWALL#冰刃之墙
+219,2048	//RG_INTIMIDATE#胁持
+290,2048	//SA_ABRACADABRA#随机技能
+336,2048	//WE_CALLPARTNER#想念你
+405,2048	//PF_SPIDERWEB#易燃之网
+427,2048	//SG_FEEL#太阳和月亮和星星的感觉
+674,2048	//NPC_EXPULSION#放逐

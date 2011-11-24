@@ -1,0 +1,8 @@
+import: db/prerenewal/item_bluebox.txt
+import: db/prerenewal/item_violetbox.txt
+import: db/prerenewal/item_cardalbum.txt
+import: db/prerenewal/item_cookie_bag.txt
+import: db/prerenewal/item_findingore.txt
+import: db/prerenewal/item_giftbox.txt
+import: db/prerenewal/item_scroll.txt
+import: db/prerenewal/item_misc.txt

@@ -1,0 +1,86 @@
+// 装备/物品/卡片 限制设定
+// 你可以定义什么物品不能在PVP/GVG等场合使用
+// 格式: <物品id>,<模式>
+// 物品id
+// 	id为正，表示在下列场合不能使用
+// 	id为负，表示只有在下列场合可以使用
+// 模式
+//	 1- PVP里不可使用
+//	 2- GVG里不可使用
+//	 3- GVG里PVP均不可用
+//	 4- 战场里不可使用
+//	 8- 城镇里不能使用
+//	 限制区域 - 由 'restricted <数字>' 的mapflag设置
+//	 16   - 限制区域1
+//	 32   - 限制区域2
+//	 64   - 限制区域3
+//	 128  - 限制区域4
+//	 256  - 限制区域5
+//	 512  - 限制区域6
+//	 1024 - 限制区域7
+
+//举例:
+//1201,1 you can't use KNIFE(ID 1201) on PvP and GvG
+//608,3 you can't use Yggdrasil Seed(ID 608) on both PvP & GvG & WoE Castles
+//4174,3 Forbid Deviling Card in every PVP or GVG map, and during woes.
+//501,4 you can't use Red Potion on map marked as 'restricted zone 1'
+//502,8 you can't use Orange Potion on map marked as 'restricted zone 2'
+//503,16 you can't use Yellow Potion on map marked as 'restricted zone 3'
+// you can even mix modes
+//519,41 (32+8+1) you can't use Milk on PVP, and maps marked as 'restricted zone 2' and 'restricted zone 4'
+
+
+//Zone 1 - 艾尔帕兰竞速场地
+601,16 //苍蝇翅膀
+506,16 //绿色药水
+525,16 //万能药
+
+//Zone 2 - 监狱
+601,32 //苍蝇翅膀
+602,32 //蝴蝶翅膀
+12212,32 //巨大苍蝇翅膀
+14582,32
+14583,32
+14584,32
+14585,32
+
+//Zone 3 - 依斯鲁得岛 亚雷纳竞技场
+601,64 //苍蝇翅膀
+
+//只能在PVP和GVG使用的道具
+-1293,3
+-1294,3
+-1395,3
+-1396,3
+-1436,3
+-1492,3
+-1586,3
+-1587,3
+-1661,3
+-1775,3
+-1776,3
+-1832,3
+-2016,3
+-2483,3
+-2484,3
+-2485,3
+-2586,3
+-2587,3
+-11547,3
+-11548,3
+-11549,3
+-13072,3
+-15046,3
+-15047,3
+-15048,3
+-16020,3
+-16021,3
+-18113,3
+-18114,3
+-21001,3
+-21002,3
+
+//只能在城镇使用的道具
+-11547,8
+-11548,8
+-11549,8
