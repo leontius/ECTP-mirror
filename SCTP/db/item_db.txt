@@ -2219,6 +2219,38 @@
 4475,Cobalt_Mineral_Card,Ó‹øÛ Øƒßø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Formless,10; },{},{}
 4476,Pinguicula_Card,≤∂≥Ê›¿ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Insect,10; },{},{}
 4477,Hell_Apocalypse_Card,µÿ”¸ª˙–µ’Ω øø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Demon,10; },{},{}
+4478,Light_Up_Card3,∞Õª˘¡¶ø®∆¨,6,20,,10,,,,,,,,64,,,,,{},{},{}
+4479,Light_Up_Card4,∞Õª˘¡¶ø®∆¨,6,20,,10,,,,,,,,4,,,,,{},{},{}
+4505,Scaraba_Card,º◊≥Êø®∆¨,6,20,,10,,,,,,,,136,,,,,{ bonus bMatk,20; bonus bMaxSPrate,-1; },{},{}
+4506,Dolomedes_Card,Ω∆÷Îø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bDex,2; if(BaseClass == Job_Archer) bonus bDex,getrefine()/3; },{},{}
+4507,Queen_Scaraba_Card,≈ÆÕıº◊≥Êø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,7,30; /*bonus2 bAddMonsterDropItem,12806,200;*/ },{},{}
+4508,Gold_Scaraba_Card,ª∆Ωº◊≥Êø®∆¨,6,20,,10,,,,,,,,136,,,,,{ bonus bBaseAtk,20; bonus bMaxHPrate,-1; },{},{}
+4509,Gold_Queen_Scaraba_Card,ª∆Ω≈ÆÕıº◊≥Êø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,3; bonus2 bSubRace,RC_Insect,10+5*(getrefine()>8); },{},{}
+4510,Miming_Card,√◊√◊π÷ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Sleep,200,ATF_SHORT; },{},{}
+4511,Little_Fathom_Card,–°ª√ ﬁø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Silence,200,ATF_LONG; },{},{}
+4512,Parus_Card,√∫…Ω»∏ø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bHealPower,3; if(BaseClass == Job_Acolyte) bonus bHealPower,getrefine()/3; },{},{}
+4513,Angrya_Mantis_Card,∞≤∏Ò¿≠Û´ÚÎø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bCritAtkRate,2; if(BaseClass == Job_Thief) bonus bCritAtkRate,getrefine()/3; },{},{}
+4514,Pom_Spider_Card,≈÷ƒ∑÷©÷Îø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Undead,20; bonus2 bMagicAddRace,RC_Angel,20; },{},{}
+4515,Alnoldi_Card,Ã©Ãπƒß”Ûª®ø®∆¨,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubRace,RC_Plant,30; },{},{}
+4516,Comodo_Card,ø∆ƒ¶∂‡¡˙ø®∆¨,6,20,,10,,,,,,,,16,,,,,{ bonus bDef,50; bonus bFlee,-25; },{},{}
+4517,Cendrawasih_Card,ÃÏÃ√ƒÒø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,2; if(BaseClass == Job_Mage) bonus bInt,getrefine()/3; },{},{}
+4518,Banaspaty_Card,∞Õƒ√Àπ≈¡µÃø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Burning,200,ATF_SHORT; },{},{}
+4519,Butoijo_Card,≤ºÕ–“ÏÛ√ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Angel,20; bonus2 bMagicAddRace,RC_Angel,20; },{},{}
+4520,Leak_Card,»√Ãÿø®∆¨,6,20,,10,,,,,,,,4,,,,,{ bonus bStr,3; bonus2 bAddEffWhenHit,Eff_Confusion,2000; /*bonus2 bAddEffWhenHit,Eff_Fear,2000;*/ },{},{}
+4521,Sedora_Card,»¸∂≈¿≠ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,15; },{},{}
+4522,Sropho_Card,…Ó∫£µÁ˜©ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Freezing,200,ATF_SHORT; },{},{}
+4523,Pot_Dofle_Card,Ω¥∏◊’¬”„ø®∆¨,6,20,,10,,,,,,,,16,,,,,{ bonus bDefEle,Ele_Water; bonus2 bSubRace,RC_Fish,10; },{},{}
+4524,King_Dramoh_Card,¥ÛΩ≈¡˙œ∫ø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bStr,2; if(BaseClass == Job_Swordman) bonus bStr,getrefine()/3; },{},{}
+4525,Kraken_Card,ƒßπÌ¥ÛŒ⁄‘Ùø®∆¨,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,10; skill "TF_HIDING",1; skill "RG_RAID",1; bonus3 bAddEffOnSkill,"RG_RAID",Eff_Bleeding,500; },{},{}
+4526,Weird_Coelacanth_Card,π≈π÷ø’º¨”„ø®∆¨,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxSPrate,5; bonus bDef,50; },{},{}
+4527,Dark_Coelacanth_Card,∫⁄∞µø’º¨”„ø®∆¨,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHPrate,10; bonus bDef,100; },{},{}
+4528,Mutant_Coelacanth_Card,±‰÷÷ø’º¨”„ø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bMatkRate,2+getrefine()/2; bonus bMaxHPrate,-getrefine(); },{},{}
+4529,Violent_Coelacanth_Card,±©¡¶ø’º¨”„ø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bAtkRate,2+getrefine()/2; bonus bMaxSPrate,-getrefine(); },{},{}
+4530,Siorava_Card,≈÷≈÷≤®¿˚ø®∆¨,6,20,,10,,,,,,,,769,,,,,{ bonus bLuk,2; if(BaseClass == Job_Merchant) bonus bLuk,getrefine()/3; },{},{}
+4531,Red_Eruma_Card,∫Ï∫£–«ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Curse,200,ATF_LONG; },{},{}
+4532,Wild_Rider_Card,“∞√®∆Ô øø®∆¨,6,20,,10,,,,,,,,64,,,,,{ bonus4 bAutoSpellWhenHit,"AL_INCAGI",1,600,0; },{},{}
+4533,Octopus_Card,’¬”„–°µ‹ø®∆¨,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Blind,200,ATF_LONG; },{},{}
+4534,Giant_Octopus_Card,–∞∂Ò’¬”„ø®∆¨,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHPrate,12; skill "WZ_WATERBALL",5; },{},{}
 // Armor Enchant System
 //===================================================================
 4700,Strength1,STR+1,6,20,,10,,,,,,,,16,,,,,{ bonus bStr,1; },{},{}
