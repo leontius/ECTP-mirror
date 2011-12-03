@@ -2226,11 +2226,11 @@
 4507,Queen_Scaraba_Card,Å®Íõ¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,7,30; /*bonus2 bAddMonsterDropItem,12806,200;*/ },{},{}
 4508,Gold_Scaraba_Card,»Æ½ð¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,136,,,,,{ bonus bBaseAtk,20; bonus bMaxHPrate,-1; },{},{}
 4509,Gold_Queen_Scaraba_Card,»Æ½ðÅ®Íõ¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,3; bonus2 bSubRace,RC_Insect,10+5*(getrefine()>8); },{},{}
-4510,Miming_Card,Ã×Ã×¹Ö¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Sleep,200,ATF_SHORT; },{},{}
+4510,Miming_Card,Ã×Ã×¹Ö¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ /*bonus3 bAddEff,Eff_DeadSleep,200,ATF_SHORT;*/ },{},{}
 4511,Little_Fathom_Card,Ð¡»ÃÊÞ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Silence,200,ATF_LONG; },{},{}
 4512,Parus_Card,ÃºÉ½È¸¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bHealPower,3; if(BaseClass == Job_Acolyte) bonus bHealPower,getrefine()/3; },{},{}
 4513,Angrya_Mantis_Card,°²¸ñÀ­ó«òë¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bCritAtkRate,2; if(BaseClass == Job_Thief) bonus bCritAtkRate,getrefine()/3; },{},{}
-4514,Pom_Spider_Card,ÅÖÄ·Ö©Öë¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Undead,20; bonus2 bMagicAddRace,RC_Angel,20; },{},{}
+4514,Pom_Spider_Card,ÅÖÄ·Ö©Öë¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Undead,20; bonus2 bMagicAddRace,RC_Undead,20; },{},{}
 4515,Alnoldi_Card,Ì©Ì¹Ä§Óó»¨¿¨Æ¬,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubRace,RC_Plant,30; },{},{}
 4516,Comodo_Card,¿ÆÄ¦¶àÁú¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bDef,50; bonus bFlee,-25; },{},{}
 4517,Cendrawasih_Card,ÌìÌÃÄñ¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,2; if(BaseClass == Job_Mage) bonus bInt,getrefine()/3; },{},{}
@@ -2241,11 +2241,11 @@
 4522,Sropho_Card,Éîº£µç÷©¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Freezing,200,ATF_SHORT; },{},{}
 4523,Pot_Dofle_Card,½´¸×ÕÂÓã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bDefEle,Ele_Water; bonus2 bSubRace,RC_Fish,10; },{},{}
 4524,King_Dramoh_Card,´ó½ÅÁúÏº¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bStr,2; if(BaseClass == Job_Swordman) bonus bStr,getrefine()/3; },{},{}
-4525,Kraken_Card,Ä§¹í´óÎÚÔô¿¨Æ¬,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,10; skill "TF_HIDING",1; skill "RG_RAID",1; bonus3 bAddEffOnSkill,"RG_RAID",Eff_Bleeding,500; },{},{}
+4525,Kraken_Card,Ä§¹í´óÎÚÔô¿¨Æ¬,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,10; skill "TF_HIDING",1; skill "RG_RAID",1; bonus3 bAddEffOnSkill,"RG_RAID",Eff_Bleeding,500; },{ sc_end SC_HIDING; },{}
 4526,Weird_Coelacanth_Card,¹Å¹Ö¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxSPrate,5; bonus bDef,50; },{},{}
 4527,Dark_Coelacanth_Card,ºÚ°µ¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHPrate,10; bonus bDef,100; },{},{}
-4528,Mutant_Coelacanth_Card,±äÖÖ¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bMatkRate,2+getrefine()/2; bonus bMaxHPrate,-getrefine(); },{},{}
-4529,Violent_Coelacanth_Card,±©Á¦¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bAtkRate,2+getrefine()/2; bonus bMaxSPrate,-getrefine(); },{},{}
+4528,Mutant_Coelacanth_Card,±äÖÖ¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bMatkRate,2+getrefine()/2; bonus bMaxHPrate,-getrefine()/2; },{},{}
+4529,Violent_Coelacanth_Card,±©Á¦¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bAtkRate,2+getrefine()/2; bonus bMaxSPrate,-getrefine()/2; },{},{}
 4530,Siorava_Card,ÅÖÅÖ²¨Àû¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bLuk,2; if(BaseClass == Job_Merchant) bonus bLuk,getrefine()/3; },{},{}
 4531,Red_Eruma_Card,ºìº£ÐÇ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Curse,200,ATF_LONG; },{},{}
 4532,Wild_Rider_Card,Ò°Ã¨ÆïÊ¿¿¨Æ¬,6,20,,10,,,,,,,,64,,,,,{ bonus4 bAutoSpellWhenHit,"AL_INCAGI",1,600,0; },{},{}
