@@ -1150,9 +1150,9 @@
 2146,Silver_Guard,银色盾牌,5,20,,300,,60,,1,0xFFFFFFFF,7,2,32,,22,1,3,{},{},{}
 2147,Round_Buckler,铝制圆盾,5,20,,600,,90,,1,0xFFFFFFFE,7,2,32,,22,1,3,{},{},{}
 2148,Rosa_Shield,玫瑰盾牌,5,20,,1300,,130,,1,0x00004080,8,2,32,,100,1,3,{},{},{}
-2149,Reinforcement_Guard,Reinforcement Guard,5,0,,150,,25,,1,0xFFFFFFFF,7,2,32,,0,1,1,{ bonus bMaxHPrate,3; },{},{}
-2150,Reinforcement_Buckler,Reinforcement Buckler,5,0,,600,,40,,1,0x000ED5F2,7,2,32,,0,1,2,{ bonus bMaxHPrate,3; },{},{}
-2151,Reinforcement_Shield,Reinforcement Shield,5,0,,1300,,60,,1,0x00004082,7,2,32,,0,1,3,{ bonus bMaxHPrate,3; },{},{}
+2149,Upg_Guard,强化铁盾,5,20,,150,,25,,1,0xFFFFFFFF,7,2,32,,1,1,1,{ bonus bMaxHPrate,3; },{},{}
+2150,Upg_Buckler,强化圆盾,5,20,,300,,45,,1,0x000ED5F2,7,2,32,,1,1,2,{ bonus bMaxHPrate,3; },{},{}
+2151,Upg_Shield,强化钢盾,5,20,,650,,65,,1,0x00004082,7,2,32,,1,1,3,{ bonus bMaxHPrate,3; },{},{}
 2152,Unknown,反恶魔钢盾,5,10,,,,120,,,0xFFFFFFFF,3,2,33,,,1,,{bonus2 bSubRace,7,25;bonus2 bSubRace,6,25;},{},{}
 2153,Imperial_Guard,帝王钻 盾牌,5,20,,2500,,120,,1,0x00004000,8,2,32,,102,1,1,{ bonus bMdef,5; bonus2 bSkillAtk,"LG_SHIELDPRESS",20; if(getrefine() > 6) { bonus2 bSkillAtk,"LG_SHIELDPRESS",2*(getrefine()-5); } },{},{}
 2156,Bible_Promise_Vol1,圣经允诺 第1册 ,5,20,,500,,10,,1,0x00000100,8,2,32,,110,1,1,{ skill "ALL_ODINS_POWER",1; },{},{}
@@ -1419,9 +1419,9 @@
 2456,Paradise_Boots1,乐园团 靴子Ⅰ,5,0,,0,,14,,0,0xFFFFFFFE,7,2,64,,12,0,0,{ bonus bHPrecovRate,10; bonus bSPrecovRate,2; },{},{}
 2457,Paradise_Boots2,乐园团 靴子Ⅱ,5,0,,0,,16,,0,0xFFFFFFFE,7,2,64,,26,0,0,{ bonus bHPrecovRate,12; bonus bSPrecovRate,4; },{},{}
 2458,Paradise_Boots3,乐园团 靴子Ⅲ,5,0,,0,,18,,0,0xFFFFFFFE,7,2,64,,40,0,0,{ bonus bHPrecovRate,14; bonus bSPrecovRate,6; },{},{}
-2459,Reinforcement_Shoes,Reinforcement Shoes,5,0,,200,,15,,1,0xFFFFFFFE,7,2,64,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
-2460,Reinforcement_Boots,Reinforcement Boots,5,0,,300,,21,,1,0x016E5CEA,7,2,64,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
-2461,Reinforcement_Greaves,Reinforcement Greaves,5,0,,400,,32,,1,0x00004080,7,2,64,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
+2459,Upg_Shoes,强化长靴,5,20,,200,,15,,1,0xFFFFFFFE,7,2,64,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+2460,Upg_Boots,强化战士长靴,5,20,,300,,21,,1,0x016E5CEA,7,2,64,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+2461,Upg_Greaves,强化重靴,5,20,,400,,32,,1,0x00004080,7,2,64,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
 2462,Sleipnir_R,Sleipnir,5,0,,3500,,40,,0,0xFFFFFFFF,7,2,64,,94,0,0,{ bonus bMdef,10; bonus bInt,25; bonus bMaxHPrate,20; bonus bMaxSPrate,20; bonus bSPrecovRate,25; bonus bSpeedRate,25; },{},{}
 2463,Wild_Boats,狂野 长靴,5,20,,0,,12,,0,0xFFFFFFFF,3,2,64,,75,0,0,{ bonus bUnbreakableShoes,0; },{},{}
 2465,Dance_Shoes,舞 鞋,5,20,,300,,15,,1,0x00080000,8,1,64,,105,1,0,{ bonus bAgi,1; bonus bDelayrate,-2; bonus2 bCastValue,"WA_SWING_DANCE",-32; },{},{}
@@ -1491,9 +1491,9 @@
 2558,Freya_Soul_Scarf4,Freya Soul Scarf,5,0,,400,,0,,0,0xFFFFFFFF,7,2,4,,20,1,0,{ bonus bFlee,15; bonus2 bSubEle,Ele_Neutral,15; },{},{}
 2559,Guardian_Manteau,Guardian Manteau,5,0,,0,,9,,0,0xFFFFFFFF,7,2,4,,0,1,0,{ bonus bMdef,1; bonus bFlee,10; bonus2 bSubEle,Ele_Neutral,10; },{},{}
 2560,Paradise_Mantle,乐园团 披风,5,0,,0,,14,,0,0xFFFFFFFE,7,2,4,,12,0,0,{ bonus2 bSubEle,Ele_Neutral,10; },{},{}
-2561,Reinforcement_Hood,Reinforcement Hood,5,0,,100,,9,,1,0xFFFFFFFF,7,2,4,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
-2562,Reinforcement_Muffler,Reinforcement Muffler,5,0,,200,,13,,1,0xFFFFFFFE,7,2,4,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
-2563,Reinforcement_Manteau,Reinforcement Manteau,5,0,,300,,18,,1,0x006654E2,7,2,4,,0,1,0,{ bonus bMaxHPRate,3; },{},{}
+2561,Upg_Hood,强化连帽披肩,5,0,,100,,9,,1,0xFFFFFFFF,7,2,4,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+2562,Upg_Muffler,强化披肩,5,0,,200,,13,,1,0xFFFFFFFE,7,2,4,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+2563,Upg_Manteau,强化斗篷,5,0,,300,,18,,1,0x006654E2,7,2,4,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
 2564,Wild_Tail,狂野 尾巴,5,20,,0,,16,,0,0xFFFFFFFF,3,2,4,,75,0,0,{ bonus bUnbreakableGarment,0; },{},{}
 2568,Loki's_Muffler,洛奇的披肩,5,20,,400,,1,,0,0xFFFFFFFE,2,2,4,,100,1,0,{ bonus bAgi,1; bonus2 bSkillAtk,"GC_CROSSIMPACT",5; },{},{}
 2573,Archangel_Wings,永恒之翼,5,0,,200,,18,,1,0xFFFFFFFF,7,2,4,,0,1,1,{},{},{}
@@ -1727,6 +1727,8 @@
 2825,Shaman_Earrings_,Shaman Earrings,5,0,,100,,0,,0,0xFFFFFFFF,7,2,136,,1,0,0,{ bonus bInt,2; },{},{}
 2826,Dark_Knight_Belt_,Dark Knight Belt,5,0,,500,,1,,0,0xFFFFFFFF,7,2,136,,80,0,0,{ bonus bDex,2; bonus bAgi,1; },{},{}
 2827,Dark_Knight_Glove_,Dark Knight Glove,5,0,,500,,1,,0,0xFFFFFFFF,7,2,136,,80,0,0,{ autobonus "{ bonus bMaxHPRate,10; }",10,10000,0,"{ specialeffect2 EF_POTION_BERSERK; }"; },{},{}
+2828,Upg_Clip,强化发夹,5,20,,100,,0,,1,0xFFFFFFFF,7,2,136,,1,0,0,{ bonus bMaxHPRate,3; bonus bMaxSP,50; },{},{}
+2829,Greed_Clip,贪婪发夹,5,20,,0,,0,,0,0xFFFFFFFE,7,2,136,,10,0,0,{ skill "BS_GREED",1; },{},{}
 2834,All_In_One_Ring_M,All In One Ring,5,0,,0,,0,,0,0xFFFFFFFF,7,2,136,,0,0,0,{ bonus bAllStats,1; bonus bNoCastCancel,0; bonus bCastRate,10; skill "AL_HEAL",1; skill "AL_TELEPORT",1; },{},{}
 2835,Critical_Ring_M,Critical Ring,5,75000,,100,,0,,0,0xFFFFFFFE,7,2,136,,0,0,0,{ bonus bCritical,10; },{},{}
 2836,Glove_M,Glove,5,30000,,100,,0,,0,0xFFFFFFFE,7,2,136,,0,0,0,{ bonus bDex,4; },{},{}
@@ -6356,13 +6358,13 @@
 15012,Purity_Robe,可爱长袍,5,20,,400,,42,,1,0xFFFFFFFF,7,2,16,,22,1,0,{ bonus bFixedCastrate,-3; bonus bHealPower,5; },{},{}
 15013,Clair_Suit,克莱尔外套,5,20,,2800,,58,,1,0xFFFFFFFE,7,2,16,,22,1,0,{},{},{}
 15014,Black_Armor,漆黑盔甲,5,20,,4500,,93,,1,0x00004080,8,2,16,,100,1,0,{},{},{}
-15015,Upg_Adv_Suit,Upg Adv Suit,5,20,,150,,25,,1,0xFFFFFFFF,7,2,16,,1,1,0,{},{},{}
-15016,Upg_Coat,Upg Coat,5,20,,600,,47,,1,0xFFFFFFFE,7,2,16,,1,1,0,{},{},{}
-15017,Upg_Saint_Robe,Upg Saint Robe,5,20,,300,,55,,1,0x00048530,7,2,16,,1,1,0,{ bonus bMdef,5; },{},{}
-15018,Upg_Tights,Upg Tights,5,20,,250,,32,,1,0x00080808,7,2,16,,1,1,0,{ bonus bDex,1; },{},{}
-15019,Upg_Thief_Cloth,Upg Thief Cloth,5,20,,100,,45,,1,0x02021040,7,2,16,,1,1,0,{ bonus bAgi,1; },{},{}
-15020,Upg_Mail,Upg Mail,5,20,,1650,,60,,1,0x000654E2,7,2,16,,1,1,0,{},{},{}
-15021,Upg_Formal_Dress,Upg Formal Dress,5,20,,150,,45,,1,0xFFFFFFFE,7,2,16,,1,1,0,{},{},{}
+15015,Upg_Adventure_Suit,强化冒险衣,5,20,,150,,25,,1,0xFFFFFFFF,7,2,16,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+15016,Upg_Coat,强化长大衣,5,20,,600,,47,,1,0xFFFFFFFE,7,2,16,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+15017,Upg_Saint_Robe,强化圣职之衣,5,20,,300,,55,,1,0x00048530,7,2,16,,1,1,0,{ bonus bMdef,5; bonus bMaxHPRate,3; },{},{}
+15018,Upg_Tights,强化紧身便衣,5,20,,250,,32,,1,0x00080808,7,2,16,,1,1,0,{ bonus bDex,1; bonus bMaxHPRate,3; },{},{}
+15019,Upg_Thief_Cloth,强化盗贼之衣,5,20,,100,,45,,1,0x02021040,7,2,16,,1,1,0,{ bonus bAgi,1; bonus bMaxHPRate,3; },{},{}
+15020,Upg_Mail,强化钢铁锁子甲,5,20,,1650,,60,,1,0x000654E2,7,2,16,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
+15021,Upg_Formal_Dress,强化西装外套,5,20,,150,,45,,1,0xFFFFFFFE,7,2,16,,1,1,0,{ bonus bMaxHPRate,3; },{},{}
 15022,Brazil_Swimsuit,游泳衣,5,20,,100,,1,,0,0xFFFFFFFF,7,2,16,,1,1,0,{ bonus bStr,4; bonus bInt,4; bonus bMdef,3; },{},{}
 15023,Half_Brynhild,Half Brynhild,5,20,,0,,60,,0,0xFFFFFFFF,7,2,16,,47,0,0,{ bonus bMdef,10; },{},{}
 15024,Scruffy_Coat,破旧的大衣,5,20,,10,,1,,0,0xFFFFFFFE,2,2,16,,1,1,0,{},{},{}
@@ -6412,6 +6414,42 @@
 //16269,Cancer_Diadem_Box
 //16270,Cancer_Crown_Box,
 16304,Evil_Incarnation,恶灵转蛋,2,20,,10,,,,,0xFFFFFFFF,7,2,,,,,,{},{},{}
+16305,Upg_Guard_Box,强化铁盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2149,1; },{},{}
+16306,Upg_Guard_Box2,强化铁盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2149,1; },{},{}
+16307,Upg_Buckler_Box,强化圆盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2150,1; },{},{}
+16308,Upg_Buckler_Box2,强化圆盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2150,1; },{},{}
+16309,Upg_Shield_Box,强化钢盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2151,1; },{},{}
+16310,Upg_Shield_Box2,强化钢盾箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2151,1; },{},{}
+16311,Upg_Shoes_Box,强化长靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2459,1; },{},{}
+16312,Upg_Shoes_Box2,强化长靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2459,1; },{},{}
+16313,Upg_Boots_Box,强化战士长靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2460,1; },{},{}
+16314,Upg_Boots_Box2,强化战士长靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2460,1; },{},{}
+16315,Upg_Greave_Box,强化重靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2461,1; },{},{}
+16316,Upg_Greave_Box2,强化重靴箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2461,1; },{},{}
+16317,Upg_Hood_Box,强化连帽披肩箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2561,1; },{},{}
+16318,Upg_Hood_Box2,强化连帽披肩箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2561,1; },{},{}
+16319,Upg_Muffler_Box,强化披肩箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2562,1; },{},{}
+16320,Upg_Muffler_Box2,强化披肩箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2562,1; },{},{}
+16321,Upg_Manteau_Box,强化斗篷箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2563,1; },{},{}
+16322,Upg_Manteau_Box2,强化斗篷箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2563,1; },{},{}
+16323,Upg_Clip_Box,强化发夹箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2828,1; },{},{}
+16324,Upg_Clip_Box2,强化发夹箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 2828,1; },{},{}
+16327,Upg_Adv_Suit_Box,强化冒险衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15015,1; },{},{}
+16328,Upg_Adv_Suit_Box2,强化冒险衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15015,1; },{},{}
+16329,Upg_Coat_Box,强化长大衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15016,1; },{},{}
+16330,Upg_Coat_Box2,强化长大衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15016,1; },{},{}
+16331,Upg_Saint_Robe_Box,强化圣职之衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15017,1; },{},{}
+16332,Upg_Saint_Robe_Box2,强化圣职之衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15017,1; },{},{}
+16333,Upg_Tights_Box,强化紧身便衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15018,1; },{},{}
+16334,Upg_Tights_Box2,强化紧身便衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15018,1; },{},{}
+16335,Upg_Thief_Cloth_Box,强化盗贼之衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15019,1; },{},{}
+16336,Upg_Thief_Cloth_Box2,强化盗贼之衣箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15019,1; },{},{}
+16337,Upg_Mail_Box,强化钢铁锁子甲 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15020,1; },{},{}
+16338,Upg_Mail_Box2,强化钢铁锁子甲 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15020,1; },{},{}
+16339,Upg_Formal_Dress_Box,强化西装外套 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15021,1; },{},{}
+16340,Upg_Formal_Dress_Box2,强化西装外套 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 15021,1; },{},{}
+16341,Greed_Clip_Box,贪婪发夹 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ rentitem 2829,604800; },{},{}
+16342,Greed_Clip_Box2,贪婪发夹 箱子,2,,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ rentitem 2829,604800; },{},{}
 //16343,Leo_Crown_Box
 //16344,Leo_Diadem_Box
 //16345,Leo_Crown_Box
