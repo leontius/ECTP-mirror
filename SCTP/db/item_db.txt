@@ -2233,30 +2233,30 @@
 4507,Queen_Scaraba_Card,Å®Íõ¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,7,30; /*bonus2 bAddMonsterDropItem,12806,200;*/ },{},{}
 4508,Gold_Scaraba_Card,»Æ½ð¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,136,,,,,{ bonus bBaseAtk,20; bonus bMaxHPrate,-1; },{},{}
 4509,Gold_Queen_Scaraba_Card,»Æ½ðÅ®Íõ¼×³æ¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,3; bonus2 bSubRace,RC_Insect,10+5*(getrefine()>8); },{},{}
-4510,Miming_Card,Ã×Ã×¹Ö¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_DeepSleep,200,ATF_SHORT; },{},{}
-4511,Little_Fathom_Card,Ð¡»ÃÊÞ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Silence,200,ATF_MAGIC; },{},{}
+4510,Miming_Card,Ã×Ã×¹Ö¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_DeepSleep,500,ATF_SHORT; },{},{}
+4511,Little_Fathom_Card,Ð¡»ÃÊÞ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Silence,500,ATF_MAGIC; },{},{}
 4512,Parus_Card,ÃºÉ½È¸¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bHealPower,3; if(BaseClass == Job_Acolyte) bonus bHealPower,getrefine()/2; },{},{}
 4513,Angrya_Mantis_Card,°²¸ñÀ­ó«òë¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bCritAtkRate,2; if(BaseClass == Job_Thief) bonus bCritAtkRate,getrefine()/2; },{},{}
 4514,Pom_Spider_Card,ÅÖÄ·Ö©Öë¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Undead,20; bonus2 bMagicAddRace,RC_Undead,20; },{},{}
 4515,Alnoldi_Card,Ì©Ì¹Ä§Óó»¨¿¨Æ¬,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubRace,RC_Plant,30; },{},{}
 4516,Comodo_Card,¿ÆÄ¦¶àÁú¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bDef,50; bonus bFlee,-25; },{},{}
 4517,Cendrawasih_Card,ÌìÌÃÄñ¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,2; if(BaseClass == Job_Mage) bonus bInt,getrefine()/3; },{},{}
-4518,Banaspaty_Card,°ÍÄÃË¹ÅÁµÌ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Burning,200,ATF_SHORT; },{},{}
+4518,Banaspaty_Card,°ÍÄÃË¹ÅÁµÌ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Burning,500,ATF_SHORT; },{},{}
 4519,Butoijo_Card,²¼ÍÐÒìóÃ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace,RC_Angel,20; bonus2 bMagicAddRace,RC_Angel,20; },{},{}
 4520,Leak_Card,ÈÃÌØ¿¨Æ¬,6,20,,10,,,,,,,,4,,,,,{ bonus bStr,3; bonus3 bAddEffWhenHit,Eff_Confusion,2000,ATF_WEAPON|ATF_MAGIC; bonus3 bAddEffWhenHit,Eff_Fear,2000,ATF_WEAPON|ATF_MAGIC; },{},{}
 4521,Sedora_Card,Èü¶ÅÀ­¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,15; },{},{}
-4522,Sropho_Card,Éîº£µç÷©¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Freezing,200,ATF_SHORT; },{},{}
+4522,Sropho_Card,Éîº£µç÷©¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Freezing,500,ATF_SHORT; },{},{}
 4523,Pot_Dofle_Card,½´¸×ÕÂÓã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bDefEle,Ele_Water; bonus2 bSubRace,RC_Fish,10; },{},{}
 4524,King_Dramoh_Card,´ó½ÅÁúÏº¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bStr,2; if(BaseClass == Job_Swordman) bonus bStr,getrefine()/3; },{},{}
-4525,Kraken_Card,Ä§¹í´óÎÚÔô¿¨Æ¬,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,10; skill "TF_HIDING",1; skill "RG_RAID",1; bonus3 bAddEffOnSkill,"RG_RAID",Eff_Bleeding,500; },{ sc_end SC_HIDING; },{}
+4525,Kraken_Card,Ä§¹í´óÎÚÔô¿¨Æ¬,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,10; skill "TF_HIDING",1; skill "RG_RAID",1; bonus3 bAddEffOnSkill,"RG_RAID",Eff_Bleeding,500; },{},{ sc_end SC_HIDING; }
 4526,Weird_Coelacanth_Card,¹Å¹Ö¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxSPrate,5; bonus bDef,50; },{},{}
 4527,Dark_Coelacanth_Card,ºÚ°µ¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHPrate,10; bonus bDef,100; },{},{}
 4528,Mutant_Coelacanth_Card,±äÖÖ¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bMatkRate,2+getrefine()/2; bonus bMaxHPrate,-getrefine()/2; },{},{}
 4529,Violent_Coelacanth_Card,±©Á¦¿Õ¼¬Óã¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bAtkRate,2+getrefine()/2; bonus bMaxSPrate,-getrefine()/2; },{},{}
 4530,Siorava_Card,ÅÖÅÖ²¨Àû¿¨Æ¬,6,20,,10,,,,,,,,769,,,,,{ bonus bLuk,2; if(BaseClass == Job_Merchant) bonus bLuk,getrefine()/3; },{},{}
-4531,Red_Eruma_Card,ºìº£ÐÇ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Curse,200,ATF_MAGIC; },{},{}
+4531,Red_Eruma_Card,ºìº£ÐÇ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Curse,500,ATF_MAGIC; },{},{}
 4532,Wild_Rider_Card,Ò°Ã¨ÆïÊ¿¿¨Æ¬,6,20,,10,,,,,,,,64,,,,,{ bonus4 bAutoSpellWhenHit,"AL_INCAGI",1,600,0; },{},{}
-4533,Octopus_Card,ÕÂÓãÐ¡µÜ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Blind,200,ATF_MAGIC; },{},{}
+4533,Octopus_Card,ÕÂÓãÐ¡µÜ¿¨Æ¬,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAddEff,Eff_Blind,500,ATF_MAGIC; },{},{}
 4534,Giant_Octopus_Card,Ð°¶ñÕÂÓã¿¨Æ¬,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHPrate,12; skill "WZ_WATERBALL",5; },{},{}
 // Armor Enchant System
 //===================================================================
@@ -3500,7 +3500,84 @@
 6395,Angel_Magic_Power,¾«ÁéÄ§·¨·ÛÄ©,3,820,,10,,,,,,,,,,,,,{},{},{}
 6396,Auger_Of_Spirit,Áé»êÖ®×¶,3,0,,10,,,,,,,,,,,,,{},{},{}
 //
+6401,Palm_Oil,Palm_Oil,3,20,,500,,,,,,,,,,,,,{},{},{}
+6402,Coconut_Oil,Coconut_Oil,3,20,,50,,,,,,,,,,,,,{},{},{}
+6403,Comodo_Leather,Comodo Leather,3,4,,10,,,,,,,,,,,,,{},{},{}
+6404,Kris_Hilt,Kris Hilt,3,20,,100,,,,,,,,,,,,,{},{},{}
+6405,Cendrawasih_Feather,Cendrawasih Feather,3,2,,10,,,,,,,,,,,,,{},{},{}
+6406,Shining_Cendrawasih_Feather,Shining Cendrawasih Feather,3,10,,100,,,,,,,,,,,,,{},{},{}
+6407,Raw_Crystal_Stone_Fragment,Raw Crystal Stone Fragment,3,820,,10,,,,,,,,,,,,,{},{},{}
+6408,Raw_Crystal_Stone,Raw Crystal Stone,3,820,,10,,,,,,,,,,,,,{},{},{}
+6409,Raw_Crystal_Stone_Mass,Raw Crystal Stone Mass,3,820,,10,,,,,,,,,,,,,{},{},{}
+//
+6411,Ripe_Watermelon,Ripe Watermelon,3,20,,10,,,,,,,,,,,,,{},{},{}
+//
+6414,Ragunta_Card,Ragunta Card,3,20,,10,,,,,,,,,,,,,{},{},{}
+//
+6417,Garderie_Fruit,Garderie Fruit,3,20,,0,,,,,,,,,,,,,{},{},{}
+6418,A_Grade_Coin,A Grade Coin,3,20,,0,,,,,,,,,,,,,{},{},{}
+6419,B_Grade_Coin,B Grade Coin,3,20,,0,,,,,,,,,,,,,{},{},{}
+6420,C_Grade_Coin,C Grade Coin,3,20,,0,,,,,,,,,,,,,{},{},{}
+6421,D_Grade_Coin,D Grade Coin,3,20,,0,,,,,,,,,,,,,{},{},{}
+6422,E_Grade_Coin,E Grade Coin,3,20,,0,,,,,,,,,,,,,{},{},{}
+6423,Sea_God's_Wrath,Sea God's Wrath,3,20,,0,,,,,,,,,,,,,{},{},{}
+//
+6426,Bad_Canned_Food,Bad Canned Food,3,20,,10,,,,,,,,,,,,,{},{},{}
+//
+6428,Adventure_Card_A,Adventure Card A,3,20,,0,,,,,,,,,,,,,{},{},{}
+6429,Adventure_Card_B,Adventure Card B,3,20,,0,,,,,,,,,,,,,{},{},{}
+6430,Figure_Sculpture,Figure Sculpture,3,20,,0,,,,,,,,,,,,,{},{},{}
+6431,Pail,Pail,3,20,,100,,,,,,,,,,,,,{},{},{}
+//
+6433,Cleaning_Brush,Cleaning Brush,3,20,,300,,,,,,,,,,,,,{},{},{}
+//
+6436,Sea_God's_Call,Sea God's Call,3,20,,0,,,,,,,,,,,,,{},{},{}
+6437,Scaraba_Perfume,Scaraba Perfume,3,0,,0,,,,,,,,,,,,,{},{},{}
+//
+6440,General_Lubrication,General Lubrication,3,20,,0,,,,,,,,,,,,,{},{},{}
+6441,Advanced_Lubrication,Advanced Lubrication,3,20,,0,,,,,,,,,,,,,{},{},{}
+6442,Octopus_Hunting_Skewer,Octopus Hunting Skewer,3,20,,0,,,,,,,,,,,,,{},{},{}
+//
 6444,EmperiumG,»ªÀö½ðÊôG,3,2,,1000,,,,,,,,,,,,,{},{},{}
+//
+6469,Warrior's_Will,Warrior's Will,3,20,,10,,,,,,,,,,,,,{},{},{}
+6470,Blood_Thirst,Blood Thirst,3,20,,10,,,,,,,,,,,,,{},{},{}
+6471,Chills_Of_Death,Chills Of Death,3,20,,10,,,,,,,,,,,,,{},{},{}
+//
+6485,Blue_Card_2,Blue 2 Card,3,0,,10,,,,,,,,,,,,,{},{},{}
+6486,Blue_Card_0,Blue 0 Card,3,0,,10,,,,,,,,,,,,,{},{},{}
+6487,Blue_Card_1,Blue 1 Card,3,0,,10,,,,,,,,,,,,,{},{},{}
+//
+6493,Makibi,Makibi,3,30,,1,,,,,,,,,,,,,{},{},{}
+//
+6496,Tikbalang_Thick_Spine,Tikbalang Thick Spine,3,300,,10,,,,,,,,,,,,,{},{},{}
+6497,Small_Amulet,Small Amulet,3,20,,50,,,,,,,,,,,,,{},{},{}
+6498,Jejellopy,Jejellopy,3,200,,10,,,,,,,,,,,,,{},{},{}
+6499,Ancient_Talisman,Ancient Talisman,3,500,,10,,,,,,,,,,,,,{},{},{}
+//
+6501,Lost_Belongings,Lost Belongings,3,0,,0,,,,,,,,,,,,,{},{},{}
+6502,The_Cross,The Cross,3,0,,0,,,,,,,,,,,,,{},{},{}
+6503,Ward,Ward,3,0,,0,,,,,,,,,,,,,{},{},{}
+6504,Cast_Iron_Pot,Cast Iron Pot,3,0,,0,,,,,,,,,,,,,{},{},{}
+//
+6506,Memorial_Bouquet,Memorial Bouquet,3,0,,0,,,,,,,,,,,,,{},{},{}
+//
+6508,Silver_Bracelet,Silver Bracelet,3,300,,10,,,,,,,,,,,,,{},{},{}
+6509,Mysterious_Flower,Mysterious Flower,3,500,,10,,,,,,,,,,,,,{},{},{}
+6510,Pretty_Flower,Pretty Flower,3,300,,10,,,,,,,,,,,,,{},{},{}
+6511,Graceful_Flower,Graceful Flower,3,300,,10,,,,,,,,,,,,,{},{},{}
+6512,Fire_Amulet,Fire Amulet,3,100,,1,,,,,,,,,,,,,{},{},{}
+6513,Ice_Amulet,Ice Amulet,3,100,,1,,,,,,,,,,,,,{},{},{}
+6514,Wind_Amulet,Wind Amulet,3,100,,1,,,,,,,,,,,,,{},{},{}
+6515,Earth_Amulet,Earth Amulet,3,100,,1,,,,,,,,,,,,,{},{},{}
+6516,Bakonawa_Doll,Bakonawa Doll,3,20,,10,,,,,,,,,,,,,{},{},{}
+6517,Bangungot_Doll,Bangungot Doll,3,20,,10,,,,,,,,,,,,,{},{},{}
+6518,Buwaya_Doll,Buwaya Doll,3,20,,10,,,,,,,,,,,,,{},{},{}
+6519,Collected_Samples,Collected_Samples,3,0,,0,,,,,,,,,,,,,{},{},{}
+//
+6523,Bakonawa_Soul_Fragments,Bakonawa Soul Fragments,3,20,,10,,,,,,,,,,,,,{},{},{}
+6524,Bangungot_Soul_Fragments,Bangungot Soul Fragments,3,20,,10,,,,,,,,,,,,,{},{},{}
+6525,Buwaya_Soul_Fragments,Buwaya Soul Fragments,3,20,,10,,,,,,,,,,,,,{},{},{}
 //
 7001,Mould_Powder,Ã¹¾ú·ÛÄ©,3,466,,10,,,,,,,,,,,,,{},{},{}
 7002,Ogre_Tooth,ÊÞÈËÖ®ÑÀ,3,658,,10,,,,,,,,,,,,,{},{},{}
@@ -5383,7 +5460,7 @@
 13402,Cutlas_C,Refined Cutlus,4,2,,0,185,,1,0,0x000654E2,7,2,2,4,0,0,2,{ skill "SM_BASH",5; bonus bStr,2; bonus bDef,1; },{},{}
 13403,Solar_Sword_C,Refined Solar Sword,4,2,,0,120,,1,0,0x000654E2,7,2,2,4,0,0,2,{ bonus bAtkEle,Ele_Fire; bonus2 bHPDrainRate,1000,1; bonus2 bSPLossRate,15,10000; },{},{}
 13404,Platinum_Shotel,²¬½ð Íäµ¶,4,20,,1500,130,,1,1,0x000654E2,7,2,2,4,55,1,2,{ bonus bCritical,50; },{},{}
-13405,Curved_Sword,Ï¸ÈÐ,4,20,,800,125,,1,2,0x000654E2,7,2,2,4,55,1,2,{ bonus bAspdRate,10; bonus2 bAddEff,Eff_Curse,300; },{},{}
+13405,Curved_Sword,Ï¸ÈÐ,4,20,,800,125,,1,2,0x000654E2,2,2,2,4,55,1,2,{ bonus bAspdRate,10; bonus2 bAddEff,Eff_Curse,300; },{},{}
 13406,Edger,Edger,4,20,,0,120,,1,0,0x000654E2,7,2,2,1,0,0,2,{ bonus2 bAddRace,RC_Boss,50; bonus2 bAddRace,RC_NonBoss,50; },{},{}
 13407,Nagan_C,Refined Nagan,4,1,,0,148,,1,0,0x000654E2,7,2,2,4,0,0,2,{ bonus bDoubleRate,25; bonus2 bAddRace,RC_DemiHuman,40; },{},{}
 13408,Fire_Brand_C,¾ßÓÐ»ðÖ®Á¦µÄ½£,4,1,,0,120,,1,0,0x000654E2,7,2,2,4,0,0,2,{ bonus bAtkEle,Ele_Fire; bonus bInt,2; skill "MG_FIREBOLT",5; bonus3 bAutoSpell,"MG_FIREBOLT",5,100; },{},{}

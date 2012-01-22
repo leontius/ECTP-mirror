@@ -86,7 +86,6 @@ Job_Ranger	4056
 Job_Archbishop	4057
 Job_Mechanic	4058
 Job_Guillotine_Cross	4059
-
 Job_Rune_Knight_H	4060
 Job_Warlock_H	4061
 Job_Ranger_H	4062
@@ -101,7 +100,6 @@ Job_Wanderer	4069
 Job_Sura	4070
 Job_Genetic	4071
 Job_Shadow_Chaser	4072
-
 Job_Royal_Guard_H	4073
 Job_Sorcerer_H	4074
 Job_Minstrel_H	4075
@@ -123,6 +121,21 @@ Job_Baby_Wanderer	4105
 Job_Baby_Sura	4106
 Job_Baby_Genetic	4107
 Job_Baby_Chaser	4108
+
+// 兼容保留
+Job_Rune_Knight_B	4096
+Job_Warlock_B	4097
+Job_Ranger_B	4098
+Job_Archbishop_B	4099
+Job_Mechanic_B	4100
+Job_Guillotine_Cross_B	4101
+Job_Royal_Guard_B	4102
+Job_Sorcerer_B	4103
+Job_Minstrel_B	4104
+Job_Wanderer_B	4105
+Job_Sura_B	4106
+Job_Genetic_B	4107
+Job_Shadow_Chaser_B	4108
 
 Job_SuperNovice2	4190
 Job_SuperNovice2_B	4191
@@ -569,24 +582,23 @@ EQI_COSTUME_MID	12
 EQI_COSTUME_LOW	13
 
 //所有Eff_*都可以使用SC_*代替
-Eff_Stone	0
-Eff_Freeze	1
-Eff_Stun	2
-Eff_Sleep	3
-Eff_Poison	4
-Eff_Curse	5
-Eff_Silence	6
-Eff_Confusion	7
-Eff_Blind	8
-Eff_Bleeding	9
-Eff_DPoison	10
-Eff_Undead	128
-Eff_Fear	307
-Eff_Burning	308
-Eff_Imprison	338
-Eff_Freezing	339
-Eff_DeepSleep	402
-Eff_Cold	417
+//Eff_Stone	0
+//Eff_Freeze	1
+//Eff_Stun	2
+//Eff_Sleep	3
+//Eff_Poison	4
+//Eff_Curse	5
+//Eff_Silence	6
+//Eff_Confusion	7
+//Eff_Blind	8
+//Eff_Bleeding	9
+//Eff_DPoison	10
+//Eff_Fear	307
+//Eff_Burning	308
+//Eff_Imprison	338
+//Eff_Freezing	339
+//Eff_DeepSleep	402
+//Eff_Crystal	417
 
 Ele_Neutral	0
 Ele_Water	1
