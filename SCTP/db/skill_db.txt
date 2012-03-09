@@ -194,7 +194,7 @@
 150,0,6,4,0,0x1,0,1,1,no,0,0x1,0,weapon,5,	TF_BACKSLIDING,后退回避
 151,0,6,4,0,0x1,0,1,1,no,0,0x1,0,none,0,	TF_PICKSTONE,捡石头
 152,7,6,1,0,0x40,0,1,1,no,0,0x1,0,misc,0,	TF_THROWSTONE,投掷石头
-153,1,6,1,-1,0x42,1,1,1,no,0,0x1,0,weapon,2,	MC_CARTREVOLUTION,手推车攻击
+153,1,6,1,-1,0xC2,1,1,1,no,0,0x1,0,weapon,2,	MC_CARTREVOLUTION,手推车攻击
 154,0,6,4,0,0x1,0,1,1,no,0,0x1,0,none,0,	MC_CHANGECART,改装手推车
 155,0,6,4,0,0x1,0,1,1,no,0,0x1,0,weapon,0,	MC_LOUD,大声呐喊
 156,9,6,1,6,0,0,1,1,yes,0,0x1,0,magic,0,	AL_HOLYLIGHT,神圣之光
@@ -270,8 +270,8 @@
 226,0,0,0,0,0,0,10,0,no,0,0,0,weapon,0,		AM_AXEMASTERY,斧头使用熟练度
 227,0,0,0,0,0,0,10,0,no,0,0,0,none,0,		AM_LEARNINGPOTION,知识药水
 228,0,6,4,0,0x1,0,10,0,no,0,0,0,none,0,		AM_PHARMACY,配药
-229,9,6,2,3,0x9,0,5,1,yes,0,0,0,weapon,0,	AM_DEMONSTRATION,火烟瓶投掷
-230,9,6,1,0,0x48,0,5,1,yes,0,0,0,weapon,0,	AM_ACIDTERROR,强酸攻击
+229,9,6,2,3,0x89,0,5,1,yes,0,0,0,weapon,0,	AM_DEMONSTRATION,火烟瓶投掷
+230,9,6,1,0,0xC8,0,5,1,yes,0,0,0,weapon,0,	AM_ACIDTERROR,强酸攻击
 231,9,6,16,0,0x1,0,5,1,yes,0,0xC00,0,none,0,	AM_POTIONPITCHER,药水投掷
 232,4,6,2,0,0x1,0,5,1,no,0,0,5,none,0,		AM_CANNIBALIZE,生物调拨
 233,1,6,2,0,0x1,0,5,1,no,0,0,3,none,0,		AM_SPHEREMINE,气泡虫召唤
@@ -750,7 +750,7 @@
 2224,0,6,4,0,0x1,0,5,1,yes,0,0,0,magic,0,	WL_SUMMONWB,召唤水球
 2225,9,6,4,3,0,0,5,1,no,0,0,0,magic,0,		WL_SUMMON_ATK_FIRE,召唤火球ATK
 2226,9,6,4,1,0,0,5,1,no,0,0,0,magic,0,		WL_SUMMON_ATK_WATER,召唤水球ATK
-2227,9,6,4,4,0,0,5,1,no,0,0,0,magic,0,		WL_SUMMON_ATK_WIND,召唤电球ATK
+2227,9,6,4,4,0,0,5,1,no,0,0,0,magic,0,		WL_SUMMON_ATK_WIND,召唤闪电球ATK
 2228,9,6,4,2,0,0,5,1,no,0,0,0,magic,0,		WL_SUMMON_ATK_GROUND,召唤石块ATK
 2229,0,6,4,0,0x1,0,5,1,yes,0,0,0,magic,0,	WL_SUMMONSTONE,召唤石块
 2230,9,6,1,0,0,0,1,1,yes,0,0,0,magic,0,		WL_RELEASE,解放
@@ -810,11 +810,11 @@
 2282,5,6,2,0,0x1,0,5,1,no,0,0,2,none,0,		NC_MAGICDECOY,FAW 魔法傀儡
 2283,-5,6,16,0,0,0,1,0,no,0,0,2,none,0,		NC_DISJOINT,FAW 解除
 // 逐影
-2284,1,6,1,-1,0x2,3,5,0,no,0,0,0,weapon,0,	SC_FATALMENACE,致命威胁
+2284,1,6,1,-1,0x2,1,5,0,no,0,0,0,weapon,0,	SC_FATALMENACE,致命威胁
 2285,0,6,4,0,0x1,0,10,0,no,0,0,0,none,0,	SC_REPRODUCE,复制
 2286,0,6,4,0,0x1,0,10,0,yes,0,0,0,none,0,	SC_AUTOSHADOWSPELL,自动影咒
 2287,9,6,16,0,0x1,0,5,0,no,0,0,0,none,0,	SC_SHADOWFORM,暗影附身
-2288,7:7:7:9:9:9:9:11:11:11,8,1,-1,0,0,10,-3,yes,0,0,0,weapon,4,	SC_TRIANGLESHOT,三连矢
+2288,7:7:7:9:9:9:9:11:11:11,8,1,-1,0,0,10,-3,yes,0,0,0,weapon,3,	SC_TRIANGLESHOT,三连矢
 2289,9,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		SC_BODYPAINT,人体彩绘
 2290,0,6,4,0,0x1,0,5,1,yes,0,0,0,none,0,	SC_INVISIBILITY,隐形
 2291,0,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		SC_DEADLYINFECT,致命感染
@@ -830,7 +830,7 @@
 2301,7,6,2,0,0,0,3,1,yes,0,0,0,none,0,		SC_CHAOSPANIC,混乱恐慌
 2302,7,6,2,0,0,5,3,1,yes,0,0,0,none,0,		SC_MAELSTROM,吸能漩涡
 2303,7,6,2,0,0,0,3,1,yes,0,0,0,none,0,		SC_BLOODYLUST,血腥渴望
-2304,0,6,4,0,0x2,4,3,1,yes,0,0,0,weapon,1,	SC_FEINTBOMB,伪装炸弹
+2304,0,6,4,0,0x2,2,3,1,yes,0,0,0,weapon,3:4:5,	SC_FEINTBOMB,伪装炸弹
 // 皇家卫士
 2307,11,6,1,-1,0x2,1,5,1,yes,0,0,10,weapon,0,	LG_CANNONSPEAR,重炮枪击
 2308,7,6,1,-1,0,0,10,0,yes,0,0,0,weapon,0,	LG_BANISHINGPOINT,驱逐点刺
@@ -840,7 +840,7 @@
 2312,5,6,1,-1,0x0,0,5,1,yes,0,0x0,0,weapon,0,	LG_PINPOINTATTACK,精准穿刺
 2313,0,0,4,0,0x1,0,5,0,yes,0,0x0,0,none,0,	LG_FORCEOFVANGUARD,先锋之力
 2314,2,6,1,0,0x0,0,1,1,yes,0,0x0,0,weapon,0,	LG_RAGEBURST,怒气爆发
-2315,0,6,4,-1,0x2,3,3,1,yes,0,0,0,weapon,1,	LG_SHIELDSPELL,盾牌咏唱
+2315,0,6,4,0:0:0:6:6:6,0x2,1:2:3:1:2:3,3,1,yes,0,0,0,weapon,2:2:2:0:0:0,	LG_SHIELDSPELL,盾牌咏唱
 2316,0,6,4,-1,0x1,0,5,1,no,0,0,0,weapon,0,	LG_EXEEDBREAK,蓄势待发
 2317,-1,6,2,-1,0x2,5:1,5,1,yes,0,0,2:5,weapon,3:4:5:6:7,	LG_OVERBRAND,枪阵-血十字
 2318,0,0,4,0,0x1,0,5,0,yes,0,0x0,0,none,0,	LG_PRESTIGE,威望
@@ -857,7 +857,7 @@
 2328,0,6,4,0,0x2,11,5,1,no,0,0,0,weapon,0,	SR_EARTHSHAKER,地震波
 2329,4,8,4,0,0,0,5,3,yes,0,0x200,0,weapon,0,	SR_FALLENEMPIRE,大锤崩坠
 2330,4,6,1,0,0x42,1:1:1:1:1:2:2:2:2:2,10,1,yes,0,0,0,weapon,0,	SR_TIGERCANNON,虎炮
-2331,1:2:3:3:4:4:5:5:6:7,6,1,0,0xC0,0,10,1,no,0,0,0,weapon,0,	SR_HELLGATE,罗刹破凰拳
+2331,1:2:3:3:4:4:5:5:6:7,6,1,0,0x40,0,10,1,no,0,0,0,weapon,0,	SR_HELLGATE,罗刹破凰拳
 2332,7,8,4,0,0x2,3,5,1,no,0,0,0,weapon,0,	SR_RAMPAGEBLASTER,气弹爆破
 2333,0,6,4,0,0x1,0,5,1,no,0,0,0,weapon,0,	SR_CRESCENTELBOW,崩拳
 2334,0,6,4,0,0x2,1:1:2:2:3,5,1,no,0,0,0,none,0,	SR_CURSEDCIRCLE,咒缚阵
@@ -970,6 +970,37 @@
 //2536,0,6,4,0,0x1,0,2,1,no,0,0x1,0,none,0,	ALL_GUARDIAN_RECALL,守护者的召唤
 2537,9,6,16,0,0x1,0,2,1,no,0,0x1,0,none,0,	ALL_ODINS_POWER,奥丁神力
 
+// 影狼/胧
+3001,1,6,4,0,1,0,1,1,no,0,0,0,none,0,		KO_YAMIKUMO,暗云
+//3002,0,0,0,0,0,0,5,0,no,0,0,0,none,0,		KO_RIGHT,双刀修炼-右
+//3003,0,0,0,0,0,0,5,0,no,0,0,0,none,0,		KO_LEFT,双刀修炼-左
+//3004,5,3:4:5:6:7,6,1,0,0x1,0,1,no,0,0,0,none,0,	KO_JYUMONJIKIRI,十文字斩
+//3005,2,6,1,0,0,0,5,1,no,0,0,0,weapon,0,		KO_SETSUDAN,灵魂绝断
+//3006,7:8:9:10:11,6,1,0,0x1,0,5,1,no,0,0,0,none,0,	KO_BAKURETSU,爆炸苦无
+//3007,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KO_HAPPOKUNAI,八方苦无
+//3008,11,6,1,0,0x1,0,10,1,no,0,0,0,none,0,	KO_MUCHANAGE,乾坤一掷
+//3009,9:10:11:12:13,6,1,0,0x1,0,5,1,no,0,0,0,none,0,	KO_HUUMARANKA,风魔乱华
+//3010,7,6,2,0,0x1,0,5,1,no,0,0,0,none,0,		KO_MAKIBISHI,撒菱
+//3011,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KO_MEIKYOUSISUI,明镜止水
+//3012,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KO_ZANZOU,幻术-残像
+//3013,5,6,1,0,0x1,0,5,1,no,0,0,0,none,0,		KO_KYOUGAKU,幻术-惊愕
+//3014,5,6,1,0,0x1,0,5,1,no,0,0,0,none,0,		KO_JYUSATSU,幻术-咒杀
+//3015,1,6,4,0,0x1,0,1,1,no,0,0,0,none,0,		KO_KAHU_ENTEN,火符:炎天
+//3016,1,6,4,0,0x1,0,1,1,no,0,0,0,none,0,		KO_HYOUHU_HUBUKI,冰符:吹雪
+//3017,1,6,4,0,0x1,0,1,1,no,0,0,0,none,0,		KO_KAZEHU_SEIRAN,风符:青岚
+//3018,1,6,4,0,0x1,0,1,1,no,0,0,0,none,0,		KO_DOHU_KOUKAI,土符:刚块
+//3019,1,6,1,0,0x1,0,1,1,no,0,0,0,none,0,		KO_KAIHOU,术式解放
+//3020,1,6,2,0,0x1,0,1,1,no,0,0,0,none,0,		KO_ZENKAI,术式全开
+//3021,5:6:7:8:9,6,1,0,0x1,0,5,1,no,0,0,0,none,0,	KO_GENWAKU,幻术-幻惑
+//3022,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KO_IZAYOI,十六夜
+//3023,5:7:9:11:13,6,2,0,0x1,0,5,1,no,0,0,0,none,0,	KG_KAGEHUMI,蹋影
+//3024,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KG_KYOMU,虚无之影
+//3025,1,6,4,0,0x1,0,5,1,no,0,0,0,none,0,		KG_KAGEMUSYA,影武者
+//3026,7,6,16,0,0x1,0,5,1,no,0,0,0,none,0,	OB_ZANGETSU,残月
+//3027,7,6,16,0,0x1,0,5,1,no,0,0,0,none,0,	OB_OBOROGENSOU,胧幻想
+//3028,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	OB_OBOROGENSOU_TRANSITION_ATK,胧幻想(Transition Atk)
+//3029,7,6,16,0,0x1,0,5,1,no,0,0,0,none,0,	OB_AKAITSUKI,赤月
+
 8001,9,6,4,0,0x1,0,5,1,no,0,0,0,magic,0,	HLIF_HEAL,治愈之手
 8002,0,6,4,0,0x3,-1,5,1,no,0,0,0,none,0,	HLIF_AVOID,轻捷移动
 8003,0,0,0,0,0,1,5,0,no,0,0,0,none,0,		HLIF_BRAIN,脑手术
@@ -1052,7 +1083,7 @@
 8420,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_BLAST,疾风
 8421,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_WILD_STORM,荒野风暴
 8422,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_PETROLOGY,岩石领域
-8423,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_CURSED_SOIL,咒土
+8423,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_CURSED_SOIL,诅咒之地
 8424,9,6,16,0,0x1,0,1,1,no,0,0,0,none,0,	EL_UPHEAVAL,天崩地裂
 8425,6,6,16,3,0x1,0,1,1,no,0,0,0,magic,0,	EL_FIRE_ARROW,火箭
 8426,6,6,16,3,0x1,1,1,1,no,0,0,0,magic,0,	EL_FIRE_BOMB,火焰炸弹
