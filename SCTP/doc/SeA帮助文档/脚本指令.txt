@@ -1908,6 +1908,7 @@ EQI_HEAD_LOW (10) - Lower Headgear (beards, some masks)
 EQI_COSTUME_TOP (11)  - Upper Costume Headgear
 EQI_COSTUME_MID (12) - Middle Costume Headgear
 EQI_COSTUME_LOW (13) - Lower Costume Headgear
+EQI_COSTUME_GARMENT (14) - Costume Garment
 
 Notice that a few items occupy several equipment slots, and if the character is 
 wearing such an item, 'getequipid' will return it's ID number for either slot.
@@ -6167,6 +6168,12 @@ ID决定。创建宠物蛋和玩家成功捕捉魔物的方式一模一样。
 
 ---------------------------------------
 
+*hommutate
+
+生命体变异。保持属性和技能。
+
+---------------------------------------
+
 *setcell "<地图名>",<x1>,<y1>,<x2>,<y2>,<类型>,<标记>;
 
 每个地图的单元格都有很多指定其单元格属性的“标记”。
@@ -6875,7 +6882,7 @@ attached character. Guild can be one or the following constants:
 
 *rentequip <道具id或道具名>,<精炼值>,<卡片1>,<卡片2>,<卡片3>,<卡片4>,<N秒后到期>{,<角色ID>};
 	作用：	租赁指定的道具，任何装备都能通过此直接租赁.
-		租赁物品自动成为无法交易，无法放手推车，无法放仓库，但可以精炼，插卡。
+		租赁物品自动成为无法交易，但可放手推车和个人仓库，逾期会自动删除。可以精炼，插卡。
 	例如：	rentequip 2424,10,0,0,0,0,3600; 将租+10轻便鞋给玩家1小时。
 
 ---------------------------------------

@@ -1624,7 +1624,7 @@ packet_ver: 26
 0x089d,-1,buyingsellreq,2:4:8:12
 0x08a9,2,closebuying,0
 
-//
+//2011-10-05aRagexeRE
 packet_ver: 27
 0x0202,10,useskilltopos,2:4:6:8
 0x022d,19,wanttoconnection,2:6:10:14:18
